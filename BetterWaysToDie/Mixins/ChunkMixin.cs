@@ -11,7 +11,15 @@ namespace BetterWaysToDie.Mixins
         [Unique]
         private BlockValue GetBlock(Vector3i pos, [InjectCancelParam] out bool cancel)
         {
-            cancel = pos.x % 2 == 0;
+            cancel = (pos.x ^ pos.y ^ pos.z) % 2 == 0;
+            return BlockValue.Air;
+        }
+
+        [Inject(ChunkTargets.Methods.GetBlock_Int32_Int32_Int32, AtLocation.Head)]
+        [Unique]
+        private BlockValue GetBlock(int x, int y, int z, [InjectCancelParam] out bool cancel)
+        {
+            cancel = (x ^ y ^ z) % 2 == 0;
             return BlockValue.Air;
         }
     }

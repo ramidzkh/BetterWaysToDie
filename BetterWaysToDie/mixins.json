@@ -5,6 +5,7 @@
   ],
   "mixins": [
     "ChunkMixin",
-    "ConstantsMixin"
+    "ConstantsMixin",
+    "PrefabMixin"
   ]
 }
