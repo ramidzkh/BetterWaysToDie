@@ -1,0 +1,10 @@
+﻿{
+  "namespace": "BetterWaysToDie.Mixins",
+  "targets": [
+    "Assembly-CSharp.dll"
+  ],
+  "mixins": [
+    "ChunkMixin",
+    "ConstantsMixin"
+  ]
+}
