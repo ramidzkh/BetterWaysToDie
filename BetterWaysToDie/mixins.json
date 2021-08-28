@@ -7,6 +7,7 @@
     "ChunkMixin",
     "ConstantsMixin",
     "PrefabMixin",
+    "WorldStaticDataMixin",
     "BetterWaysToDie.Mixins.Accessor.GameManagerAccessor",
     "BetterWaysToDie.Mixins.Gui.InGameDebugMenuMixin",
     "BetterWaysToDie.Mixins.Gui.MainMenuMonoMixin",
