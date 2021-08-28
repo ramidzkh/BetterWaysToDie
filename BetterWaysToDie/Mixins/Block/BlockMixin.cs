@@ -14,7 +14,8 @@ namespace BetterWaysToDie.Mixins.Block
         [Unique]
         private static void PostXmlCreateBlocks()
         {
-            PostXmlBlockEvent.Invoke();
+            var registry = new DictionaryRegistry<global::Block>();
+            Registry<global::Block>.Invoke(registry);
         }
     }
 }

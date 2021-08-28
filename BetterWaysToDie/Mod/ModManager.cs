@@ -11,13 +11,9 @@ namespace BetterWaysToDie.Mod
 
         private static IEnumerable<IMod> InitializeMods()
         {
-            foreach (var type in Assembly.GetExecutingAssembly().GetTypes())
-            {
-                if (type.GetInterfaces().Contains(typeof(IMod)))
-                {
-                    yield return (IMod)Activator.CreateInstance(type);
-                }
-            }
+            return from type in Assembly.GetExecutingAssembly().GetTypes()
+                where type.GetInterfaces().Contains(typeof(IMod))
+                select (IMod) Activator.CreateInstance(type);
         }
 
         internal static void Initialize()
