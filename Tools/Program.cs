@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
+using System.Runtime.InteropServices;
 using CommandLine;
 using NLog;
 using SharpILMixins.Processor;
@@ -51,7 +52,13 @@ namespace Tools
                     workspace.Apply();
 
                     Logger.Info("Running Game");
-                    var process = Process.Start(new ProcessStartInfo
+
+                    var process = Process.Start(RuntimeInformation.IsOSPlatform(OSPlatform.Linux) ? new ProcessStartInfo
+                    {
+                        FileName = "steam",
+                        Arguments = "steam://rungameid/251570",
+                        UseShellExecute = true
+                    } : new ProcessStartInfo
                     {
                         FileName = "steam://rungameid/251570",
                         UseShellExecute = true
