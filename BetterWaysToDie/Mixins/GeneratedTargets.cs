@@ -331,7 +331,7 @@ namespace BetterWaysToDie.Mixins
                 public const string ChunkBlockChannel_Convert_SmartArray_Int32 = "System.Void ChunkBlockChannel::Convert(SmartArray,System.Int32)";
                 public const string List_1_Clear = "System.Void System.Collections.Generic.List`1<Entity>::Clear()";
                 public const string EntityCreationData_read_PooledBinaryReader_Boolean = "System.Void EntityCreationData::read(PooledBinaryReader,System.Boolean)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<EntityCreationData>::Add(EntityCreationData)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<EntityCreationData>::Add(EntityCreationData)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<EntityCreationData>::get_Count()";
                 public const string DictionaryList_2_Clear = "System.Void DictionaryList`2<Vector3i,TileEntity>::Clear()";
                 public const string TileEntity_Instantiate_TileEntityType_Chunk = "TileEntity TileEntity::Instantiate(TileEntityType,Chunk)";
@@ -354,7 +354,7 @@ namespace BetterWaysToDie.Mixins
                 public const string List_1_set_Capacity_Int32 = "System.Void System.Collections.Generic.List`1<Vector3b>::set_Capacity(System.Int32)";
                 public const string Vector3b_ctor_Byte_Byte_Byte = "System.Void Vector3b::.ctor(System.Byte,System.Byte,System.Byte)";
                 public const string Object_GetHashCode = "System.Int32 System.Object::GetHashCode()";
-                public const string HashSet_1_Add_0 = "System.Boolean System.Collections.Generic.HashSet`1<System.Int32>::Add(System.Int32)";
+                public const string HashSet_1_Add_T = "System.Boolean System.Collections.Generic.HashSet`1<System.Int32>::Add(System.Int32)";
                 public const string cachedToString = "System.String Chunk::cachedToString";
                 public const string m_X = "System.Int32 Chunk::m_X";
                 public const string m_Y = "System.Int32 Chunk::m_Y";
@@ -465,7 +465,7 @@ namespace BetterWaysToDie.Mixins
                 public const string List_1_GetEnumerator = "System.Collections.Generic.List`1/Enumerator<Vector3b> System.Collections.Generic.List`1<Vector3b>::GetEnumerator()";
                 public const string Enumerator_get_Current = "Vector3b System.Collections.Generic.List`1/Enumerator<Vector3b>::get_Current()";
                 public const string List_1_Clear = "System.Void System.Collections.Generic.List`1<System.Byte>::Clear()";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<System.Byte>::Add(System.Byte)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<System.Byte>::Add(System.Byte)";
                 public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.List`1/Enumerator<Vector3b>::MoveNext()";
                 public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
                 public const string MemoryPooledArray_1_Free_T_ = "System.Void MemoryPooledArray`1<System.Byte>::Free(System.Byte[])";
@@ -521,7 +521,7 @@ namespace BetterWaysToDie.Mixins
             public const string AddEntityStub = "System.Void Chunk::AddEntityStub(EntityCreationData)";
             public static class AddEntityStubInjects
             {
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<EntityCreationData>::Add(EntityCreationData)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<EntityCreationData>::Add(EntityCreationData)";
                 public const string entityStubs = "System.Collections.Generic.List`1<EntityCreationData> Chunk::entityStubs";
             }
 
@@ -529,8 +529,8 @@ namespace BetterWaysToDie.Mixins
             public static class GetBlockEntity_Vector3iInjects
             {
                 public const string GameUtils_Vector3iToUInt64_Vector3i = "System.UInt64 GameUtils::Vector3iToUInt64(Vector3i)";
-                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<System.UInt64,BlockEntityData>::ContainsKey(System.UInt64)";
-                public const string Dictionary_2_get_Item_0 = "BlockEntityData System.Collections.Generic.Dictionary`2<System.UInt64,BlockEntityData>::get_Item(System.UInt64)";
+                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<System.UInt64,BlockEntityData>::ContainsKey(System.UInt64)";
+                public const string Dictionary_2_get_Item_TKey = "BlockEntityData System.Collections.Generic.Dictionary`2<System.UInt64,BlockEntityData>::get_Item(System.UInt64)";
                 public const string blockEntityStubs = "DictionaryList`2<System.UInt64,BlockEntityData> Chunk::blockEntityStubs";
                 public const string dict = "System.Collections.Generic.Dictionary`2<System.UInt64,BlockEntityData> DictionaryList`2<System.UInt64,BlockEntityData>::dict";
             }
@@ -550,9 +550,9 @@ namespace BetterWaysToDie.Mixins
             public static class AddEntityBlockStubInjects
             {
                 public const string GameUtils_Vector3iToUInt64_Vector3i = "System.UInt64 GameUtils::Vector3iToUInt64(Vector3i)";
-                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<System.UInt64,BlockEntityData>::ContainsKey(System.UInt64)";
-                public const string Dictionary_2_get_Item_0 = "BlockEntityData System.Collections.Generic.Dictionary`2<System.UInt64,BlockEntityData>::get_Item(System.UInt64)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<BlockEntityData>::Add(BlockEntityData)";
+                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<System.UInt64,BlockEntityData>::ContainsKey(System.UInt64)";
+                public const string Dictionary_2_get_Item_TKey = "BlockEntityData System.Collections.Generic.Dictionary`2<System.UInt64,BlockEntityData>::get_Item(System.UInt64)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<BlockEntityData>::Add(BlockEntityData)";
                 public const string DictionaryList_2_Set_T_S = "System.Void DictionaryList`2<System.UInt64,BlockEntityData>::Set(System.UInt64,BlockEntityData)";
                 public const string pos = "Vector3i BlockEntityData::pos";
                 public const string blockEntityStubs = "DictionaryList`2<System.UInt64,BlockEntityData> Chunk::blockEntityStubs";
@@ -564,9 +564,9 @@ namespace BetterWaysToDie.Mixins
             public static class RemoveEntityBlockStubInjects
             {
                 public const string GameUtils_Vector3iToUInt64_Vector3i = "System.UInt64 GameUtils::Vector3iToUInt64(Vector3i)";
-                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<System.UInt64,BlockEntityData>::ContainsKey(System.UInt64)";
-                public const string Dictionary_2_get_Item_0 = "BlockEntityData System.Collections.Generic.Dictionary`2<System.UInt64,BlockEntityData>::get_Item(System.UInt64)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<BlockEntityData>::Add(BlockEntityData)";
+                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<System.UInt64,BlockEntityData>::ContainsKey(System.UInt64)";
+                public const string Dictionary_2_get_Item_TKey = "BlockEntityData System.Collections.Generic.Dictionary`2<System.UInt64,BlockEntityData>::get_Item(System.UInt64)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<BlockEntityData>::Add(BlockEntityData)";
                 public const string DictionaryList_2_Remove_T = "System.Void DictionaryList`2<System.UInt64,BlockEntityData>::Remove(System.UInt64)";
                 public const string String_Concat_Object_Object_Object = "System.String System.String::Concat(System.Object,System.Object,System.Object)";
                 public const string Log_Warning_String = "System.Void Log::Warning(System.String)";
@@ -579,9 +579,9 @@ namespace BetterWaysToDie.Mixins
             public static class AddInsideDevicePositionInjects
             {
                 public const string Vector3b_ctor_Int32_Int32_Int32 = "System.Void Vector3b::.ctor(System.Int32,System.Int32,System.Int32)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Vector3b>::Add(Vector3b)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Vector3b>::Add(Vector3b)";
                 public const string Object_GetHashCode = "System.Int32 System.Object::GetHashCode()";
-                public const string HashSet_1_Add_0 = "System.Boolean System.Collections.Generic.HashSet`1<System.Int32>::Add(System.Int32)";
+                public const string HashSet_1_Add_T = "System.Boolean System.Collections.Generic.HashSet`1<System.Int32>::Add(System.Int32)";
                 public const string insideDevices = "System.Collections.Generic.List`1<Vector3b> Chunk::insideDevices";
                 public const string insideDevicesHashSet = "System.Collections.Generic.HashSet`1<System.Int32> Chunk::insideDevicesHashSet";
                 public const string IsInternalBlocksCulled = "System.Boolean Chunk::IsInternalBlocksCulled";
@@ -595,7 +595,7 @@ namespace BetterWaysToDie.Mixins
                 public const string Vector3b_ToVector3i = "Vector3i Vector3b::ToVector3i()";
                 public const string Chunk_ToWorldPos_Vector3i = "Vector3i Chunk::ToWorldPos(Vector3i)";
                 public const string GameUtils_Vector3iToUInt64_Vector3i = "System.UInt64 GameUtils::Vector3iToUInt64(Vector3i)";
-                public const string Dictionary_2_TryGetValue_0_1_ = "System.Boolean System.Collections.Generic.Dictionary`2<System.UInt64,BlockEntityData>::TryGetValue(System.UInt64,BlockEntityData&)";
+                public const string Dictionary_2_TryGetValue_TKey_TValue_ = "System.Boolean System.Collections.Generic.Dictionary`2<System.UInt64,BlockEntityData>::TryGetValue(System.UInt64,BlockEntityData&)";
                 public const string Component_get_gameObject = "UnityEngine.GameObject UnityEngine.Component::get_gameObject()";
                 public const string GameObject_SetActive_Boolean = "System.Void UnityEngine.GameObject::SetActive(System.Boolean)";
                 public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.List`1/Enumerator<Vector3b>::MoveNext()";
@@ -1141,11 +1141,11 @@ namespace BetterWaysToDie.Mixins
                 public const string Chunk_SetDamage_Int32_Int32_Int32_Int32 = "System.Void Chunk::SetDamage(System.Int32,System.Int32,System.Int32,System.Int32)";
                 public const string DictionarySave_2_ContainsKey_T1 = "System.Boolean DictionarySave`2<System.String,System.Collections.Generic.List`1<Vector3i>>::ContainsKey(System.String)";
                 public const string DictionarySave_2_get_Item_T1 = "System.Collections.Generic.List`1<Vector3i> DictionarySave`2<System.String,System.Collections.Generic.List`1<Vector3i>>::get_Item(System.String)";
-                public const string List_1_Remove_0 = "System.Boolean System.Collections.Generic.List`1<Vector3i>::Remove(Vector3i)";
+                public const string List_1_Remove_T = "System.Boolean System.Collections.Generic.List`1<Vector3i>::Remove(Vector3i)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<Vector3i>::get_Count()";
                 public const string DictionarySave_2_Remove_T1 = "System.Void DictionarySave`2<System.String,System.Collections.Generic.List`1<Vector3i>>::Remove(System.String)";
                 public const string DictionarySave_2_set_Item_T1_T2 = "System.Void DictionarySave`2<System.String,System.Collections.Generic.List`1<Vector3i>>::set_Item(System.String,System.Collections.Generic.List`1<Vector3i>)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Vector3i>::Add(Vector3i)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Vector3i>::Add(Vector3i)";
                 public const string ChunkBlockLayerLegacy_CalcOffset_Int32_Int32 = "System.Int32 ChunkBlockLayerLegacy::CalcOffset(System.Int32,System.Int32)";
                 public const string Chunk_RecalcHeightAt_Int32_Int32_Int32 = "System.Byte Chunk::RecalcHeightAt(System.Int32,System.Int32,System.Int32)";
                 public const string Monitor_Enter_Object_Boolean_ = "System.Void System.Threading.Monitor::Enter(System.Object,System.Boolean&)";
@@ -1180,7 +1180,7 @@ namespace BetterWaysToDie.Mixins
             public const string RemoveTileEntityAt = "System.Void Chunk::RemoveTileEntityAt<T>(World,Vector3i)";
             public static class RemoveTileEntityAtInjects
             {
-                public const string Dictionary_2_TryGetValue_0_1_ = "System.Boolean System.Collections.Generic.Dictionary`2<Vector3i,TileEntity>::TryGetValue(Vector3i,TileEntity&)";
+                public const string Dictionary_2_TryGetValue_TKey_TValue_ = "System.Boolean System.Collections.Generic.Dictionary`2<Vector3i,TileEntity>::TryGetValue(Vector3i,TileEntity&)";
                 public const string TileEntity_OnRemove_World = "System.Void TileEntity::OnRemove(World)";
                 public const string DictionaryList_2_Remove_T = "System.Void DictionaryList`2<Vector3i,TileEntity>::Remove(Vector3i)";
                 public const string Chunk_set_isModified_Boolean = "System.Void Chunk::set_isModified(System.Boolean)";
@@ -1215,7 +1215,7 @@ namespace BetterWaysToDie.Mixins
             public static class RemoveTileEntityInjects
             {
                 public const string TileEntity_get_localChunkPos = "Vector3i TileEntity::get_localChunkPos()";
-                public const string Dictionary_2_TryGetValue_0_1_ = "System.Boolean System.Collections.Generic.Dictionary`2<Vector3i,TileEntity>::TryGetValue(Vector3i,TileEntity&)";
+                public const string Dictionary_2_TryGetValue_TKey_TValue_ = "System.Boolean System.Collections.Generic.Dictionary`2<Vector3i,TileEntity>::TryGetValue(Vector3i,TileEntity&)";
                 public const string TileEntity_OnRemove_World = "System.Void TileEntity::OnRemove(World)";
                 public const string DictionaryList_2_Remove_T = "System.Void DictionaryList`2<Vector3i,TileEntity>::Remove(Vector3i)";
                 public const string Chunk_set_isModified_Boolean = "System.Void Chunk::set_isModified(System.Boolean)";
@@ -1226,7 +1226,7 @@ namespace BetterWaysToDie.Mixins
             public const string GetTileEntity = "TileEntity Chunk::GetTileEntity(Vector3i)";
             public static class GetTileEntityInjects
             {
-                public const string Dictionary_2_TryGetValue_0_1_ = "System.Boolean System.Collections.Generic.Dictionary`2<Vector3i,TileEntity>::TryGetValue(Vector3i,TileEntity&)";
+                public const string Dictionary_2_TryGetValue_TKey_TValue_ = "System.Boolean System.Collections.Generic.Dictionary`2<Vector3i,TileEntity>::TryGetValue(Vector3i,TileEntity&)";
                 public const string tileEntities = "DictionaryList`2<Vector3i,TileEntity> Chunk::tileEntities";
                 public const string dict = "System.Collections.Generic.Dictionary`2<Vector3i,TileEntity> DictionaryList`2<Vector3i,TileEntity>::dict";
             }
@@ -1302,7 +1302,7 @@ namespace BetterWaysToDie.Mixins
                 public const string Bounds_Intersects_Bounds = "System.Boolean UnityEngine.Bounds::Intersects(UnityEngine.Bounds)";
                 public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
                 public const string Entity_CanCollideWith_Entity = "System.Boolean Entity::CanCollideWith(Entity)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<EntityAlive>::Add(EntityAlive)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<EntityAlive>::Add(EntityAlive)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<Entity>::get_Count()";
                 public const string y = "System.Single UnityEngine.Vector3::y";
                 public const string cCollisionBlocks = "System.Int32 World::cCollisionBlocks";
@@ -1313,7 +1313,7 @@ namespace BetterWaysToDie.Mixins
             public const string RemoveEntityFromChunk = "System.Void Chunk::RemoveEntityFromChunk(Entity)";
             public static class RemoveEntityFromChunkInjects
             {
-                public const string List_1_Remove_0 = "System.Boolean System.Collections.Generic.List`1<Entity>::Remove(Entity)";
+                public const string List_1_Remove_T = "System.Boolean System.Collections.Generic.List`1<Entity>::Remove(Entity)";
                 public const string Chunk_set_isModified_Boolean = "System.Void Chunk::set_isModified(System.Boolean)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<Entity>::get_Count()";
                 public const string chunkPosAddedEntityTo = "Vector3i Entity::chunkPosAddedEntityTo";
@@ -1330,7 +1330,7 @@ namespace BetterWaysToDie.Mixins
                 public const string String_Concat_Object_ = "System.String System.String::Concat(System.Object[])";
                 public const string Log_Error_String = "System.Void Log::Error(System.String)";
                 public const string Utils_Fastfloor_Double = "System.Int32 Utils::Fastfloor(System.Double)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Entity>::Add(Entity)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Entity>::Add(Entity)";
                 public const string hasEntities = "System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) Chunk::hasEntities";
                 public const string position = "UnityEngine.Vector3 Entity::position";
                 public const string x = "System.Single UnityEngine.Vector3::x";
@@ -1410,7 +1410,7 @@ namespace BetterWaysToDie.Mixins
                 public const string List_1_Clear = "System.Void System.Collections.Generic.List`1<EntityCreationData>::Clear()";
                 public const string List_1_get_Item_Int32 = "Entity System.Collections.Generic.List`1<Entity>::get_Item(System.Int32)";
                 public const string Entity_IsSavedToFile = "System.Boolean Entity::IsSavedToFile()";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<EntityCreationData>::Add(EntityCreationData)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<EntityCreationData>::Add(EntityCreationData)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<Entity>::get_Count()";
                 public const string InProgressRegeneration = "System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) Chunk::InProgressRegeneration";
                 public const string InProgressSaving = "System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) Chunk::InProgressSaving";
@@ -1492,7 +1492,7 @@ namespace BetterWaysToDie.Mixins
                 public const string Chunk_get_X = "System.Int32 Chunk::get_X()";
                 public const string Chunk_get_Z = "System.Int32 Chunk::get_Z()";
                 public const string Vector3_ctor_Single_Single_Single = "System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)";
-                public const string Dictionary_2_get_Item_0 = "System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.Int32>::get_Item(System.String)";
+                public const string Dictionary_2_get_Item_TKey = "System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.Int32>::get_Item(System.String)";
                 public const string List_1_get_Item_Int32 = "BlockEntityData System.Collections.Generic.List`1<BlockEntityData>::get_Item(System.Int32)";
                 public const string Chunk_setBlockEntityRendering_BlockEntityData_Boolean = "System.Void Chunk::setBlockEntityRendering(BlockEntityData,System.Boolean)";
                 public const string BlockValue_get_type = "System.Int32 BlockValue::get_type()";
@@ -1529,7 +1529,7 @@ namespace BetterWaysToDie.Mixins
                 public const string Block_OnBlockEntityTransformBeforeActivated_WorldBase_Vector3i_Int32_BlockValue_BlockEntityData = "System.Void Block::OnBlockEntityTransformBeforeActivated(WorldBase,Vector3i,System.Int32,BlockValue,BlockEntityData)";
                 public const string GameObject_SetActive_Boolean = "System.Void UnityEngine.GameObject::SetActive(System.Boolean)";
                 public const string Block_OnBlockEntityTransformAfterActivated_WorldBase_Vector3i_Int32_BlockValue_BlockEntityData = "System.Void Block::OnBlockEntityTransformAfterActivated(WorldBase,Vector3i,System.Int32,BlockValue,BlockEntityData)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<UnityEngine.Transform>::Add(UnityEngine.Transform)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<UnityEngine.Transform>::Add(UnityEngine.Transform)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<BlockEntityData>::get_Count()";
                 public const string OcclusionManager_AddChunkTransforms_Chunk_List_1 = "System.Void OcclusionManager::AddChunkTransforms(Chunk,System.Collections.Generic.List`1<UnityEngine.Transform>)";
                 public const string Chunk_removeBlockEntitesMarkedForRemoval = "System.Void Chunk::removeBlockEntitesMarkedForRemoval()";
@@ -1573,7 +1573,7 @@ namespace BetterWaysToDie.Mixins
             public static class removeBlockEntitesMarkedForRemovalInjects
             {
                 public const string List_1_get_Item_Int32 = "BlockEntityData System.Collections.Generic.List`1<BlockEntityData>::get_Item(System.Int32)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<UnityEngine.Transform>::Add(UnityEngine.Transform)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<UnityEngine.Transform>::Add(UnityEngine.Transform)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<BlockEntityData>::get_Count()";
                 public const string OcclusionManager_RemoveChunkTransforms_Chunk_List_1 = "System.Void OcclusionManager::RemoveChunkTransforms(Chunk,System.Collections.Generic.List`1<UnityEngine.Transform>)";
                 public const string List_1_Clear = "System.Void System.Collections.Generic.List`1<UnityEngine.Transform>::Clear()";
@@ -1665,7 +1665,7 @@ namespace BetterWaysToDie.Mixins
                 public const string VoxelMeshLayer_GetSizeOfMesh_Int32 = "System.Int32 VoxelMeshLayer::GetSizeOfMesh(System.Int32)";
                 public const string Array_GetLength_Int32 = "System.Int32 System.Array::GetLength(System.Int32)";
                 public const string Monitor_Enter_Object_Boolean_ = "System.Void System.Threading.Monitor::Enter(System.Object,System.Boolean&)";
-                public const string Queue_1_Enqueue_0 = "System.Void System.Collections.Generic.Queue`1<VoxelMeshLayer>::Enqueue(VoxelMeshLayer)";
+                public const string Queue_1_Enqueue_T = "System.Void System.Collections.Generic.Queue`1<VoxelMeshLayer>::Enqueue(VoxelMeshLayer)";
                 public const string Monitor_Exit_Object = "System.Void System.Threading.Monitor::Exit(System.Object)";
                 public const string trisInMesh = "System.Int32[][] Chunk::trisInMesh";
                 public const string idx = "System.Int32 VoxelMeshLayer::idx";
@@ -1821,7 +1821,7 @@ namespace BetterWaysToDie.Mixins
             public const string GetChunkBiomeSpawnData = "ChunkAreaBiomeSpawnData Chunk::GetChunkBiomeSpawnData()";
             public static class GetChunkBiomeSpawnDataInjects
             {
-                public const string Dictionary_2_TryGetValue_0_1_ = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,ChunkCustomData>::TryGetValue(System.String,ChunkCustomData&)";
+                public const string Dictionary_2_TryGetValue_TKey_TValue_ = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,ChunkCustomData>::TryGetValue(System.String,ChunkCustomData&)";
                 public const string DictionaryKeyValueList_2_Set_T_S = "System.Void DictionaryKeyValueList`2<System.String,ChunkCustomData>::Set(System.String,ChunkCustomData)";
                 public const string AreaMasterDominantBiome = "System.Byte Chunk::AreaMasterDominantBiome";
                 public const string biomeSpawnData = "ChunkAreaBiomeSpawnData Chunk::biomeSpawnData";
@@ -1836,7 +1836,7 @@ namespace BetterWaysToDie.Mixins
             public static class removeExpiredCustomChunkDataEntriesInjects
             {
                 public const string List_1_get_Item_Int32 = "ChunkCustomData System.Collections.Generic.List`1<ChunkCustomData>::get_Item(System.Int32)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<System.String>::Add(System.String)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<System.String>::Add(System.String)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<ChunkCustomData>::get_Count()";
                 public const string DictionaryKeyValueList_2_Remove_T = "System.Void DictionaryKeyValueList`2<System.String,ChunkCustomData>::Remove(System.String)";
                 public const string ChunkCustomData = "DictionaryKeyValueList`2<System.String,ChunkCustomData> Chunk::ChunkCustomData";
@@ -1897,7 +1897,7 @@ namespace BetterWaysToDie.Mixins
                 public const string BlockValue_get_type = "System.Int32 BlockValue::get_type()";
                 public const string BlockShape_IsTerrain = "System.Boolean BlockShape::IsTerrain()";
                 public const string DensityMismatchInformation_ctor_Int32_Int32_Int32_SByte_Int32_Boolean = "System.Void Chunk/DensityMismatchInformation::.ctor(System.Int32,System.Int32,System.Int32,System.SByte,System.Int32,System.Boolean)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Chunk/DensityMismatchInformation>::Add(Chunk/DensityMismatchInformation)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Chunk/DensityMismatchInformation>::Add(Chunk/DensityMismatchInformation)";
                 public const string Object_ToString = "System.String System.Object::ToString()";
                 public const string Log_Warning_String = "System.Void Log::Warning(System.String)";
                 public const string m_X = "System.Int32 Chunk::m_X";
@@ -1939,7 +1939,7 @@ namespace BetterWaysToDie.Mixins
             {
                 public const string Vector3b_ctor_Int32_Int32_Int32 = "System.Void Vector3b::.ctor(System.Int32,System.Int32,System.Int32)";
                 public const string Object_GetHashCode = "System.Int32 System.Object::GetHashCode()";
-                public const string HashSet_1_Contains_0 = "System.Boolean System.Collections.Generic.HashSet`1<System.Int32>::Contains(System.Int32)";
+                public const string HashSet_1_Contains_T = "System.Boolean System.Collections.Generic.HashSet`1<System.Int32>::Contains(System.Int32)";
                 public const string insideDevicesHashSet = "System.Collections.Generic.HashSet`1<System.Int32> Chunk::insideDevicesHashSet";
             }
 
@@ -2123,7 +2123,7 @@ namespace BetterWaysToDie.Mixins
             public const string IsInsidePrefab = "System.Boolean Prefab::IsInsidePrefab(System.Int32,System.Int32,System.Int32)";
             public static class IsInsidePrefabInjects
             {
-                public const string HashSet_1_Contains_0 = "System.Boolean System.Collections.Generic.HashSet`1<Vector3b>::Contains(Vector3b)";
+                public const string HashSet_1_Contains_T = "System.Boolean System.Collections.Generic.HashSet`1<Vector3b>::Contains(Vector3b)";
                 public const string localRotation = "System.Int32 Prefab::localRotation";
                 public const string size = "Vector3i Prefab::size";
                 public const string x = "System.Int32 Vector3i::x";
@@ -2148,7 +2148,7 @@ namespace BetterWaysToDie.Mixins
             public const string GetTileEntity = "TileEntity Prefab::GetTileEntity(Vector3i)";
             public static class GetTileEntityInjects
             {
-                public const string Dictionary_2_TryGetValue_0_1_ = "System.Boolean System.Collections.Generic.Dictionary`2<Vector3i,TileEntity>::TryGetValue(Vector3i,TileEntity&)";
+                public const string Dictionary_2_TryGetValue_TKey_TValue_ = "System.Boolean System.Collections.Generic.Dictionary`2<Vector3i,TileEntity>::TryGetValue(Vector3i,TileEntity&)";
                 public const string localRotation = "System.Int32 Prefab::localRotation";
                 public const string x = "System.Int32 Vector3i::x";
                 public const string z = "System.Int32 Vector3i::z";
@@ -2168,7 +2168,7 @@ namespace BetterWaysToDie.Mixins
                 public const string List_1_AddRange_IEnumerable_1 = "System.Void System.Collections.Generic.List`1<System.String>::AddRange(System.Collections.Generic.IEnumerable`1<System.String>)";
                 public const string List_1_get_Item_Int32 = "System.String System.Collections.Generic.List`1<System.String>::get_Item(System.Int32)";
                 public const string String_Trim = "System.String System.String::Trim()";
-                public const string List_1_set_Item_Int32_0 = "System.Void System.Collections.Generic.List`1<System.String>::set_Item(System.Int32,System.String)";
+                public const string List_1_set_Item_Int32_T = "System.Void System.Collections.Generic.List`1<System.String>::set_Item(System.Int32,System.String)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<System.String>::get_Count()";
                 public const string DynamicProperties_GetInt_String = "System.Int32 DynamicProperties::GetInt(System.String)";
                 public const string ValueWrapper_get_Item_String = "System.String DynamicProperties/ValueWrapper::get_Item(System.String)";
@@ -2180,7 +2180,7 @@ namespace BetterWaysToDie.Mixins
                 public const string ReadOnlyCollection_1_get_Count = "System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<GameStageGroup/Spawner>::get_Count()";
                 public const string ReadOnlyCollection_1_get_Item_Int32 = "GameStageGroup/Spawner System.Collections.ObjectModel.ReadOnlyCollection`1<GameStageGroup/Spawner>::get_Item(System.Int32)";
                 public const string PrefabSleeperVolume_Use_Vector3i_Vector3i_Int16_String_Boolean_Boolean_Int32_Int32_Int32 = "System.Void Prefab/PrefabSleeperVolume::Use(Vector3i,Vector3i,System.Int16,System.String,System.Boolean,System.Boolean,System.Int32,System.Int32,System.Int32)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Prefab/PrefabSleeperVolume>::Add(Prefab/PrefabSleeperVolume)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Prefab/PrefabSleeperVolume>::Add(Prefab/PrefabSleeperVolume)";
                 public const string String_Replace_String_String = "System.String System.String::Replace(System.String,System.String)";
                 public const string POITags_Parse_String = "POITags POITags::Parse(System.String)";
                 public const string Dictionary_2_Clear = "System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<Vector3i>>::Clear()";
@@ -2193,7 +2193,7 @@ namespace BetterWaysToDie.Mixins
                 public const string ValueWrapper_get_Dict = "DictionarySave`2<System.String,System.Object> DynamicProperties/ValueWrapper::get_Dict()";
                 public const string DictionarySave_2_get_Count = "System.Int32 DictionarySave`2<System.String,System.Object>::get_Count()";
                 public const string KeyValuePair_2_get_Key = "System.String System.Collections.Generic.KeyValuePair`2<System.String,DynamicProperties>::get_Key()";
-                public const string Dictionary_2_set_Item_0_1 = "System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<Vector3i>>::set_Item(System.String,System.Collections.Generic.List`1<Vector3i>)";
+                public const string Dictionary_2_set_Item_TKey_TValue = "System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<Vector3i>>::set_Item(System.String,System.Collections.Generic.List`1<Vector3i>)";
                 public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Object>::MoveNext()";
                 public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
                 public const string Int32_Parse_String = "System.Int32 System.Int32::Parse(System.String)";
@@ -2564,7 +2564,7 @@ namespace BetterWaysToDie.Mixins
                 public const string String_Concat_Object_ = "System.String System.String::Concat(System.Object[])";
                 public const string Log_Error_String = "System.Void Log::Error(System.String)";
                 public const string BlockValue_set_type_Int32 = "System.Void BlockValue::set_type(System.Int32)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Vector3i>::Add(Vector3i)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Vector3i>::Add(Vector3i)";
                 public const string Prefab_SetBlock_Int32_Int32_Int32_BlockValue = "System.Void Prefab::SetBlock(System.Int32,System.Int32,System.Int32,BlockValue)";
                 public const string BlockValue_ConvertOldRawData_1_UInt32 = "System.UInt32 BlockValue::ConvertOldRawData_1(System.UInt32)";
                 public const string BlockValue_ConvertOldRawData_2_UInt32 = "System.UInt32 BlockValue::ConvertOldRawData_2(System.UInt32)";
@@ -2622,7 +2622,7 @@ namespace BetterWaysToDie.Mixins
                 public const string TileEntity_read_PooledBinaryReader_StreamModeRead = "System.Void TileEntity::read(PooledBinaryReader,TileEntity/StreamModeRead)";
                 public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
                 public const string TileEntity_get_localChunkPos = "Vector3i TileEntity::get_localChunkPos()";
-                public const string Dictionary_2_Add_0_1 = "System.Void System.Collections.Generic.Dictionary`2<Vector3i,TileEntity>::Add(Vector3i,TileEntity)";
+                public const string Dictionary_2_Add_TKey_TValue = "System.Void System.Collections.Generic.Dictionary`2<Vector3i,TileEntity>::Add(Vector3i,TileEntity)";
                 public const string String_Format_String_Object = "System.String System.String::Format(System.String,System.Object)";
                 public const string Log_Error_String = "System.Void Log::Error(System.String)";
                 public const string Log_Exception_Exception = "System.Void Log::Exception(System.Exception)";
@@ -2645,7 +2645,7 @@ namespace BetterWaysToDie.Mixins
                 public const string Dictionary_2_GetEnumerator = "System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Collections.Generic.List`1<Vector3i>> System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<Vector3i>>::GetEnumerator()";
                 public const string Enumerator_get_Current = "System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.List`1<Vector3i>> System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Collections.Generic.List`1<Vector3i>>::get_Current()";
                 public const string KeyValuePair_2_get_Value = "System.Collections.Generic.List`1<Vector3i> System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.List`1<Vector3i>>::get_Value()";
-                public const string List_1_set_Item_Int32_0 = "System.Void System.Collections.Generic.List`1<Vector3i>::set_Item(System.Int32,Vector3i)";
+                public const string List_1_set_Item_Int32_T = "System.Void System.Collections.Generic.List`1<Vector3i>::set_Item(System.Int32,Vector3i)";
                 public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Collections.Generic.List`1<Vector3i>>::MoveNext()";
                 public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
                 public const string Prefab_get_bSleeperVolumes = "System.Boolean Prefab::get_bSleeperVolumes()";
@@ -2802,14 +2802,14 @@ namespace BetterWaysToDie.Mixins
                 public const string GameManager_get_World = "World GameManager::get_World()";
                 public const string WorldBase_GetBlock_Int32_Int32_Int32 = "BlockValue WorldBase::GetBlock(System.Int32,System.Int32,System.Int32)";
                 public const string BlockValue_get_type = "System.Int32 BlockValue::get_type()";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<BlockChangeInfo>::Add(BlockChangeInfo)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<BlockChangeInfo>::Add(BlockChangeInfo)";
                 public const string Prefab_GetBlock_Int32_Int32_Int32 = "BlockValue Prefab::GetBlock(System.Int32,System.Int32,System.Int32)";
                 public const string Prefab_GetTexture_Int32_Int32_Int32 = "System.Int64 Prefab::GetTexture(System.Int32,System.Int32,System.Int32)";
                 public const string Prefab_GetDensity_Int32_Int32_Int32 = "System.SByte Prefab::GetDensity(System.Int32,System.Int32,System.Int32)";
                 public const string Block_IsTileEntitySavedInPrefab = "System.Boolean Block::IsTileEntitySavedInPrefab()";
                 public const string Vector3i_ctor_Int32_Int32_Int32 = "System.Void Vector3i::.ctor(System.Int32,System.Int32,System.Int32)";
                 public const string Prefab_GetTileEntity_Vector3i = "TileEntity Prefab::GetTileEntity(Vector3i)";
-                public const string Dictionary_2_Add_0_1 = "System.Void System.Collections.Generic.Dictionary`2<Vector3i,TileEntity>::Add(Vector3i,TileEntity)";
+                public const string Dictionary_2_Add_TKey_TValue = "System.Void System.Collections.Generic.Dictionary`2<Vector3i,TileEntity>::Add(Vector3i,TileEntity)";
                 public const string GameManager_SetBlocksRPC_List_1_String = "System.Void GameManager::SetBlocksRPC(System.Collections.Generic.List`1<BlockChangeInfo>,System.String)";
                 public const string Dictionary_2_GetEnumerator = "System.Collections.Generic.Dictionary`2/Enumerator<Vector3i,TileEntity> System.Collections.Generic.Dictionary`2<Vector3i,TileEntity>::GetEnumerator()";
                 public const string Enumerator_get_Current = "System.Collections.Generic.KeyValuePair`2<Vector3i,TileEntity> System.Collections.Generic.Dictionary`2/Enumerator<Vector3i,TileEntity>::get_Current()";
@@ -2896,7 +2896,7 @@ namespace BetterWaysToDie.Mixins
                 public const string WorldBase_AddSleeperVolume_SleeperVolume = "System.Int32 WorldBase::AddSleeperVolume(SleeperVolume)";
                 public const string Prefab_CopySleeperBlocksContainedInVolume_Int32_Vector3i_SleeperVolume_Vector3i_Vector3i = "System.Void Prefab::CopySleeperBlocksContainedInVolume(System.Int32,Vector3i,SleeperVolume,Vector3i,Vector3i)";
                 public const string Chunk_GetSleeperVolumes = "System.Collections.Generic.List`1<System.Int32> Chunk::GetSleeperVolumes()";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<System.Int32>::Add(System.Int32)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<System.Int32>::Add(System.Int32)";
                 public const string World_toChunkXZ_Int32 = "System.Int32 World::toChunkXZ(System.Int32)";
                 public const string WorldBase_GetChunkSync_Int32_Int32_Int32 = "IChunk WorldBase::GetChunkSync(System.Int32,System.Int32,System.Int32)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<Prefab/PrefabSleeperVolume>::get_Count()";
@@ -3069,7 +3069,7 @@ namespace BetterWaysToDie.Mixins
                 public const string Vector3_op_Addition_Vector3_Vector3 = "UnityEngine.Vector3 UnityEngine.Vector3::op_Addition(UnityEngine.Vector3,UnityEngine.Vector3)";
                 public const string Entity_SetPosition_Vector3_Boolean = "System.Void Entity::SetPosition(UnityEngine.Vector3,System.Boolean)";
                 public const string World_SpawnEntityInWorld_Entity = "System.Void World::SpawnEntityInWorld(Entity)";
-                public const string ICollection_1_Add_0 = "System.Void System.Collections.Generic.ICollection`1<System.Int32>::Add(System.Int32)";
+                public const string ICollection_1_Add_T = "System.Void System.Collections.Generic.ICollection`1<System.Int32>::Add(System.Int32)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<EntityCreationData>::get_Count()";
                 public const string entities = "System.Collections.Generic.List`1<EntityCreationData> Prefab::entities";
                 public const string id = "System.Int32 EntityCreationData::id";
@@ -3094,7 +3094,7 @@ namespace BetterWaysToDie.Mixins
                 public const string Vector3i_ToVector3 = "UnityEngine.Vector3 Vector3i::ToVector3()";
                 public const string Vector3_op_Addition_Vector3_Vector3 = "UnityEngine.Vector3 UnityEngine.Vector3::op_Addition(UnityEngine.Vector3,UnityEngine.Vector3)";
                 public const string Chunk_AddEntityStub_EntityCreationData = "System.Void Chunk::AddEntityStub(EntityCreationData)";
-                public const string ICollection_1_Add_0 = "System.Void System.Collections.Generic.ICollection`1<System.Int32>::Add(System.Int32)";
+                public const string ICollection_1_Add_T = "System.Void System.Collections.Generic.ICollection`1<System.Int32>::Add(System.Int32)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<EntityCreationData>::get_Count()";
                 public const string entities = "System.Collections.Generic.List`1<EntityCreationData> Prefab::entities";
                 public const string list = "DictionarySave`2<System.Int32,EntityClass> EntityClass::list";
@@ -3144,7 +3144,7 @@ namespace BetterWaysToDie.Mixins
                 public const string Vector3i_op_Subtraction_Vector3i_Vector3i = "Vector3i Vector3i::op_Subtraction(Vector3i,Vector3i)";
                 public const string TileEntity_set_localChunkPos_Vector3i = "System.Void TileEntity::set_localChunkPos(Vector3i)";
                 public const string TileEntity_get_localChunkPos = "Vector3i TileEntity::get_localChunkPos()";
-                public const string Dictionary_2_Add_0_1 = "System.Void System.Collections.Generic.Dictionary`2<Vector3i,TileEntity>::Add(Vector3i,TileEntity)";
+                public const string Dictionary_2_Add_TKey_TValue = "System.Void System.Collections.Generic.Dictionary`2<Vector3i,TileEntity>::Add(Vector3i,TileEntity)";
                 public const string x = "System.Int32 Vector3i::x";
                 public const string y = "System.Int32 Vector3i::y";
                 public const string z = "System.Int32 Vector3i::z";
@@ -3178,20 +3178,20 @@ namespace BetterWaysToDie.Mixins
                 public const string KeyValuePair_2_get_Value = "System.Collections.Generic.List`1<Vector3i> System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.List`1<Vector3i>>::get_Value()";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<Vector3i>::get_Count()";
                 public const string KeyValuePair_2_get_Key = "System.String System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.List`1<Vector3i>>::get_Key()";
-                public const string Dictionary_2_set_Item_0_1 = "System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<Vector3i>>::set_Item(System.String,System.Collections.Generic.List`1<Vector3i>)";
+                public const string Dictionary_2_set_Item_TKey_TValue = "System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<Vector3i>>::set_Item(System.String,System.Collections.Generic.List`1<Vector3i>)";
                 public const string List_1_GetEnumerator = "System.Collections.Generic.List`1/Enumerator<Vector3i> System.Collections.Generic.List`1<Vector3i>::GetEnumerator()";
                 public const string Chunk_ToWorldPos_Vector3i = "Vector3i Chunk::ToWorldPos(Vector3i)";
                 public const string Vector3i_ToVector3 = "UnityEngine.Vector3 Vector3i::ToVector3()";
                 public const string Vector3i_op_Subtraction_Vector3i_Vector3i = "Vector3i Vector3i::op_Subtraction(Vector3i,Vector3i)";
                 public const string Bounds_Contains_Vector3 = "System.Boolean UnityEngine.Bounds::Contains(UnityEngine.Vector3)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Vector3i>::Add(Vector3i)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Vector3i>::Add(Vector3i)";
                 public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.List`1/Enumerator<Vector3i>::MoveNext()";
                 public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
                 public const string ICollection_1_Clear = "System.Void System.Collections.Generic.ICollection`1<System.Int32>::Clear()";
                 public const string List_1_get_Item_Int32 = "Entity System.Collections.Generic.List`1<Entity>::get_Item(System.Int32)";
                 public const string Bounds_get_min = "UnityEngine.Vector3 UnityEngine.Bounds::get_min()";
                 public const string Vector3_op_Subtraction_Vector3_Vector3 = "UnityEngine.Vector3 UnityEngine.Vector3::op_Subtraction(UnityEngine.Vector3,UnityEngine.Vector3)";
-                public const string ICollection_1_Add_0 = "System.Void System.Collections.Generic.ICollection`1<System.Int32>::Add(System.Int32)";
+                public const string ICollection_1_Add_T = "System.Void System.Collections.Generic.ICollection`1<System.Int32>::Add(System.Int32)";
                 public const string x = "System.Int32 Vector3i::x";
                 public const string y = "System.Int32 Vector3i::y";
                 public const string z = "System.Int32 Vector3i::z";
@@ -3228,8 +3228,8 @@ namespace BetterWaysToDie.Mixins
             public static class GetChunkInjects
             {
                 public const string WorldChunkCache_MakeChunkKey_Int32_Int32 = "System.Int64 WorldChunkCache::MakeChunkKey(System.Int32,System.Int32)";
-                public const string Dictionary_2_TryGetValue_0_1_ = "System.Boolean System.Collections.Generic.Dictionary`2<System.Int64,Prefab/PrefabChunk>::TryGetValue(System.Int64,Prefab/PrefabChunk&)";
-                public const string Dictionary_2_Add_0_1 = "System.Void System.Collections.Generic.Dictionary`2<System.Int64,Prefab/PrefabChunk>::Add(System.Int64,Prefab/PrefabChunk)";
+                public const string Dictionary_2_TryGetValue_TKey_TValue_ = "System.Boolean System.Collections.Generic.Dictionary`2<System.Int64,Prefab/PrefabChunk>::TryGetValue(System.Int64,Prefab/PrefabChunk&)";
+                public const string Dictionary_2_Add_TKey_TValue = "System.Void System.Collections.Generic.Dictionary`2<System.Int64,Prefab/PrefabChunk>::Add(System.Int64,Prefab/PrefabChunk)";
                 public const string dictChunks = "System.Collections.Generic.Dictionary`2<System.Int64,Prefab/PrefabChunk> Prefab::dictChunks";
                 public const string PrefabChunk_ctor_Prefab_Int32_Int32 = "System.Void Prefab/PrefabChunk::.ctor(Prefab,System.Int32,System.Int32)";
             }
@@ -3319,7 +3319,7 @@ namespace BetterWaysToDie.Mixins
             {
                 public const string List_1_get_Item_Int32 = "System.String System.Collections.Generic.List`1<System.String>::get_Item(System.Int32)";
                 public const string WorldBiomes_GetBiome_String = "BiomeDefinition WorldBiomes::GetBiome(System.String)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<BiomeDefinition>::Add(BiomeDefinition)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<BiomeDefinition>::Add(BiomeDefinition)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<System.String>::get_Count()";
                 public const string List_1_ctor = "System.Void System.Collections.Generic.List`1<BiomeDefinition>::.ctor()";
             }
@@ -3349,7 +3349,7 @@ namespace BetterWaysToDie.Mixins
             public static class AddAllowedZoneInjects
             {
                 public const string Prefab_IsAllowedZone_String = "System.Boolean Prefab::IsAllowedZone(System.String)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<System.String>::Add(System.String)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<System.String>::Add(System.String)";
                 public const string allowedZones = "System.Collections.Generic.List`1<System.String> Prefab::allowedZones";
             }
 
@@ -3568,7 +3568,7 @@ namespace BetterWaysToDie.Mixins
             {
                 public const string List_1_get_Item_Int32 = "Prefab/PrefabSleeperVolume System.Collections.Generic.List`1<Prefab/PrefabSleeperVolume>::get_Item(System.Int32)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<Prefab/PrefabSleeperVolume>::get_Count()";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Prefab/PrefabSleeperVolume>::Add(Prefab/PrefabSleeperVolume)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Prefab/PrefabSleeperVolume>::Add(Prefab/PrefabSleeperVolume)";
                 public const string PrefabSleeperVolume_Use_Vector3i_Vector3i_Int16_String_Boolean_Boolean_Int32_Int32_Int32 = "System.Void Prefab/PrefabSleeperVolume::Use(Vector3i,Vector3i,System.Int16,System.String,System.Boolean,System.Boolean,System.Int32,System.Int32,System.Int32)";
                 public const string String_Concat_Object_Object_Object = "System.String System.String::Concat(System.Object,System.Object,System.Object)";
                 public const string Vector3i_op_Addition_Vector3i_Vector3i = "Vector3i Vector3i::op_Addition(Vector3i,Vector3i)";
@@ -3583,10 +3583,10 @@ namespace BetterWaysToDie.Mixins
             public const string SetSleeperVolume = "System.Void Prefab::SetSleeperVolume(System.String,Vector3i,System.Int32,Prefab/PrefabSleeperVolume)";
             public static class SetSleeperVolumeInjects
             {
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Prefab/PrefabSleeperVolume>::Add(Prefab/PrefabSleeperVolume)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Prefab/PrefabSleeperVolume>::Add(Prefab/PrefabSleeperVolume)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<Prefab/PrefabSleeperVolume>::get_Count()";
                 public const string List_1_get_Item_Int32 = "Prefab/PrefabSleeperVolume System.Collections.Generic.List`1<Prefab/PrefabSleeperVolume>::get_Item(System.Int32)";
-                public const string List_1_set_Item_Int32_0 = "System.Void System.Collections.Generic.List`1<Prefab/PrefabSleeperVolume>::set_Item(System.Int32,Prefab/PrefabSleeperVolume)";
+                public const string List_1_set_Item_Int32_T = "System.Void System.Collections.Generic.List`1<Prefab/PrefabSleeperVolume>::set_Item(System.Int32,Prefab/PrefabSleeperVolume)";
                 public const string String_Concat_Object_Object_Object = "System.String System.String::Concat(System.Object,System.Object,System.Object)";
                 public const string Vector3i_op_Addition_Vector3i_Vector3i = "Vector3i Vector3i::op_Addition(Vector3i,Vector3i)";
                 public const string Prefab_AddSleeperVolumeSelectionBox_PrefabSleeperVolume_String_Vector3i = "System.Void Prefab::AddSleeperVolumeSelectionBox(Prefab/PrefabSleeperVolume,System.String,Vector3i)";
@@ -3709,7 +3709,7 @@ namespace BetterWaysToDie.Mixins
                 public const string Prefab_IsCullThisPrefab = "System.Boolean Prefab::IsCullThisPrefab()";
                 public const string BlockValue_get_type = "System.Int32 BlockValue::get_type()";
                 public const string BlockShape_IsTerrain = "System.Boolean BlockShape::IsTerrain()";
-                public const string HashSet_1_Add_0 = "System.Boolean System.Collections.Generic.HashSet`1<Vector3b>::Add(Vector3b)";
+                public const string HashSet_1_Add_T = "System.Boolean System.Collections.Generic.HashSet`1<Vector3b>::Add(Vector3b)";
                 public const string insidePos = "PrefabInsideDataFile Prefab::insidePos";
                 public const string Data = "System.Collections.Generic.HashSet`1<Vector3b> PrefabInsideDataFile::Data";
                 public const string list = "Block[] Block::list";
@@ -3727,7 +3727,7 @@ namespace BetterWaysToDie.Mixins
                 public const string HashSet_1_Clear = "System.Void System.Collections.Generic.HashSet`1<Vector3b>::Clear()";
                 public const string Prefab_IsCullThisPrefab = "System.Boolean Prefab::IsCullThisPrefab()";
                 public const string BlockValue_get_type = "System.Int32 BlockValue::get_type()";
-                public const string HashSet_1_Add_0 = "System.Boolean System.Collections.Generic.HashSet`1<Vector3b>::Add(Vector3b)";
+                public const string HashSet_1_Add_T = "System.Boolean System.Collections.Generic.HashSet`1<Vector3b>::Add(Vector3b)";
                 public const string insidePos = "PrefabInsideDataFile Prefab::insidePos";
                 public const string Data = "System.Collections.Generic.HashSet`1<Vector3b> PrefabInsideDataFile::Data";
                 public const string m_Blocks = "BlockValue[] Prefab::m_Blocks";
@@ -3743,11 +3743,478 @@ namespace BetterWaysToDie.Mixins
             public const string GetFirstIndexedBlockOffsetOfType = "System.Nullable`1<Vector3i> Prefab::GetFirstIndexedBlockOffsetOfType(System.String)";
             public static class GetFirstIndexedBlockOffsetOfTypeInjects
             {
-                public const string Dictionary_2_TryGetValue_0_1_ = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<Vector3i>>::TryGetValue(System.String,System.Collections.Generic.List`1<Vector3i>&)";
+                public const string Dictionary_2_TryGetValue_TKey_TValue_ = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<Vector3i>>::TryGetValue(System.String,System.Collections.Generic.List`1<Vector3i>&)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<Vector3i>::get_Count()";
                 public const string List_1_get_Item_Int32 = "Vector3i System.Collections.Generic.List`1<Vector3i>::get_Item(System.Int32)";
                 public const string indexedBlockOffsets = "System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<Vector3i>> Prefab::indexedBlockOffsets";
-                public const string Nullable_1_ctor_0 = "System.Void System.Nullable`1<Vector3i>::.ctor(Vector3i)";
+                public const string Nullable_1_ctor_T = "System.Void System.Nullable`1<Vector3i>::.ctor(Vector3i)";
+            }
+        }
+    }
+
+    [System.ComponentModel.DescriptionAttribute("Generated by SharpILMixins")]
+    public static class XUiC_InGameDebugMenuTargets
+    {
+        public static class Methods
+        {
+            public const string get_ChunkCluster0 = "ChunkCluster XUiC_InGameDebugMenu::get_ChunkCluster0()";
+            public static class get_ChunkCluster0Injects
+            {
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string ChunkClusterList_get_Item_Int32 = "ChunkCluster ChunkClusterList::get_Item(System.Int32)";
+                public const string Instance = "GameManager GameManager::Instance";
+                public const string ChunkClusters = "ChunkClusterList WorldBase::ChunkClusters";
+            }
+
+            public const string get_HasWorld = "System.Boolean XUiC_InGameDebugMenu::get_HasWorld()";
+            public static class get_HasWorldInjects
+            {
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string Instance = "GameManager GameManager::Instance";
+            }
+
+            public const string GetBindingValue = "System.Boolean XUiC_InGameDebugMenu::GetBindingValue(System.String&,BindingItem)";
+            public static class GetBindingValueInjects
+            {
+                public const string BindingItem_get_FieldName = "System.String BindingItem::get_FieldName()";
+                public const string String_op_Equality_String_String = "System.Boolean System.String::op_Equality(System.String,System.String)";
+                public const string XUiC_InGameDebugMenu_get_HasWorld = "System.Boolean XUiC_InGameDebugMenu::get_HasWorld()";
+                public const string XUiC_InGameDebugMenu_get_ChunkCluster0 = "ChunkCluster XUiC_InGameDebugMenu::get_ChunkCluster0()";
+                public const string IChunkProvider_IsDecorationsEnabled = "System.Boolean IChunkProvider::IsDecorationsEnabled()";
+                public const string Localization_Get_String = "System.String Localization::Get(System.String)";
+                public const string GameTimer_get_Instance = "GameTimer GameTimer::get_Instance()";
+                public const string CachedStringFormatter_1_Format_T1 = "System.String CachedStringFormatter`1<System.UInt64>::Format(System.UInt64)";
+                public const string ChunkProvider = "IChunkProvider ChunkCluster::ChunkProvider";
+                public const string ticksFormatter = "CachedStringFormatter`1<System.UInt64> XUiC_InGameDebugMenu::ticksFormatter";
+                public const string ticks = "System.UInt64 GameTimer::ticks";
+            }
+
+            public const string Init = "System.Void XUiC_InGameDebugMenu::Init()";
+            public static class InitInjects
+            {
+                public const string XUiController_Init = "System.Void XUiController::Init()";
+                public const string XUiController_get_WindowGroup = "XUiWindowGroup XUiController::get_WindowGroup()";
+                public const string XUiWindowGroup_get_ID = "System.String XUiWindowGroup::get_ID()";
+                public const string XUiController_GetChildById_String = "XUiController XUiController::GetChildById(System.String)";
+                public const string XUiController_add_OnPress_XUiEvent_OnPressEventHandler = "System.Void XUiController::add_OnPress(XUiEvent_OnPressEventHandler)";
+                public const string XUiC_TextInput_add_OnSubmitHandler_XUiEvent_InputOnSubmitEventHandler = "System.Void XUiC_TextInput::add_OnSubmitHandler(XUiEvent_InputOnSubmitEventHandler)";
+                public const string XUiC_TextInput_set_SelectOnTab_XUiC_TextInput = "System.Void XUiC_TextInput::set_SelectOnTab(XUiC_TextInput)";
+                public const string Int32_ToString = "System.String System.Int32::ToString()";
+                public const string XUiC_TextInput_set_Text_String = "System.Void XUiC_TextInput::set_Text(System.String)";
+                public const string XUiController_get_ViewComponent = "XUiView XUiController::get_ViewComponent()";
+                public const string XUiView_get_Controller = "XUiController XUiView::get_Controller()";
+                public const string Localization_Get_String = "System.String Localization::Get(System.String)";
+                public const string XUiC_Slider_set_Label_String = "System.Void XUiC_Slider::set_Label(System.String)";
+                public const string XUiC_Slider_set_ValueFormatter_Func_2 = "System.Void XUiC_Slider::set_ValueFormatter(System.Func`2<System.Single,System.String>)";
+                public const string XUiC_Slider_add_OnValueChanged_XUiEvent_SliderValueChanged = "System.Void XUiC_Slider::add_OnValueChanged(XUiEvent_SliderValueChanged)";
+                public const string XUiC_ToggleButton_add_OnValueChanged_XUiEvent_ToggleButtonValueChanged = "System.Void XUiC_ToggleButton::add_OnValueChanged(XUiEvent_ToggleButtonValueChanged)";
+                public const string XUiC_SimpleButton_add_OnPressed_XUiEvent_OnPressEventHandler = "System.Void XUiC_SimpleButton::add_OnPressed(XUiEvent_OnPressEventHandler)";
+                public const string ID = "System.String XUiC_InGameDebugMenu::ID";
+                public const string btnSuicide = "XUiController XUiC_InGameDebugMenu::btnSuicide";
+                public const string teleportX = "XUiC_TextInput XUiC_InGameDebugMenu::teleportX";
+                public const string teleportZ = "XUiC_TextInput XUiC_InGameDebugMenu::teleportZ";
+                public const string LastTeleportX = "System.Int32 XUiC_InGameDebugMenu::LastTeleportX";
+                public const string LastTeleportZ = "System.Int32 XUiC_InGameDebugMenu::LastTeleportZ";
+                public const string btnTeleport = "XUiController XUiC_InGameDebugMenu::btnTeleport";
+                public const string btnReloadChunks = "XUiController XUiC_InGameDebugMenu::btnReloadChunks";
+                public const string sliderDay = "XUiC_Slider XUiC_InGameDebugMenu::sliderDay";
+                public const string sliderTime = "XUiC_Slider XUiC_InGameDebugMenu::sliderTime";
+                public const string sliderSpeed = "XUiC_Slider XUiC_InGameDebugMenu::sliderSpeed";
+                public const string toggleFlyMode = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleFlyMode";
+                public const string toggleGodMode = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleGodMode";
+                public const string toggleNoCollisionMode = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleNoCollisionMode";
+                public const string toggleInvisibileMode = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleInvisibileMode";
+                public const string toggleSaving = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleSaving";
+                public const string togglePhysics = "XUiC_ToggleButton XUiC_InGameDebugMenu::togglePhysics";
+                public const string toggleTicking = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleTicking";
+                public const string toggleDebugShaders = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleDebugShaders";
+                public const string toggleLightPerformance = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleLightPerformance";
+                public const string toggleStabilityGlue = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleStabilityGlue";
+                public const string btnPlaytest = "XUiC_SimpleButton XUiC_InGameDebugMenu::btnPlaytest";
+                public const string btnBackToEditor = "XUiC_SimpleButton XUiC_InGameDebugMenu::btnBackToEditor";
+                public const string XUiEvent_OnPressEventHandler_ctor_Object_IntPtr = "System.Void XUiEvent_OnPressEventHandler::.ctor(System.Object,System.IntPtr)";
+                public const string XUiEvent_InputOnSubmitEventHandler_ctor_Object_IntPtr = "System.Void XUiEvent_InputOnSubmitEventHandler::.ctor(System.Object,System.IntPtr)";
+                public const string Func_2_ctor_Object_IntPtr = "System.Void System.Func`2<System.Single,System.String>::.ctor(System.Object,System.IntPtr)";
+                public const string XUiEvent_SliderValueChanged_ctor_Object_IntPtr = "System.Void XUiEvent_SliderValueChanged::.ctor(System.Object,System.IntPtr)";
+                public const string XUiEvent_ToggleButtonValueChanged_ctor_Object_IntPtr = "System.Void XUiEvent_ToggleButtonValueChanged::.ctor(System.Object,System.IntPtr)";
+            }
+
+            public const string BtnSuicide_Controller_OnPress = "System.Void XUiC_InGameDebugMenu::BtnSuicide_Controller_OnPress(XUiController,OnPressEventArgs)";
+            public static class BtnSuicide_Controller_OnPressInjects
+            {
+                public const string XUiController_get_xui = "XUi XUiController::get_xui()";
+                public const string XUi_get_playerUI = "LocalPlayerUI XUi::get_playerUI()";
+                public const string LocalPlayerUI_get_entityPlayer = "EntityPlayerLocal LocalPlayerUI::get_entityPlayer()";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string LocalPlayerUI_get_windowManager = "GUIWindowManager LocalPlayerUI::get_windowManager()";
+                public const string XUiController_get_WindowGroup = "XUiWindowGroup XUiController::get_WindowGroup()";
+                public const string XUiWindowGroup_get_ID = "System.String XUiWindowGroup::get_ID()";
+                public const string GUIWindowManager_Close_String = "System.Void GUIWindowManager::Close(System.String)";
+                public const string DamageResponse_New_DamageSource_Boolean = "DamageResponse DamageResponse::New(DamageSource,System.Boolean)";
+                public const string Entity_Kill_DamageResponse = "System.Void Entity::Kill(DamageResponse)";
+                public const string GameManager_Pause_Boolean = "System.Void GameManager::Pause(System.Boolean)";
+                public const string Instance = "GameManager GameManager::Instance";
+                public const string DamageSource_ctor_EnumDamageSource_EnumDamageTypes = "System.Void DamageSource::.ctor(EnumDamageSource,EnumDamageTypes)";
+            }
+
+            public const string Teleport_OnSubmitHandler = "System.Void XUiC_InGameDebugMenu::Teleport_OnSubmitHandler(XUiController,System.String)";
+            public static class Teleport_OnSubmitHandlerInjects
+            {
+                public const string XUiC_InGameDebugMenu_BtnTeleport_Controller_OnPress_XUiController_OnPressEventArgs = "System.Void XUiC_InGameDebugMenu::BtnTeleport_Controller_OnPress(XUiController,OnPressEventArgs)";
+                public const string OnPressEventArgs_ctor_Int32 = "System.Void OnPressEventArgs::.ctor(System.Int32)";
+            }
+
+            public const string BtnTeleport_Controller_OnPress = "System.Void XUiC_InGameDebugMenu::BtnTeleport_Controller_OnPress(XUiController,OnPressEventArgs)";
+            public static class BtnTeleport_Controller_OnPressInjects
+            {
+                public const string XUiController_get_xui = "XUi XUiController::get_xui()";
+                public const string XUi_get_playerUI = "LocalPlayerUI XUi::get_playerUI()";
+                public const string LocalPlayerUI_get_entityPlayer = "EntityPlayerLocal LocalPlayerUI::get_entityPlayer()";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string XUiC_TextInput_get_Text = "System.String XUiC_TextInput::get_Text()";
+                public const string Int32_TryParse_String_Int32_ = "System.Boolean System.Int32::TryParse(System.String,System.Int32&)";
+                public const string LocalPlayerUI_get_windowManager = "GUIWindowManager LocalPlayerUI::get_windowManager()";
+                public const string XUiController_get_WindowGroup = "XUiWindowGroup XUiController::get_WindowGroup()";
+                public const string XUiWindowGroup_get_ID = "System.String XUiWindowGroup::get_ID()";
+                public const string GUIWindowManager_Close_String = "System.Void GUIWindowManager::Close(System.String)";
+                public const string Entity_SetPosition_Vector3_Boolean = "System.Void Entity::SetPosition(UnityEngine.Vector3,System.Boolean)";
+                public const string EntityPlayer_Respawn_RespawnType = "System.Void EntityPlayer::Respawn(RespawnType)";
+                public const string teleportX = "XUiC_TextInput XUiC_InGameDebugMenu::teleportX";
+                public const string teleportZ = "XUiC_TextInput XUiC_InGameDebugMenu::teleportZ";
+                public const string LastTeleportX = "System.Int32 XUiC_InGameDebugMenu::LastTeleportX";
+                public const string LastTeleportZ = "System.Int32 XUiC_InGameDebugMenu::LastTeleportZ";
+                public const string Vector3_ctor_Single_Single_Single = "System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)";
+            }
+
+            public const string BtnViewStabilityGlue_Controller_OnPress = "System.Void XUiC_InGameDebugMenu::BtnViewStabilityGlue_Controller_OnPress(XUiController,OnPressEventArgs)";
+            public const string BtnRecalcLight_Controller_OnPress = "System.Void XUiC_InGameDebugMenu::BtnRecalcLight_Controller_OnPress(XUiController,OnPressEventArgs)";
+            public static class BtnRecalcLight_Controller_OnPressInjects
+            {
+                public const string XUiC_InGameDebugMenu_get_ChunkCluster0 = "ChunkCluster XUiC_InGameDebugMenu::get_ChunkCluster0()";
+                public const string WorldChunkCache_GetSyncRoot = "System.Object WorldChunkCache::GetSyncRoot()";
+                public const string Monitor_Enter_Object_Boolean_ = "System.Void System.Threading.Monitor::Enter(System.Object,System.Boolean&)";
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string Stopwatch_Start = "System.Void System.Diagnostics.Stopwatch::Start()";
+                public const string WorldChunkCache_GetChunkArrayCopySync = "System.Collections.Generic.List`1<Chunk> WorldChunkCache::GetChunkArrayCopySync()";
+                public const string List_1_GetEnumerator = "System.Collections.Generic.List`1/Enumerator<Chunk> System.Collections.Generic.List`1<Chunk>::GetEnumerator()";
+                public const string Enumerator_get_Current = "Chunk System.Collections.Generic.List`1/Enumerator<Chunk>::get_Current()";
+                public const string Chunk_ResetLights_Byte = "System.Void Chunk::ResetLights(System.Byte)";
+                public const string Chunk_RefreshSunlight = "System.Void Chunk::RefreshSunlight()";
+                public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.List`1/Enumerator<Chunk>::MoveNext()";
+                public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
+                public const string LightProcessor_GenerateSunlight_Chunk_Boolean = "System.Void LightProcessor::GenerateSunlight(Chunk,System.Boolean)";
+                public const string LightProcessor_LightChunk_Chunk = "System.Void LightProcessor::LightChunk(Chunk)";
+                public const string Stopwatch_Stop = "System.Void System.Diagnostics.Stopwatch::Stop()";
+                public const string Chunk_set_NeedsRegeneration_Boolean = "System.Void Chunk::set_NeedsRegeneration(System.Boolean)";
+                public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<Chunk>::get_Count()";
+                public const string Stopwatch_get_ElapsedMilliseconds = "System.Int64 System.Diagnostics.Stopwatch::get_ElapsedMilliseconds()";
+                public const string String_Concat_Object_ = "System.String System.String::Concat(System.Object[])";
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string Monitor_Exit_Object = "System.Void System.Threading.Monitor::Exit(System.Object)";
+                public const string Instance = "GameManager GameManager::Instance";
+                public const string LightProcessor_ctor_IChunkAccess = "System.Void LightProcessor::.ctor(IChunkAccess)";
+                public const string Stopwatch_ctor = "System.Void System.Diagnostics.Stopwatch::.ctor()";
+            }
+
+            public const string RecalcStability = "System.Void XUiC_InGameDebugMenu::RecalcStability()";
+            public static class RecalcStabilityInjects
+            {
+                public const string XUiC_InGameDebugMenu_get_ChunkCluster0 = "ChunkCluster XUiC_InGameDebugMenu::get_ChunkCluster0()";
+                public const string WorldChunkCache_GetSyncRoot = "System.Object WorldChunkCache::GetSyncRoot()";
+                public const string Monitor_Enter_Object_Boolean_ = "System.Void System.Threading.Monitor::Enter(System.Object,System.Boolean&)";
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string WorldChunkCache_GetChunkArray = "System.Collections.Generic.LinkedList`1<Chunk> WorldChunkCache::GetChunkArray()";
+                public const string LinkedList_1_GetEnumerator = "System.Collections.Generic.LinkedList`1/Enumerator<Chunk> System.Collections.Generic.LinkedList`1<Chunk>::GetEnumerator()";
+                public const string Enumerator_get_Current = "Chunk System.Collections.Generic.LinkedList`1/Enumerator<Chunk>::get_Current()";
+                public const string Chunk_ResetStabilityToBottomMost = "System.Void Chunk::ResetStabilityToBottomMost()";
+                public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.LinkedList`1/Enumerator<Chunk>::MoveNext()";
+                public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
+                public const string StabilityInitializer_DistributeStability_Chunk = "System.Void StabilityInitializer::DistributeStability(Chunk)";
+                public const string Chunk_set_NeedsRegeneration_Boolean = "System.Void Chunk::set_NeedsRegeneration(System.Boolean)";
+                public const string LinkedList_1_get_Count = "System.Int32 System.Collections.Generic.LinkedList`1<Chunk>::get_Count()";
+                public const string Stopwatch_get_ElapsedMilliseconds = "System.Int64 System.Diagnostics.Stopwatch::get_ElapsedMilliseconds()";
+                public const string String_Concat_Object_ = "System.String System.String::Concat(System.Object[])";
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string Monitor_Exit_Object = "System.Void System.Threading.Monitor::Exit(System.Object)";
+                public const string Instance = "GameManager GameManager::Instance";
+                public const string StabilityInitializer_ctor_WorldBase = "System.Void StabilityInitializer::.ctor(WorldBase)";
+                public const string MicroStopwatch_ctor = "System.Void MicroStopwatch::.ctor()";
+            }
+
+            public const string BtnRecalcStability_Controller_OnPress = "System.Void XUiC_InGameDebugMenu::BtnRecalcStability_Controller_OnPress(XUiController,OnPressEventArgs)";
+            public static class BtnRecalcStability_Controller_OnPressInjects
+            {
+                public const string XUiC_InGameDebugMenu_RecalcStability = "System.Void XUiC_InGameDebugMenu::RecalcStability()";
+            }
+
+            public const string BtnReloadChunks_Controller_OnPress = "System.Void XUiC_InGameDebugMenu::BtnReloadChunks_Controller_OnPress(XUiController,OnPressEventArgs)";
+            public static class BtnReloadChunks_Controller_OnPressInjects
+            {
+                public const string XUiC_InGameDebugMenu_get_ChunkCluster0 = "ChunkCluster XUiC_InGameDebugMenu::get_ChunkCluster0()";
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string ChunkManager_ReloadAllChunks = "System.Void ChunkManager::ReloadAllChunks()";
+                public const string IChunkProvider_ReloadAllChunks = "System.Void IChunkProvider::ReloadAllChunks()";
+                public const string WorldBase_UnloadEntities_List_1 = "System.Void WorldBase::UnloadEntities(System.Collections.Generic.List`1<Entity>)";
+                public const string Instance = "GameManager GameManager::Instance";
+                public const string m_ChunkManager = "ChunkManager World::m_ChunkManager";
+                public const string ChunkProvider = "IChunkProvider ChunkCluster::ChunkProvider";
+                public const string Entities = "DictionaryList`2<System.Int32,Entity> World::Entities";
+                public const string list = "System.Collections.Generic.List`1<Entity> DictionaryList`2<System.Int32,Entity>::list";
+            }
+
+            public const string SliderDay_ValueFormatter = "System.String XUiC_InGameDebugMenu::SliderDay_ValueFormatter(System.Single)";
+            public static class SliderDay_ValueFormatterInjects
+            {
+                public const string XUiC_InGameDebugMenu_SliderDay_Value = "System.Int32 XUiC_InGameDebugMenu::SliderDay_Value()";
+                public const string Int32_ToString = "System.String System.Int32::ToString()";
+            }
+
+            public const string SliderDay_OnValueChanged = "System.Void XUiC_InGameDebugMenu::SliderDay_OnValueChanged(XUiC_Slider)";
+            public static class SliderDay_OnValueChangedInjects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string XUiC_InGameDebugMenu_get_HasWorld = "System.Boolean XUiC_InGameDebugMenu::get_HasWorld()";
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string XUiC_InGameDebugMenu_SliderDay_Value = "System.Int32 XUiC_InGameDebugMenu::SliderDay_Value()";
+                public const string World_SetTimeJump_UInt64_Boolean = "System.Void World::SetTimeJump(System.UInt64,System.Boolean)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string worldTime = "System.UInt64 World::worldTime";
+            }
+
+            public const string SliderDay_Value = "System.Int32 XUiC_InGameDebugMenu::SliderDay_Value()";
+            public static class SliderDay_ValueInjects
+            {
+                public const string XUiC_Slider_get_Value = "System.Single XUiC_Slider::get_Value()";
+                public const string Mathf_Clamp_Single_Single_Single = "System.Single UnityEngine.Mathf::Clamp(System.Single,System.Single,System.Single)";
+                public const string sliderDay = "XUiC_Slider XUiC_InGameDebugMenu::sliderDay";
+            }
+
+            public const string SliderTime_ValueFormatter = "System.String XUiC_InGameDebugMenu::SliderTime_ValueFormatter(System.Single)";
+            public static class SliderTime_ValueFormatterInjects
+            {
+                public const string XUiC_InGameDebugMenu_SliderTime_Value = "System.Single XUiC_InGameDebugMenu::SliderTime_Value()";
+                public const string Extensions_ToCultureInvariantString_Single_String = "System.String Extensions::ToCultureInvariantString(System.Single,System.String)";
+            }
+
+            public const string SliderTime_OnValueChanged = "System.Void XUiC_InGameDebugMenu::SliderTime_OnValueChanged(XUiC_Slider)";
+            public static class SliderTime_OnValueChangedInjects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string XUiC_InGameDebugMenu_get_HasWorld = "System.Boolean XUiC_InGameDebugMenu::get_HasWorld()";
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string XUiC_InGameDebugMenu_SliderTime_Value = "System.Single XUiC_InGameDebugMenu::SliderTime_Value()";
+                public const string World_SetTimeJump_UInt64_Boolean = "System.Void World::SetTimeJump(System.UInt64,System.Boolean)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string worldTime = "System.UInt64 World::worldTime";
+            }
+
+            public const string SliderTime_Value = "System.Single XUiC_InGameDebugMenu::SliderTime_Value()";
+            public static class SliderTime_ValueInjects
+            {
+                public const string XUiC_Slider_get_Value = "System.Single XUiC_Slider::get_Value()";
+                public const string Mathf_Clamp_Single_Single_Single = "System.Single UnityEngine.Mathf::Clamp(System.Single,System.Single,System.Single)";
+                public const string sliderTime = "XUiC_Slider XUiC_InGameDebugMenu::sliderTime";
+            }
+
+            public const string SliderSpeed_ValueFormatter = "System.String XUiC_InGameDebugMenu::SliderSpeed_ValueFormatter(System.Single)";
+            public static class SliderSpeed_ValueFormatterInjects
+            {
+                public const string XUiC_InGameDebugMenu_SliderSpeed_Value = "System.Int32 XUiC_InGameDebugMenu::SliderSpeed_Value()";
+                public const string Int32_ToString = "System.String System.Int32::ToString()";
+            }
+
+            public const string SliderSpeed_OnValueChanged = "System.Void XUiC_InGameDebugMenu::SliderSpeed_OnValueChanged(XUiC_Slider)";
+            public static class SliderSpeed_OnValueChangedInjects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string XUiC_InGameDebugMenu_SliderSpeed_Value = "System.Int32 XUiC_InGameDebugMenu::SliderSpeed_Value()";
+                public const string GameStats_Set_EnumGameStats_Int32 = "System.Void GameStats::Set(EnumGameStats,System.Int32)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string GameSpeed = "System.Int32 WeatherManager::GameSpeed";
+            }
+
+            public const string SliderSpeed_Value = "System.Int32 XUiC_InGameDebugMenu::SliderSpeed_Value()";
+            public static class SliderSpeed_ValueInjects
+            {
+                public const string XUiC_Slider_get_Value = "System.Single XUiC_Slider::get_Value()";
+                public const string Mathf_Clamp_Single_Single_Single = "System.Single UnityEngine.Mathf::Clamp(System.Single,System.Single,System.Single)";
+                public const string sliderSpeed = "XUiC_Slider XUiC_InGameDebugMenu::sliderSpeed";
+            }
+
+            public const string ToggleFlyMode_OnValueChanged = "System.Void XUiC_InGameDebugMenu::ToggleFlyMode_OnValueChanged(XUiC_ToggleButton,System.Boolean)";
+            public static class ToggleFlyMode_OnValueChangedInjects
+            {
+                public const string XUiController_get_xui = "XUi XUiController::get_xui()";
+                public const string XUi_get_playerUI = "LocalPlayerUI XUi::get_playerUI()";
+                public const string LocalPlayerUI_get_entityPlayer = "EntityPlayerLocal LocalPlayerUI::get_entityPlayer()";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string DataItem_1_set_Value_T = "System.Void DataItem`1<System.Boolean>::set_Value(System.Boolean)";
+                public const string IsFlyMode = "DataItem`1<System.Boolean> Entity::IsFlyMode";
+            }
+
+            public const string ToggleGodMode_OnValueChanged = "System.Void XUiC_InGameDebugMenu::ToggleGodMode_OnValueChanged(XUiC_ToggleButton,System.Boolean)";
+            public static class ToggleGodMode_OnValueChangedInjects
+            {
+                public const string XUiController_get_xui = "XUi XUiController::get_xui()";
+                public const string XUi_get_playerUI = "LocalPlayerUI XUi::get_playerUI()";
+                public const string LocalPlayerUI_get_entityPlayer = "EntityPlayerLocal LocalPlayerUI::get_entityPlayer()";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string DataItem_1_set_Value_T = "System.Void DataItem`1<System.Boolean>::set_Value(System.Boolean)";
+                public const string IsGodMode = "DataItem`1<System.Boolean> Entity::IsGodMode";
+                public const string IsNoCollisionMode = "DataItem`1<System.Boolean> Entity::IsNoCollisionMode";
+                public const string IsFlyMode = "DataItem`1<System.Boolean> Entity::IsFlyMode";
+            }
+
+            public const string ToggleNoCollisionMode_OnValueChanged = "System.Void XUiC_InGameDebugMenu::ToggleNoCollisionMode_OnValueChanged(XUiC_ToggleButton,System.Boolean)";
+            public static class ToggleNoCollisionMode_OnValueChangedInjects
+            {
+                public const string XUiController_get_xui = "XUi XUiController::get_xui()";
+                public const string XUi_get_playerUI = "LocalPlayerUI XUi::get_playerUI()";
+                public const string LocalPlayerUI_get_entityPlayer = "EntityPlayerLocal LocalPlayerUI::get_entityPlayer()";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string DataItem_1_set_Value_T = "System.Void DataItem`1<System.Boolean>::set_Value(System.Boolean)";
+                public const string IsNoCollisionMode = "DataItem`1<System.Boolean> Entity::IsNoCollisionMode";
+            }
+
+            public const string ToggleInvisibileMode_OnValueChanged = "System.Void XUiC_InGameDebugMenu::ToggleInvisibileMode_OnValueChanged(XUiC_ToggleButton,System.Boolean)";
+            public static class ToggleInvisibileMode_OnValueChangedInjects
+            {
+                public const string XUiController_get_xui = "XUi XUiController::get_xui()";
+                public const string XUi_get_playerUI = "LocalPlayerUI XUi::get_playerUI()";
+                public const string LocalPlayerUI_get_entityPlayer = "EntityPlayerLocal LocalPlayerUI::get_entityPlayer()";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string EntityPlayer_set_IsSpectator_Boolean = "System.Void EntityPlayer::set_IsSpectator(System.Boolean)";
+            }
+
+            public const string ToggleSaving_OnValueChanged = "System.Void XUiC_InGameDebugMenu::ToggleSaving_OnValueChanged(XUiC_ToggleButton,System.Boolean)";
+            public static class ToggleSaving_OnValueChangedInjects
+            {
+                public const string bSavingActive = "System.Boolean GameManager::bSavingActive";
+            }
+
+            public const string TogglePhysics_OnValueChanged = "System.Void XUiC_InGameDebugMenu::TogglePhysics_OnValueChanged(XUiC_ToggleButton,System.Boolean)";
+            public static class TogglePhysics_OnValueChangedInjects
+            {
+                public const string bPhysicsActive = "System.Boolean GameManager::bPhysicsActive";
+            }
+
+            public const string ToggleTicking_OnValueChanged = "System.Void XUiC_InGameDebugMenu::ToggleTicking_OnValueChanged(XUiC_ToggleButton,System.Boolean)";
+            public static class ToggleTicking_OnValueChangedInjects
+            {
+                public const string bTickingActive = "System.Boolean GameManager::bTickingActive";
+            }
+
+            public const string ToggleDebugShaders_OnValueChanged = "System.Void XUiC_InGameDebugMenu::ToggleDebugShaders_OnValueChanged(XUiC_ToggleButton,System.Boolean)";
+            public static class ToggleDebugShaders_OnValueChangedInjects
+            {
+                public const string MeshDescription_SetDebugStabilityShader_Boolean = "System.Void MeshDescription::SetDebugStabilityShader(System.Boolean)";
+            }
+
+            public const string ToggleLightPerformance_OnValueChanged = "System.Void XUiC_InGameDebugMenu::ToggleLightPerformance_OnValueChanged(XUiC_ToggleButton,System.Boolean)";
+            public static class ToggleLightPerformance_OnValueChangedInjects
+            {
+                public const string Instance = "GameManager GameManager::Instance";
+                public const string DebugLightViewerEnabled = "System.Boolean GameManager::DebugLightViewerEnabled";
+            }
+
+            public const string ToggleStabilityGlue_OnValueChanged = "System.Void XUiC_InGameDebugMenu::ToggleStabilityGlue_OnValueChanged(XUiC_ToggleButton,System.Boolean)";
+            public static class ToggleStabilityGlue_OnValueChangedInjects
+            {
+                public const string StabilityViewer_Clear = "System.Void StabilityViewer::Clear()";
+                public const string GameManager_CreateStabilityViewer = "System.Void GameManager::CreateStabilityViewer()";
+                public const string StabilityViewer_StartSearch_Int32 = "System.Void StabilityViewer::StartSearch(System.Int32)";
+                public const string Instance = "GameManager GameManager::Instance";
+                public const string stabilityViewer = "StabilityViewer GameManager::stabilityViewer";
+                public const string worldIsReady = "System.Boolean StabilityViewer::worldIsReady";
+            }
+
+            public const string OnOpen = "System.Void XUiC_InGameDebugMenu::OnOpen()";
+            public static class OnOpenInjects
+            {
+                public const string XUiController_OnOpen = "System.Void XUiController::OnOpen()";
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string XUiController_get_ViewComponent = "XUiView XUiController::get_ViewComponent()";
+                public const string XUiView_set_IsVisible_Boolean = "System.Void XUiView::set_IsVisible(System.Boolean)";
+                public const string GameManager_IsEditMode = "System.Boolean GameManager::IsEditMode()";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string GamePrefs_GetString_EnumGamePrefs = "System.String GamePrefs::GetString(EnumGamePrefs)";
+                public const string String_op_Equality_String_String = "System.Boolean System.String::op_Equality(System.String,System.String)";
+                public const string GameUtils_IsPlaytesting = "System.Boolean GameUtils::IsPlaytesting()";
+                public const string Localization_Get_String = "System.String Localization::Get(System.String)";
+                public const string XUiC_SimpleButton_set_Label_String = "System.Void XUiC_SimpleButton::set_Label(System.String)";
+                public const string XUiC_SimpleButton_set_Enabled_Boolean = "System.Void XUiC_SimpleButton::set_Enabled(System.Boolean)";
+                public const string btnSuicide = "XUiController XUiC_InGameDebugMenu::btnSuicide";
+                public const string teleportX = "XUiC_TextInput XUiC_InGameDebugMenu::teleportX";
+                public const string teleportZ = "XUiC_TextInput XUiC_InGameDebugMenu::teleportZ";
+                public const string btnTeleport = "XUiController XUiC_InGameDebugMenu::btnTeleport";
+                public const string toggleFlyMode = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleFlyMode";
+                public const string toggleGodMode = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleGodMode";
+                public const string toggleNoCollisionMode = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleNoCollisionMode";
+                public const string toggleInvisibileMode = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleInvisibileMode";
+                public const string Instance = "GameManager GameManager::Instance";
+                public const string btnReloadChunks = "XUiController XUiC_InGameDebugMenu::btnReloadChunks";
+                public const string btnPlaytest = "XUiC_SimpleButton XUiC_InGameDebugMenu::btnPlaytest";
+                public const string btnBackToEditor = "XUiC_SimpleButton XUiC_InGameDebugMenu::btnBackToEditor";
+                public const string sliderDay = "XUiC_Slider XUiC_InGameDebugMenu::sliderDay";
+                public const string sliderTime = "XUiC_Slider XUiC_InGameDebugMenu::sliderTime";
+                public const string sliderSpeed = "XUiC_Slider XUiC_InGameDebugMenu::sliderSpeed";
+                public const string toggleSaving = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleSaving";
+                public const string togglePhysics = "XUiC_ToggleButton XUiC_InGameDebugMenu::togglePhysics";
+                public const string toggleTicking = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleTicking";
+                public const string toggleDebugShaders = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleDebugShaders";
+            }
+
+            public const string Update = "System.Void XUiC_InGameDebugMenu::Update(System.Single)";
+            public static class UpdateInjects
+            {
+                public const string XUiController_Update_Single = "System.Void XUiController::Update(System.Single)";
+                public const string XUiC_InGameDebugMenu_get_HasWorld = "System.Boolean XUiC_InGameDebugMenu::get_HasWorld()";
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string XUiC_Slider_set_Value_Single = "System.Void XUiC_Slider::set_Value(System.Single)";
+                public const string GameStats_GetInt_EnumGameStats = "System.Int32 GameStats::GetInt(EnumGameStats)";
+                public const string XUiController_get_xui = "XUi XUiController::get_xui()";
+                public const string XUi_get_playerUI = "LocalPlayerUI XUi::get_playerUI()";
+                public const string LocalPlayerUI_get_entityPlayer = "EntityPlayerLocal LocalPlayerUI::get_entityPlayer()";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string DataItem_1_get_Value = "System.Boolean DataItem`1<System.Boolean>::get_Value()";
+                public const string XUiC_ToggleButton_set_Value_Boolean = "System.Void XUiC_ToggleButton::set_Value(System.Boolean)";
+                public const string EntityPlayer_get_IsSpectator = "System.Boolean EntityPlayer::get_IsSpectator()";
+                public const string XUiController_RefreshBindings_Boolean = "System.Void XUiController::RefreshBindings(System.Boolean)";
+                public const string sliderDay = "XUiC_Slider XUiC_InGameDebugMenu::sliderDay";
+                public const string Instance = "GameManager GameManager::Instance";
+                public const string worldTime = "System.UInt64 World::worldTime";
+                public const string sliderTime = "XUiC_Slider XUiC_InGameDebugMenu::sliderTime";
+                public const string sliderSpeed = "XUiC_Slider XUiC_InGameDebugMenu::sliderSpeed";
+                public const string toggleFlyMode = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleFlyMode";
+                public const string IsFlyMode = "DataItem`1<System.Boolean> Entity::IsFlyMode";
+                public const string toggleGodMode = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleGodMode";
+                public const string IsGodMode = "DataItem`1<System.Boolean> Entity::IsGodMode";
+                public const string toggleNoCollisionMode = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleNoCollisionMode";
+                public const string IsNoCollisionMode = "DataItem`1<System.Boolean> Entity::IsNoCollisionMode";
+                public const string toggleInvisibileMode = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleInvisibileMode";
+                public const string toggleSaving = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleSaving";
+                public const string bSavingActive = "System.Boolean GameManager::bSavingActive";
+                public const string togglePhysics = "XUiC_ToggleButton XUiC_InGameDebugMenu::togglePhysics";
+                public const string bPhysicsActive = "System.Boolean GameManager::bPhysicsActive";
+                public const string toggleTicking = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleTicking";
+                public const string bTickingActive = "System.Boolean GameManager::bTickingActive";
+                public const string toggleDebugShaders = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleDebugShaders";
+                public const string bDebugStability = "System.Boolean MeshDescription::bDebugStability";
+                public const string toggleLightPerformance = "XUiC_ToggleButton XUiC_InGameDebugMenu::toggleLightPerformance";
+                public const string DebugLightViewerEnabled = "System.Boolean GameManager::DebugLightViewerEnabled";
+            }
+
+            public const string BtnPlaytestOnPressed = "System.Void XUiC_InGameDebugMenu::BtnPlaytestOnPressed(XUiController,OnPressEventArgs)";
+            public static class BtnPlaytestOnPressedInjects
+            {
+                public const string GameUtils_StartPlaytesting = "System.Void GameUtils::StartPlaytesting()";
+            }
+
+            public const string BtnBackToEditorOnPressed = "System.Void XUiC_InGameDebugMenu::BtnBackToEditorOnPressed(XUiController,OnPressEventArgs)";
+            public static class BtnBackToEditorOnPressedInjects
+            {
+                public const string GameUtils_StartSinglePrefabEditing = "System.Void GameUtils::StartSinglePrefabEditing()";
             }
         }
     }
@@ -3971,7 +4438,7 @@ namespace BetterWaysToDie.Mixins
             public const string AddRandomTintColor_Vector3_String = "System.Void Block::AddRandomTintColor(UnityEngine.Vector3,System.String)";
             public static class AddRandomTintColor_Vector3_StringInjects
             {
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Block/TintColorOnMaterial>::Add(Block/TintColorOnMaterial)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Block/TintColorOnMaterial>::Add(Block/TintColorOnMaterial)";
                 public const string randomTintColors = "System.Collections.Generic.List`1<Block/TintColorOnMaterial> Block::randomTintColors";
                 public const string color = "UnityEngine.Vector3 Block/TintColorOnMaterial::color";
                 public const string materialName = "System.String Block/TintColorOnMaterial::materialName";
@@ -3981,10 +4448,10 @@ namespace BetterWaysToDie.Mixins
             public const string Init = "System.Void Block::Init()";
             public static class InitInjects
             {
-                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,Block>::ContainsKey(System.String)";
+                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,Block>::ContainsKey(System.String)";
                 public const string String_Concat_String_String_String = "System.String System.String::Concat(System.String,System.String,System.String)";
                 public const string Log_Error_String = "System.Void Log::Error(System.String)";
-                public const string Dictionary_2_set_Item_0_1 = "System.Void System.Collections.Generic.Dictionary`2<System.String,Block>::set_Item(System.String,Block)";
+                public const string Dictionary_2_set_Item_TKey_TValue = "System.Void System.Collections.Generic.Dictionary`2<System.String,Block>::set_Item(System.String,Block)";
                 public const string ValueWrapper_ContainsKey_String = "System.Boolean DynamicProperties/ValueWrapper::ContainsKey(System.String)";
                 public const string ValueWrapper_get_Item_String = "System.String DynamicProperties/ValueWrapper::get_Item(System.String)";
                 public const string FastTags_Parse_String = "FastTags FastTags::Parse(System.String)";
@@ -4010,15 +4477,15 @@ namespace BetterWaysToDie.Mixins
                 public const string String_get_Length = "System.Int32 System.String::get_Length()";
                 public const string String_Concat_Object_ = "System.String System.String::Concat(System.Object[])";
                 public const string String_get_Chars_Int32 = "System.Char System.String::get_Chars(System.Int32)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Vector3i>::Add(Vector3i)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Vector3i>::Add(Vector3i)";
                 public const string Mathf_RoundToInt_Single = "System.Int32 UnityEngine.Mathf::RoundToInt(System.Single)";
                 public const string UInt32_Parse_String = "System.UInt32 System.UInt32::Parse(System.String)";
                 public const string String_Split_Char_StringSplitOptions = "System.String[] System.String::Split(System.Char[],System.StringSplitOptions)";
                 public const string DynamicProperties_ParseBool_String_Boolean_ = "System.Void DynamicProperties::ParseBool(System.String,System.Boolean&)";
                 public const string StringParsers_TryParseFloat_String_Single_Int32_Int32_NumberStyles = "System.Boolean StringParsers::TryParseFloat(System.String,System.Single&,System.Int32,System.Int32,System.Globalization.NumberStyles)";
                 public const string DynamicProperties_ParseString_String_String_ = "System.Void DynamicProperties::ParseString(System.String,System.String&)";
-                public const string HashSet_1_Add_0 = "System.Boolean System.Collections.Generic.HashSet`1<BlockFace>::Add(BlockFace)";
-                public const string HashSet_1_Contains_0 = "System.Boolean System.Collections.Generic.HashSet`1<BlockFace>::Contains(BlockFace)";
+                public const string HashSet_1_Add_T = "System.Boolean System.Collections.Generic.HashSet`1<BlockFace>::Add(BlockFace)";
+                public const string HashSet_1_Contains_T = "System.Boolean System.Collections.Generic.HashSet`1<BlockFace>::Contains(BlockFace)";
                 public const string String_Contains_String = "System.Boolean System.String::Contains(System.String)";
                 public const string String_StartsWith_String = "System.Boolean System.String::StartsWith(System.String)";
                 public const string String_Format_String_Object_Object = "System.String System.String::Format(System.String,System.Object,System.Object)";
@@ -4280,13 +4747,13 @@ namespace BetterWaysToDie.Mixins
                 public const string Enumerator_get_Current = "System.Collections.Generic.KeyValuePair`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>> System.Collections.Generic.Dictionary`2/Enumerator<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::get_Current()";
                 public const string KeyValuePair_2_get_Key = "EnumDropEvent System.Collections.Generic.KeyValuePair`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::get_Key()";
                 public const string KeyValuePair_2_get_Value = "System.Collections.Generic.List`1<Block/SItemDropProb> System.Collections.Generic.KeyValuePair`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::get_Value()";
-                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::ContainsKey(EnumDropEvent)";
-                public const string Dictionary_2_get_Item_0 = "System.Collections.Generic.List`1<Block/SItemDropProb> System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::get_Item(EnumDropEvent)";
-                public const string Dictionary_2_set_Item_0_1 = "System.Void System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::set_Item(EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>)";
+                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::ContainsKey(EnumDropEvent)";
+                public const string Dictionary_2_get_Item_TKey = "System.Collections.Generic.List`1<Block/SItemDropProb> System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::get_Item(EnumDropEvent)";
+                public const string Dictionary_2_set_Item_TKey_TValue = "System.Void System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::set_Item(EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>)";
                 public const string List_1_get_Item_Int32 = "Block/SItemDropProb System.Collections.Generic.List`1<Block/SItemDropProb>::get_Item(System.Int32)";
                 public const string String_op_Equality_String_String = "System.Boolean System.String::op_Equality(System.String,System.String)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<Block/SItemDropProb>::get_Count()";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Block/SItemDropProb>::Add(Block/SItemDropProb)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Block/SItemDropProb>::Add(Block/SItemDropProb)";
                 public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::MoveNext()";
                 public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
                 public const string itemsToDrop = "System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>> Block::itemsToDrop";
@@ -4516,7 +4983,7 @@ namespace BetterWaysToDie.Mixins
                 public const string Block_GetCollisionAABB_BlockValue_Int32_Int32_Int32_Single_List_1 = "System.Void Block::GetCollisionAABB(BlockValue,System.Int32,System.Int32,System.Int32,System.Single,System.Collections.Generic.List`1<UnityEngine.Bounds>)";
                 public const string List_1_get_Item_Int32 = "UnityEngine.Bounds System.Collections.Generic.List`1<UnityEngine.Bounds>::get_Item(System.Int32)";
                 public const string Bounds_Intersects_Bounds = "System.Boolean UnityEngine.Bounds::Intersects(UnityEngine.Bounds)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<UnityEngine.Bounds>::Add(UnityEngine.Bounds)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<UnityEngine.Bounds>::Add(UnityEngine.Bounds)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<UnityEngine.Bounds>::get_Count()";
                 public const string staticList_IntersectRayWithBlockList = "System.Collections.Generic.List`1<UnityEngine.Bounds> Block::staticList_IntersectRayWithBlockList";
             }
@@ -4531,7 +4998,7 @@ namespace BetterWaysToDie.Mixins
                 public const string Bounds_set_center_Vector3 = "System.Void UnityEngine.Bounds::set_center(UnityEngine.Vector3)";
                 public const string Bounds_get_max = "UnityEngine.Vector3 UnityEngine.Bounds::get_max()";
                 public const string Bounds_set_max_Vector3 = "System.Void UnityEngine.Bounds::set_max(UnityEngine.Vector3)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<UnityEngine.Bounds>::Add(UnityEngine.Bounds)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<UnityEngine.Bounds>::Add(UnityEngine.Bounds)";
                 public const string shape = "BlockShape Block::shape";
             }
 
@@ -4681,7 +5148,7 @@ namespace BetterWaysToDie.Mixins
                 public const string ReadOnlyCollection_1_get_Count = "System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<LocalPlayerUI>::get_Count()";
                 public const string WorldBase_GetChunkFromWorldPos_Vector3i = "IChunk WorldBase::GetChunkFromWorldPos(Vector3i)";
                 public const string World_toBlock_Vector3i = "Vector3i World::toBlock(Vector3i)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<BlockChangeInfo>::Add(BlockChangeInfo)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<BlockChangeInfo>::Add(BlockChangeInfo)";
                 public const string WorldBase_SetBlocksRPC_List_1 = "System.Void WorldBase::SetBlocksRPC(System.Collections.Generic.List`1<BlockChangeInfo>)";
                 public const string WorldBase_GetDensity_Int32_Vector3i = "System.SByte WorldBase::GetDensity(System.Int32,Vector3i)";
                 public const string Utils_FastMin_Single_Single = "System.Single Utils::FastMin(System.Single,System.Single)";
@@ -4717,10 +5184,10 @@ namespace BetterWaysToDie.Mixins
             public const string AddDroppedId = "System.Void Block::AddDroppedId(EnumDropEvent,System.String,System.Int32,System.Int32,System.Single,System.Single,System.String,System.String)";
             public static class AddDroppedIdInjects
             {
-                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::ContainsKey(EnumDropEvent)";
-                public const string Dictionary_2_get_Item_0 = "System.Collections.Generic.List`1<Block/SItemDropProb> System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::get_Item(EnumDropEvent)";
-                public const string Dictionary_2_set_Item_0_1 = "System.Void System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::set_Item(EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Block/SItemDropProb>::Add(Block/SItemDropProb)";
+                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::ContainsKey(EnumDropEvent)";
+                public const string Dictionary_2_get_Item_TKey = "System.Collections.Generic.List`1<Block/SItemDropProb> System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::get_Item(EnumDropEvent)";
+                public const string Dictionary_2_set_Item_TKey_TValue = "System.Void System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::set_Item(EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Block/SItemDropProb>::Add(Block/SItemDropProb)";
                 public const string itemsToDrop = "System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>> Block::itemsToDrop";
                 public const string List_1_ctor = "System.Void System.Collections.Generic.List`1<Block/SItemDropProb>::.ctor()";
                 public const string SItemDropProb_ctor_String_Int32_Int32_Single_Single_String_String = "System.Void Block/SItemDropProb::.ctor(System.String,System.Int32,System.Int32,System.Single,System.Single,System.String,System.String)";
@@ -4729,7 +5196,7 @@ namespace BetterWaysToDie.Mixins
             public const string HasItemsToDropForEvent = "System.Boolean Block::HasItemsToDropForEvent(EnumDropEvent)";
             public static class HasItemsToDropForEventInjects
             {
-                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::ContainsKey(EnumDropEvent)";
+                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::ContainsKey(EnumDropEvent)";
                 public const string itemsToDrop = "System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>> Block::itemsToDrop";
             }
 
@@ -4738,9 +5205,9 @@ namespace BetterWaysToDie.Mixins
             {
                 public const string WorldBase_GetGameRandom = "GameRandom WorldBase::GetGameRandom()";
                 public const string List_1_Clear = "System.Void System.Collections.Generic.List`1<ItemStack>::Clear()";
-                public const string Dictionary_2_TryGetValue_0_1_ = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::TryGetValue(EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>&)";
+                public const string Dictionary_2_TryGetValue_TKey_TValue_ = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::TryGetValue(EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>&)";
                 public const string BlockValue_ToItemValue = "ItemValue BlockValue::ToItemValue()";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<ItemStack>::Add(ItemStack)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<ItemStack>::Add(ItemStack)";
                 public const string List_1_get_Item_Int32 = "Block/SItemDropProb System.Collections.Generic.List`1<Block/SItemDropProb>::get_Item(System.Int32)";
                 public const string GameRandom_RandomRange_Int32_Int32 = "System.Int32 GameRandom::RandomRange(System.Int32,System.Int32)";
                 public const string GameRandom_get_RandomFloat = "System.Single GameRandom::get_RandomFloat()";
@@ -5174,8 +5641,8 @@ namespace BetterWaysToDie.Mixins
             public const string GetBlockByName = "Block Block::GetBlockByName(System.String,System.Boolean)";
             public static class GetBlockByNameInjects
             {
-                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,Block>::ContainsKey(System.String)";
-                public const string Dictionary_2_get_Item_0 = "Block System.Collections.Generic.Dictionary`2<System.String,Block>::get_Item(System.String)";
+                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,Block>::ContainsKey(System.String)";
+                public const string Dictionary_2_get_Item_TKey = "Block System.Collections.Generic.Dictionary`2<System.String,Block>::get_Item(System.String)";
                 public const string nameToBlock = "System.Collections.Generic.Dictionary`2<System.String,Block> Block::nameToBlock";
                 public const string nameToBlockCaseInsensitive = "System.Collections.Generic.Dictionary`2<System.String,Block> Block::nameToBlockCaseInsensitive";
             }
@@ -5299,10 +5766,10 @@ namespace BetterWaysToDie.Mixins
                 public const string Dictionary_2_GetEnumerator = "System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Int32> System.Collections.Generic.Dictionary`2<System.String,System.Int32>::GetEnumerator()";
                 public const string Enumerator_get_Current = "System.Collections.Generic.KeyValuePair`2<System.String,System.Int32> System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Int32>::get_Current()";
                 public const string KeyValuePair_2_get_Key = "System.String System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>::get_Key()";
-                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,Block>::ContainsKey(System.String)";
-                public const string Dictionary_2_get_Item_0 = "Block System.Collections.Generic.Dictionary`2<System.String,Block>::get_Item(System.String)";
-                public const string List_1_Contains_0 = "System.Boolean System.Collections.Generic.List`1<Block>::Contains(Block)";
-                public const string List_1_Remove_0 = "System.Boolean System.Collections.Generic.List`1<Block>::Remove(Block)";
+                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,Block>::ContainsKey(System.String)";
+                public const string Dictionary_2_get_Item_TKey = "Block System.Collections.Generic.Dictionary`2<System.String,Block>::get_Item(System.String)";
+                public const string List_1_Contains_T = "System.Boolean System.Collections.Generic.List`1<Block>::Contains(Block)";
+                public const string List_1_Remove_T = "System.Boolean System.Collections.Generic.List`1<Block>::Remove(Block)";
                 public const string KeyValuePair_2_get_Value = "System.Int32 System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>::get_Value()";
                 public const string Block_assignId_Block_Int32_Boolean_ = "System.Void Block::assignId(Block,System.Int32,System.Boolean[])";
                 public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Int32>::MoveNext()";
@@ -5324,7 +5791,7 @@ namespace BetterWaysToDie.Mixins
                 public const string NameIdMapping_GetIdForName_String = "System.Int32 NameIdMapping::GetIdForName(System.String)";
                 public const string KeyValuePair_2_get_Value = "Block System.Collections.Generic.KeyValuePair`2<System.String,Block>::get_Value()";
                 public const string Block_assignId_Block_Int32_Boolean_ = "System.Void Block::assignId(Block,System.Int32,System.Boolean[])";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Block>::Add(Block)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Block>::Add(Block)";
                 public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.String,Block>::MoveNext()";
                 public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
                 public const string Block_assignLeftOverBlocks_Boolean_List_1 = "System.Void Block::assignLeftOverBlocks(System.Boolean[],System.Collections.Generic.List`1<Block>)";
