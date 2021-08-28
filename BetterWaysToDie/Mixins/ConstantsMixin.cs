@@ -7,10 +7,10 @@ namespace BetterWaysToDie.Mixins {
     public class ConstantsMixin {
         [Shadow] private static string cVersion;
 
-        [Inject(".cctor", AtLocation.Tail)]
+        [Inject(".cctor", AtLocation.Tail)] // Static Constructor
         [Inline]
         private static void Crab() {
-            cVersion = "Blender Fortress 2.82";
+            cVersion += " (Better Ways To Die)";
         }
     }
 }
