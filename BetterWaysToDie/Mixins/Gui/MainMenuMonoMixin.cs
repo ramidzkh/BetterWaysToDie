@@ -1,9 +1,5 @@
-using BetterWaysToDie.Gui;
-using BetterWaysToDie.Mixins.Accessor;
-using BetterWaysToDie.Registry;
 using SharpILMixins.Annotations;
 using SharpILMixins.Annotations.Inject;
-using UnityEngine;
 
 namespace BetterWaysToDie.Mixins.Gui
 {
@@ -18,25 +14,11 @@ namespace BetterWaysToDie.Mixins.Gui
         [Unique]
         private void StartMenuEntrypoint()
         {
-            PostXmlBlockEvent.Event += registry =>
-            {
-                Debug.Log("Lets register some blocks, shall we?");
-                registry.RegisterBlock(
-                    "yourmother",
-                    null,
-                    typeof(BlockForge),
-                    "Mstone_scrap",
-                    new BlockShapeCube()
-                );
-            };
+            // TODO: Is this really the best place for mod initialization?
+            Mod.ModManager.Initialize();
 
             var label = nguiWindowManager.GetWindow(EnumNGUIWindow.Version).GetComponent<UILabel>();
             label.text += "\nThis Is a Test";
-
-            var windowManager = ((GameManager.Instance as object) as GameManagerAccessor).windowManager;
-            var testGuiWindow = new TestGuiWindow(GameManager.Instance);
-            windowManager.Add("testWindow", testGuiWindow);
-            // testGuiWindow.open();
         }
     }
 }
