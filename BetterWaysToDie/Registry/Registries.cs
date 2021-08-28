@@ -1,8 +1,7 @@
-namespace BetterWaysToDie.Registry {
-    
-    public class Registries {
-        public static readonly Registries instance = new Registries();
-
-        protected internal readonly BlockRegistry BlockRegistry = new BlockRegistry();
+namespace BetterWaysToDie.Registry
+{
+    public static class Registries
+    {
+        public static readonly BlockRegistry BlockRegistry = new BlockRegistry();
     }
 }
