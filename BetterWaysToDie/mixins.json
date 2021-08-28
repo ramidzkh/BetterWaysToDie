@@ -6,6 +6,8 @@
   "mixins": [
     "ChunkMixin",
     "ConstantsMixin",
-    "PrefabMixin"
+    "PrefabMixin",
+    "BetterWaysToDie.Mixins.Gui.MainMenuMonoMixin",
+    "BetterWaysToDie.Mixins.Gui.NGuiWindowManagerMixin"
   ]
 }
