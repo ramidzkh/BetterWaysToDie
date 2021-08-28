@@ -8,6 +8,7 @@
     "ConstantsMixin",
     "PrefabMixin",
     "BetterWaysToDie.Mixins.Accessor.GameManagerAccessor",
-    "BetterWaysToDie.Mixins.Gui.MainMenuMonoMixin"
+    "BetterWaysToDie.Mixins.Gui.MainMenuMonoMixin",
+    "BetterWaysToDie.Mixins.Block.BlockMixin"
   ]
 }

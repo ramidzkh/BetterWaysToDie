@@ -207,4 +207,8 @@
     <ItemGroup>
         <EmbeddedResource Include="mixins.json" />
     </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Mixins\Item" />
+    </ItemGroup>
 </Project>
