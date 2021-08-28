@@ -7,7 +7,7 @@
     "ChunkMixin",
     "ConstantsMixin",
     "PrefabMixin",
-    "GameManagerAccessor",
+    "BetterWaysToDie.Mixins.Accessor.GameManagerAccessor",
     "BetterWaysToDie.Mixins.Gui.MainMenuMonoMixin"
   ]
 }
