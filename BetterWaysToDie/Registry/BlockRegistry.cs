@@ -5,7 +5,7 @@ using UnityEngine;
 namespace BetterWaysToDie.Registry
 {
     public class BlockRegistry {
-        public Block registerBlock(
+        public Block RegisterBlock(
             string name,
             string extends,
             Type clazz,

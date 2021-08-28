@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using SharpILMixins.Annotations;
 using SharpILMixins.Annotations.Inject;
+using SharpILMixins.Annotations.Parameters;
 
 namespace BetterWaysToDie.Mixins.Gui
 {
@@ -9,12 +10,12 @@ namespace BetterWaysToDie.Mixins.Gui
     {
         [Inject(XUiC_InGameDebugMenuTargets.Methods.BtnSuicide_Controller_OnPress, AtLocation.Head)]
         [Unique]
-        private void OnSuicideButtonPress()
+        private void OnSuicideButtonPress([InjectCancelParam] out bool cancel)
         {
-            Process.Start(new ProcessStartInfo
+            cancel = Process.Start(new ProcessStartInfo
             {
                 FileName = "https://lifeline.org.au/"
-            });
+            })?.ExitCode == 0;
         }
     }
 }
