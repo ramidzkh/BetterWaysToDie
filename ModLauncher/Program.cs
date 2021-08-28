@@ -13,14 +13,12 @@ namespace ModLauncher {
         private const string OutputDir = "/run/media/haydenv/Data/SteamLibrary/steamapps/common/7 Days To Die/7DaysToDie_Data/Managed";
         private const string MixinAssemblyFile = "/home/haydenv/RiderProjects/BetterWaysToDie2/BetterWaysToDie/bin/Debug/net40/BetterWaysToDie.dll";
 
-        public static Logger Logger { get; } = LoggerUtils.LogFactory.GetLogger(nameof(Program));
+        private static Logger Logger { get; } = LoggerUtils.LogFactory.GetLogger(nameof(Program));
 
         private static void Main(string[] args) {
-            
-            
-            Console.WriteLine("Applying Mixins");
-
+            Logger.Info("Applying Mixins");
             File.Delete(Path.Combine(OutputDir, "Assembly-CSharp.dll"));
+
             var workspace = new MixinWorkspace(new FileInfo(MixinAssemblyFile),
                 new DirectoryInfo(WorkDir),
                 new MixinWorkspaceSettings(
@@ -30,17 +28,17 @@ namespace ModLauncher {
                 )
             );
             workspace.Apply();
-            
-            Console.WriteLine("Running Game");
+
+            Logger.Info("Running Game");
+
             var process = Process.Start(new ProcessStartInfo {
                 FileName = "steam",
                 Arguments = "steam://rungameid/251570",
                 UseShellExecute = true
             });
-            
-            while (!process.HasExited) {
-                Thread.Sleep(1);
-            }
+
+            process.WaitForExit();
+            Environment.Exit(process.ExitCode);
         }
     }
 }
