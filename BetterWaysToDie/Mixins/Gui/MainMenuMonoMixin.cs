@@ -1,3 +1,4 @@
+using BetterWaysToDie.Gui;
 using SharpILMixins.Annotations;
 using SharpILMixins.Annotations.Inject;
 using UnityEngine;
@@ -12,7 +13,15 @@ namespace BetterWaysToDie.Mixins.Gui {
         private void StartMenuEntrypoint() {
             Debug.Log(EnumNGUIWindow.Version);
             var label = nguiWindowManager.GetWindow(EnumNGUIWindow.Version).GetComponent<UILabel>();
+            Debug.Log(label.fontSize);
+            Debug.Log(label.transform.localScale);
+            Debug.Log(label.transform.position);
             label.text += "\nThis Is a Test";
+            
+            var windowManager = ((GameManager.Instance as object) as GameManagerAccessor).windowManager;
+            var testGuiWindow = new TestGuiWindow(GameManager.Instance);
+            windowManager.Add("testWindow", testGuiWindow);
+            testGuiWindow.open();
         }
     }
 }
