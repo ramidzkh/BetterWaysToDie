@@ -10,7 +10,11 @@ namespace BetterWaysToDie.BetterWaysToDie
     {
         public void Initialize()
         {
-            Registry<Block>.Event += registry => { };
+            Registry<Block>.Event += registry =>
+            {
+                registry["a"] = new Block();
+                registry["b"] = new Block();
+            };
 
             var windowManager = GameManager.Instance.As<GameManagerAccessor>().windowManager;
             var testGuiWindow = new TestGuiWindow(GameManager.Instance);

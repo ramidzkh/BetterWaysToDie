@@ -4,13 +4,15 @@ namespace BetterWaysToDie.Registry
 {
     public interface IRegistry<T>
     {
-        T Register(string name, T entry);
+        T this[string name]
+        {
+            get;
+            set;
+        }
 
         string Remove(T entry);
 
         T Remove(string name);
-
-        T Get(string name);
 
         string GetId(T entry);
 
