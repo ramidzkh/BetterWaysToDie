@@ -4,10 +4,10 @@ using SharpILMixins.Annotations.Inject;
 namespace BetterWaysToDie.Mixins
 {
     [Mixin(typeof(WorldStaticData))]
-    public class WorldStaticDataMixin
+    public static class WorldStaticDataMixin
     {
         [Inject(WorldStaticDataTargets.Methods.handleReceivedConfigs, AtLocation.Return)]
-        private void HandleReceivedConfigs()
+        private static void HandleReceivedConfigs()
         {
             // TODO: Capture IEnumerator. Maybe overwriting would be easier?
             // This would be the ideal place for all the registry events as you can load the XML entries first, call the events
