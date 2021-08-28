@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterWaysToDie", "BetterWa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModLauncher", "ModLauncher\ModLauncher.csproj", "{1C2CAC34-7011-42F2-A37E-576D4573A0E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools", "Tools\Tools.csproj", "{1219A219-943B-462B-8CF0-E39C0881CB37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{1C2CAC34-7011-42F2-A37E-576D4573A0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C2CAC34-7011-42F2-A37E-576D4573A0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C2CAC34-7011-42F2-A37E-576D4573A0E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1219A219-943B-462B-8CF0-E39C0881CB37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1219A219-943B-462B-8CF0-E39C0881CB37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1219A219-943B-462B-8CF0-E39C0881CB37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1219A219-943B-462B-8CF0-E39C0881CB37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
