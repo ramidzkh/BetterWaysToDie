@@ -201,7 +201,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="SharpILMixins.Annotations" Version="1.3.12" />
+        <PackageReference Include="SharpILMixins.Annotations" Version="1.3.13" />
     </ItemGroup>
 
     <ItemGroup>
