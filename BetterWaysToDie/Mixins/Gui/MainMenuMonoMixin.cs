@@ -1,11 +1,10 @@
+using System.Diagnostics;
 using SharpILMixins.Annotations;
 using SharpILMixins.Annotations.Inject;
 
-namespace BetterWaysToDie.Mixins.Gui
-{
+namespace BetterWaysToDie.Mixins.Gui {
     [Mixin(typeof(MainMenuMono))]
-    public class MainMenuMonoMixin
-    {
+    public class MainMenuMonoMixin {
         [Shadow] private NGUIWindowManager nguiWindowManager;
 
         [Inject(MainMenuMonoTargets.Methods.Start,
@@ -14,11 +13,12 @@ namespace BetterWaysToDie.Mixins.Gui
         [Unique]
         private void StartMenuEntrypoint()
         {
+            Debugger.Launch();
             // TODO: Is this really the best place for mod initialization?
             Mod.ModManager.Initialize();
 
             var label = nguiWindowManager.GetWindow(EnumNGUIWindow.Version).GetComponent<UILabel>();
-            label.text += "\nThis Is a Test";
+            label.text += "\nThis Is a Test"; // FIXME: this stopped working at some point?
         }
     }
 }
