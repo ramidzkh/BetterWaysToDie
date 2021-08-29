@@ -18,10 +18,10 @@ namespace BetterWaysToDie.BetterWaysToDie {
                     .Build();
             };
 
-            var windowManager = GameManager.Instance.As<GameManagerAccessor>().windowManager;
-            var testGuiWindow = new TestGuiWindow(GameManager.Instance);
-            windowManager.Add("testWindow", testGuiWindow);
-            testGuiWindow.Open();
+            // var windowManager = GameManager.Instance.As<GameManagerAccessor>().windowManager;
+            // var testGuiWindow = new TestGuiWindow(GameManager.Instance);
+            // windowManager.Add("testWindow", testGuiWindow);
+            // testGuiWindow.Open();
         }
     }
 }

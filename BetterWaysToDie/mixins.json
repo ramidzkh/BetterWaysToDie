@@ -11,8 +11,6 @@
     "Gui.MainMenuMonoMixin",
     "Gui.GUIWindowConsoleMixin",
     "Block.BlockMixin",
-    "Steam.SteamMixin",
-    "Steam.MainMenuMonoMixin",
     "ConstantsMixin",
     "WorldStaticDataMixin"
   ]

@@ -1,4 +1,5 @@
-﻿using BetterWaysToDie.Mixins.Accessor;
+﻿using System;
+using BetterWaysToDie.Mixins.Accessor;
 using SharpILMixins.Annotations;
 using UnityEngine;
 
@@ -14,9 +15,10 @@ namespace BetterWaysToDie.Mixins
         [Overwrite]
         public static void SendXmlsToClient(ClientInfo _cInfo)
         {
-            foreach (XmlLoadInfoAccessor xmlLoadInfo in WorldStaticDataAccessor.xmlsToLoad)
+            foreach (var xmlLoadInfo in WorldStaticDataAccessor.xmlsToLoad)
             {
                 Debug.Log("PostProcessing " + xmlLoadInfo.XmlName);
+                // Environment.Exit(1);
                 if (xmlLoadInfo.SendToClients && xmlLoadInfo.CompressedXmlData != null)
                     _cInfo.SendPackage(NetPackageManager.GetPackage<NetPackageConfigFile>()
                         .Setup(xmlLoadInfo.XmlName, xmlLoadInfo.CompressedXmlData));
