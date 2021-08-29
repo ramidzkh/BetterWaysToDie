@@ -1,4 +1,5 @@
-﻿using SharpILMixins.Annotations;
+﻿using System.Diagnostics;
+using SharpILMixins.Annotations;
 using SharpILMixins.Annotations.Inject;
 using SharpILMixins.Annotations.Inline;
 

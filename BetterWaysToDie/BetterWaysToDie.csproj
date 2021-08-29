@@ -6,8 +6,137 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <Reference Include="Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+          <HintPath>..\Libraries\Accessibility.dll</HintPath>
+        </Reference>
+        <Reference Include="AmplifyMotion, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Libraries\AmplifyMotion.dll</HintPath>
+        </Reference>
         <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
             <HintPath>..\Libraries\Assembly-CSharp.dll</HintPath>
+        </Reference>
+        <Reference Include="AstarPathfindingProject, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Libraries\AstarPathfindingProject.dll</HintPath>
+        </Reference>
+        <Reference Include="BouncyCastle_GameSparks, Version=1.8.1.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+          <HintPath>..\Libraries\BouncyCastle_GameSparks.dll</HintPath>
+        </Reference>
+        <Reference Include="CodeProfilerRuntime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Libraries\CodeProfilerRuntime.dll</HintPath>
+        </Reference>
+        <Reference Include="EasyAntiCheat.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Libraries\EasyAntiCheat.Client.dll</HintPath>
+        </Reference>
+        <Reference Include="EasyAntiCheat.Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Libraries\EasyAntiCheat.Server.dll</HintPath>
+        </Reference>
+        <Reference Include="enum2int, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Libraries\enum2int.dll</HintPath>
+        </Reference>
+        <Reference Include="GameSparks, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Libraries\GameSparks.dll</HintPath>
+        </Reference>
+        <Reference Include="GameSparks.Api, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Libraries\GameSparks.Api.dll</HintPath>
+        </Reference>
+        <Reference Include="GameSparksRT, Version=1.0.7174.19707, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Libraries\GameSparksRT.dll</HintPath>
+        </Reference>
+        <Reference Include="ICSharpCode.SharpZipLib, Version=2.84.0.0, Culture=neutral, PublicKeyToken=1b03e6acf1164f73">
+          <HintPath>..\Libraries\ICSharpCode.SharpZipLib.dll</HintPath>
+        </Reference>
+        <Reference Include="InControl, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Libraries\InControl.dll</HintPath>
+        </Reference>
+        <Reference Include="InControl.Examples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Libraries\InControl.Examples.dll</HintPath>
+        </Reference>
+        <Reference Include="libnoise, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Libraries\libnoise.dll</HintPath>
+        </Reference>
+        <Reference Include="LitJson, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Libraries\LitJson.dll</HintPath>
+        </Reference>
+        <Reference Include="LogLibrary, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Libraries\LogLibrary.dll</HintPath>
+        </Reference>
+        <Reference Include="Mono.Posix, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756">
+          <HintPath>..\Libraries\Mono.Posix.dll</HintPath>
+        </Reference>
+        <Reference Include="Mono.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756">
+          <HintPath>..\Libraries\Mono.Security.dll</HintPath>
+        </Reference>
+        <Reference Include="Mono.WebBrowser, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756">
+          <HintPath>..\Libraries\Mono.WebBrowser.dll</HintPath>
+        </Reference>
+        <Reference Include="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <HintPath>..\Libraries\mscorlib.dll</HintPath>
+        </Reference>
+        <Reference Include="NCalc, Version=1.3.8.0, Culture=neutral, PublicKeyToken=973cde3f1cafed03">
+          <HintPath>..\Libraries\NCalc.dll</HintPath>
+        </Reference>
+        <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Libraries\Newtonsoft.Json.dll</HintPath>
+        </Reference>
+        <Reference Include="Noemax.GZip, Version=17.269.5336.0, Culture=neutral, PublicKeyToken=4c0defa954f97f18">
+          <HintPath>..\Libraries\Noemax.GZip.dll</HintPath>
+        </Reference>
+        <Reference Include="NSpeex, Version=1.1.3.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Libraries\NSpeex.dll</HintPath>
+        </Reference>
+        <Reference Include="nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb">
+          <HintPath>..\Libraries\nunit.framework.dll</HintPath>
+        </Reference>
+        <Reference Include="Pathfinding.ClipperLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Libraries\Pathfinding.ClipperLib.dll</HintPath>
+        </Reference>
+        <Reference Include="Pathfinding.Ionic.Zip.Reduced, Version=1.9.1.9000, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Libraries\Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+        </Reference>
+        <Reference Include="Pathfinding.Poly2Tri, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Libraries\Pathfinding.Poly2Tri.dll</HintPath>
+        </Reference>
+        <Reference Include="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <HintPath>..\Libraries\System.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+          <HintPath>..\Libraries\System.Configuration.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <HintPath>..\Libraries\System.Core.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <HintPath>..\Libraries\System.Data.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+          <HintPath>..\Libraries\System.Drawing.dll</HintPath>
+        </Reference>
+        <Reference Include="System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+          <HintPath>..\Libraries\System.EnterpriseServices.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <HintPath>..\Libraries\System.Numerics.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <HintPath>..\Libraries\System.Runtime.Serialization.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+          <HintPath>..\Libraries\System.Security.dll</HintPath>
+        </Reference>
+        <Reference Include="System.ServiceModel.Internals, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <HintPath>..\Libraries\System.ServiceModel.Internals.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <HintPath>..\Libraries\System.Transactions.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <HintPath>..\Libraries\System.Windows.Forms.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <HintPath>..\Libraries\System.Xml.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <HintPath>..\Libraries\System.Xml.Linq.dll</HintPath>
         </Reference>
         <Reference Include="Unity.Postprocessing.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
           <HintPath>..\Libraries\Unity.Postprocessing.Runtime.dll</HintPath>
@@ -198,10 +327,13 @@
         <Reference Include="UnityEngine.XRModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
           <HintPath>..\Libraries\UnityEngine.XRModule.dll</HintPath>
         </Reference>
+        <Reference Include="VacuumShaders.EncodeToTGA, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\Libraries\VacuumShaders.EncodeToTGA.dll</HintPath>
+        </Reference>
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="SharpILMixins.Annotations" Version="1.3.13" />
+        <PackageReference Include="SharpILMixins.Annotations" Version="1.3.15" />
     </ItemGroup>
 
     <ItemGroup>

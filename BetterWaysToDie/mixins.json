@@ -6,13 +6,14 @@
   "mixins": [
     "Accessor.GameManagerAccessor",
     "Accessor.XmlLoadInfoAccessor",
-    "Gui.InGameDebugMenuMixin",
+    "Accessor.GUIWindowConsole_ConsoleLineAccessor",
+    "Accessor.WorldStaticDataAccessor",
     "Gui.MainMenuMonoMixin",
+    "Gui.GUIWindowConsoleMixin",
     "Block.BlockMixin",
-    "ChunkMixin",
+    "Steam.SteamMixin",
+    "Steam.MainMenuMonoMixin",
     "ConstantsMixin",
-    "PrefabMixin",
-    "WorldStaticDataMixin",
-    "HandleReceivedConfigsStateMachineMixin"
+    "WorldStaticDataMixin"
   ]
 }

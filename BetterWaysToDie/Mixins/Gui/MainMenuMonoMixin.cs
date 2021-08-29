@@ -13,12 +13,11 @@ namespace BetterWaysToDie.Mixins.Gui {
         [Unique]
         private void StartMenuEntrypoint()
         {
-            Debugger.Launch();
             // TODO: Is this really the best place for mod initialization?
             Mod.ModManager.Initialize();
 
             var label = nguiWindowManager.GetWindow(EnumNGUIWindow.Version).GetComponent<UILabel>();
-            label.text += "\nThis Is a Test"; // FIXME: this stopped working at some point?
+            label.text += "\nThis Is a Test";
         }
     }
 }

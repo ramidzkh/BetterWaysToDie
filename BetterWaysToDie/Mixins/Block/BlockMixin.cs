@@ -1,6 +1,8 @@
+using System;
 using BetterWaysToDie.Registry;
 using SharpILMixins.Annotations;
 using SharpILMixins.Annotations.Inject;
+using UnityEngine;
 
 namespace BetterWaysToDie.Mixins.Block
 {
@@ -14,8 +16,16 @@ namespace BetterWaysToDie.Mixins.Block
         [Unique]
         private static void PostXmlCreateBlocks()
         {
-            var registry = new DictionaryRegistry<global::Block>();
-            Registry<global::Block>.Invoke(registry);
+            try
+            {
+                // var registry = new DictionaryRegistry<global::Block>();
+                // Registry<global::Block>.Invoke(registry);
+            }
+            catch (Exception e)
+            {
+                Debug.LogError("Failed to call post xml hook");
+                Debug.LogError(e.ToString());
+            }
         }
     }
 }

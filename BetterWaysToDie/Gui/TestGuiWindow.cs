@@ -23,7 +23,7 @@ namespace BetterWaysToDie.Gui
         public override void OnGUI(bool _inputActive)
         {
             base.OnGUI(_inputActive);
-            Vector2i vector2i = new Vector2i(Screen.width, Screen.height);
+            var vector2i = new Vector2i(Screen.width, Screen.height);
             if (lastResolution != vector2i)
             {
                 lastResolution = vector2i;
@@ -32,7 +32,7 @@ namespace BetterWaysToDie.Gui
                 buttonStyle = new GUIStyle(GUI.skin.button);
                 if (vector2i.y > 1200)
                 {
-                    int num = vector2i.y / 90;
+                    var num = vector2i.y / 90;
                     labelStyle.fontSize = num;
                     textfieldStyle.fontSize = num;
                     buttonStyle.fontSize = num;
@@ -44,12 +44,8 @@ namespace BetterWaysToDie.Gui
                     buttonStyle.fontSize = 0;
                 }
             }
-
-            int num1 = 0;
-            int num2 = 0;
-            int width = Screen.width;
-            int num3 = Screen.height / 3;
-            GUI.Box(new Rect(num1, num2, width, num3), "This is some Text we now print");
+            
+            GUI.Box(new Rect(0, 0, Screen.width / 3, Screen.height), "");
         }
     }
 }

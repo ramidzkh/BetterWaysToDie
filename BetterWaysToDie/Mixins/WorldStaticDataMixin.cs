@@ -1,34 +1,26 @@
 ﻿using BetterWaysToDie.Mixins.Accessor;
 using SharpILMixins.Annotations;
-using SharpILMixins.Annotations.Inject;
+using UnityEngine;
 
 namespace BetterWaysToDie.Mixins
 {
     [Mixin(typeof(WorldStaticData))]
     public static class WorldStaticDataMixin
     {
-        [Inject(WorldStaticDataTargets.Methods.handleReceivedConfigs, AtLocation.Return)]
-        private static void HandleReceivedConfigs()
+        /// <summary>
+        /// The best way to handle this is sadly an overwrite
+        /// </summary>
+        /// <param name="_cInfo"> the information of the client we are sending data to</param>
+        [Overwrite]
+        public static void SendXmlsToClient(ClientInfo _cInfo)
         {
-            // TODO: Capture IEnumerator. Maybe overwriting would be easier?
-            // This would be the ideal place for all the registry events as you can load the XML entries first, call the events
-            // which can modify them, and then we get the values from there and stick it back here
+            foreach (XmlLoadInfoAccessor xmlLoadInfo in WorldStaticDataAccessor.xmlsToLoad)
+            {
+                Debug.Log("PostProcessing " + xmlLoadInfo.XmlName);
+                if (xmlLoadInfo.SendToClients && xmlLoadInfo.CompressedXmlData != null)
+                    _cInfo.SendPackage(NetPackageManager.GetPackage<NetPackageConfigFile>()
+                        .Setup(xmlLoadInfo.XmlName, xmlLoadInfo.CompressedXmlData));
+            }
         }
-    }
-
-    [Mixin("WorldStaticData/<handleReceivedConfigs>d__60")]
-    public class HandleReceivedConfigsStateMachineMixin : IHandleReceivedConfigsStateMachineDuck
-    {
-        [Shadow("<loadInfo>5__3")] private XmlLoadInfoAccessor _loadInfo;
-
-        public XmlLoadInfoAccessor GetLoadInfo()
-        {
-            return _loadInfo;
-        }
-    }
-
-    internal interface IHandleReceivedConfigsStateMachineDuck
-    {
-        XmlLoadInfoAccessor GetLoadInfo();
     }
 }
