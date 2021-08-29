@@ -4,13 +4,15 @@
     "Assembly-CSharp.dll"
   ],
   "mixins": [
+    "Accessor.GameManagerAccessor",
+    "Accessor.XmlLoadInfoAccessor",
+    "Gui.InGameDebugMenuMixin",
+    "Gui.MainMenuMonoMixin",
+    "Block.BlockMixin",
     "ChunkMixin",
     "ConstantsMixin",
     "PrefabMixin",
     "WorldStaticDataMixin",
-    "BetterWaysToDie.Mixins.Accessor.GameManagerAccessor",
-    "BetterWaysToDie.Mixins.Gui.InGameDebugMenuMixin",
-    "BetterWaysToDie.Mixins.Gui.MainMenuMonoMixin",
-    "BetterWaysToDie.Mixins.Block.BlockMixin"
+    "HandleReceivedConfigsStateMachineMixin"
   ]
 }
