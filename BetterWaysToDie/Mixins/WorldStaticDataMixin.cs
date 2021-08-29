@@ -1,4 +1,5 @@
-﻿using SharpILMixins.Annotations;
+﻿using BetterWaysToDie.Mixins.Accessor;
+using SharpILMixins.Annotations;
 using SharpILMixins.Annotations.Inject;
 
 namespace BetterWaysToDie.Mixins
@@ -13,5 +14,21 @@ namespace BetterWaysToDie.Mixins
             // This would be the ideal place for all the registry events as you can load the XML entries first, call the events
             // which can modify them, and then we get the values from there and stick it back here
         }
+    }
+
+    [Mixin("WorldStaticData/<handleReceivedConfigs>d__60")]
+    public class HandleReceivedConfigsStateMachineMixin : IHandleReceivedConfigsStateMachineDuck
+    {
+        [Shadow("<loadInfo>5__3")] private XmlLoadInfoAccessor _loadInfo;
+
+        public XmlLoadInfoAccessor GetLoadInfo()
+        {
+            return _loadInfo;
+        }
+    }
+
+    internal interface IHandleReceivedConfigsStateMachineDuck
+    {
+        XmlLoadInfoAccessor GetLoadInfo();
     }
 }

@@ -12,7 +12,7 @@ namespace BetterWaysToDie.Mod
         private static IEnumerable<IMod> InitializeMods()
         {
             return from type in Assembly.GetExecutingAssembly().GetTypes()
-                where type.GetInterfaces().Contains(typeof(IMod))
+                where typeof(IMod).IsAssignableFrom(type)
                 select (IMod) Activator.CreateInstance(type);
         }
 
