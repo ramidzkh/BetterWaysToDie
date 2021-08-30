@@ -1,13 +1,20 @@
 ﻿using System;
+using System.Xml;
 using BetterWaysToDie.Mixins.Accessor;
 using SharpILMixins.Annotations;
 using UnityEngine;
 
 namespace BetterWaysToDie.Mixins
 {
+    
     [Mixin(typeof(WorldStaticData))]
     public static class WorldStaticDataMixin
     {
+        public static XmlDocument appendBlockXml()
+        {
+            return null;
+        }
+        
         /// <summary>
         /// The best way to handle this is sadly an overwrite
         /// </summary>

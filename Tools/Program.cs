@@ -52,7 +52,7 @@ namespace Tools
                     workspace.Apply();
 
                     Logger.Info("Running Game");
-
+                    
                     var process = Process.Start(RuntimeInformation.IsOSPlatform(OSPlatform.Linux) ? new ProcessStartInfo
                     {
                         FileName = "steam",

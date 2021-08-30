@@ -1,11 +1,7 @@
 ﻿using System.Diagnostics;
 using BetterWaysToDie.Builder;
-using BetterWaysToDie.Gui;
-using BetterWaysToDie.Mixins;
-using BetterWaysToDie.Mixins.Accessor;
 using BetterWaysToDie.Mod;
 using BetterWaysToDie.Registry;
-using UnityEngine;
 
 namespace BetterWaysToDie.BetterWaysToDie {
     public class BetterWaysToDie : IMod {
