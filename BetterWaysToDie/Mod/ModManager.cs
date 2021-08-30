@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 using UnityEngine;
@@ -12,7 +13,25 @@ namespace BetterWaysToDie.Mod
 
         private static IEnumerable<IMod> InitializeMods()
         {
-            return from type in Assembly.GetExecutingAssembly().GetTypes()
+            var assemblies = new List<Assembly>
+            {
+                Assembly.GetExecutingAssembly()
+            };
+
+            var mods = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
+                "Better Ways To Die",
+                "Mods");
+
+            if (Directory.Exists(mods))
+            {
+                assemblies.AddRange(Directory.EnumerateFiles(mods, "*.dll").Select(Assembly.Load));
+            }
+            else
+            {
+                Directory.CreateDirectory(mods);
+            }
+
+            return from type in assemblies.SelectMany(assembly => assembly.GetTypes())
                 where typeof(IMod).IsAssignableFrom(type) && type.IsClass
                 select (IMod) Activator.CreateInstance(type);
         }

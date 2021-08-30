@@ -1,5 +1,4 @@
-﻿using System.Diagnostics;
-using BetterWaysToDie.Builder;
+﻿using BetterWaysToDie.Builder;
 using BetterWaysToDie.Mod;
 using BetterWaysToDie.Registry;
 

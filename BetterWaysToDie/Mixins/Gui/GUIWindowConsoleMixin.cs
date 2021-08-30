@@ -14,17 +14,18 @@ namespace BetterWaysToDie.Mixins.Gui
     {
         [Shadow] private GUIStyle labelStyle;
 
+        [Unique]
         private void DrawLabel(string name)
         {
             GUILayout.Label(name, labelStyle);
             GUILayout.Space(-10f);
         }
 
-        [Unique]
         [Inject(GUIWindowConsoleTargets.Methods.OnGUI,
             AtLocation.Invoke,
             Target = GUIWindowConsoleTargets.Methods.OnGUIInjects.GUILayout_Label_String_GUIStyle_GUILayoutOption_,
             Shift = Shift.After)]
+        [Unique]
         private void PrintStackTraceLines(bool _inputActive,
             [InjectLocal(10)] GUIWindowConsole_ConsoleLineAccessor consoleLine)
         {
@@ -33,10 +34,10 @@ namespace BetterWaysToDie.Mixins.Gui
                 DrawLabel(consoleLine.stackTrace);
         }
 
-        [Unique]
         [Redirect(Method = GUIWindowConsoleTargets.Methods.OnGUI,
             At = AtLocation.Invoke,
             Target = GUIWindowConsoleTargets.Methods.OnGUIInjects.GUI_Box_Rect_String)]
+        [Unique]
         private static void ChangeBackgroundColour(Rect rect, string text)
         {
             GUI.Box(rect, "");

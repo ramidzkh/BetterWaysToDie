@@ -4,14 +4,10 @@
     "Assembly-CSharp.dll"
   ],
   "mixins": [
-    "Accessor.GameManagerAccessor",
-    "Accessor.XmlLoadInfoAccessor",
     "Accessor.GUIWindowConsole_ConsoleLineAccessor",
-    "Accessor.WorldStaticDataAccessor",
-    "Gui.MainMenuMonoMixin",
     "Gui.GUIWindowConsoleMixin",
-    "Block.BlockMixin",
-    "ConstantsMixin",
-    "WorldStaticDataMixin"
+    "Gui.MainMenuMonoMixin",
+    "BlockMixin",
+    "ConstantsMixin"
   ]
 }
