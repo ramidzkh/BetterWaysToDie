@@ -1,5 +1,4 @@
 using System;
-using BetterWaysToDie.Registry;
 using SharpILMixins.Annotations;
 using SharpILMixins.Annotations.Inject;
 using UnityEngine;

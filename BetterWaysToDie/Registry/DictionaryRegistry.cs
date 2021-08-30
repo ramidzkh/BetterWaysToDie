@@ -24,7 +24,8 @@ namespace BetterWaysToDie.Registry
             {
                 if (_dictionary_a2b.ContainsKey(name))
                 {
-                    throw new DuplicateNameException($"Tried to register with name {name} but it is already being used");
+                    throw new DuplicateNameException(
+                        $"Tried to register with name {name} but it is already being used");
                 }
 
                 _dictionary_a2b[name] = value;

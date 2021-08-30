@@ -4,11 +4,7 @@ namespace BetterWaysToDie.Registry
 {
     public interface IRegistry<T>
     {
-        T this[string name]
-        {
-            get;
-            set;
-        }
+        T this[string name] { get; set; }
 
         string Remove(T entry);
 

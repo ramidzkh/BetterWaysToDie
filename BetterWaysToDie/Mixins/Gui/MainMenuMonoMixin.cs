@@ -1,10 +1,11 @@
-using System.Diagnostics;
 using SharpILMixins.Annotations;
 using SharpILMixins.Annotations.Inject;
 
-namespace BetterWaysToDie.Mixins.Gui {
+namespace BetterWaysToDie.Mixins.Gui
+{
     [Mixin(typeof(MainMenuMono))]
-    public class MainMenuMonoMixin {
+    public class MainMenuMonoMixin
+    {
         [Shadow] private NGUIWindowManager nguiWindowManager;
 
         [Inject(MainMenuMonoTargets.Methods.Start,

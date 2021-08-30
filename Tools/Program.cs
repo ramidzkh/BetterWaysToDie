@@ -37,7 +37,8 @@ namespace Tools
         private static void Main(string[] args)
         {
             Parser.Default.ParseArguments<LaunchOptions, GenerateOptions>(args)
-                .WithParsed<LaunchOptions>(options => {
+                .WithParsed<LaunchOptions>(options =>
+                {
                     Logger.Info("Applying Mixins");
                     File.Delete(Path.Combine(options.GameLocation, "7DaysToDie_Data/Managed/Assembly-CSharp.dll"));
 
@@ -52,26 +53,25 @@ namespace Tools
                     workspace.Apply();
 
                     Logger.Info("Running Game");
-                    
-                    var process = Process.Start(RuntimeInformation.IsOSPlatform(OSPlatform.Linux) ? new ProcessStartInfo
-                    {
-                        FileName = "steam",
-                        Arguments = "steam://rungameid/251570",
-                        UseShellExecute = true
-                    } : new ProcessStartInfo
-                    {
-                        FileName = "steam://rungameid/251570",
-                        UseShellExecute = true
-                    });
+
+                    var process = Process.Start(RuntimeInformation.IsOSPlatform(OSPlatform.Linux)
+                        ? new ProcessStartInfo
+                        {
+                            FileName = "steam", Arguments = "steam://rungameid/251570", UseShellExecute = true
+                        }
+                        : new ProcessStartInfo { FileName = "steam://rungameid/251570", UseShellExecute = true });
                     process.WaitForExit();
                     Environment.Exit(process.ExitCode);
                 })
-                .WithParsed<GenerateOptions>(options => {
+                .WithParsed<GenerateOptions>(options =>
+                {
                     Logger.Info("Generating targets");
                     var workspace = new MixinWorkspace(
                         new FileInfo(Path.Combine(options.BuildLocation, "BetterWaysToDie.dll")),
                         new DirectoryInfo(options.BuildLocation),
-                        new MixinWorkspaceSettings(options.OutputLocation, DumpTargetType.None, isGenerateOnly: GenerationType.HelperCode)
+                        new MixinWorkspaceSettings(options.OutputLocation,
+                            DumpTargetType.None,
+                            isGenerateOnly: GenerationType.HelperCode)
                     );
                     workspace.Apply();
                 });

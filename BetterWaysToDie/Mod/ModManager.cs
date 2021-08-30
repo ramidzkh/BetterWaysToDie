@@ -20,7 +20,7 @@ namespace BetterWaysToDie.Mod
         internal static void Initialize()
         {
             Debug.LogWarning("======================================");
-            Debug.LogWarning("Better Ways To Die Mod Loader (1 mod)");
+            Debug.LogWarning($"Better Ways To Die Mod Loader ({Mods.Count()} mods)");
             Debug.LogWarning("======================================");
 
             foreach (var mod in Mods)

@@ -1,10 +1,10 @@
-using UnityEngine;
-
-namespace BetterWaysToDie.Builder {
+namespace BetterWaysToDie.Builder
+{
     /// <summary>
     /// Makes adding blocks to the game as simple as we can make it
     /// </summary>
-    public class BlockBuilder {
+    public class BlockBuilder
+    {
         private readonly string name;
 
         public BlockBuilder(string name)

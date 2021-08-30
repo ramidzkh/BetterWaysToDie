@@ -44,7 +44,7 @@ namespace BetterWaysToDie.Gui
                     buttonStyle.fontSize = 0;
                 }
             }
-            
+
             GUI.Box(new Rect(0, 0, Screen.width / 3, Screen.height), "");
         }
     }

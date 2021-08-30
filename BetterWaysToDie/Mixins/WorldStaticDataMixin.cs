@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace BetterWaysToDie.Mixins
 {
-    
+
     [Mixin(typeof(WorldStaticData))]
     public static class WorldStaticDataMixin
     {
@@ -14,7 +14,7 @@ namespace BetterWaysToDie.Mixins
         {
             return null;
         }
-        
+
         /// <summary>
         /// The best way to handle this is sadly an overwrite
         /// </summary>

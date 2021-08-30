@@ -3,9 +3,10 @@ using BetterWaysToDie.Builder;
 using BetterWaysToDie.Mod;
 using BetterWaysToDie.Registry;
 
-namespace BetterWaysToDie.BetterWaysToDie {
-    public class BetterWaysToDie : IMod {
-
+namespace BetterWaysToDie.BetterWaysToDie
+{
+    public class BetterWaysToDie : IMod
+    {
         public void Initialize()
         {
             Registry<Block>.Event += registry =>
