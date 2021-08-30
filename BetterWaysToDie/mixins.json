@@ -12,6 +12,6 @@
     "Gui.GUIWindowConsoleMixin",
     "Block.BlockMixin",
     "ConstantsMixin",
-    "WorldStaticDataMixin"
+    "GameManagerMixin"
   ]
 }

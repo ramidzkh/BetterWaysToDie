@@ -14,10 +14,12 @@ namespace BetterWaysToDie.Builder
 
         public Block Build()
         {
-            // var block = new Block();
-            // block.SetBlockName(name);
-            // block.Init();
-            return null;
+            var block = new Block();
+            block.SetBlockName(name);
+            block.SetLocalizedBlockName("LocalBased");
+            block.CreativeMode = EnumCreativeMode.All;
+            block.Init();
+            return block;
         }
     }
 }

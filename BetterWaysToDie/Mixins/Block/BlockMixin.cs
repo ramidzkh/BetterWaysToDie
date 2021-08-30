@@ -1,4 +1,5 @@
 using System;
+using BetterWaysToDie.Registry;
 using SharpILMixins.Annotations;
 using SharpILMixins.Annotations.Inject;
 using UnityEngine;
@@ -17,8 +18,7 @@ namespace BetterWaysToDie.Mixins.Block
         {
             try
             {
-                // var registry = new DictionaryRegistry<global::Block>();
-                // Registry<global::Block>.Invoke(registry);
+                Registry<global::Block>.Invoke(Registries.Block);
             }
             catch (Exception e)
             {
