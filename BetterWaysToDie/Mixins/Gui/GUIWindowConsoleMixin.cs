@@ -6,9 +6,6 @@ using UnityEngine;
 
 namespace BetterWaysToDie.Mixins.Gui
 {
-    /// <summary>
-    /// With this one mixin, we make ourselves 1000x more time efficient and make out lives easier to live.
-    /// </summary>
     [Mixin(typeof(GUIWindowConsole))]
     public class GUIWindowConsoleMixin
     {

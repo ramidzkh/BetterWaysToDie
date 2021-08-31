@@ -5,9 +5,6 @@ using SharpILMixins.Annotations.Inject;
 
 namespace BetterWaysToDie.Mixins
 {
-    /// <summary>
-    /// Allows us to hook in and create/modify blocks without using any XML
-    /// </summary>
     [Mixin(typeof(Block))]
     public class BlockMixin
     {

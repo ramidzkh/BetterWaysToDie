@@ -10,8 +10,9 @@ namespace BetterWaysToDie.BetterWaysToDie
         {
             Registry<Block>.Event += registry =>
             {
-                registry["crab"] = new BlockBuilder("crab")
-                    .Build();
+                new BlockBuilder<Block>("test")
+                    .Inherit(registry["wood"])
+                    .Register(registry);
             };
 
             // var windowManager = GameManager.Instance.As<GameManagerAccessor>().windowManager;
