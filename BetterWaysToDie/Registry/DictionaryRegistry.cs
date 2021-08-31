@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using UnityEngine;
 
 namespace BetterWaysToDie.Registry
 {
@@ -19,7 +18,6 @@ namespace BetterWaysToDie.Registry
                     return _dictionary_a2b[name];
                 }
 
-                Debug.LogWarning($"Tried to get entry with name {name} but it is not registered");
                 throw new InvalidOperationException($"Tried to get entry with name {name} but it is not registered");
             }
             set
