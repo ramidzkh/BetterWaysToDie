@@ -43,7 +43,7 @@ namespace BetterWaysToDie.Mixins
             public static class internalAddLineInjects
             {
                 public const string Monitor_Enter_Object_Boolean_ = "System.Void System.Threading.Monitor::Enter(System.Object,System.Boolean&)";
-                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<GUIWindowConsole/ConsoleLine>::Add(GUIWindowConsole/ConsoleLine)";
+                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<GUIWindowConsole/ConsoleLine>::Add(GUIWindowConsole/ConsoleLine)";
                 public const string Monitor_Exit_Object = "System.Void System.Threading.Monitor::Exit(System.Object)";
                 public const string linesToAdd = "System.Collections.Generic.List`1<GUIWindowConsole/ConsoleLine> GUIWindowConsole::linesToAdd";
             }
@@ -177,9 +177,9 @@ namespace BetterWaysToDie.Mixins
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<System.String>::get_Count()";
                 public const string List_1_get_Item_Int32 = "System.String System.Collections.Generic.List`1<System.String>::get_Item(System.Int32)";
                 public const string String_Equals_String = "System.Boolean System.String::Equals(System.String)";
-                public const string List_1_Contains_T = "System.Boolean System.Collections.Generic.List`1<System.String>::Contains(System.String)";
-                public const string List_1_Remove_T = "System.Boolean System.Collections.Generic.List`1<System.String>::Remove(System.String)";
-                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<System.String>::Add(System.String)";
+                public const string List_1_Contains_0 = "System.Boolean System.Collections.Generic.List`1<System.String>::Contains(System.String)";
+                public const string List_1_Remove_0 = "System.Boolean System.Collections.Generic.List`1<System.String>::Remove(System.String)";
+                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<System.String>::Add(System.String)";
                 public const string curCommand = "System.String GUIWindowConsole::curCommand";
                 public const string scrollPosition = "UnityEngine.Vector2 GUIWindowConsole::scrollPosition";
                 public const string y = "System.Single UnityEngine.Vector2::y";
@@ -483,7 +483,7 @@ namespace BetterWaysToDie.Mixins
             public const string AddRandomTintColor_Vector3_String = "System.Void Block::AddRandomTintColor(UnityEngine.Vector3,System.String)";
             public static class AddRandomTintColor_Vector3_StringInjects
             {
-                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Block/TintColorOnMaterial>::Add(Block/TintColorOnMaterial)";
+                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Block/TintColorOnMaterial>::Add(Block/TintColorOnMaterial)";
                 public const string randomTintColors = "System.Collections.Generic.List`1<Block/TintColorOnMaterial> Block::randomTintColors";
                 public const string color = "UnityEngine.Vector3 Block/TintColorOnMaterial::color";
                 public const string materialName = "System.String Block/TintColorOnMaterial::materialName";
@@ -493,10 +493,10 @@ namespace BetterWaysToDie.Mixins
             public const string Init = "System.Void Block::Init()";
             public static class InitInjects
             {
-                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,Block>::ContainsKey(System.String)";
+                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,Block>::ContainsKey(System.String)";
                 public const string String_Concat_String_String_String = "System.String System.String::Concat(System.String,System.String,System.String)";
                 public const string Log_Error_String = "System.Void Log::Error(System.String)";
-                public const string Dictionary_2_set_Item_TKey_TValue = "System.Void System.Collections.Generic.Dictionary`2<System.String,Block>::set_Item(System.String,Block)";
+                public const string Dictionary_2_set_Item_0_1 = "System.Void System.Collections.Generic.Dictionary`2<System.String,Block>::set_Item(System.String,Block)";
                 public const string ValueWrapper_ContainsKey_String = "System.Boolean DynamicProperties/ValueWrapper::ContainsKey(System.String)";
                 public const string ValueWrapper_get_Item_String = "System.String DynamicProperties/ValueWrapper::get_Item(System.String)";
                 public const string FastTags_Parse_String = "FastTags FastTags::Parse(System.String)";
@@ -522,15 +522,15 @@ namespace BetterWaysToDie.Mixins
                 public const string String_get_Length = "System.Int32 System.String::get_Length()";
                 public const string String_Concat_Object_ = "System.String System.String::Concat(System.Object[])";
                 public const string String_get_Chars_Int32 = "System.Char System.String::get_Chars(System.Int32)";
-                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Vector3i>::Add(Vector3i)";
+                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Vector3i>::Add(Vector3i)";
                 public const string Mathf_RoundToInt_Single = "System.Int32 UnityEngine.Mathf::RoundToInt(System.Single)";
                 public const string UInt32_Parse_String = "System.UInt32 System.UInt32::Parse(System.String)";
                 public const string String_Split_Char_StringSplitOptions = "System.String[] System.String::Split(System.Char[],System.StringSplitOptions)";
                 public const string DynamicProperties_ParseBool_String_Boolean_ = "System.Void DynamicProperties::ParseBool(System.String,System.Boolean&)";
                 public const string StringParsers_TryParseFloat_String_Single_Int32_Int32_NumberStyles = "System.Boolean StringParsers::TryParseFloat(System.String,System.Single&,System.Int32,System.Int32,System.Globalization.NumberStyles)";
                 public const string DynamicProperties_ParseString_String_String_ = "System.Void DynamicProperties::ParseString(System.String,System.String&)";
-                public const string HashSet_1_Add_T = "System.Boolean System.Collections.Generic.HashSet`1<BlockFace>::Add(BlockFace)";
-                public const string HashSet_1_Contains_T = "System.Boolean System.Collections.Generic.HashSet`1<BlockFace>::Contains(BlockFace)";
+                public const string HashSet_1_Add_0 = "System.Boolean System.Collections.Generic.HashSet`1<BlockFace>::Add(BlockFace)";
+                public const string HashSet_1_Contains_0 = "System.Boolean System.Collections.Generic.HashSet`1<BlockFace>::Contains(BlockFace)";
                 public const string String_Contains_String = "System.Boolean System.String::Contains(System.String)";
                 public const string String_StartsWith_String = "System.Boolean System.String::StartsWith(System.String)";
                 public const string String_Format_String_Object_Object = "System.String System.String::Format(System.String,System.Object,System.Object)";
@@ -792,13 +792,13 @@ namespace BetterWaysToDie.Mixins
                 public const string Enumerator_get_Current = "System.Collections.Generic.KeyValuePair`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>> System.Collections.Generic.Dictionary`2/Enumerator<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::get_Current()";
                 public const string KeyValuePair_2_get_Key = "EnumDropEvent System.Collections.Generic.KeyValuePair`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::get_Key()";
                 public const string KeyValuePair_2_get_Value = "System.Collections.Generic.List`1<Block/SItemDropProb> System.Collections.Generic.KeyValuePair`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::get_Value()";
-                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::ContainsKey(EnumDropEvent)";
-                public const string Dictionary_2_get_Item_TKey = "System.Collections.Generic.List`1<Block/SItemDropProb> System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::get_Item(EnumDropEvent)";
-                public const string Dictionary_2_set_Item_TKey_TValue = "System.Void System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::set_Item(EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>)";
+                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::ContainsKey(EnumDropEvent)";
+                public const string Dictionary_2_get_Item_0 = "System.Collections.Generic.List`1<Block/SItemDropProb> System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::get_Item(EnumDropEvent)";
+                public const string Dictionary_2_set_Item_0_1 = "System.Void System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::set_Item(EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>)";
                 public const string List_1_get_Item_Int32 = "Block/SItemDropProb System.Collections.Generic.List`1<Block/SItemDropProb>::get_Item(System.Int32)";
                 public const string String_op_Equality_String_String = "System.Boolean System.String::op_Equality(System.String,System.String)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<Block/SItemDropProb>::get_Count()";
-                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Block/SItemDropProb>::Add(Block/SItemDropProb)";
+                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Block/SItemDropProb>::Add(Block/SItemDropProb)";
                 public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::MoveNext()";
                 public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
                 public const string itemsToDrop = "System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>> Block::itemsToDrop";
@@ -1028,7 +1028,7 @@ namespace BetterWaysToDie.Mixins
                 public const string Block_GetCollisionAABB_BlockValue_Int32_Int32_Int32_Single_List_1 = "System.Void Block::GetCollisionAABB(BlockValue,System.Int32,System.Int32,System.Int32,System.Single,System.Collections.Generic.List`1<UnityEngine.Bounds>)";
                 public const string List_1_get_Item_Int32 = "UnityEngine.Bounds System.Collections.Generic.List`1<UnityEngine.Bounds>::get_Item(System.Int32)";
                 public const string Bounds_Intersects_Bounds = "System.Boolean UnityEngine.Bounds::Intersects(UnityEngine.Bounds)";
-                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<UnityEngine.Bounds>::Add(UnityEngine.Bounds)";
+                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<UnityEngine.Bounds>::Add(UnityEngine.Bounds)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<UnityEngine.Bounds>::get_Count()";
                 public const string staticList_IntersectRayWithBlockList = "System.Collections.Generic.List`1<UnityEngine.Bounds> Block::staticList_IntersectRayWithBlockList";
             }
@@ -1043,7 +1043,7 @@ namespace BetterWaysToDie.Mixins
                 public const string Bounds_set_center_Vector3 = "System.Void UnityEngine.Bounds::set_center(UnityEngine.Vector3)";
                 public const string Bounds_get_max = "UnityEngine.Vector3 UnityEngine.Bounds::get_max()";
                 public const string Bounds_set_max_Vector3 = "System.Void UnityEngine.Bounds::set_max(UnityEngine.Vector3)";
-                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<UnityEngine.Bounds>::Add(UnityEngine.Bounds)";
+                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<UnityEngine.Bounds>::Add(UnityEngine.Bounds)";
                 public const string shape = "BlockShape Block::shape";
             }
 
@@ -1193,7 +1193,7 @@ namespace BetterWaysToDie.Mixins
                 public const string ReadOnlyCollection_1_get_Count = "System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<LocalPlayerUI>::get_Count()";
                 public const string WorldBase_GetChunkFromWorldPos_Vector3i = "IChunk WorldBase::GetChunkFromWorldPos(Vector3i)";
                 public const string World_toBlock_Vector3i = "Vector3i World::toBlock(Vector3i)";
-                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<BlockChangeInfo>::Add(BlockChangeInfo)";
+                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<BlockChangeInfo>::Add(BlockChangeInfo)";
                 public const string WorldBase_SetBlocksRPC_List_1 = "System.Void WorldBase::SetBlocksRPC(System.Collections.Generic.List`1<BlockChangeInfo>)";
                 public const string WorldBase_GetDensity_Int32_Vector3i = "System.SByte WorldBase::GetDensity(System.Int32,Vector3i)";
                 public const string Utils_FastMin_Single_Single = "System.Single Utils::FastMin(System.Single,System.Single)";
@@ -1229,10 +1229,10 @@ namespace BetterWaysToDie.Mixins
             public const string AddDroppedId = "System.Void Block::AddDroppedId(EnumDropEvent,System.String,System.Int32,System.Int32,System.Single,System.Single,System.String,System.String)";
             public static class AddDroppedIdInjects
             {
-                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::ContainsKey(EnumDropEvent)";
-                public const string Dictionary_2_get_Item_TKey = "System.Collections.Generic.List`1<Block/SItemDropProb> System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::get_Item(EnumDropEvent)";
-                public const string Dictionary_2_set_Item_TKey_TValue = "System.Void System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::set_Item(EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>)";
-                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Block/SItemDropProb>::Add(Block/SItemDropProb)";
+                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::ContainsKey(EnumDropEvent)";
+                public const string Dictionary_2_get_Item_0 = "System.Collections.Generic.List`1<Block/SItemDropProb> System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::get_Item(EnumDropEvent)";
+                public const string Dictionary_2_set_Item_0_1 = "System.Void System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::set_Item(EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>)";
+                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Block/SItemDropProb>::Add(Block/SItemDropProb)";
                 public const string itemsToDrop = "System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>> Block::itemsToDrop";
                 public const string List_1_ctor = "System.Void System.Collections.Generic.List`1<Block/SItemDropProb>::.ctor()";
                 public const string SItemDropProb_ctor_String_Int32_Int32_Single_Single_String_String = "System.Void Block/SItemDropProb::.ctor(System.String,System.Int32,System.Int32,System.Single,System.Single,System.String,System.String)";
@@ -1241,7 +1241,7 @@ namespace BetterWaysToDie.Mixins
             public const string HasItemsToDropForEvent = "System.Boolean Block::HasItemsToDropForEvent(EnumDropEvent)";
             public static class HasItemsToDropForEventInjects
             {
-                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::ContainsKey(EnumDropEvent)";
+                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::ContainsKey(EnumDropEvent)";
                 public const string itemsToDrop = "System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>> Block::itemsToDrop";
             }
 
@@ -1250,9 +1250,9 @@ namespace BetterWaysToDie.Mixins
             {
                 public const string WorldBase_GetGameRandom = "GameRandom WorldBase::GetGameRandom()";
                 public const string List_1_Clear = "System.Void System.Collections.Generic.List`1<ItemStack>::Clear()";
-                public const string Dictionary_2_TryGetValue_TKey_TValue_ = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::TryGetValue(EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>&)";
+                public const string Dictionary_2_TryGetValue_0_1_ = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::TryGetValue(EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>&)";
                 public const string BlockValue_ToItemValue = "ItemValue BlockValue::ToItemValue()";
-                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<ItemStack>::Add(ItemStack)";
+                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<ItemStack>::Add(ItemStack)";
                 public const string List_1_get_Item_Int32 = "Block/SItemDropProb System.Collections.Generic.List`1<Block/SItemDropProb>::get_Item(System.Int32)";
                 public const string GameRandom_RandomRange_Int32_Int32 = "System.Int32 GameRandom::RandomRange(System.Int32,System.Int32)";
                 public const string GameRandom_get_RandomFloat = "System.Single GameRandom::get_RandomFloat()";
@@ -1686,8 +1686,8 @@ namespace BetterWaysToDie.Mixins
             public const string GetBlockByName = "Block Block::GetBlockByName(System.String,System.Boolean)";
             public static class GetBlockByNameInjects
             {
-                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,Block>::ContainsKey(System.String)";
-                public const string Dictionary_2_get_Item_TKey = "Block System.Collections.Generic.Dictionary`2<System.String,Block>::get_Item(System.String)";
+                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,Block>::ContainsKey(System.String)";
+                public const string Dictionary_2_get_Item_0 = "Block System.Collections.Generic.Dictionary`2<System.String,Block>::get_Item(System.String)";
                 public const string nameToBlock = "System.Collections.Generic.Dictionary`2<System.String,Block> Block::nameToBlock";
                 public const string nameToBlockCaseInsensitive = "System.Collections.Generic.Dictionary`2<System.String,Block> Block::nameToBlockCaseInsensitive";
             }
@@ -1811,10 +1811,10 @@ namespace BetterWaysToDie.Mixins
                 public const string Dictionary_2_GetEnumerator = "System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Int32> System.Collections.Generic.Dictionary`2<System.String,System.Int32>::GetEnumerator()";
                 public const string Enumerator_get_Current = "System.Collections.Generic.KeyValuePair`2<System.String,System.Int32> System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Int32>::get_Current()";
                 public const string KeyValuePair_2_get_Key = "System.String System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>::get_Key()";
-                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,Block>::ContainsKey(System.String)";
-                public const string Dictionary_2_get_Item_TKey = "Block System.Collections.Generic.Dictionary`2<System.String,Block>::get_Item(System.String)";
-                public const string List_1_Contains_T = "System.Boolean System.Collections.Generic.List`1<Block>::Contains(Block)";
-                public const string List_1_Remove_T = "System.Boolean System.Collections.Generic.List`1<Block>::Remove(Block)";
+                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,Block>::ContainsKey(System.String)";
+                public const string Dictionary_2_get_Item_0 = "Block System.Collections.Generic.Dictionary`2<System.String,Block>::get_Item(System.String)";
+                public const string List_1_Contains_0 = "System.Boolean System.Collections.Generic.List`1<Block>::Contains(Block)";
+                public const string List_1_Remove_0 = "System.Boolean System.Collections.Generic.List`1<Block>::Remove(Block)";
                 public const string KeyValuePair_2_get_Value = "System.Int32 System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>::get_Value()";
                 public const string Block_assignId_Block_Int32_Boolean_ = "System.Void Block::assignId(Block,System.Int32,System.Boolean[])";
                 public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Int32>::MoveNext()";
@@ -1836,7 +1836,7 @@ namespace BetterWaysToDie.Mixins
                 public const string NameIdMapping_GetIdForName_String = "System.Int32 NameIdMapping::GetIdForName(System.String)";
                 public const string KeyValuePair_2_get_Value = "Block System.Collections.Generic.KeyValuePair`2<System.String,Block>::get_Value()";
                 public const string Block_assignId_Block_Int32_Boolean_ = "System.Void Block::assignId(Block,System.Int32,System.Boolean[])";
-                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Block>::Add(Block)";
+                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Block>::Add(Block)";
                 public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.String,Block>::MoveNext()";
                 public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
                 public const string Block_assignLeftOverBlocks_Boolean_List_1 = "System.Void Block::assignLeftOverBlocks(System.Boolean[],System.Collections.Generic.List`1<Block>)";
@@ -1917,6 +1917,3209 @@ namespace BetterWaysToDie.Mixins
             {
                 public const string String_op_Equality_String_String = "System.Boolean System.String::op_Equality(System.String,System.String)";
                 public const string placeAltBlockValues = "System.String[] Block::placeAltBlockValues";
+            }
+        }
+    }
+
+    [System.ComponentModel.DescriptionAttribute("Generated by SharpILMixins")]
+    public static class GameManagerTargets
+    {
+        public static class Methods
+        {
+            public const string ShowBackground_Boolean = "System.Void GameManager::ShowBackground(System.Boolean)";
+            public static class ShowBackground_BooleanInjects
+            {
+                public const string Camera_get_main = "UnityEngine.Camera UnityEngine.Camera::get_main()";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string Camera_get_cullingMask = "System.Int32 UnityEngine.Camera::get_cullingMask()";
+                public const string LayerMask_GetMask_String_ = "System.Int32 UnityEngine.LayerMask::GetMask(System.String[])";
+                public const string Camera_set_cullingMask_Int32 = "System.Void UnityEngine.Camera::set_cullingMask(System.Int32)";
+                public const string Camera_set_backgroundColor_Color = "System.Void UnityEngine.Camera::set_backgroundColor(UnityEngine.Color)";
+                public const string bShowBackground = "System.Boolean GameManager::bShowBackground";
+                public const string cameraCullMask = "System.Int32 GameManager::cameraCullMask";
+                public const string backgroundColor = "UnityEngine.Color GameManager::backgroundColor";
+            }
+
+            public const string ShowBackground = "System.Boolean GameManager::ShowBackground()";
+            public static class ShowBackgroundInjects
+            {
+                public const string bShowBackground = "System.Boolean GameManager::bShowBackground";
+            }
+
+            public const string IncreaseBackgroundColor = "System.Void GameManager::IncreaseBackgroundColor()";
+            public static class IncreaseBackgroundColorInjects
+            {
+                public const string Mathf_Clamp01_Single = "System.Single UnityEngine.Mathf::Clamp01(System.Single)";
+                public const string Camera_get_main = "UnityEngine.Camera UnityEngine.Camera::get_main()";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string Camera_set_backgroundColor_Color = "System.Void UnityEngine.Camera::set_backgroundColor(UnityEngine.Color)";
+                public const string currentBackgroundColorChannel = "System.Int32 GameManager::currentBackgroundColorChannel";
+                public const string backgroundColor = "UnityEngine.Color GameManager::backgroundColor";
+                public const string r = "System.Single UnityEngine.Color::r";
+                public const string g = "System.Single UnityEngine.Color::g";
+                public const string b = "System.Single UnityEngine.Color::b";
+            }
+
+            public const string DecreaseBackgroundColor = "System.Void GameManager::DecreaseBackgroundColor()";
+            public static class DecreaseBackgroundColorInjects
+            {
+                public const string Mathf_Clamp01_Single = "System.Single UnityEngine.Mathf::Clamp01(System.Single)";
+                public const string Camera_get_main = "UnityEngine.Camera UnityEngine.Camera::get_main()";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string Camera_set_backgroundColor_Color = "System.Void UnityEngine.Camera::set_backgroundColor(UnityEngine.Color)";
+                public const string currentBackgroundColorChannel = "System.Int32 GameManager::currentBackgroundColorChannel";
+                public const string backgroundColor = "UnityEngine.Color GameManager::backgroundColor";
+                public const string r = "System.Single UnityEngine.Color::r";
+                public const string g = "System.Single UnityEngine.Color::g";
+                public const string b = "System.Single UnityEngine.Color::b";
+            }
+
+            public const string BackgroundColorNext = "System.Void GameManager::BackgroundColorNext()";
+            public static class BackgroundColorNextInjects
+            {
+                public const string currentBackgroundColorChannel = "System.Int32 GameManager::currentBackgroundColorChannel";
+            }
+
+            public const string BackgroundColorPrev = "System.Void GameManager::BackgroundColorPrev()";
+            public static class BackgroundColorPrevInjects
+            {
+                public const string currentBackgroundColorChannel = "System.Int32 GameManager::currentBackgroundColorChannel";
+            }
+
+            public const string get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+            public static class get_IsDedicatedServerInjects
+            {
+                public const string Environment_GetCommandLineArgs = "System.String[] System.Environment::GetCommandLineArgs()";
+                public const string String_Equals_String = "System.Boolean System.String::Equals(System.String)";
+                public const string isDedicatedChecked = "System.Boolean GameManager::isDedicatedChecked";
+                public const string cArgDedicatedServer = "System.String Constants::cArgDedicatedServer";
+                public const string isDedicated = "System.Boolean GameManager::isDedicated";
+            }
+
+            public const string get_IsQuickContinue = "System.Boolean GameManager::get_IsQuickContinue()";
+            public static class get_IsQuickContinueInjects
+            {
+                public const string ToggleCapsLock_GetScrollLock = "System.Boolean ToggleCapsLock::GetScrollLock()";
+                public const string Application_get_isEditor = "System.Boolean UnityEngine.Application::get_isEditor()";
+            }
+
+            public const string get_GameIsFocused = "System.Boolean GameManager::get_GameIsFocused()";
+            public static class get_GameIsFocusedInjects
+            {
+                public const string _GameIsFocused_k_BackingField = "System.Boolean GameManager::<GameIsFocused>k__BackingField";
+            }
+
+            public const string set_GameIsFocused = "System.Void GameManager::set_GameIsFocused(System.Boolean)";
+            public static class set_GameIsFocusedInjects
+            {
+                public const string _GameIsFocused_k_BackingField = "System.Boolean GameManager::<GameIsFocused>k__BackingField";
+            }
+
+            public const string add_OnWorldChanged = "System.Void GameManager::add_OnWorldChanged(GameManager/OnWorldChangedEvent)";
+            public static class add_OnWorldChangedInjects
+            {
+                public const string Delegate_Combine_Delegate_Delegate = "System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)";
+                public const string OnWorldChanged = "GameManager/OnWorldChangedEvent GameManager::OnWorldChanged";
+            }
+
+            public const string remove_OnWorldChanged = "System.Void GameManager::remove_OnWorldChanged(GameManager/OnWorldChangedEvent)";
+            public static class remove_OnWorldChangedInjects
+            {
+                public const string Delegate_Remove_Delegate_Delegate = "System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)";
+                public const string OnWorldChanged = "GameManager/OnWorldChangedEvent GameManager::OnWorldChanged";
+            }
+
+            public const string add_OnLocalPlayerChanged = "System.Void GameManager::add_OnLocalPlayerChanged(GameManager/OnLocalPlayerChangedEvent)";
+            public static class add_OnLocalPlayerChangedInjects
+            {
+                public const string Delegate_Combine_Delegate_Delegate = "System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)";
+                public const string OnLocalPlayerChanged = "GameManager/OnLocalPlayerChangedEvent GameManager::OnLocalPlayerChanged";
+            }
+
+            public const string remove_OnLocalPlayerChanged = "System.Void GameManager::remove_OnLocalPlayerChanged(GameManager/OnLocalPlayerChangedEvent)";
+            public static class remove_OnLocalPlayerChangedInjects
+            {
+                public const string Delegate_Remove_Delegate_Delegate = "System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)";
+                public const string OnLocalPlayerChanged = "GameManager/OnLocalPlayerChangedEvent GameManager::OnLocalPlayerChanged";
+            }
+
+            public const string add_OnClientSpawned = "System.Void GameManager::add_OnClientSpawned(System.Action`1<ClientInfo>)";
+            public static class add_OnClientSpawnedInjects
+            {
+                public const string Delegate_Combine_Delegate_Delegate = "System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)";
+                public const string OnClientSpawned = "System.Action`1<ClientInfo> GameManager::OnClientSpawned";
+            }
+
+            public const string remove_OnClientSpawned = "System.Void GameManager::remove_OnClientSpawned(System.Action`1<ClientInfo>)";
+            public static class remove_OnClientSpawnedInjects
+            {
+                public const string Delegate_Remove_Delegate_Delegate = "System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)";
+                public const string OnClientSpawned = "System.Action`1<ClientInfo> GameManager::OnClientSpawned";
+            }
+
+            public const string ApplyAllOptions = "System.Void GameManager::ApplyAllOptions()";
+            public static class ApplyAllOptionsInjects
+            {
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string GameOptionsManager_ApplyAllOptions_LocalPlayerUI = "System.Void GameOptionsManager::ApplyAllOptions(LocalPlayerUI)";
+                public const string windowManager = "GUIWindowManager GameManager::windowManager";
+                public const string playerUI = "LocalPlayerUI GUIWindowManager::playerUI";
+            }
+
+            public const string Awake = "System.Void GameManager::Awake()";
+            public static class AwakeInjects
+            {
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string Application_get_isFocused = "System.Boolean UnityEngine.Application::get_isFocused()";
+                public const string GameManager_set_GameIsFocused_Boolean = "System.Void GameManager::set_GameIsFocused(System.Boolean)";
+                public const string Boolean_ToString = "System.String System.Boolean::ToString()";
+                public const string String_Concat_String_String = "System.String System.String::Concat(System.String,System.String)";
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string ThreadManager_SetMonoBehaviour_MonoBehaviour = "System.Void ThreadManager::SetMonoBehaviour(UnityEngine.MonoBehaviour)";
+                public const string Thread_get_CurrentThread = "System.Threading.Thread System.Threading.Thread::get_CurrentThread()";
+                public const string ThreadManager_SetMainThreadRef_Thread = "System.Void ThreadManager::SetMainThreadRef(System.Threading.Thread)";
+                public const string Utils_InitStatic = "System.Void Utils::InitStatic()";
+                public const string LoadManager_Init = "System.Void LoadManager::Init()";
+                public const string Application_get_isEditor = "System.Boolean UnityEngine.Application::get_isEditor()";
+                public const string Application_set_runInBackground_Boolean = "System.Void UnityEngine.Application::set_runInBackground(System.Boolean)";
+                public const string Application_add_wantsToQuit_Func_1 = "System.Void UnityEngine.Application::add_wantsToQuit(System.Func`1<System.Boolean>)";
+                public const string GameStartupHelper_Init = "System.Void GameStartupHelper::Init()";
+                public const string Environment_GetCommandLineArgs = "System.String[] System.Environment::GetCommandLineArgs()";
+                public const string GameStartupHelper_ParseCommandLine_String_ = "System.Void GameStartupHelper::ParseCommandLine(System.String[])";
+                public const string Type_GetTypeFromHandle_RuntimeTypeHandle = "System.Type System.Type::GetTypeFromHandle(System.RuntimeTypeHandle)";
+                public const string Object_FindObjectOfType_Type = "UnityEngine.Object UnityEngine.Object::FindObjectOfType(System.Type)";
+                public const string TaskManager_Init = "System.Void TaskManager::Init()";
+                public const string Platform_Init = "System.Void Platform::Init()";
+                public const string LocalPlayerManager_Init = "System.Void LocalPlayerManager::Init()";
+                public const string GameOptionsManager_LoadControls = "System.Void GameOptionsManager::LoadControls()";
+                public const string OcclusionManager_Load = "System.Void OcclusionManager::Load()";
+                public const string GameOptionsManager_ApplyTextureQuality_Int32 = "System.Void GameOptionsManager::ApplyTextureQuality(System.Int32)";
+                public const string QualitySettings_set_vSyncCount_Int32 = "System.Void UnityEngine.QualitySettings::set_vSyncCount(System.Int32)";
+                public const string WaitForTargetFPS_set_TargetFPS_Int32 = "System.Void WaitForTargetFPS::set_TargetFPS(System.Int32)";
+                public const string GamePrefs_GetInt_EnumGamePrefs = "System.Int32 GamePrefs::GetInt(EnumGamePrefs)";
+                public const string GameObjectPool_get_Instance = "GameObjectPool GameObjectPool::get_Instance()";
+                public const string GameObjectPool_Init = "System.Void GameObjectPool::Init()";
+                public const string MemoryPools_InitStatic_Boolean = "System.Void MemoryPools::InitStatic(System.Boolean)";
+                public const string GameRandomManager_get_Instance = "GameRandomManager GameRandomManager::get_Instance()";
+                public const string Utils_GetApplicationPath = "System.String Utils::GetApplicationPath()";
+                public const string GameObject_Find_String = "UnityEngine.GameObject UnityEngine.GameObject::Find(System.String)";
+                public const string GameObject_get_transform = "UnityEngine.Transform UnityEngine.GameObject::get_transform()";
+                public const string Origin_Add_Transform_Int32 = "System.Void Origin::Add(UnityEngine.Transform,System.Int32)";
+                public const string SelectionBoxManager_CreateCategory_String_Color_Color_Color_Boolean_String_Int32 = "System.Void SelectionBoxManager::CreateCategory(System.String,UnityEngine.Color,UnityEngine.Color,UnityEngine.Color,System.Boolean,System.String,System.Int32)";
+                public const string GameManager_ResetGame = "System.Boolean GameManager::ResetGame()";
+                public const string GamePrefs_Set_EnumGamePrefs_Int32 = "System.Void GamePrefs::Set(EnumGamePrefs,System.Int32)";
+                public const string GamePrefs_get_Instance = "GamePrefs GamePrefs::get_Instance()";
+                public const string GamePrefs_Save = "System.Void GamePrefs::Save()";
+                public const string Log_Warning_String = "System.Void Log::Warning(System.String)";
+                public const string GameOptionsManager_ResetGameOptions_ResetType = "System.Boolean GameOptionsManager::ResetGameOptions(GameOptionsManager/ResetType)";
+                public const string GameOptionsManager_ApplyAllOptions_LocalPlayerUI = "System.Void GameOptionsManager::ApplyAllOptions(LocalPlayerUI)";
+                public const string LoadManager_CreateGroup = "LoadManager/LoadGroup LoadManager::CreateGroup()";
+                public const string UIUtils_LoadPrefabs_LoadGroup = "System.Void GUI_2.UIUtils::LoadPrefabs(LoadManager/LoadGroup)";
+                public const string Manager_Init = "System.Void Audio.Manager::Init()";
+                public const string Component_get_gameObject = "UnityEngine.GameObject UnityEngine.Component::get_gameObject()";
+                public const string GameManager_InitMultiSourceUiAtlases_GameObject = "System.Void GameManager::InitMultiSourceUiAtlases(UnityEngine.GameObject)";
+                public const string NGUIWindowManager_ParseWindows = "System.Void NGUIWindowManager::ParseWindows()";
+                public const string GameManager_AddWindows_GUIWindowManager = "System.Void GameManager::AddWindows(GUIWindowManager)";
+                public const string GUIWindowManager_GetWindow_String = "GUIWindow GUIWindowManager::GetWindow(System.String)";
+                public const string Steam_InitCallbacks_Boolean = "System.Void Steam::InitCallbacks(System.Boolean)";
+                public const string ModManager_LoadMods = "System.Void ModManager::LoadMods()";
+                public const string ModManager_LoadPatchStuff_Boolean = "System.Collections.IEnumerator ModManager::LoadPatchStuff(System.Boolean)";
+                public const string ThreadManager_RunCoroutineSync_IEnumerator = "System.Void ThreadManager::RunCoroutineSync(System.Collections.IEnumerator)";
+                public const string SdtdConsole_RegisterCommands = "System.Void SdtdConsole::RegisterCommands()";
+                public const string GameManager_loadStaticData = "System.Collections.IEnumerator GameManager::loadStaticData()";
+                public const string GameManager_get_IsQuickContinue = "System.Boolean GameManager::get_IsQuickContinue()";
+                public const string ThreadManager_StartCoroutine_IEnumerator = "UnityEngine.Coroutine ThreadManager::StartCoroutine(System.Collections.IEnumerator)";
+                public const string CursorControllerAbs_LoadStaticData_LoadGroup = "System.Void CursorControllerAbs::LoadStaticData(LoadManager/LoadGroup)";
+                public const string InputManager_set_Enabled_Boolean = "System.Void InControl.InputManager::set_Enabled(System.Boolean)";
+                public const string GamePrefs_GetBool_EnumGamePrefs = "System.Boolean GamePrefs::GetBool(EnumGamePrefs)";
+                public const string SdtdConsole_RegisterServer_IConsoleServer = "System.Void SdtdConsole::RegisterServer(IConsoleServer)";
+                public const string Log_Error_String = "System.Void Log::Error(System.String)";
+                public const string Log_Exception_Exception = "System.Void Log::Exception(System.Exception)";
+                public const string AuthorizationManager_get_Instance = "AuthorizationManager AuthorizationManager::get_Instance()";
+                public const string AuthorizationManager_Init = "System.Void AuthorizationManager::Init()";
+                public const string ModEvent_Invoke = "System.Void ModEvent::Invoke()";
+                public const string NGUIWindowManager_Show_EnumNGUIWindow_Boolean = "UnityEngine.Transform NGUIWindowManager::Show(EnumNGUIWindow,System.Boolean)";
+                public const string ConsoleCmdShow_Init = "System.Void ConsoleCmdShow::Init()";
+                public const string GameSenseManager_get_Instance = "GameSenseManager GameSenseManager::get_Instance()";
+                public const string GameSenseManager_Init = "System.Void GameSenseManager::Init()";
+                public const string Stopwatch_get_ElapsedMilliseconds = "System.Int64 System.Diagnostics.Stopwatch::get_ElapsedMilliseconds()";
+                public const string String_Concat_Object_Object_Object = "System.String System.String::Concat(System.Object,System.Object,System.Object)";
+                public const string Instance = "GameManager GameManager::Instance";
+                public const string bCursorVisibleOverride = "System.Boolean GameManager::bCursorVisibleOverride";
+                public const string bCursorVisibleOverrideState = "System.Boolean GameManager::bCursorVisibleOverrideState";
+                public const string gameStartup = "GameStartupHelper GameManager::gameStartup";
+                public const string windowManager = "GUIWindowManager GameManager::windowManager";
+                public const string nguiWindowManager = "NGUIWindowManager GameManager::nguiWindowManager";
+                public const string waitForTargetFPS = "WaitForTargetFPS GameManager::waitForTargetFPS";
+                public const string gameRandomManager = "GameRandomManager GameManager::gameRandomManager";
+                public const string gameStateManager = "GameStateManager GameManager::gameStateManager";
+                public const string prefabLODManager = "PrefabLODManager GameManager::prefabLODManager";
+                public const string prefabEditModeManager = "PrefabEditModeManager GameManager::prefabEditModeManager";
+                public const string cApplicationPath = "System.String Constants::cApplicationPath";
+                public const string m_SoundsGameObject = "UnityEngine.GameObject GameManager::m_SoundsGameObject";
+                public const string m_ParticleEffectsGameObject = "UnityEngine.GameObject GameManager::m_ParticleEffectsGameObject";
+                public const string ColSelectionActive = "UnityEngine.Color SelectionBoxManager::ColSelectionActive";
+                public const string ColSelectionInactive = "UnityEngine.Color SelectionBoxManager::ColSelectionInactive";
+                public const string ColSelectionFaceSel = "UnityEngine.Color SelectionBoxManager::ColSelectionFaceSel";
+                public const string ColStartPointActive = "UnityEngine.Color SelectionBoxManager::ColStartPointActive";
+                public const string ColStartPointInactive = "UnityEngine.Color SelectionBoxManager::ColStartPointInactive";
+                public const string ColDynamicPrefabActive = "UnityEngine.Color SelectionBoxManager::ColDynamicPrefabActive";
+                public const string ColDynamicPrefabInactive = "UnityEngine.Color SelectionBoxManager::ColDynamicPrefabInactive";
+                public const string ColDynamicPrefabFaceSel = "UnityEngine.Color SelectionBoxManager::ColDynamicPrefabFaceSel";
+                public const string ColTraderTeleport = "UnityEngine.Color SelectionBoxManager::ColTraderTeleport";
+                public const string ColTraderTeleportInactive = "UnityEngine.Color SelectionBoxManager::ColTraderTeleportInactive";
+                public const string ColSleeperVolume = "UnityEngine.Color SelectionBoxManager::ColSleeperVolume";
+                public const string ColSleeperVolumeInactive = "UnityEngine.Color SelectionBoxManager::ColSleeperVolumeInactive";
+                public const string playerUI = "LocalPlayerUI GUIWindowManager::playerUI";
+                public const string blockSelectionTool = "IBlockTool GameManager::blockSelectionTool";
+                public const string ID = "System.String GUIWindowConsole::ID";
+                public const string m_GUIConsole = "GUIWindowConsole GameManager::m_GUIConsole";
+                public const string adminTools = "AdminTools GameManager::adminTools";
+                public const string bStaticDataLoadSync = "System.Boolean GameManager::bStaticDataLoadSync";
+                public const string GameAwake = "ModEvent ModEvents::GameAwake";
+                public const string MicroStopwatch_ctor_Boolean = "System.Void MicroStopwatch::.ctor(System.Boolean)";
+                public const string Func_1_ctor_Object_IntPtr = "System.Void System.Func`1<System.Boolean>::.ctor(System.Object,System.IntPtr)";
+                public const string GameStartupHelper_ctor = "System.Void GameStartupHelper::.ctor()";
+                public const string GameObject_ctor_String = "System.Void UnityEngine.GameObject::.ctor(System.String)";
+                public const string GameStateManager_ctor_GameManager = "System.Void GameStateManager::.ctor(GameManager)";
+                public const string PrefabLODManager_ctor = "System.Void PrefabLODManager::.ctor()";
+                public const string PrefabEditModeManager_ctor = "System.Void PrefabEditModeManager::.ctor()";
+                public const string BlockToolSelection_ctor = "System.Void BlockToolSelection::.ctor()";
+                public const string AdminTools_ctor = "System.Void AdminTools::.ctor()";
+                public const string TelnetConsole_ctor = "System.Void TelnetConsole::.ctor()";
+                public const string ControlPanel_ctor = "System.Void ControlPanel::.ctor()";
+            }
+
+            public const string InitMultiSourceUiAtlases = "System.Void GameManager::InitMultiSourceUiAtlases(UnityEngine.GameObject)";
+            public static class InitMultiSourceUiAtlasesInjects
+            {
+                public const string GameObject_get_transform = "UnityEngine.Transform UnityEngine.GameObject::get_transform()";
+                public const string Transform_set_parent_Transform = "System.Void UnityEngine.Transform::set_parent(UnityEngine.Transform)";
+                public const string Shader_Find_String = "UnityEngine.Shader UnityEngine.Shader::Find(System.String)";
+                public const string MultiSourceAtlasManager_Create_GameObject_String = "MultiSourceAtlasManager MultiSourceAtlasManager::Create(UnityEngine.GameObject,System.String)";
+                public const string ModManager_ModAtlasesDefaults_GameObject_Shader = "System.Void ModManager::ModAtlasesDefaults(UnityEngine.GameObject,UnityEngine.Shader)";
+                public const string ModManager_RegisterAtlasManager_MultiSourceAtlasManager_Boolean_Shader_Action_2 = "System.Void ModManager::RegisterAtlasManager(MultiSourceAtlasManager,System.Boolean,UnityEngine.Shader,System.Action`2<UIAtlas,System.Boolean>)";
+                public const string Component_get_gameObject = "UnityEngine.GameObject UnityEngine.Component::get_gameObject()";
+                public const string Object_get_name = "System.String UnityEngine.Object::get_name()";
+                public const string Extensions_ContainsCaseInsensitive_String_String = "System.Boolean Extensions::ContainsCaseInsensitive(System.String,System.String)";
+                public const string Object_set_name_String = "System.Void UnityEngine.Object::set_name(System.String)";
+                public const string Component_get_transform = "UnityEngine.Transform UnityEngine.Component::get_transform()";
+                public const string UIAtlas_get_spriteMaterial = "UnityEngine.Material UIAtlas::get_spriteMaterial()";
+                public const string Material_get_shader = "UnityEngine.Shader UnityEngine.Material::get_shader()";
+                public const string MultiSourceAtlasManager_AddAtlas_UIAtlas_Boolean = "System.Void MultiSourceAtlasManager::AddAtlas(UIAtlas,System.Boolean)";
+                public const string SystemInfo_get_graphicsMemorySize = "System.Int32 UnityEngine.SystemInfo::get_graphicsMemorySize()";
+                public const string AssetBundleManager_get_Instance = "AssetBundleManager AssetBundleManager::get_Instance()";
+                public const string AssetBundleManager_LoadAssetBundle_String_Boolean = "System.Void AssetBundleManager::LoadAssetBundle(System.String,System.Boolean)";
+                public const string AssetBundleManager_GetAllAssetNames_String = "System.String[] AssetBundleManager::GetAllAssetNames(System.String)";
+                public const string String_EndsWith_String_StringComparison = "System.Boolean System.String::EndsWith(System.String,System.StringComparison)";
+                public const string String_Contains_String = "System.Boolean System.String::Contains(System.String)";
+                public const string AssetRequestTask_1_get_Asset = "UnityEngine.GameObject LoadManager/AssetRequestTask`1<UnityEngine.GameObject>::get_Asset()";
+                public const string GameManager_AddGreyscaleItemIconAtlas_UIAtlas_Boolean = "System.Void GameManager::AddGreyscaleItemIconAtlas(UIAtlas,System.Boolean)";
+                public const string GameObject_ctor_String = "System.Void UnityEngine.GameObject::.ctor(System.String)";
+                public const string Action_2_ctor_Object_IntPtr = "System.Void System.Action`2<UIAtlas,System.Boolean>::.ctor(System.Object,System.IntPtr)";
+            }
+
+            public const string AddGreyscaleItemIconAtlas = "System.Void GameManager::AddGreyscaleItemIconAtlas(UIAtlas,System.Boolean)";
+            public static class AddGreyscaleItemIconAtlasInjects
+            {
+                public const string ModManager_GetAtlasManager_String = "MultiSourceAtlasManager ModManager::GetAtlasManager(System.String)";
+                public const string Shader_Find_String = "UnityEngine.Shader UnityEngine.Shader::Find(System.String)";
+                public const string Component_get_gameObject = "UnityEngine.GameObject UnityEngine.Component::get_gameObject()";
+                public const string UIAtlasShaderWrapper_Create_GameObject_UIAtlas_Shader = "UIAtlasShaderWrapper UIAtlasShaderWrapper::Create(UnityEngine.GameObject,UIAtlas,UnityEngine.Shader)";
+                public const string MultiSourceAtlasManager_AddAtlas_UIAtlas_Boolean = "System.Void MultiSourceAtlasManager::AddAtlas(UIAtlas,System.Boolean)";
+            }
+
+            public const string AddWindows = "System.Void GameManager::AddWindows(GUIWindowManager)";
+            public static class AddWindowsInjects
+            {
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string GUIWindowManager_Add_String_GUIWindow = "System.Void GUIWindowManager::Add(System.String,GUIWindow)";
+                public const string GUIWindowManager_CloseAllOpenWindows_GUIWindow_Boolean = "System.Boolean GUIWindowManager::CloseAllOpenWindows(GUIWindow,System.Boolean)";
+                public const string windowManager = "GUIWindowManager GameManager::windowManager";
+                public const string ID = "System.String GUIWindowConsole::ID";
+                public const string GUIWindowConsole_ctor_GameManager = "System.Void GUIWindowConsole::.ctor(GameManager)";
+                public const string GUIWindowScreenshotText_ctor = "System.Void GUIWindowScreenshotText::.ctor()";
+                public const string GUIWindowNGUI_ctor_EnumNGUIWindow = "System.Void GUIWindowNGUI::.ctor(EnumNGUIWindow)";
+                public const string GUIWindowPlayerRanking_ctor_GameManager = "System.Void GUIWindowPlayerRanking::.ctor(GameManager)";
+                public const string GUIWindowEditBlockSpawnEntity_ctor_GameManager = "System.Void GUIWindowEditBlockSpawnEntity::.ctor(GameManager)";
+                public const string GUIWindowEditTileEntity_ctor_GameManager = "System.Void GUIWindowEditTileEntity::.ctor(GameManager)";
+                public const string GUIWindowEditBlockValue_ctor_GameManager = "System.Void GUIWindowEditBlockValue::.ctor(GameManager)";
+                public const string GUIWindowDynamicPrefabMenu_ctor_GameManager = "System.Void GUIWindowDynamicPrefabMenu::.ctor(GameManager)";
+                public const string GUIWindowWOChooseVisible_ctor = "System.Void GUIWindowWOChooseVisible::.ctor()";
+                public const string GUIWindowWOChooseEditProperties_ctor = "System.Void GUIWindowWOChooseEditProperties::.ctor()";
+                public const string GUIWindowWOPropsEntitySpawner_ctor_GameManager = "System.Void GUIWindowWOPropsEntitySpawner::.ctor(GameManager)";
+                public const string GUIWindowWOPropsStartPoint_ctor_GameManager = "System.Void GUIWindowWOPropsStartPoint::.ctor(GameManager)";
+            }
+
+            public const string loadStaticData = "System.Collections.IEnumerator GameManager::loadStaticData()";
+            public static class loadStaticDataInjects
+            {
+                public const string _4_this = "GameManager GameManager/<loadStaticData>d__118::<>4__this";
+                public const string _loadStaticData_d_118_ctor_Int32 = "System.Void GameManager/<loadStaticData>d__118::.ctor(System.Int32)";
+            }
+
+            public const string ResetGame = "System.Boolean GameManager::ResetGame()";
+            public static class ResetGameInjects
+            {
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string GameOptionsManager_ResetGameOptions_ResetType = "System.Boolean GameOptionsManager::ResetGameOptions(GameOptionsManager/ResetType)";
+            }
+
+            public const string StartGame = "System.Void GameManager::StartGame()";
+            public static class StartGameInjects
+            {
+                public const string Time_set_timeScale_Single = "System.Void UnityEngine.Time::set_timeScale(System.Single)";
+                public const string GamePrefs_Set_EnumGamePrefs_String = "System.Void GamePrefs::Set(EnumGamePrefs,System.String)";
+                public const string GameSparksManager_Instance = "GameSparksManager GameSparksManager::Instance()";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string GameSparksManager_PrepareNewSession = "System.Void GameSparksManager::PrepareNewSession()";
+                public const string GameManager_startGameCo = "System.Collections.IEnumerator GameManager::startGameCo()";
+                public const string MonoBehaviour_StartCoroutine_IEnumerator = "UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)";
+            }
+
+            public const string startGameCo = "System.Collections.IEnumerator GameManager::startGameCo()";
+            public static class startGameCoInjects
+            {
+                public const string _4_this = "GameManager GameManager/<startGameCo>d__121::<>4__this";
+                public const string _startGameCo_d_121_ctor_Int32 = "System.Void GameManager/<startGameCo>d__121::.ctor(System.Int32)";
+            }
+
+            public const string updateTimeOfDay = "System.Void GameManager::updateTimeOfDay()";
+            public static class updateTimeOfDayInjects
+            {
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<EntityPlayer>::get_Count()";
+                public const string GameStats_GetInt_EnumGameStats = "System.Int32 GameStats::GetInt(EnumGameStats)";
+                public const string Time_get_deltaTime = "System.Single UnityEngine.Time::get_deltaTime()";
+                public const string Utils_FastMax_Single_Single = "System.Single Utils::FastMax(System.Single,System.Single)";
+                public const string World_SetTime_UInt64 = "System.Void World::SetTime(System.UInt64)";
+                public const string Steam_get_Masterserver = "Steam/MasterserverSC Steam::get_Masterserver()";
+                public const string MasterserverSC_get_Lobby = "LobbyHost Steam/MasterserverSC::get_Lobby()";
+                public const string LobbyHost_UpdateGameTimePlayers_UInt64_Int32 = "System.Void LobbyHost::UpdateGameTimePlayers(System.UInt64,System.Int32)";
+                public const string GameSenseManager_get_Instance = "GameSenseManager GameSenseManager::get_Instance()";
+                public const string GameSenseManager_UpdateEventTime_UInt64 = "System.Void GameSenseManager::UpdateEventTime(System.UInt64)";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string Time_get_time = "System.Single UnityEngine.Time::get_time()";
+                public const string ConnectionManager_get_LocalServerInfo = "GameServerInfo ConnectionManager::get_LocalServerInfo()";
+                public const string GameServerInfo_UpdateGameTimePlayers_UInt64_Int32 = "System.Void GameServerInfo::UpdateGameTimePlayers(System.UInt64,System.Int32)";
+                public const string NetPackageWorldTime_Setup_UInt64 = "NetPackageWorldTime NetPackageWorldTime::Setup(System.UInt64)";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string NetPackageWeather_Setup_WeatherPackage_UInt64_Vector3 = "NetPackageWeather NetPackageWeather::Setup(WeatherPackage[],System.UInt64,UnityEngine.Vector3)";
+                public const string m_World = "World GameManager::m_World";
+                public const string Players = "DictionaryList`2<System.Int32,EntityPlayer> World::Players";
+                public const string list = "System.Collections.Generic.List`1<EntityPlayer> DictionaryList`2<System.Int32,EntityPlayer>::list";
+                public const string msPassedSinceLastUpdate = "System.Int32 GameManager::msPassedSinceLastUpdate";
+                public const string worldTime = "System.UInt64 World::worldTime";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string lastTimeWorldTickTimeSentToClients = "System.Single GameManager::lastTimeWorldTickTimeSentToClients";
+                public const string cSendWorldTickTimeToClients = "System.Single Constants::cSendWorldTickTimeToClients";
+                public const string weatherPackages = "WeatherPackage[] WeatherManager::weatherPackages";
+                public const string sTriggeredLightningGameTime = "System.UInt64 WeatherManager::sTriggeredLightningGameTime";
+                public const string sLightningPos = "UnityEngine.Vector3 WeatherManager::sLightningPos";
+            }
+
+            public const string updateSendClientPlayerPositionToServer = "System.Void GameManager::updateSendClientPlayerPositionToServer()";
+            public static class updateSendClientPlayerPositionToServerInjects
+            {
+                public const string WorldBase_GetPrimaryPlayer = "EntityPlayerLocal WorldBase::GetPrimaryPlayer()";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string NetPackagePlayerStats_Setup_EntityAlive = "NetPackagePlayerStats NetPackagePlayerStats::Setup(EntityAlive)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string NetEntityDistributionEntry_EncodePos_Vector3 = "Vector3i NetEntityDistributionEntry::EncodePos(UnityEngine.Vector3)";
+                public const string Vector3i_op_Subtraction_Vector3i_Vector3i = "Vector3i Vector3i::op_Subtraction(Vector3i,Vector3i)";
+                public const string Utils_FastAbs_Single = "System.Single Utils::FastAbs(System.Single)";
+                public const string NetEntityDistributionEntry_EncodeRot_Vector3 = "Vector3i NetEntityDistributionEntry::EncodeRot(UnityEngine.Vector3)";
+                public const string NetPackageEntityTeleport_Setup_Entity = "NetPackageEntityTeleport NetPackageEntityTeleport::Setup(Entity)";
+                public const string NetPackageEntityPosAndRot_Setup_Entity = "NetPackageEntityPosAndRot NetPackageEntityPosAndRot::Setup(Entity)";
+                public const string Entity_IsQRotationUsed = "System.Boolean Entity::IsQRotationUsed()";
+                public const string NetPackageEntityRelPosAndRot_Setup_Int32_Vector3i_Vector3i_Quaternion_Boolean_Boolean = "NetPackageEntityRelPosAndRot NetPackageEntityRelPosAndRot::Setup(System.Int32,Vector3i,Vector3i,UnityEngine.Quaternion,System.Boolean,System.Boolean)";
+                public const string LocalPlayerUI_GetUIForPlayer_EntityPlayerLocal = "LocalPlayerUI LocalPlayerUI::GetUIForPlayer(EntityPlayerLocal)";
+                public const string CountdownTimer_HasPassed = "System.Boolean CountdownTimer::HasPassed()";
+                public const string LocalPlayerUI_get_xui = "XUi LocalPlayerUI::get_xui()";
+                public const string XUi_get_isReady = "System.Boolean XUi::get_isReady()";
+                public const string CountdownTimer_ResetAndRestart = "System.Void CountdownTimer::ResetAndRestart()";
+                public const string GameManager_doSendLocalPlayerData_EntityPlayerLocal = "System.Void GameManager::doSendLocalPlayerData(EntityPlayerLocal)";
+                public const string CountdownTimer_Reset = "System.Void CountdownTimer::Reset()";
+                public const string GameManager_doSendLocalInventory_EntityPlayerLocal = "System.Void GameManager::doSendLocalInventory(EntityPlayerLocal)";
+                public const string m_World = "World GameManager::m_World";
+                public const string AttachedToEntity = "Entity Entity::AttachedToEntity";
+                public const string bLastWasAttached = "System.Boolean GameManager::bLastWasAttached";
+                public const string isEntityRemote = "System.Boolean Entity::isEntityRemote";
+                public const string lastTimeAbsPosSentToServer = "System.Int32 GameManager::lastTimeAbsPosSentToServer";
+                public const string bPlayerStatsChanged = "System.Boolean EntityAlive::bPlayerStatsChanged";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string position = "UnityEngine.Vector3 Entity::position";
+                public const string serverPos = "Vector3i Entity::serverPos";
+                public const string x = "System.Int32 Vector3i::x";
+                public const string y = "System.Int32 Vector3i::y";
+                public const string z = "System.Int32 Vector3i::z";
+                public const string rotation = "UnityEngine.Vector3 Entity::rotation";
+                public const string serverRot = "Vector3i Entity::serverRot";
+                public const string entityId = "System.Int32 Entity::entityId";
+                public const string qrotation = "UnityEngine.Quaternion Entity::qrotation";
+                public const string onGround = "System.Boolean Entity::onGround";
+                public const string countdownSendPlayerDataFileToServer = "CountdownTimer GameManager::countdownSendPlayerDataFileToServer";
+                public const string countdownSendPlayerInventoryToServer = "CountdownTimer GameManager::countdownSendPlayerInventoryToServer";
+            }
+
+            public const string Update = "System.Void GameManager::Update()";
+            public static class UpdateInjects
+            {
+                public const string GameManager_gmUpdate = "System.Void GameManager::gmUpdate()";
+            }
+
+            public const string gmUpdate = "System.Void GameManager::gmUpdate()";
+            public static class gmUpdateInjects
+            {
+                public const string GameManager_ReportUnusedAssets_Boolean = "System.Boolean GameManager::ReportUnusedAssets(System.Boolean)";
+                public const string Time_get_timeScale = "System.Single UnityEngine.Time::get_timeScale()";
+                public const string Physics_SyncTransforms = "System.Void UnityEngine.Physics::SyncTransforms()";
+                public const string LoadManager_Update = "System.Void LoadManager::Update()";
+                public const string Platform_Update = "System.Void Platform::Update()";
+                public const string LocalPlayerManager_Update = "System.Void LocalPlayerManager::Update()";
+                public const string MicroStopwatch_ResetAndRestart = "System.Void MicroStopwatch::ResetAndRestart()";
+                public const string FPS_Update = "System.Boolean FPS::Update()";
+                public const string BlockLiquidv2_UpdateTime = "System.Void BlockLiquidv2::UpdateTime()";
+                public const string GameManager_handleGlobalActions = "System.Void GameManager::handleGlobalActions()";
+                public const string QuestEventManager_get_Current = "QuestEventManager QuestEventManager::get_Current()";
+                public const string QuestEventManager_Update = "System.Void QuestEventManager::Update()";
+                public const string TwitchManager_get_Current = "Twitch.TwitchManager Twitch.TwitchManager::get_Current()";
+                public const string Time_get_unscaledDeltaTime = "System.Single UnityEngine.Time::get_unscaledDeltaTime()";
+                public const string TwitchManager_Update_Single = "System.Void Twitch.TwitchManager::Update(System.Single)";
+                public const string GameEventManager_get_Current = "GameEventManager GameEventManager::get_Current()";
+                public const string Time_get_deltaTime = "System.Single UnityEngine.Time::get_deltaTime()";
+                public const string GameEventManager_Update_Single = "System.Void GameEventManager::Update(System.Single)";
+                public const string PowerManager_get_Instance = "PowerManager PowerManager::get_Instance()";
+                public const string PowerManager_Update = "System.Void PowerManager::Update()";
+                public const string VehicleManager_get_Instance = "VehicleManager VehicleManager::get_Instance()";
+                public const string VehicleManager_Update = "System.Void VehicleManager::Update()";
+                public const string FactionManager_Update = "System.Void FactionManager::Update()";
+                public const string NavObjectManager_get_HasInstance = "System.Boolean NavObjectManager::get_HasInstance()";
+                public const string NavObjectManager_get_Instance = "NavObjectManager NavObjectManager::get_Instance()";
+                public const string NavObjectManager_Update = "System.Void NavObjectManager::Update()";
+                public const string ThreadManager_UpdateMainThreadTasks = "System.Void ThreadManager::UpdateMainThreadTasks()";
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string GameManager_isAnyCursorWindowOpen_LocalPlayerUI = "System.Boolean GameManager::isAnyCursorWindowOpen(LocalPlayerUI)";
+                public const string GameManager_get_GameIsFocused = "System.Boolean GameManager::get_GameIsFocused()";
+                public const string GameManager_setCursorEnabled_Boolean = "System.Void GameManager::setCursorEnabled(System.Boolean)";
+                public const string ICollection_get_SyncRoot = "System.Object System.Collections.ICollection::get_SyncRoot()";
+                public const string Monitor_Enter_Object_Boolean_ = "System.Void System.Threading.Monitor::Enter(System.Object,System.Boolean&)";
+                public const string List_1_get_Item_Int32 = "UnityEngine.GameObject System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Item(System.Int32)";
+                public const string Object_Destroy_Object = "System.Void UnityEngine.Object::Destroy(UnityEngine.Object)";
+                public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count()";
+                public const string Monitor_Exit_Object = "System.Void System.Threading.Monitor::Exit(System.Object)";
+                public const string GameStateManager_IsGameStarted = "System.Boolean GameStateManager::IsGameStarted()";
+                public const string GameTimer_get_Instance = "GameTimer GameTimer::get_Instance()";
+                public const string ConnectionManager_ClientCount = "System.Int32 ConnectionManager::ClientCount()";
+                public const string GameTimer_updateTimer_Boolean = "System.Void GameTimer::updateTimer(System.Boolean)";
+                public const string GameManager_updateBlockParticles = "System.Void GameManager::updateBlockParticles()";
+                public const string GameManager_updateTimeOfDay = "System.Void GameManager::updateTimeOfDay()";
+                public const string Manager_UpdateAudioData = "System.Void Audio.Manager::UpdateAudioData()";
+                public const string WaterEvaporationManager_UpdateEvaporation = "System.Void WaterEvaporationManager::UpdateEvaporation()";
+                public const string ChunkManager_IsForceUpdate = "System.Boolean ChunkManager::IsForceUpdate()";
+                public const string ChunkManager_DetermineChunksToLoad = "System.Void ChunkManager::DetermineChunksToLoad()";
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string MemoryPools_Cleanup = "System.Void MemoryPools::Cleanup()";
+                public const string List_1_Clear = "System.Void System.Collections.Generic.List`1<System.Byte[]>::Clear()";
+                public const string World_ClearCaches = "System.Void World::ClearCaches()";
+                public const string GameManager_UpdateTick = "System.Boolean GameManager::UpdateTick()";
+                public const string ChunkManager_CopyChunksToUnity = "System.Boolean ChunkManager::CopyChunksToUnity()";
+                public const string MicroStopwatch_get_ElapsedMicroseconds = "System.Int64 MicroStopwatch::get_ElapsedMicroseconds()";
+                public const string GC_GetTotalMemory_Boolean = "System.Int64 System.GC::GetTotalMemory(System.Boolean)";
+                public const string Math_Max_Int64_Int64 = "System.Int64 System.Math::Max(System.Int64,System.Int64)";
+                public const string ConsoleCmdMem_GetStats_Boolean_GameManager = "System.String ConsoleCmdMem::GetStats(System.Boolean,GameManager)";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string World_SaveWorldState = "System.Void World::SaveWorldState()";
+                public const string NameIdMapping_SaveIfDirty_Boolean = "System.Void NameIdMapping::SaveIfDirty(System.Boolean)";
+                public const string GC_Collect = "System.Void System.GC::Collect()";
+                public const string Stopwatch_get_ElapsedMilliseconds = "System.Int64 System.Diagnostics.Stopwatch::get_ElapsedMilliseconds()";
+                public const string GameSenseManager_get_Instance = "GameSenseManager GameSenseManager::get_Instance()";
+                public const string GameSenseManager_Update = "System.Void GameSenseManager::Update()";
+                public const string CountdownTimer_HasPassed = "System.Boolean CountdownTimer::HasPassed()";
+                public const string CountdownTimer_ResetAndRestart = "System.Void CountdownTimer::ResetAndRestart()";
+                public const string GameManager_SaveLocalPlayerData = "System.Void GameManager::SaveLocalPlayerData()";
+                public const string GameManager_isAnyModalWindowOpen = "System.Boolean GameManager::isAnyModalWindowOpen()";
+                public const string Resources_UnloadUnusedAssets = "UnityEngine.AsyncOperation UnityEngine.Resources::UnloadUnusedAssets()";
+                public const string Log_Out_String_Object_ = "System.Void Log::Out(System.String,System.Object[])";
+                public const string StabilityViewer_Update = "System.Void StabilityViewer::Update()";
+                public const string ModEvent_Invoke = "System.Void ModEvent::Invoke()";
+                public const string GameObjectPool_get_Instance = "GameObjectPool GameObjectPool::get_Instance()";
+                public const string GameObjectPool_FrameUpdate = "System.Void GameObjectPool::FrameUpdate()";
+                public const string swUpdateTime = "MicroStopwatch GameManager::swUpdateTime";
+                public const string fps = "FPS GameManager::fps";
+                public const string Instance = "FactionManager FactionManager::Instance";
+                public const string bCursorVisibleOverride = "System.Boolean GameManager::bCursorVisibleOverride";
+                public const string bCursorVisible = "System.Boolean GameManager::bCursorVisible";
+                public const string tileEntitiesMusicToRemove = "System.Collections.Generic.List`1<UnityEngine.GameObject> GameManager::tileEntitiesMusicToRemove";
+                public const string gameStateManager = "GameStateManager GameManager::gameStateManager";
+                public const string elapsedTicks = "System.Int32 GameTimer::elapsedTicks";
+                public const string m_World = "World GameManager::m_World";
+                public const string m_ChunkManager = "ChunkManager World::m_ChunkManager";
+                public const string Players = "DictionaryList`2<System.Int32,EntityPlayer> World::Players";
+                public const string list = "System.Collections.Generic.List`1<EntityPlayer> DictionaryList`2<System.Int32,EntityPlayer>::list";
+                public const string lastPlayerCount = "System.Int32 GameManager::lastPlayerCount";
+                public const string timeToClearAllPools = "System.Single GameManager::timeToClearAllPools";
+                public const string poolMapColorsArray = "System.Collections.Generic.List`1<System.Byte[]> XUiC_MapArea::poolMapColorsArray";
+                public const string swCopyChunks = "MicroStopwatch GameManager::swCopyChunks";
+                public const string fpsCountdownTimer = "System.Single GameManager::fpsCountdownTimer";
+                public const string MaxMemoryConsumption = "System.Int64 GameManager::MaxMemoryConsumption";
+                public const string lastStatsPlayerCount = "System.Int32 GameManager::lastStatsPlayerCount";
+                public const string wsCountdownTimer = "System.Single GameManager::wsCountdownTimer";
+                public const string isEditMode = "System.Boolean GameManager::isEditMode";
+                public const string nameIdMapping = "NameIdMapping Block::nameIdMapping";
+                public const string gcCountdownTimer = "System.Single GameManager::gcCountdownTimer";
+                public const string waitForTargetFPS = "WaitForTargetFPS GameManager::waitForTargetFPS";
+                public const string SkipSleepThisFrame = "System.Boolean WaitForTargetFPS::SkipSleepThisFrame";
+                public const string countdownSaveLocalPlayerDataFile = "CountdownTimer GameManager::countdownSaveLocalPlayerDataFile";
+                public const string unloadAssetsDuration = "System.Single GameManager::unloadAssetsDuration";
+                public const string isUnloadAssetsReady = "System.Boolean GameManager::isUnloadAssetsReady";
+                public const string stabilityViewer = "StabilityViewer GameManager::stabilityViewer";
+                public const string GameUpdate = "ModEvent ModEvents::GameUpdate";
+            }
+
+            public const string LateUpdate = "System.Void GameManager::LateUpdate()";
+            public static class LateUpdateInjects
+            {
+                public const string AIDirector_DebugFrameLateUpdate = "System.Void AIDirector::DebugFrameLateUpdate()";
+                public const string m_World = "World GameManager::m_World";
+                public const string aiDirector = "AIDirector World::aiDirector";
+            }
+
+            public const string UpdateTick = "System.Boolean GameManager::UpdateTick()";
+            public static class UpdateTickInjects
+            {
+                public const string GameTimer_get_Instance = "GameTimer GameTimer::get_Instance()";
+                public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<EntityPlayer>::get_Count()";
+                public const string World_TickEntitiesSlice = "System.Void World::TickEntitiesSlice()";
+                public const string World_TickEntitiesFlush = "System.Void World::TickEntitiesFlush()";
+                public const string Time_get_time = "System.Single UnityEngine.Time::get_time()";
+                public const string ChunkManager_GetActiveChunkSet = "System.ArraySegment`1<System.Int64> ChunkManager::GetActiveChunkSet()";
+                public const string World_OnUpdateTick_Single_ArraySegment_1 = "System.Void World::OnUpdateTick(System.Single,System.ArraySegment`1<System.Int64>)";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string GameStateManager_OnUpdateTick = "System.Boolean GameStateManager::OnUpdateTick()";
+                public const string World_TickEntities_Single = "System.Void World::TickEntities(System.Single)";
+                public const string World_LetBlocksFall = "System.Void World::LetBlocksFall()";
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string World_SetEntitiesVisibleNearToLocalPlayer = "System.Void World::SetEntitiesVisibleNearToLocalPlayer()";
+                public const string NetEntityDistribution_OnUpdateEntities = "System.Void NetEntityDistribution::OnUpdateEntities()";
+                public const string ChunkManager_SendChunksToClients = "System.Void ChunkManager::SendChunksToClients()";
+                public const string ChunkClusterList_get_Item_Int32 = "ChunkCluster ChunkClusterList::get_Item(System.Int32)";
+                public const string IChunkProvider_SaveRandomChunks_Int32_UInt64_ArraySegment_1 = "System.Void IChunkProvider::SaveRandomChunks(System.Int32,System.UInt64,System.ArraySegment`1<System.Int64>)";
+                public const string World_SaveDecorations = "System.Void World::SaveDecorations()";
+                public const string GameManager_updateSendClientPlayerPositionToServer = "System.Void GameManager::updateSendClientPlayerPositionToServer()";
+                public const string PrefabLODManager_UpdateTick = "System.Void PrefabLODManager::UpdateTick()";
+                public const string elapsedTicks = "System.Int32 GameTimer::elapsedTicks";
+                public const string m_World = "World GameManager::m_World";
+                public const string Players = "DictionaryList`2<System.Int32,EntityPlayer> World::Players";
+                public const string list = "System.Collections.Generic.List`1<EntityPlayer> DictionaryList`2<System.Int32,EntityPlayer>::list";
+                public const string lastTime = "System.Single GameManager::lastTime";
+                public const string m_ChunkManager = "ChunkManager World::m_ChunkManager";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string gameStateManager = "GameStateManager GameManager::gameStateManager";
+                public const string entityDistributer = "NetEntityDistribution World::entityDistributer";
+                public const string bSavingActive = "System.Boolean GameManager::bSavingActive";
+                public const string ticks = "System.UInt64 GameTimer::ticks";
+                public const string ChunkClusters = "ChunkClusterList WorldBase::ChunkClusters";
+                public const string ChunkProvider = "IChunkProvider ChunkCluster::ChunkProvider";
+                public const string lastTimeDecoSaved = "System.Single GameManager::lastTimeDecoSaved";
+                public const string prefabLODManager = "PrefabLODManager GameManager::prefabLODManager";
+            }
+
+            public const string CreateStabilityViewer = "System.Void GameManager::CreateStabilityViewer()";
+            public static class CreateStabilityViewerInjects
+            {
+                public const string stabilityViewer = "StabilityViewer GameManager::stabilityViewer";
+                public const string StabilityViewer_ctor = "System.Void StabilityViewer::.ctor()";
+            }
+
+            public const string setLocalPlayerEntity = "System.Void GameManager::setLocalPlayerEntity(EntityPlayerLocal)";
+            public static class setLocalPlayerEntityInjects
+            {
+                public const string GameManager_IsEditMode = "System.Boolean GameManager::IsEditMode()";
+                public const string DataItem_1_set_Value_T = "System.Void DataItem`1<System.Boolean>::set_Value(System.Boolean)";
+                public const string GamePrefs_GetString_EnumGamePrefs = "System.String GamePrefs::GetString(EnumGamePrefs)";
+                public const string EntityAlive_set_EntityName_String = "System.Void EntityAlive::set_EntityName(System.String)";
+                public const string GameManager_getPersistentPlayerData_ClientInfo = "PersistentPlayerData GameManager::getPersistentPlayerData(ClientInfo)";
+                public const string EntityPlayerLocal_add_InventoryChangedEvent_Action = "System.Void EntityPlayerLocal::add_InventoryChangedEvent(System.Action)";
+                public const string Inventory_add_OnToolbeltItemsChangedInternal_XUiEvent_ToolbeltItemsChangedInternal = "System.Void Inventory::add_OnToolbeltItemsChangedInternal(XUiEvent_ToolbeltItemsChangedInternal)";
+                public const string Bag_add_OnBackpackItemsChangedInternal_XUiEvent_BackpackItemsChangedInternal = "System.Void Bag::add_OnBackpackItemsChangedInternal(XUiEvent_BackpackItemsChangedInternal)";
+                public const string Equipment_add_OnChanged_Action = "System.Void Equipment::add_OnChanged(System.Action)";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string GameManager_getPersistentPlayerID_ClientInfo = "System.String GameManager::getPersistentPlayerID(ClientInfo)";
+                public const string PersistentPlayerList_CreatePlayerData_String = "PersistentPlayerData PersistentPlayerList::CreatePlayerData(System.String)";
+                public const string PersistentPlayerList_MapPlayer_PersistentPlayerData = "System.Void PersistentPlayerList::MapPlayer(PersistentPlayerData)";
+                public const string NetPackagePersistentPlayerState_Setup_PersistentPlayerData_String_EnumPersistentPlayerDataReason = "NetPackagePersistentPlayerState NetPackagePersistentPlayerState::Setup(PersistentPlayerData,System.String,EnumPersistentPlayerDataReason)";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string GameManager_SavePersistentPlayerData = "System.Void GameManager::SavePersistentPlayerData()";
+                public const string World_SetLocalPlayer_EntityPlayerLocal = "System.Void World::SetLocalPlayer(EntityPlayerLocal)";
+                public const string LocalPlayerUI_DispatchNewPlayerForUI_EntityPlayerLocal = "LocalPlayerUI LocalPlayerUI::DispatchNewPlayerForUI(EntityPlayerLocal)";
+                public const string GameManager_MarkPlayerEntityFriends = "System.Void GameManager::MarkPlayerEntityFriends()";
+                public const string OnLocalPlayerChangedEvent_Invoke_EntityPlayerLocal = "System.Void GameManager/OnLocalPlayerChangedEvent::Invoke(EntityPlayerLocal)";
+                public const string GameSenseManager_get_Instance = "GameSenseManager GameSenseManager::get_Instance()";
+                public const string GameSenseManager_SessionStarted_EntityPlayerLocal = "System.Void GameSenseManager::SessionStarted(EntityPlayerLocal)";
+                public const string IsFlyMode = "DataItem`1<System.Boolean> Entity::IsFlyMode";
+                public const string entityId = "System.Int32 Entity::entityId";
+                public const string myPlayerId = "System.Int32 GameManager::myPlayerId";
+                public const string myEntityPlayerLocal = "EntityPlayerLocal GameManager::myEntityPlayerLocal";
+                public const string persistentLocalPlayer = "PersistentPlayerData GameManager::persistentLocalPlayer";
+                public const string persistentPlayerData = "PersistentPlayerData EntityPlayerLocal::persistentPlayerData";
+                public const string inventory = "Inventory EntityAlive::inventory";
+                public const string bag = "Bag EntityAlive::bag";
+                public const string equipment = "Equipment EntityAlive::equipment";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string persistentPlayers = "PersistentPlayerList GameManager::persistentPlayers";
+                public const string EntityId = "System.Int32 PersistentPlayerData::EntityId";
+                public const string m_World = "World GameManager::m_World";
+                public const string OnLocalPlayerChanged = "GameManager/OnLocalPlayerChangedEvent GameManager::OnLocalPlayerChanged";
+                public const string Action_ctor_Object_IntPtr = "System.Void System.Action::.ctor(System.Object,System.IntPtr)";
+                public const string XUiEvent_ToolbeltItemsChangedInternal_ctor_Object_IntPtr = "System.Void XUiEvent_ToolbeltItemsChangedInternal::.ctor(System.Object,System.IntPtr)";
+                public const string XUiEvent_BackpackItemsChangedInternal_ctor_Object_IntPtr = "System.Void XUiEvent_BackpackItemsChangedInternal::.ctor(System.Object,System.IntPtr)";
+            }
+
+            public const string StartAsServer = "System.Collections.IEnumerator GameManager::StartAsServer()";
+            public static class StartAsServerInjects
+            {
+                public const string _4_this = "GameManager GameManager/<StartAsServer>d__135::<>4__this";
+                public const string _StartAsServer_d_135_ctor_Int32 = "System.Void GameManager/<StartAsServer>d__135::.ctor(System.Int32)";
+            }
+
+            public const string StartAsClient = "System.Void GameManager::StartAsClient()";
+            public static class StartAsClientInjects
+            {
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string GamePrefs_Set_EnumGamePrefs_String = "System.Void GamePrefs::Set(EnumGamePrefs,System.String)";
+                public const string WorldStaticData_WaitForConfigsFromServer = "System.Void WorldStaticData::WaitForConfigsFromServer()";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string LocalPlayerUI_get_primaryUI = "LocalPlayerUI LocalPlayerUI::get_primaryUI()";
+                public const string Localization_Get_String = "System.String Localization::Get(System.String)";
+                public const string XUiC_ProgressWindow_SetText_LocalPlayerUI_String_Boolean = "System.Void XUiC_ProgressWindow::SetText(LocalPlayerUI,System.String,System.Boolean)";
+                public const string worldCreated = "System.Boolean GameManager::worldCreated";
+                public const string chunkClusterLoaded = "System.Boolean GameManager::chunkClusterLoaded";
+                public const string Empty = "System.String System.String::Empty";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string NetPackageRequestToEnterGame_ctor = "System.Void NetPackageRequestToEnterGame::.ctor()";
+            }
+
+            public const string Disconnect = "System.Void GameManager::Disconnect()";
+            public static class DisconnectInjects
+            {
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string GUIWindowManager_CloseAllOpenWindows_GUIWindow_Boolean = "System.Boolean GUIWindowManager::CloseAllOpenWindows(GUIWindow,System.Boolean)";
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string WorldBase_GetLocalPlayers = "System.Collections.Generic.List`1<EntityPlayerLocal> WorldBase::GetLocalPlayers()";
+                public const string List_1_get_Item_Int32 = "EntityPlayerLocal System.Collections.Generic.List`1<EntityPlayerLocal>::get_Item(System.Int32)";
+                public const string LocalPlayerUI_GetUIForPlayer_EntityPlayerLocal = "LocalPlayerUI LocalPlayerUI::GetUIForPlayer(EntityPlayerLocal)";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string LocalPlayerUI_get_windowManager = "GUIWindowManager LocalPlayerUI::get_windowManager()";
+                public const string LocalPlayerUI_get_xui = "XUi LocalPlayerUI::get_xui()";
+                public const string Component_get_gameObject = "UnityEngine.GameObject UnityEngine.Component::get_gameObject()";
+                public const string GameObject_SetActive_Boolean = "System.Void UnityEngine.GameObject::SetActive(System.Boolean)";
+                public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<EntityPlayerLocal>::get_Count()";
+                public const string Manager_StopAllLocal = "System.Void Audio.Manager::StopAllLocal()";
+                public const string GameManager_Pause_Boolean = "System.Void GameManager::Pause(System.Boolean)";
+                public const string GameSenseManager_get_Instance = "GameSenseManager GameSenseManager::get_Instance()";
+                public const string GameSenseManager_SessionEnded = "System.Void GameSenseManager::SessionEnded()";
+                public const string EntityPlayerLocal_dropItemOnQuit = "System.Void EntityPlayerLocal::dropItemOnQuit()";
+                public const string Entity_Detach = "System.Void Entity::Detach()";
+                public const string ConnectionManager_get_IsClient = "System.Boolean ConnectionManager::get_IsClient()";
+                public const string NetPackagePlayerDisconnect_Setup_EntityPlayer = "NetPackagePlayerDisconnect NetPackagePlayerDisconnect::Setup(EntityPlayer)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string GameManager_disconnectLater = "System.Collections.IEnumerator GameManager::disconnectLater()";
+                public const string MonoBehaviour_StartCoroutine_IEnumerator = "UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string ConnectionManager_StopServers = "System.Void ConnectionManager::StopServers()";
+                public const string ConnectionManager_DisconnectFromServer = "System.Void ConnectionManager::DisconnectFromServer()";
+                public const string GameSparksManager_Instance = "GameSparksManager GameSparksManager::Instance()";
+                public const string GameSparksManager_SessionEnded = "System.Void GameSparksManager::SessionEnded()";
+                public const string windowManager = "GUIWindowManager GameManager::windowManager";
+                public const string Instance = "GameManager GameManager::Instance";
+                public const string isEditMode = "System.Boolean GameManager::isEditMode";
+                public const string myEntityPlayerLocal = "EntityPlayerLocal GameManager::myEntityPlayerLocal";
+                public const string AttachedToEntity = "Entity Entity::AttachedToEntity";
+            }
+
+            public const string disconnectLater = "System.Collections.IEnumerator GameManager::disconnectLater()";
+            public static class disconnectLaterInjects
+            {
+                public const string _disconnectLater_d_138_ctor_Int32 = "System.Void GameManager/<disconnectLater>d__138::.ctor(System.Int32)";
+            }
+
+            public const string SaveAndCleanupWorld = "System.Void GameManager::SaveAndCleanupWorld()";
+            public static class SaveAndCleanupWorldInjects
+            {
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string PlayerInputRecordingSystem_get_Instance = "PlayerInputRecordingSystem PlayerInputRecordingSystem::get_Instance()";
+                public const string PlayerInputRecordingSystem_AutoSave = "System.Boolean PlayerInputRecordingSystem::AutoSave()";
+                public const string GameStateManager_EndGame = "System.Void GameStateManager::EndGame()";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string GameManager_IsEditMode = "System.Boolean GameManager::IsEditMode()";
+                public const string VehicleManager_get_Instance = "VehicleManager VehicleManager::get_Instance()";
+                public const string VehicleManager_RemoveAllVehiclesFromMap = "System.Void VehicleManager::RemoveAllVehiclesFromMap()";
+                public const string GameManager_SaveLocalPlayerData = "System.Void GameManager::SaveLocalPlayerData()";
+                public const string GameManager_SaveWorld = "System.Void GameManager::SaveWorld()";
+                public const string Dictionary_2_GetEnumerator = "System.Collections.Generic.Dictionary`2/Enumerator<System.String,PersistentPlayerData> System.Collections.Generic.Dictionary`2<System.String,PersistentPlayerData>::GetEnumerator()";
+                public const string Enumerator_get_Current = "System.Collections.Generic.KeyValuePair`2<System.String,PersistentPlayerData> System.Collections.Generic.Dictionary`2/Enumerator<System.String,PersistentPlayerData>::get_Current()";
+                public const string KeyValuePair_2_get_Value = "PersistentPlayerData System.Collections.Generic.KeyValuePair`2<System.String,PersistentPlayerData>::get_Value()";
+                public const string DateTime_get_Now = "System.DateTime System.DateTime::get_Now()";
+                public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.String,PersistentPlayerData>::MoveNext()";
+                public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
+                public const string GameManager_SavePersistentPlayerData = "System.Void GameManager::SavePersistentPlayerData()";
+                public const string NameIdMapping_SaveIfDirty_Boolean = "System.Void NameIdMapping::SaveIfDirty(System.Boolean)";
+                public const string WorldBase_GetPrimaryPlayer = "EntityPlayerLocal WorldBase::GetPrimaryPlayer()";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string GameUtils_GetPlayerDataLocalDir = "System.String GameUtils::GetPlayerDataLocalDir()";
+                public const string ThreadManager_AddSingleTask_TaskFunctionDelegate_Object_ExitCallbackTask_Boolean_Boolean = "ThreadManager/TaskInfo ThreadManager::AddSingleTask(ThreadManager/TaskFunctionDelegate,System.Object,ThreadManager/ExitCallbackTask,System.Boolean,System.Boolean)";
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string WorldBase_GetLocalPlayers = "System.Collections.Generic.List`1<EntityPlayerLocal> WorldBase::GetLocalPlayers()";
+                public const string List_1_GetEnumerator = "System.Collections.Generic.List`1/Enumerator<EntityPlayerLocal> System.Collections.Generic.List`1<EntityPlayerLocal>::GetEnumerator()";
+                public const string EntityPlayer_EnableCamera_Boolean = "System.Void EntityPlayer::EnableCamera(System.Boolean)";
+                public const string EntityPlayerLocal_SetControllable_Boolean = "System.Void EntityPlayerLocal::SetControllable(System.Boolean)";
+                public const string AuthorizationManager_get_Instance = "AuthorizationManager AuthorizationManager::get_Instance()";
+                public const string AuthorizationManager_ServerStop = "System.Void AuthorizationManager::ServerStop()";
+                public const string Steam_get_Masterserver = "Steam/MasterserverSC Steam::get_Masterserver()";
+                public const string MasterserverSC_get_Server = "MasterServerAnnouncer Steam/MasterserverSC::get_Server()";
+                public const string MasterServerAnnouncer_StopServer = "System.Void MasterServerAnnouncer::StopServer()";
+                public const string MasterserverSC_get_Lobby = "LobbyHost Steam/MasterserverSC::get_Lobby()";
+                public const string LobbyHost_ExitLobby = "System.Void LobbyHost::ExitLobby()";
+                public const string OnLocalPlayerChangedEvent_Invoke_EntityPlayerLocal = "System.Void GameManager/OnLocalPlayerChangedEvent::Invoke(EntityPlayerLocal)";
+                public const string WorldBase_RemoveEntity_Int32_EnumRemoveEntityReason = "Entity WorldBase::RemoveEntity(System.Int32,EnumRemoveEntityReason)";
+                public const string ReadOnlyCollection_1_GetEnumerator = "System.Collections.Generic.IEnumerator`1<LocalPlayerUI> System.Collections.ObjectModel.ReadOnlyCollection`1<LocalPlayerUI>::GetEnumerator()";
+                public const string IEnumerator_1_get_Current = "LocalPlayerUI System.Collections.Generic.IEnumerator`1<LocalPlayerUI>::get_Current()";
+                public const string LocalPlayerUI_get_isPrimaryUI = "System.Boolean LocalPlayerUI::get_isPrimaryUI()";
+                public const string LocalPlayerUI_get_IsCleanCopy = "System.Boolean LocalPlayerUI::get_IsCleanCopy()";
+                public const string LocalPlayerUI_get_userProfile = "UserProfile LocalPlayerUI::get_userProfile()";
+                public const string Platform_get_UserProfiles = "UserProfileManager Platform::get_UserProfiles()";
+                public const string UserProfileManager_get_PrimaryUser = "UserProfile UserProfileManager::get_PrimaryUser()";
+                public const string UserProfile_LeaveGame = "System.Void UserProfile::LeaveGame()";
+                public const string LocalPlayerUI_get_entityPlayer = "EntityPlayerLocal LocalPlayerUI::get_entityPlayer()";
+                public const string Component_get_gameObject = "UnityEngine.GameObject UnityEngine.Component::get_gameObject()";
+                public const string LocalPlayerUI_get_xui = "XUi LocalPlayerUI::get_xui()";
+                public const string XUi_Shutdown_Boolean = "System.Void XUi::Shutdown(System.Boolean)";
+                public const string LocalPlayerUI_get_windowManager = "GUIWindowManager LocalPlayerUI::get_windowManager()";
+                public const string GUIWindowManager_CloseAllOpenWindows_GUIWindow_Boolean = "System.Boolean GUIWindowManager::CloseAllOpenWindows(GUIWindow,System.Boolean)";
+                public const string Object_Destroy_Object = "System.Void UnityEngine.Object::Destroy(UnityEngine.Object)";
+                public const string IEnumerator_MoveNext = "System.Boolean System.Collections.IEnumerator::MoveNext()";
+                public const string ModManager_GameEnded = "System.Void ModManager::GameEnded()";
+                public const string GUIWindowManager_Close_String = "System.Void GUIWindowManager::Close(System.String)";
+                public const string GUIWindowManager_Open_String_Boolean_Boolean_Boolean = "System.Void GUIWindowManager::Open(System.String,System.Boolean,System.Boolean,System.Boolean)";
+                public const string PrefabSleeperVolumeManager_get_Instance = "PrefabSleeperVolumeManager PrefabSleeperVolumeManager::get_Instance()";
+                public const string PrefabSleeperVolumeManager_Cleanup = "System.Void PrefabSleeperVolumeManager::Cleanup()";
+                public const string AstarManager_Cleanup = "System.Void AstarManager::Cleanup()";
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string OnWorldChangedEvent_Invoke_World = "System.Void GameManager/OnWorldChangedEvent::Invoke(World)";
+                public const string PrefabLODManager_Cleanup = "System.Void PrefabLODManager::Cleanup()";
+                public const string PrefabEditModeManager_IsActive = "System.Boolean PrefabEditModeManager::IsActive()";
+                public const string PrefabEditModeManager_Cleanup = "System.Void PrefabEditModeManager::Cleanup()";
+                public const string EnvironmentAudioManager_DestroyInstance = "System.Void EnvironmentAudioManager::DestroyInstance()";
+                public const string LightManager_Clear = "System.Void LightManager::Clear()";
+                public const string SkyManager_Cleanup = "System.Void SkyManager::Cleanup()";
+                public const string Object_DestroyImmediate_Object = "System.Void UnityEngine.Object::DestroyImmediate(UnityEngine.Object)";
+                public const string WaterSplashCubes_Clear = "System.Void WaterSplashCubes::Clear()";
+                public const string WaterEvaporationManager_ClearAll = "System.Void WaterEvaporationManager::ClearAll()";
+                public const string SleeperVolumeToolManager_CleanUp = "System.Void SleeperVolumeToolManager::CleanUp()";
+                public const string StabilityViewer_Clear = "System.Void StabilityViewer::Clear()";
+                public const string Object_op_Implicit_Object = "System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)";
+                public const string DynamicMusicManager_CleanUpDynamicMembers = "System.Void DynamicMusicManager::CleanUpDynamicMembers()";
+                public const string World_UnloadWorld_Boolean = "System.Void World::UnloadWorld(System.Boolean)";
+                public const string World_Cleanup = "System.Void World::Cleanup()";
+                public const string VehicleManager_Cleanup = "System.Void VehicleManager::Cleanup()";
+                public const string MapObjectManager_Reset = "System.Void MapObjectManager::Reset()";
+                public const string vp_TargetEventHandler_UnregisterAll = "System.Void vp_TargetEventHandler::UnregisterAll()";
+                public const string QuestEventManager_get_HasInstance = "System.Boolean QuestEventManager::get_HasInstance()";
+                public const string QuestEventManager_get_Current = "QuestEventManager QuestEventManager::get_Current()";
+                public const string QuestEventManager_Cleanup = "System.Void QuestEventManager::Cleanup()";
+                public const string TwitchManager_get_HasInstance = "System.Boolean Twitch.TwitchManager::get_HasInstance()";
+                public const string TwitchManager_get_Current = "Twitch.TwitchManager Twitch.TwitchManager::get_Current()";
+                public const string TwitchManager_Cleanup = "System.Void Twitch.TwitchManager::Cleanup()";
+                public const string GameEventManager_get_HasInstance = "System.Boolean GameEventManager::get_HasInstance()";
+                public const string GameEventManager_get_Current = "GameEventManager GameEventManager::get_Current()";
+                public const string GameEventManager_Cleanup = "System.Void GameEventManager::Cleanup()";
+                public const string PowerManager_get_HasInstance = "System.Boolean PowerManager::get_HasInstance()";
+                public const string PowerManager_get_Instance = "PowerManager PowerManager::get_Instance()";
+                public const string PowerManager_Cleanup = "System.Void PowerManager::Cleanup()";
+                public const string WireManager_get_HasInstance = "System.Boolean WireManager::get_HasInstance()";
+                public const string WireManager_get_Instance = "WireManager WireManager::get_Instance()";
+                public const string WireManager_Cleanup = "System.Void WireManager::Cleanup()";
+                public const string PartyManager_get_HasInstance = "System.Boolean PartyManager::get_HasInstance()";
+                public const string PartyManager_get_Current = "PartyManager PartyManager::get_Current()";
+                public const string PartyManager_Cleanup = "System.Void PartyManager::Cleanup()";
+                public const string UIDisplayInfoManager_get_HasInstance = "System.Boolean UIDisplayInfoManager::get_HasInstance()";
+                public const string UIDisplayInfoManager_get_Current = "UIDisplayInfoManager UIDisplayInfoManager::get_Current()";
+                public const string UIDisplayInfoManager_Cleanup = "System.Void UIDisplayInfoManager::Cleanup()";
+                public const string TextureLoadingManager_Cleanup = "System.Void TextureLoadingManager::Cleanup()";
+                public const string NavObjectManager_get_HasInstance = "System.Boolean NavObjectManager::get_HasInstance()";
+                public const string NavObjectManager_get_Instance = "NavObjectManager NavObjectManager::get_Instance()";
+                public const string NavObjectManager_Cleanup = "System.Void NavObjectManager::Cleanup()";
+                public const string Origin_Cleanup = "System.Void Origin::Cleanup()";
+                public const string GameObjectPool_get_Instance = "GameObjectPool GameObjectPool::get_Instance()";
+                public const string GameObjectPool_Cleanup = "System.Void GameObjectPool::Cleanup()";
+                public const string MemoryPools_Cleanup = "System.Void MemoryPools::Cleanup()";
+                public const string GamePrefs_get_Instance = "GamePrefs GamePrefs::get_Instance()";
+                public const string GamePrefs_Save = "System.Void GamePrefs::Save()";
+                public const string OnClientSpawned = "System.Action`1<ClientInfo> GameManager::OnClientSpawned";
+                public const string gameStateManager = "GameStateManager GameManager::gameStateManager";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string bSavingActive = "System.Boolean GameManager::bSavingActive";
+                public const string persistentPlayers = "PersistentPlayerList GameManager::persistentPlayers";
+                public const string Players = "System.Collections.Generic.Dictionary`2<System.String,PersistentPlayerData> PersistentPlayerList::Players";
+                public const string EntityId = "System.Int32 PersistentPlayerData::EntityId";
+                public const string LastLogin = "System.DateTime PersistentPlayerData::LastLogin";
+                public const string nameIdMapping = "NameIdMapping Block::nameIdMapping";
+                public const string m_World = "World GameManager::m_World";
+                public const string ChunkObserver = "ChunkManager/ChunkObserver EntityPlayer::ChunkObserver";
+                public const string mapDatabase = "MapChunkDatabase ChunkManager/ChunkObserver::mapDatabase";
+                public const string persistentLocalPlayer = "PersistentPlayerData GameManager::persistentLocalPlayer";
+                public const string PlayerId = "System.String PersistentPlayerData::PlayerId";
+                public const string myEntityPlayerLocal = "EntityPlayerLocal GameManager::myEntityPlayerLocal";
+                public const string OnLocalPlayerChanged = "GameManager/OnLocalPlayerChangedEvent GameManager::OnLocalPlayerChanged";
+                public const string myPlayerId = "System.Int32 GameManager::myPlayerId";
+                public const string PlayerUIs = "System.Collections.ObjectModel.ReadOnlyCollection`1<LocalPlayerUI> LocalPlayerUI::PlayerUIs";
+                public const string entityId = "System.Int32 Entity::entityId";
+                public const string windowManager = "GUIWindowManager GameManager::windowManager";
+                public const string ID = "System.String GUIWindowConsole::ID";
+                public const string bHideMainMenuNextTime = "System.Boolean GameManager::bHideMainMenuNextTime";
+                public const string OnWorldChanged = "GameManager/OnWorldChangedEvent GameManager::OnWorldChanged";
+                public const string prefabLODManager = "PrefabLODManager GameManager::prefabLODManager";
+                public const string prefabEditModeManager = "PrefabEditModeManager GameManager::prefabEditModeManager";
+                public const string theWorld = "World WeatherManager::theWorld";
+                public const string theInstance = "WeatherManager WeatherManager::theInstance";
+                public const string stabilityViewer = "StabilityViewer GameManager::stabilityViewer";
+                public const string worldIsReady = "System.Boolean StabilityViewer::worldIsReady";
+                public const string DynamicMusicManager = "DynamicMusicManager EntityPlayerLocal::DynamicMusicManager";
+                public const string lootManager = "LootManager GameManager::lootManager";
+                public const string traderManager = "TraderManager GameManager::traderManager";
+                public const string bRecordNextSession = "System.Boolean GameManager::bRecordNextSession";
+                public const string bPlayRecordedSession = "System.Boolean GameManager::bPlayRecordedSession";
+                public const string TaskFunctionDelegate_ctor_Object_IntPtr = "System.Void ThreadManager/TaskFunctionDelegate::.ctor(System.Object,System.IntPtr)";
+                public const string DirectoryPlayerId_ctor_String_String = "System.Void MapChunkDatabase/DirectoryPlayerId::.ctor(System.String,System.String)";
+            }
+
+            public const string SaveWorld = "System.Void GameManager::SaveWorld()";
+            public static class SaveWorldInjects
+            {
+                public const string World_Save = "System.Void World::Save()";
+                public const string m_World = "World GameManager::m_World";
+            }
+
+            public const string SaveLocalPlayerData = "System.Void GameManager::SaveLocalPlayerData()";
+            public static class SaveLocalPlayerDataInjects
+            {
+                public const string WorldBase_GetPrimaryPlayer = "EntityPlayerLocal WorldBase::GetPrimaryPlayer()";
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string PlayerDataFile_FromPlayer_EntityPlayer = "System.Void PlayerDataFile::FromPlayer(EntityPlayer)";
+                public const string GameUtils_GetPlayerDataDir = "System.String GameUtils::GetPlayerDataDir()";
+                public const string GamePrefs_GetString_EnumGamePrefs = "System.String GamePrefs::GetString(EnumGamePrefs)";
+                public const string PlayerDataFile_Save_String_String = "System.Void PlayerDataFile::Save(System.String,System.String)";
+                public const string ThreadManager_AddSingleTask_TaskFunctionDelegate_Object_ExitCallbackTask_Boolean_Boolean = "ThreadManager/TaskInfo ThreadManager::AddSingleTask(ThreadManager/TaskFunctionDelegate,System.Object,ThreadManager/ExitCallbackTask,System.Boolean,System.Boolean)";
+                public const string m_World = "World GameManager::m_World";
+                public const string bSavingActive = "System.Boolean GameManager::bSavingActive";
+                public const string ChunkObserver = "ChunkManager/ChunkObserver EntityPlayer::ChunkObserver";
+                public const string mapDatabase = "MapChunkDatabase ChunkManager/ChunkObserver::mapDatabase";
+                public const string PlayerDataFile_ctor = "System.Void PlayerDataFile::.ctor()";
+                public const string TaskFunctionDelegate_ctor_Object_IntPtr = "System.Void ThreadManager/TaskFunctionDelegate::.ctor(System.Object,System.IntPtr)";
+                public const string DirectoryPlayerId_ctor_String_String = "System.Void MapChunkDatabase/DirectoryPlayerId::.ctor(System.String,System.String)";
+            }
+
+            public const string Cleanup = "System.Void GameManager::Cleanup()";
+            public static class CleanupInjects
+            {
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string ModEvent_Invoke = "System.Void ModEvent::Invoke()";
+                public const string AuthorizationManager_get_Instance = "AuthorizationManager AuthorizationManager::get_Instance()";
+                public const string AuthorizationManager_Cleanup = "System.Void AuthorizationManager::Cleanup()";
+                public const string VehicleManager_Cleanup = "System.Void VehicleManager::Cleanup()";
+                public const string Cursor_set_visible_Boolean = "System.Void UnityEngine.Cursor::set_visible(System.Boolean)";
+                public const string Cursor_set_lockState_CursorLockMode = "System.Void UnityEngine.Cursor::set_lockState(UnityEngine.CursorLockMode)";
+                public const string SdtdConsole_Cleanup = "System.Void SdtdConsole::Cleanup()";
+                public const string WorldStaticData_Cleanup = "System.Void WorldStaticData::Cleanup()";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string GUIWindowConsole_Shutdown = "System.Void GUIWindowConsole::Shutdown()";
+                public const string GameObjectPool_get_Instance = "GameObjectPool GameObjectPool::get_Instance()";
+                public const string GameObjectPool_Cleanup = "System.Void GameObjectPool::Cleanup()";
+                public const string LocalPlayerManager_Destroy = "System.Void LocalPlayerManager::Destroy()";
+                public const string Platform_Destroy = "System.Void Platform::Destroy()";
+                public const string LoadManager_Destroy = "System.Void LoadManager::Destroy()";
+                public const string TaskManager_Destroy = "System.Void TaskManager::Destroy()";
+                public const string MemoryPools_Cleanup = "System.Void MemoryPools::Cleanup()";
+                public const string List_1_Clear = "System.Void System.Collections.Generic.List`1<System.Byte[]>::Clear()";
+                public const string GC_Collect = "System.Void System.GC::Collect()";
+                public const string GameShutdown = "ModEvent ModEvents::GameShutdown";
+                public const string Instance = "SdtdConsole SingletonMonoBehaviour`1<SdtdConsole>::Instance";
+                public const string adminTools = "AdminTools GameManager::adminTools";
+                public const string m_GUIConsole = "GUIWindowConsole GameManager::m_GUIConsole";
+                public const string poolMapColorsArray = "System.Collections.Generic.List`1<System.Byte[]> XUiC_MapArea::poolMapColorsArray";
+            }
+
+            public const string OnApplicationQuit = "System.Boolean GameManager::OnApplicationQuit()";
+            public static class OnApplicationQuitInjects
+            {
+                public const string AdminTools_DestroyFileWatcher = "System.Void AdminTools::DestroyFileWatcher()";
+                public const string GameManager_ApplicationQuitCo_Single = "System.Collections.IEnumerator GameManager::ApplicationQuitCo(System.Single)";
+                public const string MonoBehaviour_StartCoroutine_IEnumerator = "UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)";
+                public const string GameSenseManager_get_Instance = "GameSenseManager GameSenseManager::get_Instance()";
+                public const string GameSenseManager_Cleanup = "System.Void GameSenseManager::Cleanup()";
+                public const string ThreadManager_Shutdown = "System.Void ThreadManager::Shutdown()";
+                public const string WorldStaticData_QuitCleanup = "System.Void WorldStaticData::QuitCleanup()";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string SdtdConsole_Cleanup = "System.Void SdtdConsole::Cleanup()";
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string adminTools = "AdminTools GameManager::adminTools";
+                public const string allowQuit = "System.Boolean GameManager::allowQuit";
+                public const string isQuitting = "System.Boolean GameManager::isQuitting";
+                public const string Instance = "SdtdConsole SingletonMonoBehaviour`1<SdtdConsole>::Instance";
+            }
+
+            public const string OnApplicationFocus = "System.Void GameManager::OnApplicationFocus(System.Boolean)";
+            public static class OnApplicationFocusInjects
+            {
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string GameManager_set_GameIsFocused_Boolean = "System.Void GameManager::set_GameIsFocused(System.Boolean)";
+                public const string Application_get_isEditor = "System.Boolean UnityEngine.Application::get_isEditor()";
+                public const string GameManager_setCursorEnabled_Boolean = "System.Void GameManager::setCursorEnabled(System.Boolean)";
+                public const string GameManager_isAnyCursorWindowOpen_LocalPlayerUI = "System.Boolean GameManager::isAnyCursorWindowOpen(LocalPlayerUI)";
+                public const string LocalPlayerInput_get_DebugLevel = "LocalPlayerInput/EDebugLevel LocalPlayerInput::get_DebugLevel()";
+                public const string Boolean_ToString = "System.String System.Boolean::ToString()";
+                public const string String_Concat_String_String = "System.String System.String::Concat(System.String,System.String)";
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string PlayerInputManager_get_Instance = "PlayerInputManager PlayerInputManager::get_Instance()";
+                public const string PlayerInputManager_get_PrimaryPlayer = "PlayerActionsLocal PlayerInputManager::get_PrimaryPlayer()";
+                public const string PlayerActionsLocal_get_PlayerActionSets = "PlayerActionsBase[] PlayerActionsLocal::get_PlayerActionSets()";
+                public const string Object_GetType = "System.Type System.Object::GetType()";
+                public const string MemberInfo_get_Name = "System.String System.Reflection.MemberInfo::get_Name()";
+                public const string PlayerActionSet_get_Enabled = "System.Boolean InControl.PlayerActionSet::get_Enabled()";
+                public const string String_Concat_String_String_String_String = "System.String System.String::Concat(System.String,System.String,System.String,System.String)";
+                public const string bCursorVisibleOverride = "System.Boolean GameManager::bCursorVisibleOverride";
+                public const string bCursorVisibleOverrideState = "System.Boolean GameManager::bCursorVisibleOverrideState";
+                public const string PlayerUIs = "System.Collections.ObjectModel.ReadOnlyCollection`1<LocalPlayerUI> LocalPlayerUI::PlayerUIs";
+                public const string _9_146_0 = "System.Func`2<LocalPlayerUI,System.Boolean> GameManager/<>c::<>9__146_0";
+                public const string _9 = "GameManager/<>c GameManager/<>c::<>9";
+                public const string Func_2_ctor_Object_IntPtr = "System.Void System.Func`2<LocalPlayerUI,System.Boolean>::.ctor(System.Object,System.IntPtr)";
+            }
+
+            public const string isAnyModalWindowOpen = "System.Boolean GameManager::isAnyModalWindowOpen()";
+            public static class isAnyModalWindowOpenInjects
+            {
+                public const string ICollection_1_get_Count = "System.Int32 System.Collections.Generic.ICollection`1<LocalPlayerUI>::get_Count()";
+                public const string IList_1_get_Item_Int32 = "LocalPlayerUI System.Collections.Generic.IList`1<LocalPlayerUI>::get_Item(System.Int32)";
+                public const string LocalPlayerUI_get_windowManager = "GUIWindowManager LocalPlayerUI::get_windowManager()";
+                public const string GUIWindowManager_IsModalWindowOpen = "System.Boolean GUIWindowManager::IsModalWindowOpen()";
+                public const string PlayerUIs = "System.Collections.ObjectModel.ReadOnlyCollection`1<LocalPlayerUI> LocalPlayerUI::PlayerUIs";
+            }
+
+            public const string isAnyCursorWindowOpen = "System.Boolean GameManager::isAnyCursorWindowOpen(LocalPlayerUI)";
+            public static class isAnyCursorWindowOpenInjects
+            {
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string IList_1_get_Item_Int32 = "LocalPlayerUI System.Collections.Generic.IList`1<LocalPlayerUI>::get_Item(System.Int32)";
+                public const string LocalPlayerUI_get_windowManager = "GUIWindowManager LocalPlayerUI::get_windowManager()";
+                public const string GUIWindowManager_IsModalWindowOpen = "System.Boolean GUIWindowManager::IsModalWindowOpen()";
+                public const string GUIWindowManager_IsCursorWindowOpen = "System.Boolean GUIWindowManager::IsCursorWindowOpen()";
+                public const string ICollection_1_get_Count = "System.Int32 System.Collections.Generic.ICollection`1<LocalPlayerUI>::get_Count()";
+                public const string PlayerUIs = "System.Collections.ObjectModel.ReadOnlyCollection`1<LocalPlayerUI> LocalPlayerUI::PlayerUIs";
+            }
+
+            public const string SetCursorEnabledOverride = "System.Void GameManager::SetCursorEnabledOverride(System.Boolean,System.Boolean)";
+            public static class SetCursorEnabledOverrideInjects
+            {
+                public const string GameManager_setCursorEnabled_Boolean = "System.Void GameManager::setCursorEnabled(System.Boolean)";
+                public const string bCursorVisibleOverride = "System.Boolean GameManager::bCursorVisibleOverride";
+            }
+
+            public const string setCursorEnabled = "System.Void GameManager::setCursorEnabled(System.Boolean)";
+            public static class setCursorEnabledInjects
+            {
+                public const string LocalPlayerInput_get_DebugLevel = "LocalPlayerInput/EDebugLevel LocalPlayerInput::get_DebugLevel()";
+                public const string Boolean_ToString = "System.String System.Boolean::ToString()";
+                public const string String_Concat_String_String = "System.String System.String::Concat(System.String,System.String)";
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string Cursor_set_visible_Boolean = "System.Void UnityEngine.Cursor::set_visible(System.Boolean)";
+                public const string Cursor_set_lockState_CursorLockMode = "System.Void UnityEngine.Cursor::set_lockState(UnityEngine.CursorLockMode)";
+                public const string bCursorVisible = "System.Boolean GameManager::bCursorVisible";
+            }
+
+            public const string ApplicationQuitCo = "System.Collections.IEnumerator GameManager::ApplicationQuitCo(System.Single)";
+            public static class ApplicationQuitCoInjects
+            {
+                public const string _4_this = "GameManager GameManager/<ApplicationQuitCo>d__151::<>4__this";
+                public const string _delay = "System.Single GameManager/<ApplicationQuitCo>d__151::_delay";
+                public const string _ApplicationQuitCo_d_151_ctor_Int32 = "System.Void GameManager/<ApplicationQuitCo>d__151::.ctor(System.Int32)";
+            }
+
+            public const string ShowMessagePlayerDenied = "System.Void GameManager::ShowMessagePlayerDenied(GameUtils/KickPlayerData)";
+            public static class ShowMessagePlayerDeniedInjects
+            {
+                public const string Object_ToString = "System.String System.Object::ToString()";
+                public const string String_Concat_String_String = "System.String System.String::Concat(System.String,System.String)";
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string GUIWindowManager_GetWindow_String = "GUIWindow GUIWindowManager::GetWindow(System.String)";
+                public const string Localization_Get_String = "System.String Localization::Get(System.String)";
+                public const string KickPlayerData_LocalizedMessage = "System.String GameUtils/KickPlayerData::LocalizedMessage()";
+                public const string XUiC_MessageBoxWindowGroup_ShowMessage_String_String_MessageBoxTypes_Action_Action_Boolean = "System.Void XUiC_MessageBoxWindowGroup::ShowMessage(System.String,System.String,XUiC_MessageBoxWindowGroup/MessageBoxTypes,System.Action,System.Action,System.Boolean)";
+                public const string windowManager = "GUIWindowManager GameManager::windowManager";
+                public const string ID = "System.String XUiC_MessageBoxWindowGroup::ID";
+                public const string Controller = "XUiController XUiWindowGroup::Controller";
+            }
+
+            public const string PlayerLoginRPC = "System.Void GameManager::PlayerLoginRPC(ClientInfo,System.String,System.String,System.String,System.String)";
+            public static class PlayerLoginRPCInjects
+            {
+                public const string String_Format_String_Object_Object = "System.String System.String::Format(System.String,System.Object,System.Object)";
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string ClientInfo_get_ip = "System.String ClientInfo::get_ip()";
+                public const string String_Format_String_Object = "System.String System.String::Format(System.String,System.Object)";
+                public const string AuthorizationManager_get_Instance = "AuthorizationManager AuthorizationManager::get_Instance()";
+                public const string AuthorizationManager_Authorize_ClientInfo_String_String_String_String = "System.Void AuthorizationManager::Authorize(ClientInfo,System.String,System.String,System.String,System.String)";
+            }
+
+            public const string RequestToEnterGame = "System.Void GameManager::RequestToEnterGame(ClientInfo)";
+            public static class RequestToEnterGameInjects
+            {
+                public const string String_Format_String_Object_Object = "System.String System.String::Format(System.String,System.Object,System.Object)";
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string List_1_get_Item_Int32 = "EntityPlayer System.Collections.Generic.List`1<EntityPlayer>::get_Item(System.Int32)";
+                public const string EntityAlive_get_EntityName = "System.String EntityAlive::get_EntityName()";
+                public const string String_Equals_String_String_StringComparison = "System.Boolean System.String::Equals(System.String,System.String,System.StringComparison)";
+                public const string String_Format_String_Object = "System.String System.String::Format(System.String,System.Object)";
+                public const string NetPackagePlayerDenied_Setup_KickPlayerData = "NetPackagePlayerDenied NetPackagePlayerDenied::Setup(GameUtils/KickPlayerData)";
+                public const string ClientInfo_SendPackage_NetPackage = "System.Void ClientInfo::SendPackage(NetPackage)";
+                public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<EntityPlayer>::get_Count()";
+                public const string GameManager_getPersistentPlayerID_ClientInfo = "System.String GameManager::getPersistentPlayerID(ClientInfo)";
+                public const string PersistentPlayerList_NetworkCloneRelevantForPlayer_String = "PersistentPlayerList PersistentPlayerList::NetworkCloneRelevantForPlayer(System.String)";
+                public const string NetPackageIdMapping_Setup_String_Byte_ = "NetPackageIdMapping NetPackageIdMapping::Setup(System.String,System.Byte[])";
+                public const string Localization_get_PatchedData = "System.Byte[] Localization::get_PatchedData()";
+                public const string NetPackageLocalization_Setup_Byte_ = "NetPackageLocalization NetPackageLocalization::Setup(System.Byte[])";
+                public const string WorldStaticData_SendXmlsToClient_ClientInfo = "System.Void WorldStaticData::SendXmlsToClient(ClientInfo)";
+                public const string GamePrefs_GetString_EnumGamePrefs = "System.String GamePrefs::GetString(EnumGamePrefs)";
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string World_get_Guid = "System.String World::get_Guid()";
+                public const string GameTimer_get_Instance = "GameTimer GameTimer::get_Instance()";
+                public const string World_get_ChunkCache = "ChunkCluster World::get_ChunkCache()";
+                public const string NetPackageWorldInfo_Setup_String_String_String_String_PersistentPlayerList_UInt64_Boolean = "NetPackageWorldInfo NetPackageWorldInfo::Setup(System.String,System.String,System.String,System.String,PersistentPlayerList,System.UInt64,System.Boolean)";
+                public const string DecoManager_get_Instance = "DecoManager DecoManager::get_Instance()";
+                public const string DecoManager_SendDecosToClient_ClientInfo = "System.Void DecoManager::SendDecosToClient(ClientInfo)";
+                public const string ChunkClusterList_get_Item_Int32 = "ChunkCluster ChunkClusterList::get_Item(System.Int32)";
+                public const string NetPackageChunkClusterInfo_Setup_ChunkCluster = "NetPackageChunkClusterInfo NetPackageChunkClusterInfo::Setup(ChunkCluster)";
+                public const string ChunkClusterList_get_Count = "System.Int32 ChunkClusterList::get_Count()";
+                public const string GameManager_GetSpawnPointList = "SpawnPointList GameManager::GetSpawnPointList()";
+                public const string NetPackageWorldSpawnPoints_Setup_SpawnPointList = "NetPackageWorldSpawnPoints NetPackageWorldSpawnPoints::Setup(SpawnPointList)";
+                public const string GameStats_get_Instance = "GameStats GameStats::get_Instance()";
+                public const string NetPackageGameStats_Setup_GameStats = "NetPackageGameStats NetPackageGameStats::Setup(GameStats)";
+                public const string playerName = "System.String ClientInfo::playerName";
+                public const string playerId = "System.String ClientInfo::playerId";
+                public const string m_World = "World GameManager::m_World";
+                public const string Players = "DictionaryList`2<System.Int32,EntityPlayer> World::Players";
+                public const string list = "System.Collections.Generic.List`1<EntityPlayer> DictionaryList`2<System.Int32,EntityPlayer>::list";
+                public const string persistentPlayers = "PersistentPlayerList GameManager::persistentPlayers";
+                public const string fullMappingDataForClients = "System.Byte[] Block::fullMappingDataForClients";
+                public const string ticks = "System.UInt64 GameTimer::ticks";
+                public const string IsFixedSize = "System.Boolean ChunkCluster::IsFixedSize";
+                public const string ChunkClusters = "ChunkClusterList WorldBase::ChunkClusters";
+                public const string KickPlayerData_ctor_EKickReason_Int32_DateTime_String = "System.Void GameUtils/KickPlayerData::.ctor(GameUtils/EKickReason,System.Int32,System.DateTime,System.String)";
+            }
+
+            public const string WorldInfo = "System.Void GameManager::WorldInfo(System.String,System.String,System.String,System.String,PersistentPlayerList,System.UInt64,System.Boolean,System.Collections.Generic.Dictionary`2<System.String,System.UInt32>)";
+            public static class WorldInfoInjects
+            {
+                public const string String_Concat_String_String = "System.String System.String::Concat(System.String,System.String)";
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string GamePrefs_Set_EnumGamePrefs_String = "System.Void GamePrefs::Set(EnumGamePrefs,System.String)";
+                public const string GameManager_worldInfoCo_String_String_Boolean_Dictionary_2 = "System.Collections.IEnumerator GameManager::worldInfoCo(System.String,System.String,System.Boolean,System.Collections.Generic.Dictionary`2<System.String,System.UInt32>)";
+                public const string MonoBehaviour_StartCoroutine_IEnumerator = "UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)";
+                public const string persistentPlayers = "PersistentPlayerList GameManager::persistentPlayers";
+            }
+
+            public const string worldInfoCo = "System.Collections.IEnumerator GameManager::worldInfoCo(System.String,System.String,System.Boolean,System.Collections.Generic.Dictionary`2<System.String,System.UInt32>)";
+            public static class worldInfoCoInjects
+            {
+                public const string _4_this = "GameManager GameManager/<worldInfoCo>d__156::<>4__this";
+                public const string _levelName = "System.String GameManager/<worldInfoCo>d__156::_levelName";
+                public const string _gameName = "System.String GameManager/<worldInfoCo>d__156::_gameName";
+                public const string _fixedSizeCC = "System.Boolean GameManager/<worldInfoCo>d__156::_fixedSizeCC";
+                public const string _worldFileHashes = "System.Collections.Generic.Dictionary`2<System.String,System.UInt32> GameManager/<worldInfoCo>d__156::_worldFileHashes";
+                public const string _worldInfoCo_d_156_ctor_Int32 = "System.Void GameManager/<worldInfoCo>d__156::.ctor(System.Int32)";
+            }
+
+            public const string RequestToSpawn = "System.Void GameManager::RequestToSpawn()";
+            public static class RequestToSpawnInjects
+            {
+                public const string LocalPlayerUI_get_primaryUI = "LocalPlayerUI LocalPlayerUI::get_primaryUI()";
+                public const string XUiC_ProgressWindow_Open_LocalPlayerUI_String_Action_Boolean_Boolean_Boolean_Boolean = "System.Void XUiC_ProgressWindow::Open(LocalPlayerUI,System.String,System.Action,System.Boolean,System.Boolean,System.Boolean,System.Boolean)";
+                public const string GamePrefs_GetInt_EnumGamePrefs = "System.Int32 GamePrefs::GetInt(EnumGamePrefs)";
+                public const string Utils_FastMin_Int32_Int32 = "System.Int32 Utils::FastMin(System.Int32,System.Int32)";
+                public const string PlayerProfile_LoadLocalProfile = "PlayerProfile PlayerProfile::LoadLocalProfile()";
+                public const string NetPackageRequestToSpawnPlayer_Setup_Int32_PlayerProfile = "NetPackageRequestToSpawnPlayer NetPackageRequestToSpawnPlayer::Setup(System.Int32,PlayerProfile)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+            }
+
+            public const string ChunkClusterInfo = "System.Void GameManager::ChunkClusterInfo(System.String,System.Int32,System.Int32,System.Int32,System.Boolean,Vector2i,Vector2i,System.String,UnityEngine.Vector3,UnityEngine.Quaternion)";
+            public static class ChunkClusterInfoInjects
+            {
+                public const string GameManager_chunkClusterInfoCo_String_Int32_Int32_Int32_Boolean_Vector2i_Vector2i_String_Vector3_Quaternion = "System.Collections.IEnumerator GameManager::chunkClusterInfoCo(System.String,System.Int32,System.Int32,System.Int32,System.Boolean,Vector2i,Vector2i,System.String,UnityEngine.Vector3,UnityEngine.Quaternion)";
+                public const string MonoBehaviour_StartCoroutine_IEnumerator = "UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)";
+            }
+
+            public const string chunkClusterInfoCo = "System.Collections.IEnumerator GameManager::chunkClusterInfoCo(System.String,System.Int32,System.Int32,System.Int32,System.Boolean,Vector2i,Vector2i,System.String,UnityEngine.Vector3,UnityEngine.Quaternion)";
+            public static class chunkClusterInfoCoInjects
+            {
+                public const string _4_this = "GameManager GameManager/<chunkClusterInfoCo>d__159::<>4__this";
+                public const string _name = "System.String GameManager/<chunkClusterInfoCo>d__159::_name";
+                public const string _id = "System.Int32 GameManager/<chunkClusterInfoCo>d__159::_id";
+                public const string _blockSize = "System.Int32 GameManager/<chunkClusterInfoCo>d__159::_blockSize";
+                public const string _layerMapId = "System.Int32 GameManager/<chunkClusterInfoCo>d__159::_layerMapId";
+                public const string _bInifiniteTerrain = "System.Boolean GameManager/<chunkClusterInfoCo>d__159::_bInifiniteTerrain";
+                public const string _cMin = "Vector2i GameManager/<chunkClusterInfoCo>d__159::_cMin";
+                public const string _cMax = "Vector2i GameManager/<chunkClusterInfoCo>d__159::_cMax";
+                public const string _pname = "System.String GameManager/<chunkClusterInfoCo>d__159::_pname";
+                public const string _pos = "UnityEngine.Vector3 GameManager/<chunkClusterInfoCo>d__159::_pos";
+                public const string _rot = "UnityEngine.Quaternion GameManager/<chunkClusterInfoCo>d__159::_rot";
+                public const string _chunkClusterInfoCo_d_159_ctor_Int32 = "System.Void GameManager/<chunkClusterInfoCo>d__159::.ctor(System.Int32)";
+            }
+
+            public const string RequestToSpawnPlayer = "System.Void GameManager::RequestToSpawnPlayer(ClientInfo,System.Int32,PlayerProfile)";
+            public static class RequestToSpawnPlayerInjects
+            {
+                public const string GamePrefs_GetInt_EnumGamePrefs = "System.Int32 GamePrefs::GetInt(EnumGamePrefs)";
+                public const string Mathf_Clamp_Int32_Int32_Int32 = "System.Int32 UnityEngine.Mathf::Clamp(System.Int32,System.Int32,System.Int32)";
+                public const string GameManager_getPersistentPlayerID_ClientInfo = "System.String GameManager::getPersistentPlayerID(ClientInfo)";
+                public const string GameUtils_GetPlayerDataDir = "System.String GameUtils::GetPlayerDataDir()";
+                public const string PlayerDataFile_Load_String_String = "System.Void PlayerDataFile::Load(System.String,System.String)";
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string String_Format_String_Object_Object_Object = "System.String System.String::Format(System.String,System.Object,System.Object,System.Object)";
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string GameStats_GetBool_EnumGameStats = "System.Boolean GameStats::GetBool(EnumGameStats)";
+                public const string List_1_get_Item_Int32 = "EntityPlayer System.Collections.Generic.List`1<EntityPlayer>::get_Item(System.Int32)";
+                public const string EntityAlive_get_TeamNumber = "System.Int32 EntityAlive::get_TeamNumber()";
+                public const string World_FindRandomSpawnPointNearPlayer_Entity_Int32_Int32_Int32_Int32_Int32 = "System.Boolean World::FindRandomSpawnPointNearPlayer(Entity,System.Int32,System.Int32&,System.Int32&,System.Int32&,System.Int32)";
+                public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<EntityPlayer>::get_Count()";
+                public const string SpawnPosition_IsUndef = "System.Boolean SpawnPosition::IsUndef()";
+                public const string GameManager_GetSpawnPointList = "SpawnPointList GameManager::GetSpawnPointList()";
+                public const string SpawnPointList_GetRandomSpawnPosition_World_Nullable_1_Int32_Int32 = "SpawnPosition SpawnPointList::GetRandomSpawnPosition(World,System.Nullable`1<UnityEngine.Vector3>,System.Int32,System.Int32)";
+                public const string GamePrefs_GetBool_EnumGamePrefs = "System.Boolean GamePrefs::GetBool(EnumGamePrefs)";
+                public const string PlayerProfile_get_EntityClassName = "System.String PlayerProfile::get_EntityClassName()";
+                public const string EntityClass_FromString_String = "System.Int32 EntityClass::FromString(System.String)";
+                public const string EntityFactory_CreateEntity_EntityCreationData = "Entity EntityFactory::CreateEntity(EntityCreationData)";
+                public const string EntityAlive_set_EntityName_String = "System.Void EntityAlive::set_EntityName(System.String)";
+                public const string EntityPlayer_Respawn_RespawnType = "System.Void EntityPlayer::Respawn(RespawnType)";
+                public const string PlayerDataFile_ToPlayer_EntityPlayer = "System.Void PlayerDataFile::ToPlayer(EntityPlayer)";
+                public const string PersistentPlayerList_GetPlayerData_String = "PersistentPlayerData PersistentPlayerList::GetPlayerData(System.String)";
+                public const string PersistentPlayerList_CreatePlayerData_String = "PersistentPlayerData PersistentPlayerList::CreatePlayerData(System.String)";
+                public const string DateTime_get_Now = "System.DateTime System.DateTime::get_Now()";
+                public const string PersistentPlayerList_MapPlayer_PersistentPlayerData = "System.Void PersistentPlayerList::MapPlayer(PersistentPlayerData)";
+                public const string GameManager_SavePersistentPlayerData = "System.Void GameManager::SavePersistentPlayerData()";
+                public const string ConnectionManager_SetClientEntityId_ClientInfo_Int32_PlayerDataFile = "System.Void ConnectionManager::SetClientEntityId(ClientInfo,System.Int32,PlayerDataFile)";
+                public const string NetPackagePlayerId_Setup_Int32_Int32_PlayerDataFile_Int32 = "NetPackagePlayerId NetPackagePlayerId::Setup(System.Int32,System.Int32,PlayerDataFile,System.Int32)";
+                public const string ClientInfo_SendPackage_NetPackage = "System.Void ClientInfo::SendPackage(NetPackage)";
+                public const string World_SpawnEntityInWorld_Entity = "System.Void World::SpawnEntityInWorld(Entity)";
+                public const string Entity_GetPosition = "UnityEngine.Vector3 Entity::GetPosition()";
+                public const string ChunkManager_AddChunkObserver_Vector3_Boolean_Int32_Int32 = "ChunkManager/ChunkObserver ChunkManager::AddChunkObserver(UnityEngine.Vector3,System.Boolean,System.Int32,System.Int32)";
+                public const string ThreadManager_AddSingleTask_TaskFunctionDelegate_Object_ExitCallbackTask_Boolean_Boolean = "ThreadManager/TaskInfo ThreadManager::AddSingleTask(ThreadManager/TaskFunctionDelegate,System.Object,ThreadManager/ExitCallbackTask,System.Boolean,System.Boolean)";
+                public const string GameManager_MarkPlayerEntityFriends = "System.Void GameManager::MarkPlayerEntityFriends()";
+                public const string PersistentPlayerList_DispatchPlayerEvent_PersistentPlayerData_PersistentPlayerData_EnumPersistentPlayerDataReason = "System.Void PersistentPlayerList::DispatchPlayerEvent(PersistentPlayerData,PersistentPlayerData,EnumPersistentPlayerDataReason)";
+                public const string NetPackagePersistentPlayerState_Setup_PersistentPlayerData_String_EnumPersistentPlayerDataReason = "NetPackagePersistentPlayerState NetPackagePersistentPlayerState::Setup(PersistentPlayerData,System.String,EnumPersistentPlayerDataReason)";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string ModEvent_3_Invoke_T1_T2_T3 = "System.Void ModEvent`3<ClientInfo,System.Int32,PlayerProfile>::Invoke(ClientInfo,System.Int32,PlayerProfile)";
+                public const string Undef = "SpawnPosition SpawnPosition::Undef";
+                public const string lastSpawnPosition = "SpawnPosition PlayerDataFile::lastSpawnPosition";
+                public const string bLoaded = "System.Boolean PlayerDataFile::bLoaded";
+                public const string id = "System.Int32 PlayerDataFile::id";
+                public const string nextEntityID = "System.Int32 EntityFactory::nextEntityID";
+                public const string m_World = "World GameManager::m_World";
+                public const string playerName = "System.String ClientInfo::playerName";
+                public const string Players = "DictionaryList`2<System.Int32,EntityPlayer> World::Players";
+                public const string list = "System.Collections.Generic.List`1<EntityPlayer> DictionaryList`2<System.Int32,EntityPlayer>::list";
+                public const string ecd = "EntityCreationData PlayerDataFile::ecd";
+                public const string position = "UnityEngine.Vector3 SpawnPosition::position";
+                public const string pos = "UnityEngine.Vector3 EntityCreationData::pos";
+                public const string playerProfile = "PlayerProfile EntityCreationData::playerProfile";
+                public const string entityData = "System.IO.MemoryStream EntityCreationData::entityData";
+                public const string readFileVersion = "System.Byte EntityCreationData::readFileVersion";
+                public const string entityClass = "System.Int32 EntityCreationData::entityClass";
+                public const string teamNumber = "System.Int32 EntityCreationData::teamNumber";
+                public const string rot = "UnityEngine.Vector3 EntityCreationData::rot";
+                public const string isEntityRemote = "System.Boolean Entity::isEntityRemote";
+                public const string persistentPlayers = "PersistentPlayerList GameManager::persistentPlayers";
+                public const string LastLogin = "System.DateTime PersistentPlayerData::LastLogin";
+                public const string EntityId = "System.Int32 PersistentPlayerData::EntityId";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string m_ChunkManager = "ChunkManager World::m_ChunkManager";
+                public const string entityId = "System.Int32 Entity::entityId";
+                public const string ChunkObserver = "ChunkManager/ChunkObserver EntityPlayer::ChunkObserver";
+                public const string mapDatabase = "MapChunkDatabase ChunkManager/ChunkObserver::mapDatabase";
+                public const string PlayerSpawning = "ModEvent`3<ClientInfo,System.Int32,PlayerProfile> ModEvents::PlayerSpawning";
+                public const string PlayerDataFile_ctor = "System.Void PlayerDataFile::.ctor()";
+                public const string Vector3i_ctor_Int32_Int32_Int32 = "System.Void Vector3i::.ctor(System.Int32,System.Int32,System.Int32)";
+                public const string SpawnPosition_ctor_Vector3i_Single = "System.Void SpawnPosition::.ctor(Vector3i,System.Single)";
+                public const string EntityCreationData_ctor = "System.Void EntityCreationData::.ctor()";
+                public const string MapChunkDatabase_ctor_Int32 = "System.Void MapChunkDatabase::.ctor(System.Int32)";
+                public const string TaskFunctionDelegate_ctor_Object_IntPtr = "System.Void ThreadManager/TaskFunctionDelegate::.ctor(System.Object,System.IntPtr)";
+                public const string DirectoryPlayerId_ctor_String_String = "System.Void MapChunkDatabase/DirectoryPlayerId::.ctor(System.String,System.String)";
+            }
+
+            public const string MarkPlayerEntityFriends = "System.Void GameManager::MarkPlayerEntityFriends()";
+            public static class MarkPlayerEntityFriendsInjects
+            {
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string List_1_get_Item_Int32 = "EntityPlayer System.Collections.Generic.List`1<EntityPlayer>::get_Item(System.Int32)";
+                public const string PersistentPlayerList_GetPlayerDataFromEntityID_Int32 = "PersistentPlayerData PersistentPlayerList::GetPlayerDataFromEntityID(System.Int32)";
+                public const string HashSet_1_Contains_0 = "System.Boolean System.Collections.Generic.HashSet`1<System.String>::Contains(System.String)";
+                public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<EntityPlayer>::get_Count()";
+                public const string myEntityPlayerLocal = "EntityPlayerLocal GameManager::myEntityPlayerLocal";
+                public const string persistentLocalPlayer = "PersistentPlayerData GameManager::persistentLocalPlayer";
+                public const string m_World = "World GameManager::m_World";
+                public const string Players = "DictionaryList`2<System.Int32,EntityPlayer> World::Players";
+                public const string list = "System.Collections.Generic.List`1<EntityPlayer> DictionaryList`2<System.Int32,EntityPlayer>::list";
+                public const string entityId = "System.Int32 Entity::entityId";
+                public const string myPlayerId = "System.Int32 GameManager::myPlayerId";
+                public const string persistentPlayers = "PersistentPlayerList GameManager::persistentPlayers";
+                public const string ACL = "System.Collections.Generic.HashSet`1<System.String> PersistentPlayerData::ACL";
+                public const string PlayerId = "System.String PersistentPlayerData::PlayerId";
+                public const string IsFriendOfLocalPlayer = "System.Boolean EntityPlayer::IsFriendOfLocalPlayer";
+            }
+
+            public const string PersistentPlayerEvent = "System.Void GameManager::PersistentPlayerEvent(System.String,System.String,EnumPersistentPlayerDataReason)";
+            public static class PersistentPlayerEventInjects
+            {
+                public const string PersistentPlayerList_GetPlayerData_String = "PersistentPlayerData PersistentPlayerList::GetPlayerData(System.String)";
+                public const string GameManager_MarkPlayerEntityFriends = "System.Void GameManager::MarkPlayerEntityFriends()";
+                public const string PersistentPlayerData_AddPlayerToACL_String = "System.Void PersistentPlayerData::AddPlayerToACL(System.String)";
+                public const string PersistentPlayerData_Dispatch_PersistentPlayerData_EnumPersistentPlayerDataReason = "System.Void PersistentPlayerData::Dispatch(PersistentPlayerData,EnumPersistentPlayerDataReason)";
+                public const string LocalPlayerManager_get_isLMP = "System.Boolean LocalPlayerManager::get_isLMP()";
+                public const string WorldBase_GetLocalPlayerFromID_Int32 = "EntityPlayerLocal WorldBase::GetLocalPlayerFromID(System.Int32)";
+                public const string LocalPlayerUI_GetUIForPlayer_EntityPlayerLocal = "LocalPlayerUI LocalPlayerUI::GetUIForPlayer(EntityPlayerLocal)";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string LocalPlayerUI_get_nguiWindowManager = "NGUIWindowManager LocalPlayerUI::get_nguiWindowManager()";
+                public const string LocalPlayerUI_get_xui = "XUi LocalPlayerUI::get_xui()";
+                public const string XUi_GetWindow_String = "XUiV_Window XUi::GetWindow(System.String)";
+                public const string XUiView_get_Controller = "XUiController XUiView::get_Controller()";
+                public const string XUiController_GetChildById_String = "XUiController XUiController::GetChildById(System.String)";
+                public const string XUiController_get_ViewComponent = "XUiView XUiController::get_ViewComponent()";
+                public const string XUiC_PlayersList_AddInvite_String = "System.Boolean XUiC_PlayersList::AddInvite(System.String)";
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string EntityAlive_get_EntityName = "System.String EntityAlive::get_EntityName()";
+                public const string GameManager_ShowTooltip_EntityPlayerLocal_String_String = "System.Void GameManager::ShowTooltip(EntityPlayerLocal,System.String,System.String)";
+                public const string PersistentPlayerData_RemovePlayerFromACL_String = "System.Void PersistentPlayerData::RemovePlayerFromACL(System.String)";
+                public const string PersistentPlayerList_DispatchPlayerEvent_PersistentPlayerData_PersistentPlayerData_EnumPersistentPlayerDataReason = "System.Void PersistentPlayerList::DispatchPlayerEvent(PersistentPlayerData,PersistentPlayerData,EnumPersistentPlayerDataReason)";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string NetPackagePersistentPlayerState_Setup_PersistentPlayerData_String_EnumPersistentPlayerDataReason = "NetPackagePersistentPlayerState NetPackagePersistentPlayerState::Setup(PersistentPlayerData,System.String,EnumPersistentPlayerDataReason)";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string persistentPlayers = "PersistentPlayerList GameManager::persistentPlayers";
+                public const string PlayerId = "System.String PersistentPlayerData::PlayerId";
+                public const string persistentLocalPlayer = "PersistentPlayerData GameManager::persistentLocalPlayer";
+                public const string m_World = "World GameManager::m_World";
+                public const string EntityId = "System.Int32 PersistentPlayerData::EntityId";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+            }
+
+            public const string PersistentPlayerLogin = "System.Void GameManager::PersistentPlayerLogin(PersistentPlayerData)";
+            public static class PersistentPlayerLoginInjects
+            {
+                public const string PersistentPlayerList_SetPlayerData_PersistentPlayerData = "System.Void PersistentPlayerList::SetPlayerData(PersistentPlayerData)";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string GameManager_MarkPlayerEntityFriends = "System.Void GameManager::MarkPlayerEntityFriends()";
+                public const string PersistentPlayerList_DispatchPlayerEvent_PersistentPlayerData_PersistentPlayerData_EnumPersistentPlayerDataReason = "System.Void PersistentPlayerList::DispatchPlayerEvent(PersistentPlayerData,PersistentPlayerData,EnumPersistentPlayerDataReason)";
+                public const string persistentPlayers = "PersistentPlayerList GameManager::persistentPlayers";
+                public const string myPlayerId = "System.Int32 GameManager::myPlayerId";
+                public const string EntityId = "System.Int32 PersistentPlayerData::EntityId";
+                public const string persistentLocalPlayer = "PersistentPlayerData GameManager::persistentLocalPlayer";
+                public const string myEntityPlayerLocal = "EntityPlayerLocal GameManager::myEntityPlayerLocal";
+                public const string persistentPlayerData = "PersistentPlayerData EntityPlayerLocal::persistentPlayerData";
+            }
+
+            public const string HandlePersistentPlayerDisconnected = "System.Void GameManager::HandlePersistentPlayerDisconnected(System.Int32)";
+            public static class HandlePersistentPlayerDisconnectedInjects
+            {
+                public const string PersistentPlayerList_GetPlayerDataFromEntityID_Int32 = "PersistentPlayerData PersistentPlayerList::GetPlayerDataFromEntityID(System.Int32)";
+                public const string PersistentPlayerList_DispatchPlayerEvent_PersistentPlayerData_PersistentPlayerData_EnumPersistentPlayerDataReason = "System.Void PersistentPlayerList::DispatchPlayerEvent(PersistentPlayerData,PersistentPlayerData,EnumPersistentPlayerDataReason)";
+                public const string PersistentPlayerList_UnmapPlayer_String = "System.Void PersistentPlayerList::UnmapPlayer(System.String)";
+                public const string persistentPlayers = "PersistentPlayerList GameManager::persistentPlayers";
+                public const string PlayerId = "System.String PersistentPlayerData::PlayerId";
+            }
+
+            public const string SendPlayerACLInvite = "System.Void GameManager::SendPlayerACLInvite(PersistentPlayerData)";
+            public static class SendPlayerACLInviteInjects
+            {
+                public const string PersistentPlayerData_Dispatch_PersistentPlayerData_EnumPersistentPlayerDataReason = "System.Void PersistentPlayerData::Dispatch(PersistentPlayerData,EnumPersistentPlayerDataReason)";
+                public const string NetPackagePersistentPlayerState_Setup_PersistentPlayerData_String_EnumPersistentPlayerDataReason = "NetPackagePersistentPlayerState NetPackagePersistentPlayerState::Setup(PersistentPlayerData,System.String,EnumPersistentPlayerDataReason)";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string EntityId = "System.Int32 PersistentPlayerData::EntityId";
+                public const string persistentLocalPlayer = "PersistentPlayerData GameManager::persistentLocalPlayer";
+                public const string PlayerId = "System.String PersistentPlayerData::PlayerId";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+            }
+
+            public const string ReplyToPlayerACLInvite = "System.Void GameManager::ReplyToPlayerACLInvite(System.String,System.Boolean)";
+            public static class ReplyToPlayerACLInviteInjects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string GameManager_PersistentPlayerEvent_String_String_EnumPersistentPlayerDataReason = "System.Void GameManager::PersistentPlayerEvent(System.String,System.String,EnumPersistentPlayerDataReason)";
+                public const string NetPackagePersistentPlayerState_Setup_PersistentPlayerData_String_EnumPersistentPlayerDataReason = "NetPackagePersistentPlayerState NetPackagePersistentPlayerState::Setup(PersistentPlayerData,System.String,EnumPersistentPlayerDataReason)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string persistentLocalPlayer = "PersistentPlayerData GameManager::persistentLocalPlayer";
+                public const string PlayerId = "System.String PersistentPlayerData::PlayerId";
+            }
+
+            public const string RemovePlayerFromACL = "System.Void GameManager::RemovePlayerFromACL(PersistentPlayerData)";
+            public static class RemovePlayerFromACLInjects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string GameManager_PersistentPlayerEvent_String_String_EnumPersistentPlayerDataReason = "System.Void GameManager::PersistentPlayerEvent(System.String,System.String,EnumPersistentPlayerDataReason)";
+                public const string NetPackagePersistentPlayerState_Setup_PersistentPlayerData_String_EnumPersistentPlayerDataReason = "NetPackagePersistentPlayerState NetPackagePersistentPlayerState::Setup(PersistentPlayerData,System.String,EnumPersistentPlayerDataReason)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string persistentLocalPlayer = "PersistentPlayerData GameManager::persistentLocalPlayer";
+                public const string PlayerId = "System.String PersistentPlayerData::PlayerId";
+            }
+
+            public const string PlayerId = "System.Void GameManager::PlayerId(System.Int32,System.Int32,PlayerDataFile,System.Int32)";
+            public static class PlayerIdInjects
+            {
+                public const string String_Format_String_Object_Object = "System.String System.String::Format(System.String,System.Object,System.Object)";
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string String_Concat_Object_Object = "System.String System.String::Concat(System.Object,System.Object)";
+                public const string GameStats_Set_EnumGameStats_Int32 = "System.Void GameStats::Set(EnumGameStats,System.Int32)";
+                public const string PlayerProfile_get_EntityClassName = "System.String PlayerProfile::get_EntityClassName()";
+                public const string EntityClass_FromString_String = "System.Int32 EntityClass::FromString(System.String)";
+                public const string PlayerProfile_LoadLocalProfile = "PlayerProfile PlayerProfile::LoadLocalProfile()";
+                public const string PlayerProfile_get_Archetype = "System.String PlayerProfile::get_Archetype()";
+                public const string GameSparksCollector_HandlePlayerArchetype_String = "System.Void GameSparksCollector::HandlePlayerArchetype(System.String)";
+                public const string GamePrefs_GetString_EnumGamePrefs = "System.String GamePrefs::GetString(EnumGamePrefs)";
+                public const string EntityFactory_CreateEntity_EntityCreationData = "Entity EntityFactory::CreateEntity(EntityCreationData)";
+                public const string GameManager_setLocalPlayerEntity_EntityPlayerLocal = "System.Void GameManager::setLocalPlayerEntity(EntityPlayerLocal)";
+                public const string String_Format_String_Object = "System.String System.String::Format(System.String,System.Object)";
+                public const string PlayerDataFile_ToPlayer_EntityPlayer = "System.Void PlayerDataFile::ToPlayer(EntityPlayer)";
+                public const string World_SpawnEntityInWorld_Entity = "System.Void World::SpawnEntityInWorld(Entity)";
+                public const string Entity_GetPosition = "UnityEngine.Vector3 Entity::GetPosition()";
+                public const string GameUtils_GetViewDistance = "System.Int32 GameUtils::GetViewDistance()";
+                public const string ChunkManager_AddChunkObserver_Vector3_Boolean_Int32_Int32 = "ChunkManager/ChunkObserver ChunkManager::AddChunkObserver(UnityEngine.Vector3,System.Boolean,System.Int32,System.Int32)";
+                public const string GameUtils_GetPlayerDataLocalDir = "System.String GameUtils::GetPlayerDataLocalDir()";
+                public const string ThreadManager_AddSingleTask_TaskFunctionDelegate_Object_ExitCallbackTask_Boolean_Boolean = "ThreadManager/TaskInfo ThreadManager::AddSingleTask(ThreadManager/TaskFunctionDelegate,System.Object,ThreadManager/ExitCallbackTask,System.Boolean,System.Boolean)";
+                public const string LocalPlayerUI_GetUIForPlayer_EntityPlayerLocal = "LocalPlayerUI LocalPlayerUI::GetUIForPlayer(EntityPlayerLocal)";
+                public const string LocalPlayerUI_get_xui = "XUi LocalPlayerUI::get_xui()";
+                public const string XUi_SetDataConnections = "System.Void XUi::SetDataConnections()";
+                public const string XUi_SetCraftingData_CraftingData = "System.Void XUi::SetCraftingData(CraftingData)";
+                public const string GameManager_SetWorldTime_UInt64 = "System.Void GameManager::SetWorldTime(System.UInt64)";
+                public const string EntityPlayer_Respawn_RespawnType = "System.Void EntityPlayer::Respawn(RespawnType)";
+                public const string GameStateManager_InitGame_Boolean = "System.Void GameStateManager::InitGame(System.Boolean)";
+                public const string GameStateManager_StartGame = "System.Void GameStateManager::StartGame()";
+                public const string myPlayerId = "System.Int32 GameManager::myPlayerId";
+                public const string id = "System.Int32 EntityCreationData::id";
+                public const string teamNumber = "System.Int32 EntityCreationData::teamNumber";
+                public const string bLoaded = "System.Boolean PlayerDataFile::bLoaded";
+                public const string ecd = "EntityCreationData PlayerDataFile::ecd";
+                public const string playerProfile = "PlayerProfile EntityCreationData::playerProfile";
+                public const string entityClass = "System.Int32 EntityCreationData::entityClass";
+                public const string skinTexture = "System.String EntityCreationData::skinTexture";
+                public const string pos = "UnityEngine.Vector3 EntityCreationData::pos";
+                public const string rot = "UnityEngine.Vector3 EntityCreationData::rot";
+                public const string belongsPlayerId = "System.Int32 EntityCreationData::belongsPlayerId";
+                public const string entityId = "System.Int32 Entity::entityId";
+                public const string lastSpawnPosition = "SpawnPosition PlayerDataFile::lastSpawnPosition";
+                public const string clientRespawnType = "RespawnType GameManager::clientRespawnType";
+                public const string m_World = "World GameManager::m_World";
+                public const string m_ChunkManager = "ChunkManager World::m_ChunkManager";
+                public const string ChunkObserver = "ChunkManager/ChunkObserver EntityPlayer::ChunkObserver";
+                public const string mapDatabase = "MapChunkDatabase ChunkManager/ChunkObserver::mapDatabase";
+                public const string myEntityPlayerLocal = "EntityPlayerLocal GameManager::myEntityPlayerLocal";
+                public const string craftingData = "CraftingData PlayerDataFile::craftingData";
+                public const string worldTime = "System.UInt64 World::worldTime";
+                public const string gameStateManager = "GameStateManager GameManager::gameStateManager";
+                public const string EntityCreationData_ctor = "System.Void EntityCreationData::.ctor()";
+                public const string MapChunkDatabase_ctor_Int32 = "System.Void MapChunkDatabase::.ctor(System.Int32)";
+                public const string TaskFunctionDelegate_ctor_Object_IntPtr = "System.Void ThreadManager/TaskFunctionDelegate::.ctor(System.Object,System.IntPtr)";
+                public const string DirectoryPlayerId_ctor_String_String = "System.Void MapChunkDatabase/DirectoryPlayerId::.ctor(System.String,System.String)";
+            }
+
+            public const string PlayerSpawnedInWorld = "System.Void GameManager::PlayerSpawnedInWorld(ClientInfo,RespawnType,Vector3i,System.Int32)";
+            public static class PlayerSpawnedInWorldInjects
+            {
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string Dictionary_2_TryGetValue_0_1_ = "System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,Entity>::TryGetValue(System.Int32,Entity&)";
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string GameManager_GameMessage_EnumGameMessages_EntityAlive_EntityAlive = "System.Void GameManager::GameMessage(EnumGameMessages,EntityAlive,EntityAlive)";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string Entity_SetAlive = "System.Void Entity::SetAlive()";
+                public const string NetPackagePlayerSpawnedInWorld_Setup_RespawnType_Vector3i_Int32 = "NetPackagePlayerSpawnedInWorld NetPackagePlayerSpawnedInWorld::Setup(RespawnType,Vector3i,System.Int32)";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string Action_1_Invoke_0 = "System.Void System.Action`1<ClientInfo>::Invoke(ClientInfo)";
+                public const string ModEvent_3_Invoke_T1_T2_T3 = "System.Void ModEvent`3<ClientInfo,RespawnType,Vector3i>::Invoke(ClientInfo,RespawnType,Vector3i)";
+                public const string Object_ToString = "System.String System.Object::ToString()";
+                public const string Log_Out_String_Object_ = "System.Void Log::Out(System.String,System.Object[])";
+                public const string Entities = "DictionaryList`2<System.Int32,Entity> World::Entities";
+                public const string dict = "System.Collections.Generic.Dictionary`2<System.Int32,Entity> DictionaryList`2<System.Int32,Entity>::dict";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string isEntityRemote = "System.Boolean Entity::isEntityRemote";
+                public const string OnClientSpawned = "System.Action`1<ClientInfo> GameManager::OnClientSpawned";
+                public const string PlayerSpawnedInWorld = "ModEvent`3<ClientInfo,RespawnType,Vector3i> ModEvents::PlayerSpawnedInWorld";
+            }
+
+            public const string PlayerDisconnected = "System.Void GameManager::PlayerDisconnected(ClientInfo)";
+            public static class PlayerDisconnectedInjects
+            {
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string EntityAlive_get_EntityName = "System.String EntityAlive::get_EntityName()";
+                public const string GameUtils_SafeStringFormat_String = "System.String GameUtils::SafeStringFormat(System.String)";
+                public const string Time_get_timeSinceLevelLoad = "System.Single UnityEngine.Time::get_timeSinceLevelLoad()";
+                public const string Extensions_ToCultureInvariantString_Single_String = "System.String Extensions::ToCultureInvariantString(System.Single,System.String)";
+                public const string Log_Out_String_Object_ = "System.Void Log::Out(System.String,System.Object[])";
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string GC_Collect = "System.Void System.GC::Collect()";
+                public const string MemoryPools_Cleanup = "System.Void MemoryPools::Cleanup()";
+                public const string GameManager_getPersistentPlayerData_ClientInfo = "PersistentPlayerData GameManager::getPersistentPlayerData(ClientInfo)";
+                public const string DateTime_get_Now = "System.DateTime System.DateTime::get_Now()";
+                public const string GameManager_SavePersistentPlayerData = "System.Void GameManager::SavePersistentPlayerData()";
+                public const string ConnectionManager_DisconnectClient_ClientInfo_Boolean = "System.Void ConnectionManager::DisconnectClient(ClientInfo,System.Boolean)";
+                public const string entityId = "System.Int32 ClientInfo::entityId";
+                public const string m_World = "World GameManager::m_World";
+                public const string CreationTimeSinceLevelLoad = "System.Single EntityAlive::CreationTimeSinceLevelLoad";
+                public const string LastLogin = "System.DateTime PersistentPlayerData::LastLogin";
+                public const string EntityId = "System.Int32 PersistentPlayerData::EntityId";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+            }
+
+            public const string SavePlayerData = "System.Void GameManager::SavePlayerData(ClientInfo,PlayerDataFile)";
+            public static class SavePlayerDataInjects
+            {
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string GameUtils_GetPlayerDataDir = "System.String GameUtils::GetPlayerDataDir()";
+                public const string PlayerDataFile_Save_String_String = "System.Void PlayerDataFile::Save(System.String,System.String)";
+                public const string ThreadManager_AddSingleTask_TaskFunctionDelegate_Object_ExitCallbackTask_Boolean_Boolean = "ThreadManager/TaskInfo ThreadManager::AddSingleTask(ThreadManager/TaskFunctionDelegate,System.Object,ThreadManager/ExitCallbackTask,System.Boolean,System.Boolean)";
+                public const string ModEvent_2_Invoke_T1_T2 = "System.Void ModEvent`2<ClientInfo,PlayerDataFile>::Invoke(ClientInfo,PlayerDataFile)";
+                public const string latestPlayerData = "PlayerDataFile ClientInfo::latestPlayerData";
+                public const string entityId = "System.Int32 ClientInfo::entityId";
+                public const string m_World = "World GameManager::m_World";
+                public const string playerId = "System.String ClientInfo::playerId";
+                public const string ChunkObserver = "ChunkManager/ChunkObserver EntityPlayer::ChunkObserver";
+                public const string mapDatabase = "MapChunkDatabase ChunkManager/ChunkObserver::mapDatabase";
+                public const string questJournal = "QuestJournal PlayerDataFile::questJournal";
+                public const string QuestJournal = "QuestJournal EntityPlayer::QuestJournal";
+                public const string SavePlayerData = "ModEvent`2<ClientInfo,PlayerDataFile> ModEvents::SavePlayerData";
+                public const string TaskFunctionDelegate_ctor_Object_IntPtr = "System.Void ThreadManager/TaskFunctionDelegate::.ctor(System.Object,System.IntPtr)";
+                public const string DirectoryPlayerId_ctor_String_String = "System.Void MapChunkDatabase/DirectoryPlayerId::.ctor(System.String,System.String)";
+            }
+
+            public const string getPersistentPlayerID = "System.String GameManager::getPersistentPlayerID(ClientInfo)";
+            public static class getPersistentPlayerIDInjects
+            {
+                public const string Platform_get_UserProfiles = "UserProfileManager Platform::get_UserProfiles()";
+                public const string UserProfileManager_get_PrimaryUser = "UserProfile UserProfileManager::get_PrimaryUser()";
+                public const string UserProfile_get_PlayerId = "System.String UserProfile::get_PlayerId()";
+                public const string playerId = "System.String ClientInfo::playerId";
+            }
+
+            public const string getPersistentPlayerData = "PersistentPlayerData GameManager::getPersistentPlayerData(ClientInfo)";
+            public static class getPersistentPlayerDataInjects
+            {
+                public const string GameManager_getPersistentPlayerID_ClientInfo = "System.String GameManager::getPersistentPlayerID(ClientInfo)";
+                public const string PersistentPlayerList_GetPlayerData_String = "PersistentPlayerData PersistentPlayerList::GetPlayerData(System.String)";
+                public const string persistentPlayers = "PersistentPlayerList GameManager::persistentPlayers";
+            }
+
+            public const string GetPersistentPlayerList = "PersistentPlayerList GameManager::GetPersistentPlayerList()";
+            public static class GetPersistentPlayerListInjects
+            {
+                public const string persistentPlayers = "PersistentPlayerList GameManager::persistentPlayers";
+            }
+
+            public const string GetPersistentLocalPlayer = "PersistentPlayerData GameManager::GetPersistentLocalPlayer()";
+            public static class GetPersistentLocalPlayerInjects
+            {
+                public const string persistentLocalPlayer = "PersistentPlayerData GameManager::persistentLocalPlayer";
+            }
+
+            public const string createWorld = "System.Collections.IEnumerator GameManager::createWorld(System.String,System.String,System.Boolean)";
+            public static class createWorldInjects
+            {
+                public const string _4_this = "GameManager GameManager/<createWorld>d__176::<>4__this";
+                public const string _sWorldName = "System.String GameManager/<createWorld>d__176::_sWorldName";
+                public const string _sGameName = "System.String GameManager/<createWorld>d__176::_sGameName";
+                public const string _fixedSizeCC = "System.Boolean GameManager/<createWorld>d__176::_fixedSizeCC";
+                public const string _createWorld_d_176_ctor_Int32 = "System.Void GameManager/<createWorld>d__176::.ctor(System.Int32)";
+            }
+
+            public const string get_World = "World GameManager::get_World()";
+            public static class get_WorldInjects
+            {
+                public const string m_World = "World GameManager::m_World";
+            }
+
+            public const string GetSpawnPointList = "SpawnPointList GameManager::GetSpawnPointList()";
+            public static class GetSpawnPointListInjects
+            {
+                public const string ChunkClusterList_get_Item_Int32 = "ChunkCluster ChunkClusterList::get_Item(System.Int32)";
+                public const string IChunkProvider_GetSpawnPointList = "SpawnPointList IChunkProvider::GetSpawnPointList()";
+                public const string m_World = "World GameManager::m_World";
+                public const string ChunkClusters = "ChunkClusterList WorldBase::ChunkClusters";
+                public const string ChunkProvider = "IChunkProvider ChunkCluster::ChunkProvider";
+            }
+
+            public const string AddChunkObserver = "ChunkManager/ChunkObserver GameManager::AddChunkObserver(UnityEngine.Vector3,System.Boolean,System.Int32,System.Int32)";
+            public static class AddChunkObserverInjects
+            {
+                public const string ChunkManager_AddChunkObserver_Vector3_Boolean_Int32_Int32 = "ChunkManager/ChunkObserver ChunkManager::AddChunkObserver(UnityEngine.Vector3,System.Boolean,System.Int32,System.Int32)";
+                public const string m_World = "World GameManager::m_World";
+                public const string m_ChunkManager = "ChunkManager World::m_ChunkManager";
+            }
+
+            public const string RemoveChunkObserver = "System.Void GameManager::RemoveChunkObserver(ChunkManager/ChunkObserver)";
+            public static class RemoveChunkObserverInjects
+            {
+                public const string ChunkManager_RemoveChunkObserver_ChunkObserver = "System.Void ChunkManager::RemoveChunkObserver(ChunkManager/ChunkObserver)";
+                public const string m_World = "World GameManager::m_World";
+                public const string m_ChunkManager = "ChunkManager World::m_ChunkManager";
+            }
+
+            public const string ExplosionServer = "System.Void GameManager::ExplosionServer(System.Int32,UnityEngine.Vector3,Vector3i,UnityEngine.Quaternion,ExplosionData,System.Int32,System.Single,System.Boolean,ItemValue)";
+            public static class ExplosionServerInjects
+            {
+                public const string WorldBase_SetBlockRPC_Int32_Vector3i_BlockValue = "System.Void WorldBase::SetBlockRPC(System.Int32,Vector3i,BlockValue)";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string NetPackageExplosionInitiate_Setup_Int32_Vector3_Vector3i_Quaternion_ExplosionData_Int32_Single_Boolean_ItemValue = "NetPackageExplosionInitiate NetPackageExplosionInitiate::Setup(System.Int32,UnityEngine.Vector3,Vector3i,UnityEngine.Quaternion,ExplosionData,System.Int32,System.Single,System.Boolean,ItemValue)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string GameManager_explode_Int32_Vector3_Vector3i_Quaternion_ExplosionData_Int32_ItemValue = "System.Void GameManager::explode(System.Int32,UnityEngine.Vector3,Vector3i,UnityEngine.Quaternion,ExplosionData,System.Int32,ItemValue)";
+                public const string GameManager_explodeLater_Int32_Vector3_Vector3i_Quaternion_ExplosionData_Int32_ItemValue_Single = "System.Collections.IEnumerator GameManager::explodeLater(System.Int32,UnityEngine.Vector3,Vector3i,UnityEngine.Quaternion,ExplosionData,System.Int32,ItemValue,System.Single)";
+                public const string MonoBehaviour_StartCoroutine_IEnumerator = "UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)";
+                public const string m_World = "World GameManager::m_World";
+                public const string Air = "BlockValue BlockValue::Air";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+            }
+
+            public const string explodeLater = "System.Collections.IEnumerator GameManager::explodeLater(System.Int32,UnityEngine.Vector3,Vector3i,UnityEngine.Quaternion,ExplosionData,System.Int32,ItemValue,System.Single)";
+            public static class explodeLaterInjects
+            {
+                public const string _4_this = "GameManager GameManager/<explodeLater>d__183::<>4__this";
+                public const string _clrIdx = "System.Int32 GameManager/<explodeLater>d__183::_clrIdx";
+                public const string position = "UnityEngine.Vector3 GameManager/<explodeLater>d__183::position";
+                public const string _blockPos = "Vector3i GameManager/<explodeLater>d__183::_blockPos";
+                public const string _rotation = "UnityEngine.Quaternion GameManager/<explodeLater>d__183::_rotation";
+                public const string _explosionData = "ExplosionData GameManager/<explodeLater>d__183::_explosionData";
+                public const string playerId = "System.Int32 GameManager/<explodeLater>d__183::playerId";
+                public const string _itemValueExplosive = "ItemValue GameManager/<explodeLater>d__183::_itemValueExplosive";
+                public const string _delayInSec = "System.Single GameManager/<explodeLater>d__183::_delayInSec";
+                public const string _explodeLater_d_183_ctor_Int32 = "System.Void GameManager/<explodeLater>d__183::.ctor(System.Int32)";
+            }
+
+            public const string explode = "System.Void GameManager::explode(System.Int32,UnityEngine.Vector3,Vector3i,UnityEngine.Quaternion,ExplosionData,System.Int32,ItemValue)";
+            public static class explodeInjects
+            {
+                public const string Explosion_AttackBlocks_Int32_ItemValue = "System.Void Explosion::AttackBlocks(System.Int32,ItemValue)";
+                public const string Explosion_AttackEntites_Int32_ItemValue = "System.Void Explosion::AttackEntites(System.Int32,ItemValue)";
+                public const string List_1_Clear = "System.Void System.Collections.Generic.List`1<BlockChangeInfo>::Clear()";
+                public const string WorldBase_GetGameRandom = "GameRandom WorldBase::GetGameRandom()";
+                public const string List_1_GetEnumerator = "System.Collections.Generic.List`1/Enumerator<BlockChangeInfo> System.Collections.Generic.List`1<BlockChangeInfo>::GetEnumerator()";
+                public const string Enumerator_get_Current = "BlockChangeInfo System.Collections.Generic.List`1/Enumerator<BlockChangeInfo>::get_Current()";
+                public const string WorldBase_GetBlock_Vector3i = "BlockValue WorldBase::GetBlock(Vector3i)";
+                public const string BlockValue_get_type = "System.Int32 BlockValue::get_type()";
+                public const string Block_IsExplosionAffected = "System.Boolean Block::IsExplosionAffected()";
+                public const string GameRandom_get_RandomFloat = "System.Single GameRandom::get_RandomFloat()";
+                public const string Vector3i_ToVector3 = "UnityEngine.Vector3 Vector3i::ToVector3()";
+                public const string Vector3_op_Addition_Vector3_Vector3 = "UnityEngine.Vector3 UnityEngine.Vector3::op_Addition(UnityEngine.Vector3,UnityEngine.Vector3)";
+                public const string Vector3_get_zero = "UnityEngine.Vector3 UnityEngine.Vector3::get_zero()";
+                public const string Block_DropItemsOnEvent_WorldBase_BlockValue_EnumDropEvent_Single_Vector3_Vector3_Single_Int32_Boolean = "System.Void Block::DropItemsOnEvent(WorldBase,BlockValue,EnumDropEvent,System.Single,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Int32,System.Boolean)";
+                public const string Block_ShowModelOnFall = "System.Boolean Block::ShowModelOnFall()";
+                public const string EntityClass_FromString_String = "System.Int32 EntityClass::FromString(System.String)";
+                public const string World_GetTexture_Int32_Int32_Int32 = "System.Int64 World::GetTexture(System.Int32,System.Int32,System.Int32)";
+                public const string Vector3_get_one = "UnityEngine.Vector3 UnityEngine.Vector3::get_one()";
+                public const string Vector3_op_Multiply_Vector3_Single = "UnityEngine.Vector3 UnityEngine.Vector3::op_Multiply(UnityEngine.Vector3,System.Single)";
+                public const string EntityFactory_CreateEntity_Int32_Int32_BlockValue_Int64_Int32_Vector3_Vector3_Single_Int32_String_Int32_String = "Entity EntityFactory::CreateEntity(System.Int32,System.Int32,BlockValue,System.Int64,System.Int32,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Int32,System.String,System.Int32,System.String)";
+                public const string Time_get_time = "System.Single UnityEngine.Time::get_time()";
+                public const string World_SpawnEntityInWorld_Entity = "System.Void World::SpawnEntityInWorld(Entity)";
+                public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.List`1/Enumerator<BlockChangeInfo>::MoveNext()";
+                public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
+                public const string GameManager_ExplosionClient_Int32_Vector3_Quaternion_Int32_Int32_Single_List_1 = "UnityEngine.GameObject GameManager::ExplosionClient(System.Int32,UnityEngine.Vector3,UnityEngine.Quaternion,System.Int32,System.Int32,System.Single,System.Collections.Generic.List`1<BlockChangeInfo>)";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string GameObject_get_transform = "UnityEngine.Transform UnityEngine.GameObject::get_transform()";
+                public const string Object_op_Implicit_Object = "System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)";
+                public const string AIDirector_OnSoundPlayedAtPosition_Int32_Vector3_String_Single = "System.Void AIDirector::OnSoundPlayedAtPosition(System.Int32,UnityEngine.Vector3,System.String,System.Single)";
+                public const string ConnectionManager_ClientCount = "System.Int32 ConnectionManager::ClientCount()";
+                public const string NetPackageExplosionClient_Setup_Int32_Vector3_Quaternion_Int32_Int32_Single_List_1 = "NetPackageExplosionClient NetPackageExplosionClient::Setup(System.Int32,UnityEngine.Vector3,UnityEngine.Quaternion,System.Int32,System.Int32,System.Single,System.Collections.Generic.List`1<BlockChangeInfo>)";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string m_World = "World GameManager::m_World";
+                public const string tempExplPositions = "System.Collections.Generic.List`1<BlockChangeInfo> GameManager::tempExplPositions";
+                public const string ChangedBlockPositions = "System.Collections.Generic.Dictionary`2<Vector3i,BlockChangeInfo> Explosion::ChangedBlockPositions";
+                public const string pos = "Vector3i BlockChangeInfo::pos";
+                public const string blockValue = "BlockValue BlockChangeInfo::blockValue";
+                public const string list = "Block[] Block::list";
+                public const string cItemExplosionLifetime = "System.Single Constants::cItemExplosionLifetime";
+                public const string x = "System.Int32 Vector3i::x";
+                public const string y = "System.Int32 Vector3i::y";
+                public const string z = "System.Int32 Vector3i::z";
+                public const string timeToActivate = "System.Single EntityFallingBlock::timeToActivate";
+                public const string ParticleIndex = "System.Int32 ExplosionData::ParticleIndex";
+                public const string BlastPower = "System.Int32 ExplosionData::BlastPower";
+                public const string EntityRadius = "System.Int32 ExplosionData::EntityRadius";
+                public const string BuffActions = "System.Collections.Generic.List`1<System.String> ExplosionData::BuffActions";
+                public const string InitiatorEntityId = "System.Int32 ExplosionDamageArea::InitiatorEntityId";
+                public const string aiDirector = "AIDirector World::aiDirector";
+                public const string soundName = "System.String AudioPlayer::soundName";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string Explosion_ctor_World_Int32_Vector3_Vector3i_ExplosionData_Int32 = "System.Void Explosion::.ctor(World,System.Int32,UnityEngine.Vector3,Vector3i,ExplosionData,System.Int32)";
+                public const string Vector3_ctor_Single_Single_Single = "System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)";
+            }
+
+            public const string ExplosionClient = "UnityEngine.GameObject GameManager::ExplosionClient(System.Int32,UnityEngine.Vector3,UnityEngine.Quaternion,System.Int32,System.Int32,System.Single,System.Collections.Generic.List`1<BlockChangeInfo>)";
+            public static class ExplosionClientInjects
+            {
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string Component_get_gameObject = "UnityEngine.GameObject UnityEngine.Component::get_gameObject()";
+                public const string Vector3_op_Subtraction_Vector3_Vector3 = "UnityEngine.Vector3 UnityEngine.Vector3::op_Subtraction(UnityEngine.Vector3,UnityEngine.Vector3)";
+                public const string ApplyExplosionForce_Explode_Vector3_Single_Single = "System.Void ApplyExplosionForce::Explode(UnityEngine.Vector3,System.Single,System.Single)";
+                public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<BlockChangeInfo>::get_Count()";
+                public const string GameManager_ChangeBlocks_String_List_1 = "System.Void GameManager::ChangeBlocks(System.String,System.Collections.Generic.List`1<BlockChangeInfo>)";
+                public const string prefabExplosions = "UnityEngine.Transform[] WorldStaticData::prefabExplosions";
+                public const string position = "UnityEngine.Vector3 Origin::position";
+            }
+
+            public const string SavePersistentPlayerData = "System.Void GameManager::SavePersistentPlayerData()";
+            public static class SavePersistentPlayerDataInjects
+            {
+                public const string GameUtils_GetSaveGameDir_String_String = "System.String GameUtils::GetSaveGameDir(System.String,System.String)";
+                public const string String_Concat_String_String = "System.String System.String::Concat(System.String,System.String)";
+                public const string PersistentPlayerList_Write_String = "System.Void PersistentPlayerList::Write(System.String)";
+                public const string isEditMode = "System.Boolean GameManager::isEditMode";
+                public const string persistentPlayers = "PersistentPlayerList GameManager::persistentPlayers";
+            }
+
+            public const string ChangeBlocks = "System.Void GameManager::ChangeBlocks(System.String,System.Collections.Generic.List`1<BlockChangeInfo>)";
+            public static class ChangeBlocksInjects
+            {
+                public const string PersistentPlayerList_GetPlayerData_String = "PersistentPlayerData PersistentPlayerList::GetPlayerData(System.String)";
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string List_1_Clear = "System.Void System.Collections.Generic.List`1<ChunkCluster>::Clear()";
+                public const string List_1_get_Item_Int32 = "BlockChangeInfo System.Collections.Generic.List`1<BlockChangeInfo>::get_Item(System.Int32)";
+                public const string ChunkClusterList_get_Item_Int32 = "ChunkCluster ChunkClusterList::get_Item(System.Int32)";
+                public const string List_1_Contains_0 = "System.Boolean System.Collections.Generic.List`1<ChunkCluster>::Contains(ChunkCluster)";
+                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<ChunkCluster>::Add(ChunkCluster)";
+                public const string ChunkCluster_ChunkPosNeedsRegeneration_DelayedStart = "System.Void ChunkCluster::ChunkPosNeedsRegeneration_DelayedStart()";
+                public const string ChunkCluster_GetDensity_Vector3i = "System.SByte ChunkCluster::GetDensity(Vector3i)";
+                public const string BlockValue_Equals_BlockValue = "System.Boolean BlockValue::Equals(BlockValue)";
+                public const string BlockValue_get_type = "System.Int32 BlockValue::get_type()";
+                public const string BlockShape_IsTerrain = "System.Boolean BlockShape::IsTerrain()";
+                public const string ChunkCluster_GetBlock_Vector3i = "BlockValue ChunkCluster::GetBlock(Vector3i)";
+                public const string ChunkCluster_GetChunkFromWorldPos_Vector3i = "IChunk ChunkCluster::GetChunkFromWorldPos(Vector3i)";
+                public const string World_toBlockXZ_Int32 = "System.Int32 World::toBlockXZ(System.Int32)";
+                public const string Chunk_GetHeight_Int32_Int32 = "System.Byte Chunk::GetHeight(System.Int32,System.Int32)";
+                public const string Chunk_SetTopSoilBroken_Int32_Int32 = "System.Void Chunk::SetTopSoilBroken(System.Int32,System.Int32)";
+                public const string Chunk_get_X = "System.Int32 Chunk::get_X()";
+                public const string Chunk_get_Z = "System.Int32 Chunk::get_Z()";
+                public const string WorldChunkCache_GetChunkSync_Int32_Int32 = "Chunk WorldChunkCache::GetChunkSync(System.Int32,System.Int32)";
+                public const string World_UncullChunk_Chunk = "System.Void World::UncullChunk(Chunk)";
+                public const string BlockValue_get_ischild = "System.Boolean BlockValue::get_ischild()";
+                public const string WorldBase_GetTileEntity_Int32_Vector3i = "TileEntity WorldBase::GetTileEntity(System.Int32,Vector3i)";
+                public const string ChunkCluster_SetBlock_Vector3i_Boolean_BlockValue_Boolean_SByte_Boolean_Boolean_Boolean = "BlockValue ChunkCluster::SetBlock(Vector3i,System.Boolean,BlockValue,System.Boolean,System.SByte,System.Boolean,System.Boolean,System.Boolean)";
+                public const string Dictionary_2_Remove_0 = "System.Boolean System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::Remove(TileEntity)";
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string WorldBase_GetGameManager = "IGameManager WorldBase::GetGameManager()";
+                public const string IGameManager_DropContentOfLootContainerServer_BlockValue_Vector3i_Int32 = "System.Void IGameManager::DropContentOfLootContainerServer(BlockValue,Vector3i,System.Int32)";
+                public const string World_toBlock_Vector3i = "Vector3i World::toBlock(Vector3i)";
+                public const string TileEntity_UpgradeDowngradeFrom_TileEntity = "System.Void TileEntity::UpgradeDowngradeFrom(TileEntity)";
+                public const string QuestEventManager_get_Current = "QuestEventManager QuestEventManager::get_Current()";
+                public const string QuestEventManager_BlockChanged_Block_Block_Vector3i = "System.Void QuestEventManager::BlockChanged(Block,Block,Vector3i)";
+                public const string PersistentPlayerList_PlaceLandProtectionBlock_Vector3i_PersistentPlayerData = "System.Void PersistentPlayerList::PlaceLandProtectionBlock(Vector3i,PersistentPlayerData)";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string BlockLandClaim_HandleDeactivatingCurrentLandClaims_PersistentPlayerData = "System.Void BlockLandClaim::HandleDeactivatingCurrentLandClaims(PersistentPlayerData)";
+                public const string BlockLandClaim_IsPrimary_BlockValue = "System.Boolean BlockLandClaim::IsPrimary(BlockValue)";
+                public const string NavObjectManager_get_Instance = "NavObjectManager NavObjectManager::get_Instance()";
+                public const string Vector3i_ToVector3 = "UnityEngine.Vector3 Vector3i::ToVector3()";
+                public const string NavObjectManager_RegisterNavObject_String_Vector3_String = "NavObject NavObjectManager::RegisterNavObject(System.String,UnityEngine.Vector3,System.String)";
+                public const string PersistentPlayerList_RemoveLandProtectionBlock_Vector3i = "System.Void PersistentPlayerList::RemoveLandProtectionBlock(Vector3i)";
+                public const string NavObjectManager_UnRegisterNavObjectByPosition_Vector3_String = "System.Void NavObjectManager::UnRegisterNavObjectByPosition(UnityEngine.Vector3,System.String)";
+                public const string NetPackageEntityMapMarkerRemove_Setup_EnumMapObjectType_Vector3 = "NetPackageEntityMapMarkerRemove NetPackageEntityMapMarkerRemove::Setup(EnumMapObjectType,UnityEngine.Vector3)";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string Object_op_Implicit_Object = "System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)";
+                public const string NavObjectManager_UnRegisterNavObjectByOwnerEntity_Entity_String = "System.Void NavObjectManager::UnRegisterNavObjectByOwnerEntity(Entity,System.String)";
+                public const string EntityAlive_get_SpawnPoints = "EntityBedrollPositionList EntityAlive::get_SpawnPoints()";
+                public const string EntityBedrollPositionList_Set_Vector3i = "System.Void EntityBedrollPositionList::Set(Vector3i)";
+                public const string PersistentPlayerList_SpawnPointRemoved_Vector3i = "System.Void PersistentPlayerList::SpawnPointRemoved(Vector3i)";
+                public const string ChunkCluster_SetTextureFull_Vector3i_Int64 = "System.Void ChunkCluster::SetTextureFull(Vector3i,System.Int64)";
+                public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<BlockChangeInfo>::get_Count()";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string Entity_PlayOneShot_String_Boolean = "System.Void Entity::PlayOneShot(System.String,System.Boolean)";
+                public const string GameManager_SavePersistentPlayerData = "System.Void GameManager::SavePersistentPlayerData()";
+                public const string ChunkCluster_ChunkPosNeedsRegeneration_DelayedStop = "System.Void ChunkCluster::ChunkPosNeedsRegeneration_DelayedStop()";
+                public const string m_World = "World GameManager::m_World";
+                public const string persistentLocalPlayer = "PersistentPlayerData GameManager::persistentLocalPlayer";
+                public const string myEntityPlayerLocal = "EntityPlayerLocal GameManager::myEntityPlayerLocal";
+                public const string persistentPlayers = "PersistentPlayerList GameManager::persistentPlayers";
+                public const string EntityId = "System.Int32 PersistentPlayerData::EntityId";
+                public const string ccChanged = "System.Collections.Generic.List`1<ChunkCluster> GameManager::ccChanged";
+                public const string ClusterIdx = "System.Int32 ChunkCluster::ClusterIdx";
+                public const string clrIdx = "System.Int32 BlockChangeInfo::clrIdx";
+                public const string ChunkClusters = "ChunkClusterList WorldBase::ChunkClusters";
+                public const string bChangeDensity = "System.Boolean BlockChangeInfo::bChangeDensity";
+                public const string bForceDensityChange = "System.Boolean BlockChangeInfo::bForceDensityChange";
+                public const string pos = "Vector3i BlockChangeInfo::pos";
+                public const string density = "System.SByte BlockChangeInfo::density";
+                public const string blockValue = "BlockValue BlockChangeInfo::blockValue";
+                public const string Air = "BlockValue BlockValue::Air";
+                public const string DensityAir = "System.SByte MarchingCubes::DensityAir";
+                public const string list = "Block[] Block::list";
+                public const string shape = "BlockShape Block::shape";
+                public const string DensityTerrain = "System.SByte MarchingCubes::DensityTerrain";
+                public const string bChangeDamage = "System.Boolean BlockChangeInfo::bChangeDamage";
+                public const string x = "System.Int32 Vector3i::x";
+                public const string z = "System.Int32 Vector3i::z";
+                public const string y = "System.Int32 Vector3i::y";
+                public const string bChangeBlockValue = "System.Boolean BlockChangeInfo::bChangeBlockValue";
+                public const string bUpdateLight = "System.Boolean BlockChangeInfo::bUpdateLight";
+                public const string lockedTileEntities = "System.Collections.Generic.Dictionary`2<TileEntity,System.Int32> GameManager::lockedTileEntities";
+                public const string entityId = "System.Int32 TileEntity::entityId";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string OwnerEntity = "Entity NavObject::OwnerEntity";
+                public const string bChangeTexture = "System.Boolean BlockChangeInfo::bChangeTexture";
+                public const string textureFull = "System.Int64 BlockChangeInfo::textureFull";
+            }
+
+            public const string SetBlocksRPC = "System.Void GameManager::SetBlocksRPC(System.Collections.Generic.List`1<BlockChangeInfo>,System.String)";
+            public static class SetBlocksRPCInjects
+            {
+                public const string GameManager_ChangeBlocks_String_List_1 = "System.Void GameManager::ChangeBlocks(System.String,System.Collections.Generic.List`1<BlockChangeInfo>)";
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string NetPackageSetBlock_Setup_PersistentPlayerData_List_1_Int32 = "NetPackageSetBlock NetPackageSetBlock::Setup(PersistentPlayerData,System.Collections.Generic.List`1<BlockChangeInfo>,System.Int32)";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string GameManager_SetBlocksOnClients_Int32_NetPackageSetBlock = "System.Void GameManager::SetBlocksOnClients(System.Int32,NetPackageSetBlock)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string persistentLocalPlayer = "PersistentPlayerData GameManager::persistentLocalPlayer";
+                public const string myPlayerId = "System.Int32 GameManager::myPlayerId";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+            }
+
+            public const string SetBlocksOnClients = "System.Void GameManager::SetBlocksOnClients(System.Int32,NetPackageSetBlock)";
+            public static class SetBlocksOnClientsInjects
+            {
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+            }
+
+            public const string updateBlockParticles = "System.Void GameManager::updateBlockParticles()";
+            public static class updateBlockParticlesInjects
+            {
+                public const string Monitor_Enter_Object_Boolean_ = "System.Void System.Threading.Monitor::Enter(System.Object,System.Boolean&)";
+                public const string List_1_get_Item_Int32 = "GameManager/BlockParticleCreationData System.Collections.Generic.List`1<GameManager/BlockParticleCreationData>::get_Item(System.Int32)";
+                public const string DictionarySave_2_ContainsKey_T1 = "System.Boolean DictionarySave`2<Vector3i,UnityEngine.Transform>::ContainsKey(Vector3i)";
+                public const string GameManager_RemoveBlockParticleEffect_Vector3i = "System.Void GameManager::RemoveBlockParticleEffect(Vector3i)";
+                public const string GameManager_spawnParticleEffect_ParticleEffect_Int32 = "UnityEngine.Transform GameManager::spawnParticleEffect(ParticleEffect,System.Int32)";
+                public const string DictionarySave_2_set_Item_T1_T2 = "System.Void DictionarySave`2<Vector3i,UnityEngine.Transform>::set_Item(Vector3i,UnityEngine.Transform)";
+                public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<GameManager/BlockParticleCreationData>::get_Count()";
+                public const string List_1_Clear = "System.Void System.Collections.Generic.List`1<GameManager/BlockParticleCreationData>::Clear()";
+                public const string Monitor_Exit_Object = "System.Void System.Threading.Monitor::Exit(System.Object)";
+                public const string blockParticlesToSpawn = "System.Collections.Generic.List`1<GameManager/BlockParticleCreationData> GameManager::blockParticlesToSpawn";
+                public const string m_BlockParticles = "DictionarySave`2<Vector3i,UnityEngine.Transform> GameManager::m_BlockParticles";
+                public const string blockPos = "Vector3i GameManager/BlockParticleCreationData::blockPos";
+                public const string particleEffect = "ParticleEffect GameManager/BlockParticleCreationData::particleEffect";
+            }
+
+            public const string SpawnBlockParticleEffect = "System.Void GameManager::SpawnBlockParticleEffect(Vector3i,ParticleEffect)";
+            public static class SpawnBlockParticleEffectInjects
+            {
+                public const string Monitor_Enter_Object_Boolean_ = "System.Void System.Threading.Monitor::Enter(System.Object,System.Boolean&)";
+                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<GameManager/BlockParticleCreationData>::Add(GameManager/BlockParticleCreationData)";
+                public const string Monitor_Exit_Object = "System.Void System.Threading.Monitor::Exit(System.Object)";
+                public const string blockParticlesToSpawn = "System.Collections.Generic.List`1<GameManager/BlockParticleCreationData> GameManager::blockParticlesToSpawn";
+                public const string BlockParticleCreationData_ctor_Vector3i_ParticleEffect = "System.Void GameManager/BlockParticleCreationData::.ctor(Vector3i,ParticleEffect)";
+            }
+
+            public const string HasBlockParticleEffect = "System.Boolean GameManager::HasBlockParticleEffect(Vector3i)";
+            public static class HasBlockParticleEffectInjects
+            {
+                public const string DictionarySave_2_ContainsKey_T1 = "System.Boolean DictionarySave`2<Vector3i,UnityEngine.Transform>::ContainsKey(Vector3i)";
+                public const string m_BlockParticles = "DictionarySave`2<Vector3i,UnityEngine.Transform> GameManager::m_BlockParticles";
+            }
+
+            public const string GetBlockParticleEffect = "UnityEngine.Transform GameManager::GetBlockParticleEffect(Vector3i)";
+            public static class GetBlockParticleEffectInjects
+            {
+                public const string DictionarySave_2_get_Item_T1 = "UnityEngine.Transform DictionarySave`2<Vector3i,UnityEngine.Transform>::get_Item(Vector3i)";
+                public const string m_BlockParticles = "DictionarySave`2<Vector3i,UnityEngine.Transform> GameManager::m_BlockParticles";
+            }
+
+            public const string RemoveBlockParticleEffect = "System.Void GameManager::RemoveBlockParticleEffect(Vector3i)";
+            public static class RemoveBlockParticleEffectInjects
+            {
+                public const string DictionarySave_2_ContainsKey_T1 = "System.Boolean DictionarySave`2<Vector3i,UnityEngine.Transform>::ContainsKey(Vector3i)";
+                public const string DictionarySave_2_get_Item_T1 = "UnityEngine.Transform DictionarySave`2<Vector3i,UnityEngine.Transform>::get_Item(Vector3i)";
+                public const string DictionarySave_2_Remove_T1 = "System.Void DictionarySave`2<Vector3i,UnityEngine.Transform>::Remove(Vector3i)";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string Component_get_gameObject = "UnityEngine.GameObject UnityEngine.Component::get_gameObject()";
+                public const string Object_Destroy_Object = "System.Void UnityEngine.Object::Destroy(UnityEngine.Object)";
+                public const string m_BlockParticles = "DictionarySave`2<Vector3i,UnityEngine.Transform> GameManager::m_BlockParticles";
+            }
+
+            public const string SpawnParticleEffectServer = "System.Void GameManager::SpawnParticleEffectServer(ParticleEffect,System.Int32)";
+            public static class SpawnParticleEffectServerInjects
+            {
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string GameManager_SpawnParticleEffectClient_ParticleEffect_Int32 = "UnityEngine.Transform GameManager::SpawnParticleEffectClient(ParticleEffect,System.Int32)";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string NetPackageParticleEffect_Setup_ParticleEffect_Int32 = "NetPackageParticleEffect NetPackageParticleEffect::Setup(ParticleEffect,System.Int32)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+            }
+
+            public const string SpawnParticleEffectClient = "UnityEngine.Transform GameManager::SpawnParticleEffectClient(ParticleEffect,System.Int32)";
+            public static class SpawnParticleEffectClientInjects
+            {
+                public const string GameManager_spawnParticleEffect_ParticleEffect_Int32 = "UnityEngine.Transform GameManager::spawnParticleEffect(ParticleEffect,System.Int32)";
+            }
+
+            public const string spawnParticleEffect = "UnityEngine.Transform GameManager::spawnParticleEffect(ParticleEffect,System.Int32)";
+            public static class spawnParticleEffectInjects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string AIDirector_OnSoundPlayedAtPosition_Int32_Vector3_String_Single = "System.Void AIDirector::OnSoundPlayedAtPosition(System.Int32,UnityEngine.Vector3,System.String,System.Single)";
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string ParticleEffect_GetDynamicParticleEffect_ParticleEffect = "UnityEngine.Transform ParticleEffect::GetDynamicParticleEffect(ParticleEffect)";
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string Vector3_op_Subtraction_Vector3_Vector3 = "UnityEngine.Vector3 UnityEngine.Vector3::op_Subtraction(UnityEngine.Vector3,UnityEngine.Vector3)";
+                public const string Renderer_get_material = "UnityEngine.Material UnityEngine.Renderer::get_material()";
+                public const string Material_SetTexture_String_Texture = "System.Void UnityEngine.Material::SetTexture(System.String,UnityEngine.Texture)";
+                public const string Material_SetFloat_String_Single = "System.Void UnityEngine.Material::SetFloat(System.String,System.Single)";
+                public const string Material_HasProperty_String = "System.Boolean UnityEngine.Material::HasProperty(System.String)";
+                public const string Rect_get_x = "System.Single UnityEngine.Rect::get_x()";
+                public const string Rect_get_y = "System.Single UnityEngine.Rect::get_y()";
+                public const string Rect_get_width = "System.Single UnityEngine.Rect::get_width()";
+                public const string Rect_get_height = "System.Single UnityEngine.Rect::get_height()";
+                public const string Material_SetVector_String_Vector4 = "System.Void UnityEngine.Material::SetVector(System.String,UnityEngine.Vector4)";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string Transform_set_parent_Transform = "System.Void UnityEngine.Transform::set_parent(UnityEngine.Transform)";
+                public const string Vector3_get_zero = "UnityEngine.Vector3 UnityEngine.Vector3::get_zero()";
+                public const string Transform_set_localPosition_Vector3 = "System.Void UnityEngine.Transform::set_localPosition(UnityEngine.Vector3)";
+                public const string Quaternion_get_identity = "UnityEngine.Quaternion UnityEngine.Quaternion::get_identity()";
+                public const string Transform_set_localRotation_Quaternion = "System.Void UnityEngine.Transform::set_localRotation(UnityEngine.Quaternion)";
+                public const string GameObject_get_transform = "UnityEngine.Transform UnityEngine.GameObject::get_transform()";
+                public const string String_IsNullOrEmpty_String = "System.Boolean System.String::IsNullOrEmpty(System.String)";
+                public const string Manager_Play_Vector3_String_Int32 = "System.Void Audio.Manager::Play(UnityEngine.Vector3,System.String,System.Int32)";
+                public const string soundName = "System.String ParticleEffect::soundName";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string m_World = "World GameManager::m_World";
+                public const string aiDirector = "AIDirector World::aiDirector";
+                public const string pos = "UnityEngine.Vector3 ParticleEffect::pos";
+                public const string position = "UnityEngine.Vector3 Origin::position";
+                public const string rot = "UnityEngine.Quaternion ParticleEffect::rot";
+                public const string opqueTextureId = "System.Int32 ParticleEffect::opqueTextureId";
+                public const string meshes = "MeshDescription[] MeshDescription::meshes";
+                public const string MESH_OPAQUE = "System.Int32 MeshDescription::MESH_OPAQUE";
+                public const string textureAtlas = "TextureAtlas MeshDescription::textureAtlas";
+                public const string diffuseTexture = "UnityEngine.Texture TextureAtlas::diffuseTexture";
+                public const string normalTexture = "UnityEngine.Texture TextureAtlas::normalTexture";
+                public const string uvMapping = "UVRectTiling[] TextureAtlas::uvMapping";
+                public const string index = "System.Int32 UVRectTiling::index";
+                public const string uv = "UnityEngine.Rect UVRectTiling::uv";
+                public const string parentTransform = "UnityEngine.Transform ParticleEffect::parentTransform";
+                public const string m_ParticleEffectsGameObject = "UnityEngine.GameObject GameManager::m_ParticleEffectsGameObject";
+                public const string Vector4_ctor_Single_Single_Single_Single = "System.Void UnityEngine.Vector4::.ctor(System.Single,System.Single,System.Single,System.Single)";
+            }
+
+            public const string IsEditMode = "System.Boolean GameManager::IsEditMode()";
+            public static class IsEditModeInjects
+            {
+                public const string isEditMode = "System.Boolean GameManager::isEditMode";
+            }
+
+            public const string GameMessage_EnumGameMessages_EntityAlive_EntityAlive = "System.Void GameManager::GameMessage(EnumGameMessages,EntityAlive,EntityAlive)";
+            public static class GameMessage_EnumGameMessages_EntityAlive_EntityAliveInjects
+            {
+                public const string GameManager_GameMessage_EnumGameMessages_String_EntityAlive_EntityAlive = "System.Void GameManager::GameMessage(EnumGameMessages,System.String,EntityAlive,EntityAlive)";
+            }
+
+            public const string GameMessage_EnumGameMessages_String_EntityAlive = "System.Void GameManager::GameMessage(EnumGameMessages,System.String,EntityAlive)";
+            public static class GameMessage_EnumGameMessages_String_EntityAliveInjects
+            {
+                public const string GameManager_GameMessage_EnumGameMessages_String_EntityAlive_EntityAlive = "System.Void GameManager::GameMessage(EnumGameMessages,System.String,EntityAlive,EntityAlive)";
+            }
+
+            public const string GameMessage_EnumGameMessages_String_EntityAlive_EntityAlive = "System.Void GameManager::GameMessage(EnumGameMessages,System.String,EntityAlive,EntityAlive)";
+            public static class GameMessage_EnumGameMessages_String_EntityAlive_EntityAliveInjects
+            {
+                public const string EntityAlive_get_EntityName = "System.String EntityAlive::get_EntityName()";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string Localization_Get_String = "System.String Localization::Get(System.String)";
+                public const string GameManager_GameMessageServer_ClientInfo_EnumGameMessages_String_String_Boolean_String_Boolean = "System.Void GameManager::GameMessageServer(ClientInfo,EnumGameMessages,System.String,System.String,System.Boolean,System.String,System.Boolean)";
+                public const string Empty = "System.String System.String::Empty";
+            }
+
+            public const string GameMessageServer = "System.Void GameManager::GameMessageServer(ClientInfo,EnumGameMessages,System.String,System.String,System.Boolean,System.String,System.Boolean)";
+            public static class GameMessageServerInjects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string ModEventInterruptible_7_Invoke_T1_T2_T3_T4_T5_T6_T7 = "Mod ModEventInterruptible`7<ClientInfo,EnumGameMessages,System.String,System.String,System.Boolean,System.String,System.Boolean>::Invoke(ClientInfo,EnumGameMessages,System.String,System.String,System.Boolean,System.String,System.Boolean)";
+                public const string GameManager_DisplayGameMessage_EnumGameMessages_String_String_Boolean_String_Boolean_Boolean = "System.String GameManager::DisplayGameMessage(EnumGameMessages,System.String,System.String,System.Boolean,System.String,System.Boolean,System.Boolean)";
+                public const string NetPackageGameMessage_Setup_EnumGameMessages_String_String_Boolean_String_Boolean = "NetPackageGameMessage NetPackageGameMessage::Setup(EnumGameMessages,System.String,System.String,System.Boolean,System.String,System.Boolean)";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string Mod_get_ModInfo = "ModInfo.ModInfo Mod::get_ModInfo()";
+                public const string ModInfo_get_Name = "DataItem`1<System.String> ModInfo.ModInfo::get_Name()";
+                public const string DataItem_1_get_Value = "System.String DataItem`1<System.String>::get_Value()";
+                public const string Log_Out_String_Object_ = "System.Void Log::Out(System.String,System.Object[])";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string GameMessage = "ModEventInterruptible`7<ClientInfo,EnumGameMessages,System.String,System.String,System.Boolean,System.String,System.Boolean> ModEvents::GameMessage";
+            }
+
+            public const string DisplayGameMessage = "System.String GameManager::DisplayGameMessage(EnumGameMessages,System.String,System.String,System.Boolean,System.String,System.Boolean,System.Boolean)";
+            public static class DisplayGameMessageInjects
+            {
+                public const string Localization_Get_String = "System.String Localization::Get(System.String)";
+                public const string String_IsNullOrEmpty_String = "System.Boolean System.String::IsNullOrEmpty(System.String)";
+                public const string String_Format_String_Object_Object = "System.String System.String::Format(System.String,System.Object,System.Object)";
+                public const string String_Format_String_Object = "System.String System.String::Format(System.String,System.Object)";
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string String_Concat_String_String = "System.String System.String::Concat(System.String,System.String)";
+                public const string WorldBase_GetLocalPlayers = "System.Collections.Generic.List`1<EntityPlayerLocal> WorldBase::GetLocalPlayers()";
+                public const string List_1_GetEnumerator = "System.Collections.Generic.List`1/Enumerator<EntityPlayerLocal> System.Collections.Generic.List`1<EntityPlayerLocal>::GetEnumerator()";
+                public const string Enumerator_get_Current = "EntityPlayerLocal System.Collections.Generic.List`1/Enumerator<EntityPlayerLocal>::get_Current()";
+                public const string LocalPlayerUI_GetUIForPlayer_EntityPlayerLocal = "LocalPlayerUI LocalPlayerUI::GetUIForPlayer(EntityPlayerLocal)";
+                public const string LocalPlayerUI_get_xui = "XUi LocalPlayerUI::get_xui()";
+                public const string XUiC_ChatOutput_AddMessage_XUi_EnumGameMessages_EChatType_Int32_String_String = "System.Void XUiC_ChatOutput::AddMessage(XUi,EnumGameMessages,EChatType,System.Int32,System.String,System.String)";
+                public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.List`1/Enumerator<EntityPlayerLocal>::MoveNext()";
+                public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
+                public const string m_World = "World GameManager::m_World";
+            }
+
+            public const string ChatMessageServer = "System.Void GameManager::ChatMessageServer(ClientInfo,EChatType,System.Int32,System.String,System.String,System.Boolean,System.Collections.Generic.List`1<System.Int32>)";
+            public static class ChatMessageServerInjects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string ModEventInterruptible_7_Invoke_T1_T2_T3_T4_T5_T6_T7 = "Mod ModEventInterruptible`7<ClientInfo,EChatType,System.Int32,System.String,System.String,System.Boolean,System.Collections.Generic.List`1<System.Int32>>::Invoke(ClientInfo,EChatType,System.Int32,System.String,System.String,System.Boolean,System.Collections.Generic.List`1<System.Int32>)";
+                public const string GameManager_ChatMessageClient_EChatType_Int32_String_String_Boolean_List_1 = "System.Void GameManager::ChatMessageClient(EChatType,System.Int32,System.String,System.String,System.Boolean,System.Collections.Generic.List`1<System.Int32>)";
+                public const string Object_ToString = "System.String System.Object::ToString()";
+                public const string Localization_Get_String = "System.String Localization::Get(System.String)";
+                public const string Utils_FilterBbCode_String_Boolean = "System.String Utils::FilterBbCode(System.String,System.Boolean)";
+                public const string String_Format_String_Object_ = "System.String System.String::Format(System.String,System.Object[])";
+                public const string Mod_get_ModInfo = "ModInfo.ModInfo Mod::get_ModInfo()";
+                public const string ModInfo_get_Name = "DataItem`1<System.String> ModInfo.ModInfo::get_Name()";
+                public const string DataItem_1_get_Value = "System.String DataItem`1<System.String>::get_Value()";
+                public const string Log_Out_String_Object_ = "System.Void Log::Out(System.String,System.Object[])";
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string List_1_GetEnumerator = "System.Collections.Generic.List`1/Enumerator<System.Int32> System.Collections.Generic.List`1<System.Int32>::GetEnumerator()";
+                public const string Enumerator_get_Current = "System.Int32 System.Collections.Generic.List`1/Enumerator<System.Int32>::get_Current()";
+                public const string ConnectionManager_get_Clients = "ClientInfoCollection ConnectionManager::get_Clients()";
+                public const string ClientInfoCollection_ForEntityId_Int32 = "ClientInfo ClientInfoCollection::ForEntityId(System.Int32)";
+                public const string NetPackageChat_Setup_EChatType_Int32_String_String_Boolean_List_1 = "NetPackageChat NetPackageChat::Setup(EChatType,System.Int32,System.String,System.String,System.Boolean,System.Collections.Generic.List`1<System.Int32>)";
+                public const string ClientInfo_SendPackage_NetPackage = "System.Void ClientInfo::SendPackage(NetPackage)";
+                public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.List`1/Enumerator<System.Int32>::MoveNext()";
+                public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string ChatMessage = "ModEventInterruptible`7<ClientInfo,EChatType,System.Int32,System.String,System.String,System.Boolean,System.Collections.Generic.List`1<System.Int32>> ModEvents::ChatMessage";
+                public const string playerId = "System.String ClientInfo::playerId";
+            }
+
+            public const string ChatMessageClient = "System.Void GameManager::ChatMessageClient(EChatType,System.Int32,System.String,System.String,System.Boolean,System.Collections.Generic.List`1<System.Int32>)";
+            public static class ChatMessageClientInjects
+            {
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string Localization_Get_String = "System.String Localization::Get(System.String)";
+                public const string String_Concat_String_String = "System.String System.String::Concat(System.String,System.String)";
+                public const string WorldBase_GetLocalPlayers = "System.Collections.Generic.List`1<EntityPlayerLocal> WorldBase::GetLocalPlayers()";
+                public const string List_1_GetEnumerator = "System.Collections.Generic.List`1/Enumerator<EntityPlayerLocal> System.Collections.Generic.List`1<EntityPlayerLocal>::GetEnumerator()";
+                public const string Enumerator_get_Current = "EntityPlayerLocal System.Collections.Generic.List`1/Enumerator<EntityPlayerLocal>::get_Current()";
+                public const string List_1_Contains_0 = "System.Boolean System.Collections.Generic.List`1<System.Int32>::Contains(System.Int32)";
+                public const string LocalPlayerUI_GetUIForPlayer_EntityPlayerLocal = "LocalPlayerUI LocalPlayerUI::GetUIForPlayer(EntityPlayerLocal)";
+                public const string LocalPlayerUI_get_xui = "XUi LocalPlayerUI::get_xui()";
+                public const string XUiC_ChatOutput_AddMessage_XUi_EnumGameMessages_EChatType_Int32_String_String = "System.Void XUiC_ChatOutput::AddMessage(XUi,EnumGameMessages,EChatType,System.Int32,System.String,System.String)";
+                public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.List`1/Enumerator<EntityPlayerLocal>::MoveNext()";
+                public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
+                public const string m_World = "World GameManager::m_World";
+                public const string entityId = "System.Int32 Entity::entityId";
+            }
+
+            public const string RemoveChunk = "System.Void GameManager::RemoveChunk(System.Int64)";
+            public static class RemoveChunkInjects
+            {
+                public const string ChunkManager_RemoveChunk_Int64 = "System.Void ChunkManager::RemoveChunk(System.Int64)";
+                public const string m_World = "World GameManager::m_World";
+                public const string m_ChunkManager = "ChunkManager World::m_ChunkManager";
+            }
+
+            public const string readInventoryFromWebsite = "System.Collections.IEnumerator GameManager::readInventoryFromWebsite()";
+            public static class readInventoryFromWebsiteInjects
+            {
+                public const string _readInventoryFromWebsite_d_209_ctor_Int32 = "System.Void GameManager/<readInventoryFromWebsite>d__209::.ctor(System.Int32)";
+            }
+
+            public const string GUIWindowMessageBox_OnOkPressed = "System.Void GameManager::GUIWindowMessageBox_OnOkPressed()";
+            public static class GUIWindowMessageBox_OnOkPressedInjects
+            {
+                public const string GUIWindowManager_Open_String_Boolean_Boolean_Boolean = "System.Void GUIWindowManager::Open(System.String,System.Boolean,System.Boolean,System.Boolean)";
+                public const string windowManager = "GUIWindowManager GameManager::windowManager";
+                public const string ID = "System.String XUiC_MainMenu::ID";
+            }
+
+            public const string GetActiveBlockTool = "IBlockTool GameManager::GetActiveBlockTool()";
+            public static class GetActiveBlockToolInjects
+            {
+                public const string activeBlockTool = "IBlockTool GameManager::activeBlockTool";
+                public const string blockSelectionTool = "IBlockTool GameManager::blockSelectionTool";
+            }
+
+            public const string SetActiveBlockTool = "System.Void GameManager::SetActiveBlockTool(IBlockTool)";
+            public static class SetActiveBlockToolInjects
+            {
+                public const string activeBlockTool = "IBlockTool GameManager::activeBlockTool";
+            }
+
+            public const string GetDynamicPrefabDecorator = "DynamicPrefabDecorator GameManager::GetDynamicPrefabDecorator()";
+            public static class GetDynamicPrefabDecoratorInjects
+            {
+                public const string ChunkClusterList_get_Item_Int32 = "ChunkCluster ChunkClusterList::get_Item(System.Int32)";
+                public const string IChunkProvider_GetDynamicPrefabDecorator = "DynamicPrefabDecorator IChunkProvider::GetDynamicPrefabDecorator()";
+                public const string m_World = "World GameManager::m_World";
+                public const string ChunkClusters = "ChunkClusterList WorldBase::ChunkClusters";
+                public const string ChunkProvider = "IChunkProvider ChunkCluster::ChunkProvider";
+            }
+
+            public const string GetDynamicEntitySpawnerDecorator = "StaticEntitySpawnerDecorator GameManager::GetDynamicEntitySpawnerDecorator()";
+            public static class GetDynamicEntitySpawnerDecoratorInjects
+            {
+                public const string ChunkClusterList_get_Item_Int32 = "ChunkCluster ChunkClusterList::get_Item(System.Int32)";
+                public const string IChunkProvider_GetDynamicEntitySpawnerDecorator = "StaticEntitySpawnerDecorator IChunkProvider::GetDynamicEntitySpawnerDecorator()";
+                public const string m_World = "World GameManager::m_World";
+                public const string ChunkClusters = "ChunkClusterList WorldBase::ChunkClusters";
+                public const string ChunkProvider = "IChunkProvider ChunkCluster::ChunkProvider";
+            }
+
+            public const string SimpleRPC = "System.Void GameManager::SimpleRPC(System.Int32,SimpleRPCType,System.Boolean,System.Boolean)";
+            public static class SimpleRPCInjects
+            {
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string Inventory_get_holdingItem = "ItemClass Inventory::get_holdingItem()";
+                public const string Inventory_get_holdingItemData = "ItemInventoryData Inventory::get_holdingItemData()";
+                public const string ItemClass_OnHoldingItemActivated_ItemInventoryData = "System.Void ItemClass::OnHoldingItemActivated(ItemInventoryData)";
+                public const string NetPackageSimpleRPC_Setup_Int32_SimpleRPCType = "NetPackageSimpleRPC NetPackageSimpleRPC::Setup(System.Int32,SimpleRPCType)";
+                public const string WorldBase_IsRemote = "System.Boolean WorldBase::IsRemote()";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string NetEntityDistribution_SendPacketToTrackedPlayers_Int32_Int32_NetPackage = "System.Void NetEntityDistribution::SendPacketToTrackedPlayers(System.Int32,System.Int32,NetPackage)";
+                public const string m_World = "World GameManager::m_World";
+                public const string inventory = "Inventory EntityAlive::inventory";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string entityDistributer = "NetEntityDistribution World::entityDistributer";
+            }
+
+            public const string ItemDropServer_ItemStack_Vector3_Vector3_Int32_Single_Boolean = "System.Void GameManager::ItemDropServer(ItemStack,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32,System.Single,System.Boolean)";
+            public static class ItemDropServer_ItemStack_Vector3_Vector3_Int32_Single_BooleanInjects
+            {
+                public const string Vector3_get_zero = "UnityEngine.Vector3 UnityEngine.Vector3::get_zero()";
+                public const string GameManager_ItemDropServer_ItemStack_Vector3_Vector3_Vector3_Int32_Single_Boolean_Int32 = "System.Void GameManager::ItemDropServer(ItemStack,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32,System.Single,System.Boolean,System.Int32)";
+            }
+
+            public const string ItemDropServer_ItemStack_Vector3_Vector3_Vector3_Int32_Single_Boolean_Int32 = "System.Void GameManager::ItemDropServer(ItemStack,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32,System.Single,System.Boolean,System.Int32)";
+            public static class ItemDropServer_ItemStack_Vector3_Vector3_Vector3_Int32_Single_Boolean_Int32Injects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string Object_op_Implicit_Object = "System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)";
+                public const string NetPackageItemDrop_Setup_ItemStack_Vector3_Vector3_Vector3_Single_Int32_Boolean_Int32 = "NetPackageItemDrop NetPackageItemDrop::Setup(ItemStack,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Int32,System.Boolean,System.Int32)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string Entity_getHeadPosition = "UnityEngine.Vector3 Entity::getHeadPosition()";
+                public const string Vector3_op_Addition_Vector3_Vector3 = "UnityEngine.Vector3 UnityEngine.Vector3::op_Addition(UnityEngine.Vector3,UnityEngine.Vector3)";
+                public const string Vector3_get_zero = "UnityEngine.Vector3 UnityEngine.Vector3::get_zero()";
+                public const string Vector3_Equals_Vector3 = "System.Boolean UnityEngine.Vector3::Equals(UnityEngine.Vector3)";
+                public const string World_RandomRange_Single_Single = "System.Single World::RandomRange(System.Single,System.Single)";
+                public const string Vector3_get_down = "UnityEngine.Vector3 UnityEngine.Vector3::get_down()";
+                public const string Vector3_op_Subtraction_Vector3_Vector3 = "UnityEngine.Vector3 UnityEngine.Vector3::op_Subtraction(UnityEngine.Vector3,UnityEngine.Vector3)";
+                public const string Physics_Raycast_Ray_RaycastHit_Single_Int32 = "System.Boolean UnityEngine.Physics::Raycast(UnityEngine.Ray,UnityEngine.RaycastHit&,System.Single,System.Int32)";
+                public const string RaycastHit_get_point = "UnityEngine.Vector3 UnityEngine.RaycastHit::get_point()";
+                public const string EntityClass_FromString_String = "System.Int32 EntityClass::FromString(System.String)";
+                public const string ItemStack_Clone = "ItemStack ItemStack::Clone()";
+                public const string EntityFactory_CreateEntity_EntityCreationData = "Entity EntityFactory::CreateEntity(EntityCreationData)";
+                public const string Vector3_get_sqrMagnitude = "System.Single UnityEngine.Vector3::get_sqrMagnitude()";
+                public const string Entity_AddVelocity_Vector3 = "System.Void Entity::AddVelocity(UnityEngine.Vector3)";
+                public const string World_SpawnEntityInWorld_Entity = "System.Void World::SpawnEntityInWorld(Entity)";
+                public const string World_toChunkXZ_Int32 = "System.Int32 World::toChunkXZ(System.Int32)";
+                public const string World_GetChunkSync_Int32_Int32 = "IChunk World::GetChunkSync(System.Int32,System.Int32)";
+                public const string List_1_get_Item_Int32 = "Entity System.Collections.Generic.List`1<Entity>::get_Item(System.Int32)";
+                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<EntityItem>::Add(EntityItem)";
+                public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<Entity>::get_Count()";
+                public const string List_1_Sort_IComparer_1 = "System.Void System.Collections.Generic.List`1<EntityItem>::Sort(System.Collections.Generic.IComparer`1<EntityItem>)";
+                public const string Entity_MarkToUnload = "System.Void Entity::MarkToUnload()";
+                public const string m_World = "World GameManager::m_World";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string isEntityRemote = "System.Boolean Entity::isEntityRemote";
+                public const string clientLastEntityId = "System.Int32 World::clientLastEntityId";
+                public const string x = "System.Single UnityEngine.Vector3::x";
+                public const string y = "System.Single UnityEngine.Vector3::y";
+                public const string z = "System.Single UnityEngine.Vector3::z";
+                public const string position = "UnityEngine.Vector3 Origin::position";
+                public const string entityClass = "System.Int32 EntityCreationData::entityClass";
+                public const string id = "System.Int32 EntityCreationData::id";
+                public const string nextEntityID = "System.Int32 EntityFactory::nextEntityID";
+                public const string itemStack = "ItemStack EntityCreationData::itemStack";
+                public const string pos = "UnityEngine.Vector3 EntityCreationData::pos";
+                public const string rot = "UnityEngine.Vector3 EntityCreationData::rot";
+                public const string lifetime = "System.Single EntityCreationData::lifetime";
+                public const string belongsPlayerId = "System.Int32 EntityCreationData::belongsPlayerId";
+                public const string clientEntityId = "System.Int32 EntityCreationData::clientEntityId";
+                public const string isPhysicsMaster = "System.Boolean Entity::isPhysicsMaster";
+                public const string entityLists = "System.Collections.Generic.List`1<Entity>[] Chunk::entityLists";
+                public const string Vector3_ctor_Single_Single_Single = "System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)";
+                public const string Ray_ctor_Vector3_Vector3 = "System.Void UnityEngine.Ray::.ctor(UnityEngine.Vector3,UnityEngine.Vector3)";
+                public const string EntityCreationData_ctor = "System.Void EntityCreationData::.ctor()";
+                public const string List_1_ctor = "System.Void System.Collections.Generic.List`1<EntityItem>::.ctor()";
+                public const string EntityItemLifetimeComparer_ctor = "System.Void GameManager/EntityItemLifetimeComparer::.ctor()";
+            }
+
+            public const string AddExpServer = "System.Void GameManager::AddExpServer(System.Int32,System.String,System.Int32)";
+            public static class AddExpServerInjects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string NetPackageEntityAddExpServer_Setup_Int32_Int32 = "NetPackageEntityAddExpServer NetPackageEntityAddExpServer::Setup(System.Int32,System.Int32)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+            }
+
+            public const string AddScoreServer = "System.Void GameManager::AddScoreServer(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)";
+            public static class AddScoreServerInjects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string NetPackageEntityAddScoreServer_Setup_Int32_Int32_Int32_Int32_Int32 = "NetPackageEntityAddScoreServer NetPackageEntityAddScoreServer::Setup(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string NetPackageEntityAddScoreClient_Setup_Int32_Int32_Int32_Int32_Int32 = "NetPackageEntityAddScoreClient NetPackageEntityAddScoreClient::Setup(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string EntityAlive_AddScore_Int32_Int32_Int32_Int32_Int32 = "System.Void EntityAlive::AddScore(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string m_World = "World GameManager::m_World";
+                public const string isEntityRemote = "System.Boolean Entity::isEntityRemote";
+                public const string entityId = "System.Int32 Entity::entityId";
+            }
+
+            public const string AwardKill = "System.Void GameManager::AwardKill(EntityAlive,EntityAlive)";
+            public static class AwardKillInjects
+            {
+                public const string NetPackageEntityAwardKillServer_Setup_Int32_Int32 = "NetPackageEntityAwardKillServer NetPackageEntityAwardKillServer::Setup(System.Int32,System.Int32)";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string QuestEventManager_get_Current = "QuestEventManager QuestEventManager::get_Current()";
+                public const string QuestEventManager_EntityKilled_Entity = "System.Void QuestEventManager::EntityKilled(Entity)";
+                public const string isEntityRemote = "System.Boolean Entity::isEntityRemote";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string entityId = "System.Int32 Entity::entityId";
+            }
+
+            public const string ItemReloadServer = "System.Void GameManager::ItemReloadServer(System.Int32)";
+            public static class ItemReloadServerInjects
+            {
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string GameManager_ItemReloadClient_Int32 = "System.Void GameManager::ItemReloadClient(System.Int32)";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string NetPackageItemReload_Setup_Int32 = "NetPackageItemReload NetPackageItemReload::Setup(System.Int32)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+            }
+
+            public const string ItemReloadClient = "System.Void GameManager::ItemReloadClient(System.Int32)";
+            public static class ItemReloadClientInjects
+            {
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string Inventory_IsHoldingGun = "System.Boolean Inventory::IsHoldingGun()";
+                public const string Inventory_GetHoldingGun = "ItemActionAttack Inventory::GetHoldingGun()";
+                public const string Inventory_get_holdingItemData = "ItemInventoryData Inventory::get_holdingItemData()";
+                public const string List_1_get_Item_Int32 = "ItemActionData System.Collections.Generic.List`1<ItemActionData>::get_Item(System.Int32)";
+                public const string ItemActionAttack_ReloadGun_ItemActionData = "System.Void ItemActionAttack::ReloadGun(ItemActionData)";
+                public const string m_World = "World GameManager::m_World";
+                public const string inventory = "Inventory EntityAlive::inventory";
+                public const string actionData = "System.Collections.Generic.List`1<ItemActionData> ItemInventoryData::actionData";
+            }
+
+            public const string ItemActionEffectsServer = "System.Void GameManager::ItemActionEffectsServer(System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32)";
+            public static class ItemActionEffectsServerInjects
+            {
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string GameManager_ItemActionEffectsClient_Int32_Int32_Int32_Int32_Vector3_Vector3_Int32 = "System.Void GameManager::ItemActionEffectsClient(System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32)";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string NetPackageItemActionEffects_Setup_Int32_Int32_Int32_ItemActionFiringState_Vector3_Vector3_Int32 = "NetPackageItemActionEffects NetPackageItemActionEffects::Setup(System.Int32,System.Int32,System.Int32,ItemActionFiringState,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string Entity_get_AttachedMainEntity = "Entity Entity::get_AttachedMainEntity()";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string m_World = "World GameManager::m_World";
+                public const string entityId = "System.Int32 Entity::entityId";
+            }
+
+            public const string ItemActionEffectsClient = "System.Void GameManager::ItemActionEffectsClient(System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32)";
+            public static class ItemActionEffectsClientInjects
+            {
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string Inventory_GetItemActionInSlot_Int32_Int32 = "ItemAction Inventory::GetItemActionInSlot(System.Int32,System.Int32)";
+                public const string Inventory_GetItemActionDataInSlot_Int32_Int32 = "ItemActionData Inventory::GetItemActionDataInSlot(System.Int32,System.Int32)";
+                public const string ItemAction_ItemActionEffects_GameManager_ItemActionData_Int32_Vector3_Vector3_Int32 = "System.Void ItemAction::ItemActionEffects(GameManager,ItemActionData,System.Int32,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32)";
+                public const string m_World = "World GameManager::m_World";
+                public const string inventory = "Inventory EntityAlive::inventory";
+            }
+
+            public const string SetWorldTime = "System.Void GameManager::SetWorldTime(System.UInt64)";
+            public static class SetWorldTimeInjects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string World_SetTime_UInt64 = "System.Void World::SetTime(System.UInt64)";
+                public const string m_World = "World GameManager::m_World";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string worldTime = "System.UInt64 World::worldTime";
+            }
+
+            public const string AddVelocityToEntityServer = "System.Void GameManager::AddVelocityToEntityServer(System.Int32,UnityEngine.Vector3)";
+            public static class AddVelocityToEntityServerInjects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string NetPackageEntityAddVelocity_Setup_Int32_Vector3 = "NetPackageEntityAddVelocity NetPackageEntityAddVelocity::Setup(System.Int32,UnityEngine.Vector3)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string Entity_AddVelocity_Vector3 = "System.Void Entity::AddVelocity(UnityEngine.Vector3)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string m_World = "World GameManager::m_World";
+            }
+
+            public const string CollectEntityServer = "System.Void GameManager::CollectEntityServer(System.Int32,System.Int32)";
+            public static class CollectEntityServerInjects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string NetPackageEntityCollect_Setup_Int32_Int32 = "NetPackageEntityCollect NetPackageEntityCollect::Setup(System.Int32,System.Int32)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string WorldBase_IsLocalPlayer_Int32 = "System.Boolean WorldBase::IsLocalPlayer(System.Int32)";
+                public const string GameManager_CollectEntityClient_Int32_Int32 = "System.Void GameManager::CollectEntityClient(System.Int32,System.Int32)";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string WorldBase_RemoveEntity_Int32_EnumRemoveEntityReason = "Entity WorldBase::RemoveEntity(System.Int32,EnumRemoveEntityReason)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string m_World = "World GameManager::m_World";
+                public const string entityId = "System.Int32 Entity::entityId";
+            }
+
+            public const string CollectEntityClient = "System.Void GameManager::CollectEntityClient(System.Int32,System.Int32)";
+            public static class CollectEntityClientInjects
+            {
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string Object_op_Implicit_Object = "System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)";
+                public const string EntityVehicle_Collect_Int32 = "System.Void EntityVehicle::Collect(System.Int32)";
+                public const string LocalPlayerUI_GetUIForPlayer_EntityPlayerLocal = "LocalPlayerUI LocalPlayerUI::GetUIForPlayer(EntityPlayerLocal)";
+                public const string LocalPlayerUI_get_xui = "XUi LocalPlayerUI::get_xui()";
+                public const string XUiM_PlayerInventory_AddItem_ItemStack = "System.Boolean XUiM_PlayerInventory::AddItem(ItemStack)";
+                public const string Entity_GetPosition = "UnityEngine.Vector3 Entity::GetPosition()";
+                public const string Vector3_get_zero = "UnityEngine.Vector3 UnityEngine.Vector3::get_zero()";
+                public const string GameManager_ItemDropServer_ItemStack_Vector3_Vector3_Int32_Single_Boolean = "System.Void GameManager::ItemDropServer(ItemStack,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32,System.Single,System.Boolean)";
+                public const string ItemValue_Clone = "ItemValue ItemValue::Clone()";
+                public const string Component_get_transform = "UnityEngine.Transform UnityEngine.Component::get_transform()";
+                public const string Component_get_gameObject = "UnityEngine.GameObject UnityEngine.Component::get_gameObject()";
+                public const string GameObject_SetActive_Boolean = "System.Void UnityEngine.GameObject::SetActive(System.Boolean)";
+                public const string m_World = "World GameManager::m_World";
+                public const string PlayerInventory = "XUiM_PlayerInventory XUi::PlayerInventory";
+                public const string OriginalItemValue = "ItemValue EntityTurret::OriginalItemValue";
+                public const string None = "ItemValue ItemValue::None";
+                public const string PickedUpWaitingToDelete = "System.Boolean EntityTurret::PickedUpWaitingToDelete";
+                public const string bPlayerStatsChanged = "System.Boolean EntityAlive::bPlayerStatsChanged";
+                public const string itemStack = "ItemStack EntityItem::itemStack";
+                public const string ItemStack_ctor_ItemValue_Int32 = "System.Void ItemStack::.ctor(ItemValue,System.Int32)";
+            }
+
+            public const string PickupBlockServer = "System.Void GameManager::PickupBlockServer(System.Int32,Vector3i,BlockValue,System.Int32,System.String)";
+            public static class PickupBlockServerInjects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string NetPackagePickupBlock_Setup_Int32_Vector3i_BlockValue_Int32_PersistentPlayerData = "NetPackagePickupBlock NetPackagePickupBlock::Setup(System.Int32,Vector3i,BlockValue,System.Int32,PersistentPlayerData)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string WorldBase_GetBlock_Int32_Vector3i = "BlockValue WorldBase::GetBlock(System.Int32,Vector3i)";
+                public const string BlockValue_get_type = "System.Int32 BlockValue::get_type()";
+                public const string WorldBase_IsLocalPlayer_Int32 = "System.Boolean WorldBase::IsLocalPlayer(System.Int32)";
+                public const string GameManager_PickupBlockClient_Int32_Vector3i_BlockValue_Int32 = "System.Void GameManager::PickupBlockClient(System.Int32,Vector3i,BlockValue,System.Int32)";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string Block_GetBlockValue_String_Boolean = "BlockValue Block::GetBlockValue(System.String,System.Boolean)";
+                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<BlockChangeInfo>::Add(BlockChangeInfo)";
+                public const string GameManager_SetBlocksRPC_List_1_String = "System.Void GameManager::SetBlocksRPC(System.Collections.Generic.List`1<BlockChangeInfo>,System.String)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string persistentLocalPlayer = "PersistentPlayerData GameManager::persistentLocalPlayer";
+                public const string m_World = "World GameManager::m_World";
+                public const string list = "Block[] Block::list";
+                public const string PickupSource = "System.String Block::PickupSource";
+                public const string Air = "BlockValue BlockValue::Air";
+                public const string List_1_ctor = "System.Void System.Collections.Generic.List`1<BlockChangeInfo>::.ctor()";
+                public const string BlockChangeInfo_ctor_Vector3i_BlockValue_Boolean_Boolean = "System.Void BlockChangeInfo::.ctor(Vector3i,BlockValue,System.Boolean,System.Boolean)";
+            }
+
+            public const string PickupBlockClient = "System.Void GameManager::PickupBlockClient(System.Int32,Vector3i,BlockValue,System.Int32)";
+            public static class PickupBlockClientInjects
+            {
+                public const string WorldBase_GetBlock_Int32_Vector3i = "BlockValue WorldBase::GetBlock(System.Int32,Vector3i)";
+                public const string BlockValue_get_type = "System.Int32 BlockValue::get_type()";
+                public const string Block_OnBlockPickedUp_WorldBase_Int32_Vector3i_BlockValue_Int32 = "ItemStack Block::OnBlockPickedUp(WorldBase,System.Int32,Vector3i,BlockValue,System.Int32)";
+                public const string WorldBase_GetLocalPlayers = "System.Collections.Generic.List`1<EntityPlayerLocal> WorldBase::GetLocalPlayers()";
+                public const string List_1_GetEnumerator = "System.Collections.Generic.List`1/Enumerator<EntityPlayerLocal> System.Collections.Generic.List`1<EntityPlayerLocal>::GetEnumerator()";
+                public const string Enumerator_get_Current = "EntityPlayerLocal System.Collections.Generic.List`1/Enumerator<EntityPlayerLocal>::get_Current()";
+                public const string EntityPlayerLocal_get_PlayerUI = "LocalPlayerUI EntityPlayerLocal::get_PlayerUI()";
+                public const string LocalPlayerUI_get_xui = "XUi LocalPlayerUI::get_xui()";
+                public const string XUiM_PlayerInventory_AddItem_ItemStack_Boolean = "System.Boolean XUiM_PlayerInventory::AddItem(ItemStack,System.Boolean)";
+                public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.List`1/Enumerator<EntityPlayerLocal>::MoveNext()";
+                public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
+                public const string Vector3i_ToVector3 = "UnityEngine.Vector3 Vector3i::ToVector3()";
+                public const string Vector3_get_one = "UnityEngine.Vector3 UnityEngine.Vector3::get_one()";
+                public const string Vector3_op_Multiply_Vector3_Single = "UnityEngine.Vector3 UnityEngine.Vector3::op_Multiply(UnityEngine.Vector3,System.Single)";
+                public const string Vector3_op_Addition_Vector3_Vector3 = "UnityEngine.Vector3 UnityEngine.Vector3::op_Addition(UnityEngine.Vector3,UnityEngine.Vector3)";
+                public const string Vector3_get_zero = "UnityEngine.Vector3 UnityEngine.Vector3::get_zero()";
+                public const string GameManager_ItemDropServer_ItemStack_Vector3_Vector3_Int32_Single_Boolean = "System.Void GameManager::ItemDropServer(ItemStack,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32,System.Single,System.Boolean)";
+                public const string m_World = "World GameManager::m_World";
+                public const string list = "Block[] Block::list";
+                public const string entityId = "System.Int32 Entity::entityId";
+                public const string PlayerInventory = "XUiM_PlayerInventory XUi::PlayerInventory";
+            }
+
+            public const string PlaySoundAtPositionServer_Vector3_String_AudioRolloffMode_Int32 = "System.Void GameManager::PlaySoundAtPositionServer(UnityEngine.Vector3,System.String,UnityEngine.AudioRolloffMode,System.Int32)";
+            public static class PlaySoundAtPositionServer_Vector3_String_AudioRolloffMode_Int32Injects
+            {
+                public const string World_GetPrimaryPlayerId = "System.Int32 World::GetPrimaryPlayerId()";
+                public const string GameManager_PlaySoundAtPositionServer_Vector3_String_AudioRolloffMode_Int32_Int32 = "System.Void GameManager::PlaySoundAtPositionServer(UnityEngine.Vector3,System.String,UnityEngine.AudioRolloffMode,System.Int32,System.Int32)";
+                public const string m_World = "World GameManager::m_World";
+            }
+
+            public const string PlaySoundAtPositionServer_Vector3_String_AudioRolloffMode_Int32_Int32 = "System.Void GameManager::PlaySoundAtPositionServer(UnityEngine.Vector3,System.String,UnityEngine.AudioRolloffMode,System.Int32,System.Int32)";
+            public static class PlaySoundAtPositionServer_Vector3_String_AudioRolloffMode_Int32_Int32Injects
+            {
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string Manager_Play_Vector3_String_Int32 = "System.Void Audio.Manager::Play(UnityEngine.Vector3,System.String,System.Int32)";
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string AIDirector_NotifyNoise_Entity_Vector3_String_Single = "System.Void AIDirector::NotifyNoise(Entity,UnityEngine.Vector3,System.String,System.Single)";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string NetPackageSoundAtPosition_Setup_Vector3_String_AudioRolloffMode_Int32_Int32 = "NetPackageSoundAtPosition NetPackageSoundAtPosition::Setup(UnityEngine.Vector3,System.String,UnityEngine.AudioRolloffMode,System.Int32,System.Int32)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string m_World = "World GameManager::m_World";
+                public const string aiDirector = "AIDirector World::aiDirector";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+            }
+
+            public const string PlaySoundAtPositionClient = "System.Void GameManager::PlaySoundAtPositionClient(UnityEngine.Vector3,System.String,UnityEngine.AudioRolloffMode,System.Int32)";
+            public static class PlaySoundAtPositionClientInjects
+            {
+                public const string Manager_Play_Vector3_String_Int32 = "System.Void Audio.Manager::Play(UnityEngine.Vector3,System.String,System.Int32)";
+                public const string AIDirector_NotifyNoise_Entity_Vector3_String_Single = "System.Void AIDirector::NotifyNoise(Entity,UnityEngine.Vector3,System.String,System.Single)";
+                public const string m_World = "World GameManager::m_World";
+                public const string aiDirector = "AIDirector World::aiDirector";
+            }
+
+            public const string WaypointInviteServer = "System.Void GameManager::WaypointInviteServer(Waypoint,EnumWaypointInviteMode,System.Int32)";
+            public static class WaypointInviteServerInjects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string NetPackageWaypoint_Setup_Waypoint_EnumWaypointInviteMode_Int32 = "NetPackageWaypoint NetPackageWaypoint::Setup(Waypoint,EnumWaypointInviteMode,System.Int32)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string Waypoint_Clone = "Waypoint Waypoint::Clone()";
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string PersistentPlayerList_GetPlayerDataFromEntityID_Int32 = "PersistentPlayerData PersistentPlayerList::GetPlayerDataFromEntityID(System.Int32)";
+                public const string List_1_get_Item_Int32 = "EntityPlayer System.Collections.Generic.List`1<EntityPlayer>::get_Item(System.Int32)";
+                public const string HashSet_1_Contains_0 = "System.Boolean System.Collections.Generic.HashSet`1<System.String>::Contains(System.String)";
+                public const string WorldBase_IsLocalPlayer_Int32 = "System.Boolean WorldBase::IsLocalPlayer(System.Int32)";
+                public const string GameManager_WaypointInviteClient_Waypoint_EnumWaypointInviteMode_Int32_EntityPlayerLocal = "System.Void GameManager::WaypointInviteClient(Waypoint,EnumWaypointInviteMode,System.Int32,EntityPlayerLocal)";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<EntityPlayer>::get_Count()";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string bTracked = "System.Boolean Waypoint::bTracked";
+                public const string m_World = "World GameManager::m_World";
+                public const string persistentPlayers = "PersistentPlayerList GameManager::persistentPlayers";
+                public const string Players = "DictionaryList`2<System.Int32,EntityPlayer> World::Players";
+                public const string list = "System.Collections.Generic.List`1<EntityPlayer> DictionaryList`2<System.Int32,EntityPlayer>::list";
+                public const string entityId = "System.Int32 Entity::entityId";
+                public const string ACL = "System.Collections.Generic.HashSet`1<System.String> PersistentPlayerData::ACL";
+                public const string PlayerId = "System.String PersistentPlayerData::PlayerId";
+            }
+
+            public const string RemovePartyInvitesFromAllPlayers = "System.Void GameManager::RemovePartyInvitesFromAllPlayers(EntityPlayer)";
+            public static class RemovePartyInvitesFromAllPlayersInjects
+            {
+                public const string List_1_get_Item_Int32 = "EntityPlayer System.Collections.Generic.List`1<EntityPlayer>::get_Item(System.Int32)";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string EntityPlayer_RemovePartyInvite_Int32 = "System.Void EntityPlayer::RemovePartyInvite(System.Int32)";
+                public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<EntityPlayer>::get_Count()";
+                public const string m_World = "World GameManager::m_World";
+                public const string Players = "DictionaryList`2<System.Int32,EntityPlayer> World::Players";
+                public const string list = "System.Collections.Generic.List`1<EntityPlayer> DictionaryList`2<System.Int32,EntityPlayer>::list";
+                public const string entityId = "System.Int32 Entity::entityId";
+            }
+
+            public const string WaypointInviteClient = "System.Void GameManager::WaypointInviteClient(Waypoint,EnumWaypointInviteMode,System.Int32,EntityPlayerLocal)";
+            public static class WaypointInviteClientInjects
+            {
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string List_1_get_Item_Int32 = "Waypoint System.Collections.Generic.List`1<Waypoint>::get_Item(System.Int32)";
+                public const string Object_Equals_Object = "System.Boolean System.Object::Equals(System.Object)";
+                public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<Waypoint>::get_Count()";
+                public const string List_1_Insert_Int32_0 = "System.Void System.Collections.Generic.List`1<Waypoint>::Insert(System.Int32,Waypoint)";
+                public const string LocalPlayerUI_GetUIForPlayer_EntityPlayerLocal = "LocalPlayerUI LocalPlayerUI::GetUIForPlayer(EntityPlayerLocal)";
+                public const string LocalPlayerUI_get_xui = "XUi LocalPlayerUI::get_xui()";
+                public const string XUi_GetWindow_String = "XUiV_Window XUi::GetWindow(System.String)";
+                public const string XUiView_get_IsVisible = "System.Boolean XUiView::get_IsVisible()";
+                public const string XUiView_get_Controller = "XUiController XUiView::get_Controller()";
+                public const string XUiController_GetChildById_String = "XUiController XUiController::GetChildById(System.String)";
+                public const string XUiC_MapInvitesList_UpdateInvitesList = "System.Void XUiC_MapInvitesList::UpdateInvitesList()";
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string EntityAlive_get_EntityName = "System.String EntityAlive::get_EntityName()";
+                public const string Localization_Get_String = "System.String Localization::Get(System.String)";
+                public const string String_Format_String_Object_Object = "System.String System.String::Format(System.String,System.Object,System.Object)";
+                public const string GameManager_ShowTooltip_EntityPlayerLocal_String = "System.Void GameManager::ShowTooltip(EntityPlayerLocal,System.String)";
+                public const string myEntityPlayerLocal = "EntityPlayerLocal GameManager::myEntityPlayerLocal";
+                public const string Waypoints = "WaypointCollection EntityPlayer::Waypoints";
+                public const string List = "System.Collections.Generic.List`1<Waypoint> WaypointCollection::List";
+                public const string WaypointInvites = "System.Collections.Generic.List`1<Waypoint> EntityPlayer::WaypointInvites";
+                public const string m_World = "World GameManager::m_World";
+                public const string name = "System.String Waypoint::name";
+            }
+
+            public const string QuestShareServer = "System.Void GameManager::QuestShareServer(System.String,System.String,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32,System.Int32,System.Int32)";
+            public static class QuestShareServerInjects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string NetPackageSharedQuest_Setup_String_String_Vector3_Vector3_Vector3_Int32_Int32_Int32 = "NetPackageSharedQuest NetPackageSharedQuest::Setup(System.String,System.String,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32,System.Int32,System.Int32)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string WorldBase_IsLocalPlayer_Int32 = "System.Boolean WorldBase::IsLocalPlayer(System.Int32)";
+                public const string GameManager_QuestShareClient_String_String_Vector3_Vector3_Vector3_Int32_Int32_EntityPlayerLocal = "System.Void GameManager::QuestShareClient(System.String,System.String,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32,System.Int32,EntityPlayerLocal)";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string m_World = "World GameManager::m_World";
+            }
+
+            public const string QuestShareClient = "System.Void GameManager::QuestShareClient(System.String,System.String,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32,System.Int32,EntityPlayerLocal)";
+            public static class QuestShareClientInjects
+            {
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string Quest_CalculateQuestCode_String_Int32_Int32 = "System.Int32 Quest::CalculateQuestCode(System.String,System.Int32,System.Int32)";
+                public const string QuestJournal_HasActiveQuestByQuestCode_Int32 = "System.Boolean QuestJournal::HasActiveQuestByQuestCode(System.Int32)";
+                public const string QuestJournal_AddSharedQuestEntry_String_String_Vector3_Vector3_Vector3_Int32_Int32 = "System.Boolean QuestJournal::AddSharedQuestEntry(System.String,System.String,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32,System.Int32)";
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string EntityAlive_get_EntityName = "System.String EntityAlive::get_EntityName()";
+                public const string Localization_Get_String = "System.String Localization::Get(System.String)";
+                public const string QuestClass_GetQuest_String = "QuestClass QuestClass::GetQuest(System.String)";
+                public const string QuestClass_get_Name = "System.String QuestClass::get_Name()";
+                public const string String_Format_String_Object_Object = "System.String System.String::Format(System.String,System.Object,System.Object)";
+                public const string GameManager_ShowTooltipWithAlert_EntityPlayerLocal_String_String = "System.Void GameManager::ShowTooltipWithAlert(EntityPlayerLocal,System.String,System.String)";
+                public const string myEntityPlayerLocal = "EntityPlayerLocal GameManager::myEntityPlayerLocal";
+                public const string QuestJournal = "QuestJournal EntityPlayer::QuestJournal";
+                public const string m_World = "World GameManager::m_World";
+            }
+
+            public const string SharedKillServer = "System.Void GameManager::SharedKillServer(System.Int32,System.Int32,System.Single)";
+            public static class SharedKillServerInjects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string NetPackageSharedPartyKill_Setup_Int32_Int32 = "NetPackageSharedPartyKill NetPackageSharedPartyKill::Setup(System.Int32,System.Int32)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string DictionarySave_2_get_Item_T1 = "EntityClass DictionarySave`2<System.Int32,EntityClass>::get_Item(System.Int32)";
+                public const string EntityPlayer_IsInParty = "System.Boolean EntityPlayer::IsInParty()";
+                public const string EntityPlayer_get_Party = "Party EntityPlayer::get_Party()";
+                public const string Party_MemberCountInRange_EntityPlayer = "System.Int32 Party::MemberCountInRange(EntityPlayer)";
+                public const string List_1_get_Item_Int32 = "EntityPlayer System.Collections.Generic.List`1<EntityPlayer>::get_Item(System.Int32)";
+                public const string Vector3_Distance_Vector3_Vector3 = "System.Single UnityEngine.Vector3::Distance(UnityEngine.Vector3,UnityEngine.Vector3)";
+                public const string GameStats_GetInt_EnumGameStats = "System.Int32 GameStats::GetInt(EnumGameStats)";
+                public const string WorldBase_IsLocalPlayer_Int32 = "System.Boolean WorldBase::IsLocalPlayer(System.Int32)";
+                public const string GameManager_SharedKillClient_Boolean_Int32_Int32_EntityPlayerLocal = "System.Void GameManager::SharedKillClient(System.Boolean,System.Int32,System.Int32,EntityPlayerLocal)";
+                public const string NetPackageSharedPartyKill_Setup_Boolean_Int32_Int32_Int32 = "NetPackageSharedPartyKill NetPackageSharedPartyKill::Setup(System.Boolean,System.Int32,System.Int32,System.Int32)";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<EntityPlayer>::get_Count()";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string m_World = "World GameManager::m_World";
+                public const string list = "DictionarySave`2<System.Int32,EntityClass> EntityClass::list";
+                public const string entityClass = "System.Int32 Entity::entityClass";
+                public const string ExperienceValue = "System.Int32 EntityClass::ExperienceValue";
+                public const string MemberList = "System.Collections.Generic.List`1<EntityPlayer> Party::MemberList";
+                public const string position = "UnityEngine.Vector3 Entity::position";
+                public const string entityId = "System.Int32 Entity::entityId";
+            }
+
+            public const string SharedKillClient = "System.Void GameManager::SharedKillClient(System.Boolean,System.Int32,System.Int32,EntityPlayerLocal)";
+            public static class SharedKillClientInjects
+            {
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string DictionarySave_2_get_Item_T1 = "EntityClass DictionarySave`2<System.Int32,EntityClass>::get_Item(System.Int32)";
+                public const string Progression_AddLevelExp_Int32_String_XPTypes_Boolean = "System.Int32 Progression::AddLevelExp(System.Int32,System.String,Progression/XPTypes,System.Boolean)";
+                public const string Localization_Get_String = "System.String Localization::Get(System.String)";
+                public const string String_Format_String_Object = "System.String System.String::Format(System.String,System.Object)";
+                public const string GameManager_ShowTooltip_EntityPlayerLocal_String = "System.Void GameManager::ShowTooltip(EntityPlayerLocal,System.String)";
+                public const string QuestEventManager_get_Current = "QuestEventManager QuestEventManager::get_Current()";
+                public const string QuestEventManager_ZombieKilled_String = "System.Void QuestEventManager::ZombieKilled(System.String)";
+                public const string QuestEventManager_AnimalKilled_String = "System.Void QuestEventManager::AnimalKilled(System.String)";
+                public const string myEntityPlayerLocal = "EntityPlayerLocal GameManager::myEntityPlayerLocal";
+                public const string list = "DictionarySave`2<System.Int32,EntityClass> EntityClass::list";
+                public const string entityClassName = "System.String EntityClass::entityClassName";
+                public const string Progression = "Progression EntityAlive::Progression";
+                public const string bPlayerStatsChanged = "System.Boolean EntityAlive::bPlayerStatsChanged";
+            }
+
+            public const string ShowTooltipWithAlert = "System.Void GameManager::ShowTooltipWithAlert(EntityPlayerLocal,System.String,System.String)";
+            public static class ShowTooltipWithAlertInjects
+            {
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string LocalPlayerUI_GetUIForPlayer_EntityPlayerLocal = "LocalPlayerUI LocalPlayerUI::GetUIForPlayer(EntityPlayerLocal)";
+                public const string LocalPlayerUI_get_nguiWindowManager = "NGUIWindowManager LocalPlayerUI::get_nguiWindowManager()";
+                public const string NGUIWindowManager_GetWindow_EnumNGUIWindow = "UnityEngine.Transform NGUIWindowManager::GetWindow(EnumNGUIWindow)";
+                public const string NGuiWdwInGameHUD_SetTooltipText_String_String = "System.Void NGuiWdwInGameHUD::SetTooltipText(System.String,System.String)";
+            }
+
+            public const string ShowTooltip_EntityPlayerLocal_String = "System.Void GameManager::ShowTooltip(EntityPlayerLocal,System.String)";
+            public static class ShowTooltip_EntityPlayerLocal_StringInjects
+            {
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string LocalPlayerUI_GetUIForPlayer_EntityPlayerLocal = "LocalPlayerUI LocalPlayerUI::GetUIForPlayer(EntityPlayerLocal)";
+                public const string LocalPlayerUI_get_nguiWindowManager = "NGUIWindowManager LocalPlayerUI::get_nguiWindowManager()";
+                public const string NGUIWindowManager_GetWindow_EnumNGUIWindow = "UnityEngine.Transform NGUIWindowManager::GetWindow(EnumNGUIWindow)";
+                public const string NGuiWdwInGameHUD_SetTooltipText_String_String = "System.Void NGuiWdwInGameHUD::SetTooltipText(System.String,System.String)";
+            }
+
+            public const string ShowTooltip_EntityPlayerLocal_String_String = "System.Void GameManager::ShowTooltip(EntityPlayerLocal,System.String,System.String)";
+            public static class ShowTooltip_EntityPlayerLocal_String_StringInjects
+            {
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string LocalPlayerUI_GetUIForPlayer_EntityPlayerLocal = "LocalPlayerUI LocalPlayerUI::GetUIForPlayer(EntityPlayerLocal)";
+                public const string LocalPlayerUI_get_nguiWindowManager = "NGUIWindowManager LocalPlayerUI::get_nguiWindowManager()";
+                public const string NGUIWindowManager_GetWindow_EnumNGUIWindow = "UnityEngine.Transform NGUIWindowManager::GetWindow(EnumNGUIWindow)";
+                public const string NGuiWdwInGameHUD_SetTooltipText_String_String_String = "System.Void NGuiWdwInGameHUD::SetTooltipText(System.String,System.String,System.String)";
+            }
+
+            public const string ShowTooltipWithEvent = "System.Void GameManager::ShowTooltipWithEvent(EntityPlayerLocal,System.String,System.String,ToolTipEvent)";
+            public static class ShowTooltipWithEventInjects
+            {
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string LocalPlayerUI_GetUIForPlayer_EntityPlayerLocal = "LocalPlayerUI LocalPlayerUI::GetUIForPlayer(EntityPlayerLocal)";
+                public const string LocalPlayerUI_get_nguiWindowManager = "NGUIWindowManager LocalPlayerUI::get_nguiWindowManager()";
+                public const string NGUIWindowManager_GetWindow_EnumNGUIWindow = "UnityEngine.Transform NGUIWindowManager::GetWindow(EnumNGUIWindow)";
+                public const string NGuiWdwInGameHUD_SetTooltipText_String_String_ToolTipEvent = "System.Void NGuiWdwInGameHUD::SetTooltipText(System.String,System.String,ToolTipEvent)";
+            }
+
+            public const string ClearTooltips = "System.Void GameManager::ClearTooltips(NGUIWindowManager)";
+            public static class ClearTooltipsInjects
+            {
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string NGUIWindowManager_GetWindow_EnumNGUIWindow = "UnityEngine.Transform NGUIWindowManager::GetWindow(EnumNGUIWindow)";
+                public const string NGuiWdwInGameHUD_ClearTooltips = "System.Void NGuiWdwInGameHUD::ClearTooltips()";
+            }
+
+            public const string SetToolTipPause = "System.Void GameManager::SetToolTipPause(NGUIWindowManager,System.Boolean)";
+            public static class SetToolTipPauseInjects
+            {
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string NGUIWindowManager_GetWindow_EnumNGUIWindow = "UnityEngine.Transform NGUIWindowManager::GetWindow(EnumNGUIWindow)";
+                public const string NGuiWdwInGameHUD_SetToolTipPause_Boolean = "System.Void NGuiWdwInGameHUD::SetToolTipPause(System.Boolean)";
+            }
+
+            public const string ClearTileEntityLockForClient = "System.Void GameManager::ClearTileEntityLockForClient(System.Int32)";
+            public static class ClearTileEntityLockForClientInjects
+            {
+                public const string Dictionary_2_GetEnumerator = "System.Collections.Generic.Dictionary`2/Enumerator<TileEntity,System.Int32> System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::GetEnumerator()";
+                public const string Enumerator_get_Current = "System.Collections.Generic.KeyValuePair`2<TileEntity,System.Int32> System.Collections.Generic.Dictionary`2/Enumerator<TileEntity,System.Int32>::get_Current()";
+                public const string KeyValuePair_2_get_Value = "System.Int32 System.Collections.Generic.KeyValuePair`2<TileEntity,System.Int32>::get_Value()";
+                public const string KeyValuePair_2_get_Key = "TileEntity System.Collections.Generic.KeyValuePair`2<TileEntity,System.Int32>::get_Key()";
+                public const string Dictionary_2_Remove_0 = "System.Boolean System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::Remove(TileEntity)";
+                public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<TileEntity,System.Int32>::MoveNext()";
+                public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
+                public const string lockedTileEntities = "System.Collections.Generic.Dictionary`2<TileEntity,System.Int32> GameManager::lockedTileEntities";
+            }
+
+            public const string TELockServer = "System.Void GameManager::TELockServer(System.Int32,Vector3i,System.Int32,System.Int32,System.String)";
+            public static class TELockServerInjects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string NetPackageTELock_Setup_TELockType_Int32_Vector3i_Int32_Int32_String = "NetPackageTELock NetPackageTELock::Setup(NetPackageTELock/TELockType,System.Int32,Vector3i,System.Int32,System.Int32,System.String)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string Dictionary_2_GetEnumerator = "System.Collections.Generic.Dictionary`2/Enumerator<TileEntity,System.Int32> System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::GetEnumerator()";
+                public const string Enumerator_get_Current = "System.Collections.Generic.KeyValuePair`2<TileEntity,System.Int32> System.Collections.Generic.Dictionary`2/Enumerator<TileEntity,System.Int32>::get_Current()";
+                public const string KeyValuePair_2_get_Value = "System.Int32 System.Collections.Generic.KeyValuePair`2<TileEntity,System.Int32>::get_Value()";
+                public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<TileEntity,System.Int32>::MoveNext()";
+                public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
+                public const string WorldBase_GetTileEntity_Int32_Vector3i = "TileEntity WorldBase::GetTileEntity(System.Int32,Vector3i)";
+                public const string World_GetTileEntity_Int32 = "TileEntity World::GetTileEntity(System.Int32)";
+                public const string GameManager_OpenTileEntityAllowed_Int32_TileEntity_String = "System.Boolean GameManager::OpenTileEntityAllowed(System.Int32,TileEntity,System.String)";
+                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::ContainsKey(TileEntity)";
+                public const string Dictionary_2_get_Item_0 = "System.Int32 System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::get_Item(TileEntity)";
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string Entity_IsDead = "System.Boolean Entity::IsDead()";
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string GameManager_TEDeniedAccessClient_Int32_Vector3i_Int32_Int32 = "System.Void GameManager::TEDeniedAccessClient(System.Int32,Vector3i,System.Int32,System.Int32)";
+                public const string Dictionary_2_set_Item_0_1 = "System.Void System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::set_Item(TileEntity,System.Int32)";
+                public const string GameManager_OpenTileEntityUi_Int32_TileEntity_String = "System.Void GameManager::OpenTileEntityUi(System.Int32,TileEntity,System.String)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string lockedTileEntities = "System.Collections.Generic.Dictionary`2<TileEntity,System.Int32> GameManager::lockedTileEntities";
+                public const string m_World = "World GameManager::m_World";
+            }
+
+            public const string TEUnlockServer = "System.Void GameManager::TEUnlockServer(System.Int32,Vector3i,System.Int32)";
+            public static class TEUnlockServerInjects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string NetPackageTELock_Setup_TELockType_Int32_Vector3i_Int32_Int32_String = "NetPackageTELock NetPackageTELock::Setup(NetPackageTELock/TELockType,System.Int32,Vector3i,System.Int32,System.Int32,System.String)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string WorldBase_GetTileEntity_Int32_Vector3i = "TileEntity WorldBase::GetTileEntity(System.Int32,Vector3i)";
+                public const string World_GetTileEntity_Int32 = "TileEntity World::GetTileEntity(System.Int32)";
+                public const string Dictionary_2_GetEnumerator = "System.Collections.Generic.Dictionary`2/Enumerator<TileEntity,System.Int32> System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::GetEnumerator()";
+                public const string Enumerator_get_Current = "System.Collections.Generic.KeyValuePair`2<TileEntity,System.Int32> System.Collections.Generic.Dictionary`2/Enumerator<TileEntity,System.Int32>::get_Current()";
+                public const string KeyValuePair_2_get_Key = "TileEntity System.Collections.Generic.KeyValuePair`2<TileEntity,System.Int32>::get_Key()";
+                public const string Dictionary_2_Remove_0 = "System.Boolean System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::Remove(TileEntity)";
+                public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<TileEntity,System.Int32>::MoveNext()";
+                public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
+                public const string TileEntityLootContainer_IsEmpty = "System.Boolean TileEntityLootContainer::IsEmpty()";
+                public const string WorldBase_GetBlock_Vector3i = "BlockValue WorldBase::GetBlock(Vector3i)";
+                public const string BlockValue_get_type = "System.Int32 BlockValue::get_type()";
+                public const string Block_DamageBlock_WorldBase_Int32_Vector3i_BlockValue_Int32_Int32_Boolean_Boolean = "System.Int32 Block::DamageBlock(WorldBase,System.Int32,Vector3i,BlockValue,System.Int32,System.Int32,System.Boolean,System.Boolean)";
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string Entity_KillLootContainer = "System.Void Entity::KillLootContainer()";
+                public const string GameManager_DropContentOfLootContainerServer_BlockValue_Vector3i_Int32 = "System.Void GameManager::DropContentOfLootContainerServer(BlockValue,Vector3i,System.Int32)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string m_World = "World GameManager::m_World";
+                public const string lockedTileEntities = "System.Collections.Generic.Dictionary`2<TileEntity,System.Int32> GameManager::lockedTileEntities";
+                public const string entityId = "System.Int32 TileEntity::entityId";
+                public const string lootList = "LootContainer[] LootContainer::lootList";
+                public const string lootListIndex = "System.Int32 TileEntityLootContainer::lootListIndex";
+                public const string bDestroyOnClose = "System.Boolean LootContainer::bDestroyOnClose";
+                public const string bPlayerBackpack = "System.Boolean TileEntityLootContainer::bPlayerBackpack";
+                public const string list = "Block[] Block::list";
+                public const string MaxDamage = "System.Int32 Block::MaxDamage";
+                public const string Air = "BlockValue BlockValue::Air";
+            }
+
+            public const string TEAccessClient = "System.Void GameManager::TEAccessClient(System.Int32,Vector3i,System.Int32,System.Int32,System.String)";
+            public static class TEAccessClientInjects
+            {
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string WorldBase_GetTileEntity_Int32_Vector3i = "TileEntity WorldBase::GetTileEntity(System.Int32,Vector3i)";
+                public const string World_GetTileEntity_Int32 = "TileEntity World::GetTileEntity(System.Int32)";
+                public const string GameManager_OpenTileEntityUi_Int32_TileEntity_String = "System.Void GameManager::OpenTileEntityUi(System.Int32,TileEntity,System.String)";
+                public const string m_World = "World GameManager::m_World";
+                public const string myPlayerId = "System.Int32 GameManager::myPlayerId";
+            }
+
+            public const string OpenTileEntityAllowed = "System.Boolean GameManager::OpenTileEntityAllowed(System.Int32,TileEntity,System.String)";
+            public static class OpenTileEntityAllowedInjects
+            {
+                public const string GameManager_lootContainerCanOpen_TileEntityLootContainer_Int32 = "System.Boolean GameManager::lootContainerCanOpen(TileEntityLootContainer,System.Int32)";
+            }
+
+            public const string OpenTileEntityUi = "System.Void GameManager::OpenTileEntityUi(System.Int32,TileEntity,System.String)";
+            public static class OpenTileEntityUiInjects
+            {
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string LocalPlayerUI_GetUIForPlayer_EntityPlayerLocal = "LocalPlayerUI LocalPlayerUI::GetUIForPlayer(EntityPlayerLocal)";
+                public const string String_IsNullOrEmpty_String = "System.Boolean System.String::IsNullOrEmpty(System.String)";
+                public const string String_op_Equality_String_String = "System.Boolean System.String::op_Equality(System.String,System.String)";
+                public const string GameManager_signOpened_ITileEntitySignable_LocalPlayerUI = "System.Void GameManager::signOpened(ITileEntitySignable,LocalPlayerUI)";
+                public const string GameManager_lootContainerOpened_TileEntityLootContainer_LocalPlayerUI_Int32 = "System.Void GameManager::lootContainerOpened(TileEntityLootContainer,LocalPlayerUI,System.Int32)";
+                public const string GameManager_workstationOpened_TileEntityWorkstation_LocalPlayerUI = "System.Void GameManager::workstationOpened(TileEntityWorkstation,LocalPlayerUI)";
+                public const string GameManager_traderOpened_TileEntityTrader_LocalPlayerUI = "System.Void GameManager::traderOpened(TileEntityTrader,LocalPlayerUI)";
+                public const string GameManager_generatorOpened_TileEntityPowerSource_LocalPlayerUI = "System.Void GameManager::generatorOpened(TileEntityPowerSource,LocalPlayerUI)";
+                public const string GameManager_triggerOpened_TileEntityPoweredTrigger_LocalPlayerUI = "System.Void GameManager::triggerOpened(TileEntityPoweredTrigger,LocalPlayerUI)";
+                public const string GameManager_rangedTrapOpened_TileEntityPoweredRangedTrap_LocalPlayerUI = "System.Void GameManager::rangedTrapOpened(TileEntityPoweredRangedTrap,LocalPlayerUI)";
+                public const string GameManager_poweredGenericOpened_TileEntityPowered_LocalPlayerUI = "System.Void GameManager::poweredGenericOpened(TileEntityPowered,LocalPlayerUI)";
+                public const string m_World = "World GameManager::m_World";
+            }
+
+            public const string TEDeniedAccessClient = "System.Void GameManager::TEDeniedAccessClient(System.Int32,Vector3i,System.Int32,System.Int32)";
+            public static class TEDeniedAccessClientInjects
+            {
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string LocalPlayerUI_GetUIForPlayer_EntityPlayerLocal = "LocalPlayerUI LocalPlayerUI::GetUIForPlayer(EntityPlayerLocal)";
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string WorldBase_GetTileEntity_Int32_Vector3i = "TileEntity WorldBase::GetTileEntity(System.Int32,Vector3i)";
+                public const string World_GetTileEntity_Int32 = "TileEntity World::GetTileEntity(System.Int32)";
+                public const string LocalPlayerUI_get_entityPlayer = "EntityPlayerLocal LocalPlayerUI::get_entityPlayer()";
+                public const string Localization_Get_String = "System.String Localization::Get(System.String)";
+                public const string GameManager_ShowTooltipWithAlert_EntityPlayerLocal_String_String = "System.Void GameManager::ShowTooltipWithAlert(EntityPlayerLocal,System.String,System.String)";
+                public const string LocalPlayerUI_get_xui = "XUi LocalPlayerUI::get_xui()";
+                public const string m_World = "World GameManager::m_World";
+                public const string OverrideFOV = "System.Single EntityPlayerLocal::OverrideFOV";
+                public const string Dialog = "XUiM_Dialog XUi::Dialog";
+                public const string keepZoomOnClose = "System.Boolean XUiM_Dialog::keepZoomOnClose";
+            }
+
+            public const string workstationOpened = "System.Void GameManager::workstationOpened(TileEntityWorkstation,LocalPlayerUI)";
+            public static class workstationOpenedInjects
+            {
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string TileEntity_ToWorldPos = "Vector3i TileEntity::ToWorldPos()";
+                public const string WorldBase_GetBlock_Vector3i = "BlockValue WorldBase::GetBlock(Vector3i)";
+                public const string BlockValue_get_type = "System.Int32 BlockValue::get_type()";
+                public const string Block_GetBlockName = "System.String Block::GetBlockName()";
+                public const string CraftingManager_GetWorkstationData_String = "WorkstationData CraftingManager::GetWorkstationData(System.String)";
+                public const string String_op_Inequality_String_String = "System.Boolean System.String::op_Inequality(System.String,System.String)";
+                public const string String_Format_String_Object = "System.String System.String::Format(System.String,System.Object)";
+                public const string LocalPlayerUI_get_windowManager = "GUIWindowManager LocalPlayerUI::get_windowManager()";
+                public const string GUIWindowManager_Contains_String = "System.Boolean GUIWindowManager::Contains(System.String)";
+                public const string GUIWindowManager_GetWindow_String = "GUIWindow GUIWindowManager::GetWindow(System.String)";
+                public const string XUiC_WorkstationWindowGroup_SetTileEntity_TileEntityWorkstation = "System.Void XUiC_WorkstationWindowGroup::SetTileEntity(TileEntityWorkstation)";
+                public const string GUIWindowManager_Open_String_Boolean_Boolean_Boolean = "System.Void GUIWindowManager::Open(System.String,System.Boolean,System.Boolean,System.Boolean)";
+                public const string Log_Warning_String_Object_ = "System.Void Log::Warning(System.String,System.Object[])";
+                public const string m_World = "World GameManager::m_World";
+                public const string list = "Block[] Block::list";
+                public const string WorkstationWindow = "System.String WorkstationData::WorkstationWindow";
+                public const string Controller = "XUiController XUiWindowGroup::Controller";
+            }
+
+            public const string traderOpened = "System.Void GameManager::traderOpened(TileEntityTrader,LocalPlayerUI)";
+            public static class traderOpenedInjects
+            {
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string LocalPlayerUI_get_xui = "XUi LocalPlayerUI::get_xui()";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string XUiM_Player_GetPlayer = "EntityPlayer XUiM_Player::GetPlayer()";
+                public const string TraderManager_TraderInventoryRequested_TraderData_Int32 = "System.Void TraderManager::TraderInventoryRequested(TraderData,System.Int32)";
+                public const string LocalPlayerUI_get_windowManager = "GUIWindowManager LocalPlayerUI::get_windowManager()";
+                public const string GUIWindowManager_CloseAllOpenWindows_GUIWindow_Boolean = "System.Boolean GUIWindowManager::CloseAllOpenWindows(GUIWindow,System.Boolean)";
+                public const string GUIWindowManager_Open_String_Boolean_Boolean_Boolean = "System.Void GUIWindowManager::Open(System.String,System.Boolean,System.Boolean,System.Boolean)";
+                public const string Trader = "XUiM_Trader XUi::Trader";
+                public const string TraderTileEntity = "TileEntityTrader XUiM_Trader::TraderTileEntity";
+                public const string TraderData = "TraderData TileEntityTrader::TraderData";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string traderManager = "TraderManager GameManager::traderManager";
+                public const string entityId = "System.Int32 Entity::entityId";
+            }
+
+            public const string signOpened = "System.Void GameManager::signOpened(ITileEntitySignable,LocalPlayerUI)";
+            public static class signOpenedInjects
+            {
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string LocalPlayerUI_get_windowManager = "GUIWindowManager LocalPlayerUI::get_windowManager()";
+                public const string GUIWindowManager_GetWindow_String = "GUIWindow GUIWindowManager::GetWindow(System.String)";
+                public const string XUiC_SignWindow_SetTileEntitySign_ITileEntitySignable = "System.Void XUiC_SignWindow::SetTileEntitySign(ITileEntitySignable)";
+                public const string GUIWindowManager_Open_String_Boolean_Boolean_Boolean = "System.Void GUIWindowManager::Open(System.String,System.Boolean,System.Boolean,System.Boolean)";
+                public const string Controller = "XUiController XUiWindowGroup::Controller";
+            }
+
+            public const string generatorOpened = "System.Void GameManager::generatorOpened(TileEntityPowerSource,LocalPlayerUI)";
+            public static class generatorOpenedInjects
+            {
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string LocalPlayerUI_get_windowManager = "GUIWindowManager LocalPlayerUI::get_windowManager()";
+                public const string GUIWindowManager_GetWindow_String = "GUIWindow GUIWindowManager::GetWindow(System.String)";
+                public const string XUiC_PowerSourceWindowGroup_set_TileEntity_TileEntityPowerSource = "System.Void XUiC_PowerSourceWindowGroup::set_TileEntity(TileEntityPowerSource)";
+                public const string GUIWindowManager_Open_String_Boolean_Boolean_Boolean = "System.Void GUIWindowManager::Open(System.String,System.Boolean,System.Boolean,System.Boolean)";
+                public const string Controller = "XUiController XUiWindowGroup::Controller";
+            }
+
+            public const string triggerOpened = "System.Void GameManager::triggerOpened(TileEntityPoweredTrigger,LocalPlayerUI)";
+            public static class triggerOpenedInjects
+            {
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string LocalPlayerUI_get_windowManager = "GUIWindowManager LocalPlayerUI::get_windowManager()";
+                public const string GUIWindowManager_GetWindow_String = "GUIWindow GUIWindowManager::GetWindow(System.String)";
+                public const string XUiC_PowerTriggerWindowGroup_set_TileEntity_TileEntityPoweredTrigger = "System.Void XUiC_PowerTriggerWindowGroup::set_TileEntity(TileEntityPoweredTrigger)";
+                public const string GUIWindowManager_Open_String_Boolean_Boolean_Boolean = "System.Void GUIWindowManager::Open(System.String,System.Boolean,System.Boolean,System.Boolean)";
+                public const string Controller = "XUiController XUiWindowGroup::Controller";
+            }
+
+            public const string rangedTrapOpened = "System.Void GameManager::rangedTrapOpened(TileEntityPoweredRangedTrap,LocalPlayerUI)";
+            public static class rangedTrapOpenedInjects
+            {
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string LocalPlayerUI_get_windowManager = "GUIWindowManager LocalPlayerUI::get_windowManager()";
+                public const string GUIWindowManager_GetWindow_String = "GUIWindow GUIWindowManager::GetWindow(System.String)";
+                public const string XUiC_PowerRangedTrapWindowGroup_set_TileEntity_TileEntityPoweredRangedTrap = "System.Void XUiC_PowerRangedTrapWindowGroup::set_TileEntity(TileEntityPoweredRangedTrap)";
+                public const string GUIWindowManager_Open_String_Boolean_Boolean_Boolean = "System.Void GUIWindowManager::Open(System.String,System.Boolean,System.Boolean,System.Boolean)";
+                public const string Controller = "XUiController XUiWindowGroup::Controller";
+            }
+
+            public const string poweredGenericOpened = "System.Void GameManager::poweredGenericOpened(TileEntityPowered,LocalPlayerUI)";
+            public static class poweredGenericOpenedInjects
+            {
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string String_op_Inequality_String_String = "System.Boolean System.String::op_Inequality(System.String,System.String)";
+                public const string LocalPlayerUI_get_windowManager = "GUIWindowManager LocalPlayerUI::get_windowManager()";
+                public const string GUIWindowManager_GetWindow_String = "GUIWindow GUIWindowManager::GetWindow(System.String)";
+                public const string XUiC_PoweredGenericWindowGroup_set_TileEntity_TileEntityPowered = "System.Void XUiC_PoweredGenericWindowGroup::set_TileEntity(TileEntityPowered)";
+                public const string GUIWindowManager_Open_String_Boolean_Boolean_Boolean = "System.Void GUIWindowManager::Open(System.String,System.Boolean,System.Boolean,System.Boolean)";
+                public const string WindowGroupToOpen = "System.String TileEntityPowered::WindowGroupToOpen";
+                public const string Empty = "System.String System.String::Empty";
+                public const string Controller = "XUiController XUiWindowGroup::Controller";
+            }
+
+            public const string lootContainerCanOpen = "System.Boolean GameManager::lootContainerCanOpen(TileEntityLootContainer,System.Int32)";
+            public static class lootContainerCanOpenInjects
+            {
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string TwitchManager_get_Current = "Twitch.TwitchManager Twitch.TwitchManager::get_Current()";
+                public const string String_op_Inequality_String_String = "System.Boolean System.String::op_Inequality(System.String,System.String)";
+                public const string GameEventManager_get_Current = "GameEventManager GameEventManager::get_Current()";
+                public const string GameEventManager_HandleAction_String_EntityPlayer_EntityPlayer_Boolean_String_Boolean = "System.Boolean GameEventManager::HandleAction(System.String,EntityPlayer,EntityPlayer,System.Boolean,System.String,System.Boolean)";
+                public const string entityId = "System.Int32 TileEntity::entityId";
+                public const string m_World = "World GameManager::m_World";
+                public const string spawnById = "System.Int32 Entity::spawnById";
+                public const string spawnByAllowShare = "System.Boolean Entity::spawnByAllowShare";
+                public const string DeniedCrateEvent = "System.String Twitch.TwitchManager::DeniedCrateEvent";
+            }
+
+            public const string lootContainerOpened = "System.Void GameManager::lootContainerOpened(TileEntityLootContainer,LocalPlayerUI,System.Int32)";
+            public static class lootContainerOpenedInjects
+            {
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string LocalPlayerUI_get_entityPlayer = "EntityPlayerLocal LocalPlayerUI::get_entityPlayer()";
+                public const string TwitchManager_get_Current = "Twitch.TwitchManager Twitch.TwitchManager::get_Current()";
+                public const string String_op_Inequality_String_String = "System.Boolean System.String::op_Inequality(System.String,System.String)";
+                public const string GameEventManager_get_Current = "GameEventManager GameEventManager::get_Current()";
+                public const string GameEventManager_HandleAction_String_EntityPlayer_EntityPlayer_Boolean_String_Boolean = "System.Boolean GameEventManager::HandleAction(System.String,EntityPlayer,EntityPlayer,System.Boolean,System.String,System.Boolean)";
+                public const string Entity_get_EntityTags = "FastTags Entity::get_EntityTags()";
+                public const string DictionarySave_2_get_Item_T1 = "EntityClass DictionarySave`2<System.Int32,EntityClass>::get_Item(System.Int32)";
+                public const string Localization_Get_String = "System.String Localization::Get(System.String)";
+                public const string TileEntity_ToWorldPos = "Vector3i TileEntity::ToWorldPos()";
+                public const string WorldBase_GetBlock_Vector3i = "BlockValue WorldBase::GetBlock(Vector3i)";
+                public const string BlockValue_get_Block = "Block BlockValue::get_Block()";
+                public const string BlockValue_get_type = "System.Int32 BlockValue::get_type()";
+                public const string Block_GetBlockName = "System.String Block::GetBlockName()";
+                public const string LocalPlayerUI_get_windowManager = "GUIWindowManager LocalPlayerUI::get_windowManager()";
+                public const string GUIWindowManager_GetWindow_String = "GUIWindow GUIWindowManager::GetWindow(System.String)";
+                public const string XUiC_LootWindowGroup_SetTileEntityChest_String_TileEntityLootContainer = "System.Void XUiC_LootWindowGroup::SetTileEntityChest(System.String,TileEntityLootContainer)";
+                public const string GUIWindowManager_Open_String_Boolean_Boolean_Boolean = "System.Void GUIWindowManager::Open(System.String,System.Boolean,System.Boolean,System.Boolean)";
+                public const string LootContainer_ExecuteBuffActions_Int32_EntityAlive = "System.Void LootContainer::ExecuteBuffActions(System.Int32,EntityAlive)";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string LootManager_LootContainerOpened_TileEntityLootContainer_Int32_FastTags = "System.Void LootManager::LootContainerOpened(TileEntityLootContainer,System.Int32,FastTags)";
+                public const string TileEntity_SetModified = "System.Void TileEntity::SetModified()";
+                public const string none = "FastTags FastTags::none";
+                public const string Empty = "System.String System.String::Empty";
+                public const string entityId = "System.Int32 TileEntity::entityId";
+                public const string m_World = "World GameManager::m_World";
+                public const string spawnById = "System.Int32 Entity::spawnById";
+                public const string StealingCrateEvent = "System.String Twitch.TwitchManager::StealingCrateEvent";
+                public const string list = "DictionarySave`2<System.Int32,EntityClass> EntityClass::list";
+                public const string entityClass = "System.Int32 Entity::entityClass";
+                public const string entityClassName = "System.String EntityClass::entityClassName";
+                public const string Tags = "FastTags Block::Tags";
+                public const string Controller = "XUiController XUiWindowGroup::Controller";
+                public const string lootList = "LootContainer[] LootContainer::lootList";
+                public const string lootListIndex = "System.Int32 TileEntityLootContainer::lootListIndex";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string lootManager = "LootManager GameManager::lootManager";
+                public const string bTouched = "System.Boolean TileEntityLootContainer::bTouched";
+            }
+
+            public const string DropContentOfLootContainerServer_BlockValue_Vector3i_Int32 = "System.Void GameManager::DropContentOfLootContainerServer(BlockValue,Vector3i,System.Int32)";
+            public static class DropContentOfLootContainerServer_BlockValue_Vector3i_Int32Injects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string NetPackageLootContainerDropContent_Setup_Vector3i_Int32 = "NetPackageLootContainerDropContent NetPackageLootContainerDropContent::Setup(Vector3i,System.Int32)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string WorldBase_GetTileEntity_Int32_Vector3i = "TileEntity WorldBase::GetTileEntity(System.Int32,Vector3i)";
+                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::ContainsKey(TileEntity)";
+                public const string TileEntity_ToWorldPos = "Vector3i TileEntity::ToWorldPos()";
+                public const string Vector3i_ToVector3 = "UnityEngine.Vector3 Vector3i::ToVector3()";
+                public const string Vector3_op_Addition_Vector3_Vector3 = "UnityEngine.Vector3 UnityEngine.Vector3::op_Addition(UnityEngine.Vector3,UnityEngine.Vector3)";
+                public const string BlockValue_get_type = "System.Int32 BlockValue::get_type()";
+                public const string ValueWrapper_ContainsKey_String = "System.Boolean DynamicProperties/ValueWrapper::ContainsKey(System.String)";
+                public const string BlockValue_get_Block = "Block BlockValue::get_Block()";
+                public const string ValueWrapper_get_Item_String = "System.String DynamicProperties/ValueWrapper::get_Item(System.String)";
+                public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
+                public const string Object_op_Implicit_Object = "System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)";
+                public const string Entity_get_EntityTags = "FastTags Entity::get_EntityTags()";
+                public const string Entity_GetPosition = "UnityEngine.Vector3 Entity::GetPosition()";
+                public const string DictionarySave_2_get_Item_T1 = "EntityClass DictionarySave`2<System.Int32,EntityClass>::get_Item(System.Int32)";
+                public const string Vector3_get_zero = "UnityEngine.Vector3 UnityEngine.Vector3::get_zero()";
+                public const string EntityFactory_CreateEntity_Int32_Vector3_Vector3 = "Entity EntityFactory::CreateEntity(System.Int32,UnityEngine.Vector3,UnityEngine.Vector3)";
+                public const string World_SpawnEntityInWorld_Entity = "System.Void World::SpawnEntityInWorld(Entity)";
+                public const string Component_get_transform = "UnityEngine.Transform UnityEngine.Component::get_transform()";
+                public const string Transform_set_localScale_Vector3 = "System.Void UnityEngine.Transform::set_localScale(UnityEngine.Vector3)";
+                public const string Manager_BroadcastPlay_Vector3_String_Single = "System.Void Audio.Manager::BroadcastPlay(UnityEngine.Vector3,System.String,System.Single)";
+                public const string World_GetTileEntity_Int32 = "TileEntity World::GetTileEntity(System.Int32)";
+                public const string LootManager_LootContainerOpened_TileEntityLootContainer_Int32_FastTags = "System.Void LootManager::LootContainerOpened(TileEntityLootContainer,System.Int32,FastTags)";
+                public const string TileEntityLootContainer_get_items = "ItemStack[] TileEntityLootContainer::get_items()";
+                public const string ItemStack_IsEmpty = "System.Boolean ItemStack::IsEmpty()";
+                public const string Object_GetHashCode = "System.Int32 System.Object::GetHashCode()";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string ItemStack_Clone_IList_1 = "ItemStack[] ItemStack::Clone(System.Collections.Generic.IList`1<ItemStack>)";
+                public const string EntityLootContainer_SetContent_ItemStack_ = "System.Void EntityLootContainer::SetContent(ItemStack[])";
+                public const string TileEntityLootContainer_SetEmpty = "System.Void TileEntityLootContainer::SetEmpty()";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string none = "FastTags FastTags::none";
+                public const string m_World = "World GameManager::m_World";
+                public const string lockedTileEntities = "System.Collections.Generic.Dictionary`2<TileEntity,System.Int32> GameManager::lockedTileEntities";
+                public const string list = "Block[] Block::list";
+                public const string Properties = "DynamicProperties Block::Properties";
+                public const string Values = "DynamicProperties/ValueWrapper DynamicProperties::Values";
+                public const string Tags = "FastTags Block::Tags";
+                public const string y = "System.Single UnityEngine.Vector3::y";
+                public const string lootDropProb = "System.Single Entity::lootDropProb";
+                public const string entityClass = "System.Int32 Entity::entityClass";
+                public const string lootDropEntityClass = "System.Int32 EntityClass::lootDropEntityClass";
+                public const string bTouched = "System.Boolean TileEntityLootContainer::bTouched";
+                public const string lootManager = "LootManager GameManager::lootManager";
+                public const string Vector3_ctor_Single_Single_Single = "System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)";
+            }
+
+            public const string GetGameStateManager = "GameStateManager GameManager::GetGameStateManager()";
+            public static class GetGameStateManagerInjects
+            {
+                public const string gameStateManager = "GameStateManager GameManager::gameStateManager";
+            }
+
+            public const string ConfigFileReceived = "System.Void GameManager::ConfigFileReceived(System.String,System.Byte[])";
+            public static class ConfigFileReceivedInjects
+            {
+                public const string WorldStaticData_ReceivedConfigFile_String_Byte_ = "System.Void WorldStaticData::ReceivedConfigFile(System.String,System.Byte[])";
+            }
+
+            public const string IdMappingReceived = "System.Void GameManager::IdMappingReceived(System.String,System.Byte[])";
+            public static class IdMappingReceivedInjects
+            {
+                public const string String_Concat_String_String = "System.String System.String::Concat(System.String,System.String)";
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string String_op_Equality_String_String = "System.Boolean System.String::op_Equality(System.String,System.String)";
+                public const string NameIdMapping_LoadFromArray_Byte_ = "System.Boolean NameIdMapping::LoadFromArray(System.Byte[])";
+                public const string Log_Warning_String = "System.Void Log::Warning(System.String)";
+                public const string MAX_BLOCKS = "System.Int32 Block::MAX_BLOCKS";
+                public const string nameIdMapping = "NameIdMapping Block::nameIdMapping";
+                public const string MAX_ITEMS = "System.Int32 ItemClass::MAX_ITEMS";
+                public const string NameIdMapping_ctor_String_Int32 = "System.Void NameIdMapping::.ctor(System.String,System.Int32)";
+            }
+
+            public const string SetSpawnPointList = "System.Void GameManager::SetSpawnPointList(SpawnPointList)";
+            public static class SetSpawnPointListInjects
+            {
+                public const string GameManager_setSpawnPointListCo_SpawnPointList = "System.Collections.IEnumerator GameManager::setSpawnPointListCo(SpawnPointList)";
+                public const string MonoBehaviour_StartCoroutine_IEnumerator = "UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)";
+            }
+
+            public const string setSpawnPointListCo = "System.Collections.IEnumerator GameManager::setSpawnPointListCo(SpawnPointList)";
+            public static class setSpawnPointListCoInjects
+            {
+                public const string _4_this = "GameManager GameManager/<setSpawnPointListCo>d__271::<>4__this";
+                public const string _startPoints = "SpawnPointList GameManager/<setSpawnPointListCo>d__271::_startPoints";
+                public const string _setSpawnPointListCo_d_271_ctor_Int32 = "System.Void GameManager/<setSpawnPointListCo>d__271::.ctor(System.Int32)";
+            }
+
+            public const string RequestToSpawnEntityServer = "System.Void GameManager::RequestToSpawnEntityServer(EntityCreationData)";
+            public static class RequestToSpawnEntityServerInjects
+            {
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string NetPackageRequestToSpawnEntity_Setup_EntityCreationData = "NetPackageRequestToSpawnEntity NetPackageRequestToSpawnEntity::Setup(EntityCreationData)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string Object_GetHashCode = "System.Int32 System.Object::GetHashCode()";
+                public const string List_1_get_Item_Int32 = "Entity System.Collections.Generic.List`1<Entity>::get_Item(System.Int32)";
+                public const string EntityFallingTree_GetBlockPos = "Vector3i EntityFallingTree::GetBlockPos()";
+                public const string Vector3i_op_Equality_Vector3i_Vector3i = "System.Boolean Vector3i::op_Equality(Vector3i,Vector3i)";
+                public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<Entity>::get_Count()";
+                public const string EntityFactory_CreateEntity_EntityCreationData = "Entity EntityFactory::CreateEntity(EntityCreationData)";
+                public const string World_SpawnEntityInWorld_Entity = "System.Void World::SpawnEntityInWorld(Entity)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string entityClass = "System.Int32 EntityCreationData::entityClass";
+                public const string m_World = "World GameManager::m_World";
+                public const string Entities = "DictionaryList`2<System.Int32,Entity> World::Entities";
+                public const string list = "System.Collections.Generic.List`1<Entity> DictionaryList`2<System.Int32,Entity>::list";
+                public const string blockPos = "Vector3i EntityCreationData::blockPos";
+            }
+
+            public const string LocalPlayerInventoryChanged = "System.Void GameManager::LocalPlayerInventoryChanged()";
+            public static class LocalPlayerInventoryChangedInjects
+            {
+                public const string CountdownTimer_ResetAndRestart = "System.Void CountdownTimer::ResetAndRestart()";
+                public const string countdownSendPlayerInventoryToServer = "CountdownTimer GameManager::countdownSendPlayerInventoryToServer";
+            }
+
+            public const string TriggerSendOfLocalPlayerDataFile = "System.Void GameManager::TriggerSendOfLocalPlayerDataFile(System.Single)";
+            public static class TriggerSendOfLocalPlayerDataFileInjects
+            {
+                public const string CountdownTimer_SetPassedIn_Single = "System.Void CountdownTimer::SetPassedIn(System.Single)";
+                public const string countdownSendPlayerDataFileToServer = "CountdownTimer GameManager::countdownSendPlayerDataFileToServer";
+            }
+
+            public const string doSendLocalInventory = "System.Void GameManager::doSendLocalInventory(EntityPlayerLocal)";
+            public static class doSendLocalInventoryInjects
+            {
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string NetPackagePlayerInventory_Setup_EntityPlayerLocal_Boolean_Boolean_Boolean = "NetPackagePlayerInventory NetPackagePlayerInventory::Setup(EntityPlayerLocal,System.Boolean,System.Boolean,System.Boolean)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string sendPlayerToolbelt = "System.Boolean GameManager::sendPlayerToolbelt";
+                public const string sendPlayerBag = "System.Boolean GameManager::sendPlayerBag";
+                public const string sendPlayerEquipment = "System.Boolean GameManager::sendPlayerEquipment";
+            }
+
+            public const string doSendLocalPlayerData = "System.Void GameManager::doSendLocalPlayerData(EntityPlayerLocal)";
+            public static class doSendLocalPlayerDataInjects
+            {
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string GameManager_SaveLocalPlayerData = "System.Void GameManager::SaveLocalPlayerData()";
+                public const string NetPackagePlayerData_Setup_EntityPlayer = "NetPackagePlayerData NetPackagePlayerData::Setup(EntityPlayer)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string sendPlayerToolbelt = "System.Boolean GameManager::sendPlayerToolbelt";
+                public const string sendPlayerBag = "System.Boolean GameManager::sendPlayerBag";
+                public const string sendPlayerEquipment = "System.Boolean GameManager::sendPlayerEquipment";
+            }
+
+            public const string SetPauseWindowEffects = "System.Void GameManager::SetPauseWindowEffects(System.Boolean)";
+            public static class SetPauseWindowEffectsInjects
+            {
+                public const string GamePrefs_GetString_EnumGamePrefs = "System.String GamePrefs::GetString(EnumGamePrefs)";
+                public const string String_Equals_String = "System.Boolean System.String::Equals(System.String)";
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string WorldBase_GetLocalPlayers = "System.Collections.Generic.List`1<EntityPlayerLocal> WorldBase::GetLocalPlayers()";
+                public const string List_1_GetEnumerator = "System.Collections.Generic.List`1/Enumerator<EntityPlayerLocal> System.Collections.Generic.List`1<EntityPlayerLocal>::GetEnumerator()";
+                public const string Enumerator_get_Current = "EntityPlayerLocal System.Collections.Generic.List`1/Enumerator<EntityPlayerLocal>::get_Current()";
+                public const string EntityAlive_get_AimingGun = "System.Boolean EntityAlive::get_AimingGun()";
+                public const string EntityAlive_set_AimingGun_Boolean = "System.Void EntityAlive::set_AimingGun(System.Boolean)";
+                public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.List`1/Enumerator<EntityPlayerLocal>::MoveNext()";
+                public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
+                public const string Camera_get_allCameras = "UnityEngine.Camera[] UnityEngine.Camera::get_allCameras()";
+                public const string Camera_get_cullingMask = "System.Int32 UnityEngine.Camera::get_cullingMask()";
+                public const string Object_get_name = "System.String UnityEngine.Object::get_name()";
+                public const string String_op_Equality_String_String = "System.Boolean System.String::op_Equality(System.String,System.String)";
+                public const string Object_op_Implicit_Object = "System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)";
+                public const string Behaviour_set_enabled_Boolean = "System.Void UnityEngine.Behaviour::set_enabled(System.Boolean)";
+                public const string TypeName = "System.String GameModeSurvivalSP::TypeName";
+                public const string Instance = "GameManager GameManager::Instance";
+            }
+
+            public const string ReportUnusedAssets = "System.Boolean GameManager::ReportUnusedAssets(System.Boolean)";
+            public static class ReportUnusedAssetsInjects
+            {
+                public const string List_1_Clear = "System.Void System.Collections.Generic.List`1<System.String>::Clear()";
+                public const string Object_get_name = "System.String UnityEngine.Object::get_name()";
+                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<System.String>::Add(System.String)";
+                public const string Resources_UnloadUnusedAssets = "UnityEngine.AsyncOperation UnityEngine.Resources::UnloadUnusedAssets()";
+                public const string GC_Collect = "System.Void System.GC::Collect()";
+                public const string Time_get_realtimeSinceStartup = "System.Single UnityEngine.Time::get_realtimeSinceStartup()";
+                public const string GameManager_Pause_Boolean = "System.Void GameManager::Pause(System.Boolean)";
+                public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<System.String>::get_Count()";
+                public const string String_Concat_Object_Object_Object = "System.String System.String::Concat(System.Object,System.Object,System.Object)";
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string String_Concat_Object_Object = "System.String System.String::Concat(System.Object,System.Object)";
+                public const string Dictionary_2_TryGetValue_0_1_ = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(System.String,System.Int32&)";
+                public const string Dictionary_2_Add_0_1 = "System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(System.String,System.Int32)";
+                public const string List_1_get_Item_Int32 = "System.String System.Collections.Generic.List`1<System.String>::get_Item(System.Int32)";
+                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::ContainsKey(System.String)";
+                public const string String_Concat_String_String_String = "System.String System.String::Concat(System.String,System.String,System.String)";
+                public const string materialsBefore = "System.Collections.Generic.List`1<System.String> GameManager::materialsBefore";
+                public const string runningAssetsUnused = "System.Boolean GameManager::runningAssetsUnused";
+                public const string unusedAssetsTimer = "System.Single GameManager::unusedAssetsTimer";
+                public const string Instance = "GameManager GameManager::Instance";
+                public const string List_1_ctor = "System.Void System.Collections.Generic.List`1<System.String>::.ctor()";
+                public const string Dictionary_2_ctor = "System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::.ctor()";
+            }
+
+            public const string IsPaused = "System.Boolean GameManager::IsPaused()";
+            public static class IsPausedInjects
+            {
+                public const string gamePaused = "System.Boolean GameManager::gamePaused";
+            }
+
+            public const string Pause = "System.Void GameManager::Pause(System.Boolean)";
+            public static class PauseInjects
+            {
+                public const string ConnectionManager_get_IsSinglePlayer = "System.Boolean ConnectionManager::get_IsSinglePlayer()";
+                public const string GamePrefs_GetString_EnumGamePrefs = "System.String GamePrefs::GetString(EnumGamePrefs)";
+                public const string String_Equals_String = "System.Boolean System.String::Equals(System.String)";
+                public const string GameManager_SetPauseWindowEffects_Boolean = "System.Void GameManager::SetPauseWindowEffects(System.Boolean)";
+                public const string GameStats_Set_EnumGameStats_Int32 = "System.Void GameStats::Set(EnumGameStats,System.Int32)";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string GameManager_SaveLocalPlayerData = "System.Void GameManager::SaveLocalPlayerData()";
+                public const string GameManager_SaveWorld = "System.Void GameManager::SaveWorld()";
+                public const string Time_set_timeScale_Single = "System.Void UnityEngine.Time::set_timeScale(System.Single)";
+                public const string Manager_PauseGameplayAudio = "System.Void Audio.Manager::PauseGameplayAudio()";
+                public const string EnvironmentAudioManager_Pause = "System.Void EnvironmentAudioManager::Pause()";
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string Conductor_OnPauseGame = "System.Void DynamicMusic.Conductor::OnPauseGame()";
+                public const string Manager_UnPauseGameplayAudio = "System.Void Audio.Manager::UnPauseGameplayAudio()";
+                public const string EnvironmentAudioManager_UnPause = "System.Void EnvironmentAudioManager::UnPause()";
+                public const string Conductor_OnUnPauseGame = "System.Void DynamicMusic.Conductor::OnUnPauseGame()";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string TypeName = "System.String GameModeEditWorld::TypeName";
+                public const string gamePaused = "System.Boolean GameManager::gamePaused";
+                public const string dmsConductor = "DynamicMusic.Conductor World::dmsConductor";
+            }
+
+            public const string AddLMPPersistentPlayerData = "System.Void GameManager::AddLMPPersistentPlayerData(EntityPlayerLocal)";
+            public const string SetBlockTextureServer = "System.Void GameManager::SetBlockTextureServer(Vector3i,BlockFace,System.Int32,System.Int32)";
+            public static class SetBlockTextureServerInjects
+            {
+                public const string GameManager_SetBlockTextureClient_Vector3i_BlockFace_Int32 = "System.Void GameManager::SetBlockTextureClient(Vector3i,BlockFace,System.Int32)";
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string NetPackageSetBlockTexture_Setup_Vector3i_BlockFace_Int32_Int32 = "NetPackageSetBlockTexture NetPackageSetBlockTexture::Setup(Vector3i,BlockFace,System.Int32,System.Int32)";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
+                public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
+                public const string myPlayerId = "System.Int32 GameManager::myPlayerId";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+            }
+
+            public const string SetBlockTextureClient = "System.Void GameManager::SetBlockTextureClient(Vector3i,BlockFace,System.Int32)";
+            public static class SetBlockTextureClientInjects
+            {
+                public const string ChunkClusterList_get_Item_Int32 = "ChunkCluster ChunkClusterList::get_Item(System.Int32)";
+                public const string ChunkCluster_SetBlockFaceTexture_Vector3i_BlockFace_Int32 = "System.Void ChunkCluster::SetBlockFaceTexture(Vector3i,BlockFace,System.Int32)";
+                public const string ChunkCluster_SetTextureFull_Vector3i_Int64 = "System.Void ChunkCluster::SetTextureFull(Vector3i,System.Int64)";
+                public const string m_World = "World GameManager::m_World";
+                public const string ChunkClusters = "ChunkClusterList WorldBase::ChunkClusters";
+            }
+
+            public const string handleGlobalActions = "System.Void GameManager::handleGlobalActions()";
+            public static class handleGlobalActionsInjects
+            {
+                public const string PlayerActionsGlobal_get_Instance = "PlayerActionsGlobal PlayerActionsGlobal::get_Instance()";
+                public const string OneAxisInputControl_get_WasReleased = "System.Boolean InControl.OneAxisInputControl::get_WasReleased()";
+                public const string GUIWindowManager_Open_GUIWindow_Boolean_Boolean_Boolean = "System.Void GUIWindowManager::Open(GUIWindow,System.Boolean,System.Boolean,System.Boolean)";
+                public const string OneAxisInputControl_get_WasPressed = "System.Boolean InControl.OneAxisInputControl::get_WasPressed()";
+                public const string Screen_get_fullScreen = "System.Boolean UnityEngine.Screen::get_fullScreen()";
+                public const string Screen_set_fullScreen_Boolean = "System.Void UnityEngine.Screen::set_fullScreen(System.Boolean)";
+                public const string Manager_PlayButtonClick = "System.Void Audio.Manager::PlayButtonClick()";
+                public const string Input_GetKey_KeyCode = "System.Boolean UnityEngine.Input::GetKey(UnityEngine.KeyCode)";
+                public const string GameUtils_TakeScreenShot_String_Single_Boolean_Int32_Int32_Boolean = "System.Void GameUtils::TakeScreenShot(System.String,System.Single,System.Boolean,System.Int32,System.Int32,System.Boolean)";
+                public const string LocalPlayerUI_get_primaryUI = "LocalPlayerUI LocalPlayerUI::get_primaryUI()";
+                public const string LocalPlayerUI_get_windowManager = "GUIWindowManager LocalPlayerUI::get_windowManager()";
+                public const string GUIWindowManager_Open_String_Boolean_Boolean_Boolean = "System.Void GUIWindowManager::Open(System.String,System.Boolean,System.Boolean,System.Boolean)";
+                public const string Console = "InControl.PlayerAction PlayerActionsGlobal::Console";
+                public const string m_GUIConsole = "GUIWindowConsole GameManager::m_GUIConsole";
+                public const string isShowing = "System.Boolean GUIWindow::isShowing";
+                public const string windowManager = "GUIWindowManager GameManager::windowManager";
+                public const string Fullscreen = "InControl.PlayerAction PlayerActionsGlobal::Fullscreen";
+                public const string Screenshot = "InControl.PlayerAction PlayerActionsGlobal::Screenshot";
+                public const string DebugScreenshot = "InControl.PlayerAction PlayerActionsGlobal::DebugScreenshot";
+                public const string ID = "System.String GUIWindowScreenshotText::ID";
+            }
+
+            public const string SetConsoleWindowVisible = "System.Void GameManager::SetConsoleWindowVisible(System.Boolean)";
+            public static class SetConsoleWindowVisibleInjects
+            {
+                public const string GUIWindowManager_Open_GUIWindow_Boolean_Boolean_Boolean = "System.Void GUIWindowManager::Open(GUIWindow,System.Boolean,System.Boolean,System.Boolean)";
+                public const string GUIWindowManager_Close_GUIWindow_Boolean = "System.Void GUIWindowManager::Close(GUIWindow,System.Boolean)";
+                public const string m_GUIConsole = "GUIWindowConsole GameManager::m_GUIConsole";
+                public const string isShowing = "System.Boolean GUIWindow::isShowing";
+                public const string windowManager = "GUIWindowManager GameManager::windowManager";
+            }
+
+            public const string IsSplatMapAvailable = "System.Boolean GameManager::IsSplatMapAvailable()";
+            public static class IsSplatMapAvailableInjects
+            {
+                public const string GamePrefs_GetString_EnumGamePrefs = "System.String GamePrefs::GetString(EnumGamePrefs)";
+                public const string String_op_Equality_String_String = "System.Boolean System.String::op_Equality(System.String,System.String)";
             }
         }
     }

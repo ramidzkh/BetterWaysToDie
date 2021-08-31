@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using BetterWaysToDie.Registry;
+using NUnit.Framework;
+using UnityEngine;
 
 namespace BetterWaysToDie.Builder
 {
@@ -29,8 +31,9 @@ namespace BetterWaysToDie.Builder
         public BlockBuilder<T> Inherit(Block block, IEnumerable<string> exclude)
         {
             _block.Properties.CopyFrom(block.Properties, new HashSet<string>(exclude));
-            _block.RepairItems.AddRange(block.RepairItems);
-
+            Debug.LogWarning(block.RepairItems);
+            Debug.LogWarning(_block.RepairItems ??= new List<Block.SItemNameCount>());
+            (_block.RepairItems ??= new List<Block.SItemNameCount>()).AddRange(block.RepairItems);
             foreach (var pair in block.itemsToDrop)
             {
                 foreach (var s in pair.Value)
@@ -45,6 +48,7 @@ namespace BetterWaysToDie.Builder
                         s.tag);
                 }
             }
+            Debug.LogWarning("E3");
 
             return Place(block.BlockPlacementHelper)
                 .Material(block.blockMaterial)
