@@ -18,9 +18,9 @@ namespace BetterWaysToDie.Mixins
             var registry = new DictionaryRegistry<Block>();
 
             // Copy existing blocks over
-            foreach (var (key, value) in nameToBlock)
+            foreach (var pair in nameToBlock)
             {
-                registry[key] = value;
+                registry[pair.Key] = pair.Value;
             }
 
             // Invoke registry event
@@ -30,10 +30,10 @@ namespace BetterWaysToDie.Mixins
             nameToBlock.Clear();
             nameToBlockCaseInsensitive.Clear();
 
-            foreach (var (key, value) in registry.GetEntries())
+            foreach (var pair in registry.GetEntries())
             {
-                nameToBlock.Add(key, value);
-                nameToBlockCaseInsensitive.Add(key, value);
+                nameToBlock.Add(pair.Key, pair.Value);
+                nameToBlockCaseInsensitive.Add(pair.Key, pair.Value);
             }
         }
     }

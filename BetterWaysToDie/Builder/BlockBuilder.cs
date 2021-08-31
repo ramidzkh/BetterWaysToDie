@@ -31,11 +31,11 @@ namespace BetterWaysToDie.Builder
             _block.Properties.CopyFrom(block.Properties, new HashSet<string>(exclude));
             _block.RepairItems.AddRange(block.RepairItems);
 
-            foreach (var (dropEvent, list) in block.itemsToDrop)
+            foreach (var pair in block.itemsToDrop)
             {
-                foreach (var s in list)
+                foreach (var s in pair.Value)
                 {
-                    _block.AddDroppedId(dropEvent,
+                    _block.AddDroppedId(pair.Key,
                         s.name,
                         s.minCount,
                         s.maxCount,
