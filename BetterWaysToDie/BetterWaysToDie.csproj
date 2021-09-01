@@ -333,7 +333,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="SharpILMixins.Annotations" Version="1.4.0" />
+    <PackageReference Include="SharpILMixins.Annotations" Version="1.5.0" />
   </ItemGroup>
 
   <ItemGroup>

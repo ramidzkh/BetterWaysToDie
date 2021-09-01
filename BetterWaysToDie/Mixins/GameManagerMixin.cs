@@ -20,7 +20,6 @@ namespace BetterWaysToDie.Mixins
         [Inject(GameManagerTargets.Methods.StartAsServer, AtLocation.Head)]
         private void onSinglePlayerStart()
         {
-            //FIXME: since the 7 days to die dev's can't code, we need to name our worlds "Playtesting" otherwise adding blocks and items will not be updated
             Debug.LogError("We are starting with a 'Integrated' Server");
         }
 
@@ -28,6 +27,34 @@ namespace BetterWaysToDie.Mixins
         private void onMultiPlayerClientStart()
         {
             Debug.LogError("We are starting with a Client connecting to a remote server");
+        }
+    }
+
+    [Mixin("GameManager/<StartAsServer>d__135")]
+    public abstract class StartAsServerMixin
+    {
+        [Inject(_StartAsServer_d__135Targets.Methods.MoveNext, AtLocation.Invoke,
+            Target = _StartAsServer_d__135Targets.Methods.MoveNextInjects.File_Exists_String)]
+        private void RegenerateBlockAndItemIds()
+        {
+            if (Mod.ModManager.IsDevelopmentEnvironment())
+            {
+                var blockIdMap = GameUtils.GetSaveGameDir() + "/" + Constants.cFileBlockMappings;
+                var itemIdMap = GameUtils.GetSaveGameDir() + "/" + Constants.cFileItemMappings;
+                Block.nameIdMapping = new NameIdMapping(blockIdMap, Block.MAX_BLOCKS);
+                if (!Block.nameIdMapping.LoadFromFile())
+                {
+                    Log.Warning("Could not load block-name-mappings file '" + blockIdMap + "'!");
+                    Block.nameIdMapping = null;
+                }
+
+                ItemClass.nameIdMapping = new NameIdMapping(itemIdMap, ItemClass.MAX_ITEMS);
+                if (!ItemClass.nameIdMapping.LoadFromFile())
+                {
+                    Log.Warning("Could not load item-name-mappings file '" + itemIdMap + "'!");
+                    ItemClass.nameIdMapping = null;
+                }
+            }
         }
     }
 }

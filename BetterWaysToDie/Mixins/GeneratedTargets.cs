@@ -301,6 +301,8 @@ namespace BetterWaysToDie.Mixins
             }
 
             public const string startGeneration = "System.Collections.IEnumerator MainMenuMono::startGeneration(System.Action)";
+            public const string startGeneration_StateMachine = "MainMenuMono/<startGeneration>d__6";
+            public const string startGeneration_StateMachine_Method = "MoveNext";
             public static class startGenerationInjects
             {
                 public const string onGenerationComplete = "System.Action MainMenuMono/<startGeneration>d__6::onGenerationComplete";
@@ -315,6 +317,8 @@ namespace BetterWaysToDie.Mixins
             }
 
             public const string startServerCo = "System.Collections.IEnumerator MainMenuMono::startServerCo()";
+            public const string startServerCo_StateMachine = "MainMenuMono/<startServerCo>d__8";
+            public const string startServerCo_StateMachine_Method = "MoveNext";
             public static class startServerCoInjects
             {
                 public const string _startServerCo_d_8_ctor_Int32 = "System.Void MainMenuMono/<startServerCo>d__8::.ctor(System.Int32)";
@@ -2252,6 +2256,8 @@ namespace BetterWaysToDie.Mixins
             }
 
             public const string loadStaticData = "System.Collections.IEnumerator GameManager::loadStaticData()";
+            public const string loadStaticData_StateMachine = "GameManager/<loadStaticData>d__118";
+            public const string loadStaticData_StateMachine_Method = "MoveNext";
             public static class loadStaticDataInjects
             {
                 public const string _4_this = "GameManager GameManager/<loadStaticData>d__118::<>4__this";
@@ -2278,6 +2284,8 @@ namespace BetterWaysToDie.Mixins
             }
 
             public const string startGameCo = "System.Collections.IEnumerator GameManager::startGameCo()";
+            public const string startGameCo_StateMachine = "GameManager/<startGameCo>d__121";
+            public const string startGameCo_StateMachine_Method = "MoveNext";
             public static class startGameCoInjects
             {
                 public const string _4_this = "GameManager GameManager/<startGameCo>d__121::<>4__this";
@@ -2578,6 +2586,8 @@ namespace BetterWaysToDie.Mixins
             }
 
             public const string StartAsServer = "System.Collections.IEnumerator GameManager::StartAsServer()";
+            public const string StartAsServer_StateMachine = "GameManager/<StartAsServer>d__135";
+            public const string StartAsServer_StateMachine_Method = "MoveNext";
             public static class StartAsServerInjects
             {
                 public const string _4_this = "GameManager GameManager/<StartAsServer>d__135::<>4__this";
@@ -2641,6 +2651,8 @@ namespace BetterWaysToDie.Mixins
             }
 
             public const string disconnectLater = "System.Collections.IEnumerator GameManager::disconnectLater()";
+            public const string disconnectLater_StateMachine = "GameManager/<disconnectLater>d__138";
+            public const string disconnectLater_StateMachine_Method = "MoveNext";
             public static class disconnectLaterInjects
             {
                 public const string _disconnectLater_d_138_ctor_Int32 = "System.Void GameManager/<disconnectLater>d__138::.ctor(System.Int32)";
@@ -2940,6 +2952,8 @@ namespace BetterWaysToDie.Mixins
             }
 
             public const string ApplicationQuitCo = "System.Collections.IEnumerator GameManager::ApplicationQuitCo(System.Single)";
+            public const string ApplicationQuitCo_StateMachine = "GameManager/<ApplicationQuitCo>d__151";
+            public const string ApplicationQuitCo_StateMachine_Method = "MoveNext";
             public static class ApplicationQuitCoInjects
             {
                 public const string _4_this = "GameManager GameManager/<ApplicationQuitCo>d__151::<>4__this";
@@ -3031,6 +3045,8 @@ namespace BetterWaysToDie.Mixins
             }
 
             public const string worldInfoCo = "System.Collections.IEnumerator GameManager::worldInfoCo(System.String,System.String,System.Boolean,System.Collections.Generic.Dictionary`2<System.String,System.UInt32>)";
+            public const string worldInfoCo_StateMachine = "GameManager/<worldInfoCo>d__156";
+            public const string worldInfoCo_StateMachine_Method = "MoveNext";
             public static class worldInfoCoInjects
             {
                 public const string _4_this = "GameManager GameManager/<worldInfoCo>d__156::<>4__this";
@@ -3062,6 +3078,8 @@ namespace BetterWaysToDie.Mixins
             }
 
             public const string chunkClusterInfoCo = "System.Collections.IEnumerator GameManager::chunkClusterInfoCo(System.String,System.Int32,System.Int32,System.Int32,System.Boolean,Vector2i,Vector2i,System.String,UnityEngine.Vector3,UnityEngine.Quaternion)";
+            public const string chunkClusterInfoCo_StateMachine = "GameManager/<chunkClusterInfoCo>d__159";
+            public const string chunkClusterInfoCo_StateMachine_Method = "MoveNext";
             public static class chunkClusterInfoCoInjects
             {
                 public const string _4_this = "GameManager GameManager/<chunkClusterInfoCo>d__159::<>4__this";
@@ -3436,6 +3454,8 @@ namespace BetterWaysToDie.Mixins
             }
 
             public const string createWorld = "System.Collections.IEnumerator GameManager::createWorld(System.String,System.String,System.Boolean)";
+            public const string createWorld_StateMachine = "GameManager/<createWorld>d__176";
+            public const string createWorld_StateMachine_Method = "MoveNext";
             public static class createWorldInjects
             {
                 public const string _4_this = "GameManager GameManager/<createWorld>d__176::<>4__this";
@@ -3493,6 +3513,8 @@ namespace BetterWaysToDie.Mixins
             }
 
             public const string explodeLater = "System.Collections.IEnumerator GameManager::explodeLater(System.Int32,UnityEngine.Vector3,Vector3i,UnityEngine.Quaternion,ExplosionData,System.Int32,ItemValue,System.Single)";
+            public const string explodeLater_StateMachine = "GameManager/<explodeLater>d__183";
+            public const string explodeLater_StateMachine_Method = "MoveNext";
             public static class explodeLaterInjects
             {
                 public const string _4_this = "GameManager GameManager/<explodeLater>d__183::<>4__this";
@@ -3945,6 +3967,8 @@ namespace BetterWaysToDie.Mixins
             }
 
             public const string readInventoryFromWebsite = "System.Collections.IEnumerator GameManager::readInventoryFromWebsite()";
+            public const string readInventoryFromWebsite_StateMachine = "GameManager/<readInventoryFromWebsite>d__209";
+            public const string readInventoryFromWebsite_StateMachine_Method = "MoveNext";
             public static class readInventoryFromWebsiteInjects
             {
                 public const string _readInventoryFromWebsite_d_209_ctor_Int32 = "System.Void GameManager/<readInventoryFromWebsite>d__209::.ctor(System.Int32)";
@@ -4907,6 +4931,8 @@ namespace BetterWaysToDie.Mixins
             }
 
             public const string setSpawnPointListCo = "System.Collections.IEnumerator GameManager::setSpawnPointListCo(SpawnPointList)";
+            public const string setSpawnPointListCo_StateMachine = "GameManager/<setSpawnPointListCo>d__271";
+            public const string setSpawnPointListCo_StateMachine_Method = "MoveNext";
             public static class setSpawnPointListCoInjects
             {
                 public const string _4_this = "GameManager GameManager/<setSpawnPointListCo>d__271::<>4__this";
@@ -5120,6 +5146,734 @@ namespace BetterWaysToDie.Mixins
             {
                 public const string GamePrefs_GetString_EnumGamePrefs = "System.String GamePrefs::GetString(EnumGamePrefs)";
                 public const string String_op_Equality_String_String = "System.Boolean System.String::op_Equality(System.String,System.String)";
+            }
+        }
+    }
+
+    [System.ComponentModel.DescriptionAttribute("Generated by SharpILMixins")]
+    public static class _StartAsServer_d__135Targets
+    {
+        public static class Methods
+        {
+            public const string MoveNext = "System.Boolean GameManager/<StartAsServer>d__135::MoveNext()";
+            public static class MoveNextInjects
+            {
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string LocalPlayerUI_get_primaryUI = "LocalPlayerUI LocalPlayerUI::get_primaryUI()";
+                public const string Localization_Get_String = "System.String Localization::Get(System.String)";
+                public const string XUiC_ProgressWindow_SetText_LocalPlayerUI_String_Boolean = "System.Void XUiC_ProgressWindow::SetText(LocalPlayerUI,System.String,System.Boolean)";
+                public const string WorldStaticData_Cleanup_String = "System.Void WorldStaticData::Cleanup(System.String)";
+                public const string GamePrefs_GetString_EnumGamePrefs = "System.String GamePrefs::GetString(EnumGamePrefs)";
+                public const string String_Equals_String = "System.Boolean System.String::Equals(System.String)";
+                public const string GameUtils_GetSaveGameDir_String_String = "System.String GameUtils::GetSaveGameDir(System.String,System.String)";
+                public const string String_Concat_String_String = "System.String System.String::Concat(System.String,System.String)";
+                public const string String_Concat_String_String_String = "System.String System.String::Concat(System.String,System.String,System.String)";
+                public const string File_Exists_String = "System.Boolean System.IO.File::Exists(System.String)";
+                public const string Directory_Exists_String = "System.Boolean System.IO.Directory::Exists(System.String)";
+                public const string Directory_CreateDirectory_String = "System.IO.DirectoryInfo System.IO.Directory::CreateDirectory(System.String)";
+                public const string NameIdMapping_WriteToFile = "System.Void NameIdMapping::WriteToFile()";
+                public const string NameIdMapping_LoadFromFile = "System.Boolean NameIdMapping::LoadFromFile()";
+                public const string Log_Warning_String = "System.Void Log::Warning(System.String)";
+                public const string WorldStaticData_LoadAllXmlsCo_Boolean_ProgressDelegate = "System.Collections.IEnumerator WorldStaticData::LoadAllXmlsCo(System.Boolean,WorldStaticData/ProgressDelegate)";
+                public const string ConnectionManager_ServerReady = "System.Void ConnectionManager::ServerReady()";
+                public const string Manager_CreateServer = "System.Void Audio.Manager::CreateServer()";
+                public const string LightManager_CreateServer = "System.Void LightManager::CreateServer()";
+                public const string GameStateManager_InitGame_Boolean = "System.Void GameStateManager::InitGame(System.Boolean)";
+                public const string PowerManager_get_Instance = "PowerManager PowerManager::get_Instance()";
+                public const string PowerManager_LoadPowerManager = "System.Void PowerManager::LoadPowerManager()";
+                public const string GameManager_createWorld_String_String_Boolean = "System.Collections.IEnumerator GameManager::createWorld(System.String,System.String,System.Boolean)";
+                public const string NetPackageWorldInfo_PrepareWorldHashes = "System.Void NetPackageWorldInfo::PrepareWorldHashes()";
+                public const string PersistentPlayerList_ReadXML_String = "PersistentPlayerList PersistentPlayerList::ReadXML(System.String)";
+                public const string PersistentPlayerList_CleanupPlayers = "System.Boolean PersistentPlayerList::CleanupPlayers()";
+                public const string GameManager_SavePersistentPlayerData = "System.Void GameManager::SavePersistentPlayerData()";
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string GameUtils_GetPlayerDataDir = "System.String GameUtils::GetPlayerDataDir()";
+                public const string PlayerDataFile_Load_String_String = "System.Void PlayerDataFile::Load(System.String,System.String)";
+                public const string Vector3_ctor_Single_Single_Single = "System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)";
+                public const string GameManager_GetSpawnPointList = "SpawnPointList GameManager::GetSpawnPointList()";
+                public const string SpawnPointList_GetRandomSpawnPosition_World_Nullable_1_Int32_Int32 = "SpawnPosition SpawnPointList::GetRandomSpawnPosition(World,System.Nullable`1<UnityEngine.Vector3>,System.Int32,System.Int32)";
+                public const string GamePrefs_GetBool_EnumGamePrefs = "System.Boolean GamePrefs::GetBool(EnumGamePrefs)";
+                public const string PlayerProfile_get_EntityClassName = "System.String PlayerProfile::get_EntityClassName()";
+                public const string EntityClass_FromString_String = "System.Int32 EntityClass::FromString(System.String)";
+                public const string PlayerProfile_LoadLocalProfile = "PlayerProfile PlayerProfile::LoadLocalProfile()";
+                public const string PlayerProfile_get_Archetype = "System.String PlayerProfile::get_Archetype()";
+                public const string GameSparksCollector_HandlePlayerArchetype_String = "System.Void GameSparksCollector::HandlePlayerArchetype(System.String)";
+                public const string EntityFactory_CreateEntity_EntityCreationData = "Entity EntityFactory::CreateEntity(EntityCreationData)";
+                public const string GameManager_setLocalPlayerEntity_EntityPlayerLocal = "System.Void GameManager::setLocalPlayerEntity(EntityPlayerLocal)";
+                public const string PlayerDataFile_ToPlayer_EntityPlayer = "System.Void PlayerDataFile::ToPlayer(EntityPlayer)";
+                public const string World_SpawnEntityInWorld_Entity = "System.Void World::SpawnEntityInWorld(Entity)";
+                public const string EntityPlayer_Respawn_RespawnType = "System.Void EntityPlayer::Respawn(RespawnType)";
+                public const string Entity_GetPosition = "UnityEngine.Vector3 Entity::GetPosition()";
+                public const string GameUtils_GetViewDistance = "System.Int32 GameUtils::GetViewDistance()";
+                public const string Utils_FastMin_Int32_Int32 = "System.Int32 Utils::FastMin(System.Int32,System.Int32)";
+                public const string ChunkManager_AddChunkObserver_Vector3_Boolean_Int32_Int32 = "ChunkManager/ChunkObserver ChunkManager::AddChunkObserver(UnityEngine.Vector3,System.Boolean,System.Int32,System.Int32)";
+                public const string ThreadManager_AddSingleTask_TaskFunctionDelegate_Object_ExitCallbackTask_Boolean_Boolean = "ThreadManager/TaskInfo ThreadManager::AddSingleTask(ThreadManager/TaskFunctionDelegate,System.Object,ThreadManager/ExitCallbackTask,System.Boolean,System.Boolean)";
+                public const string LocalPlayerUI_GetUIForPlayer_EntityPlayerLocal = "LocalPlayerUI LocalPlayerUI::GetUIForPlayer(EntityPlayerLocal)";
+                public const string LocalPlayerUI_get_xui = "XUi LocalPlayerUI::get_xui()";
+                public const string XUi_SetDataConnections = "System.Void XUi::SetDataConnections()";
+                public const string XUi_SetCraftingData_CraftingData = "System.Void XUi::SetCraftingData(CraftingData)";
+                public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
+                public const string VehicleManager_set_Instance_VehicleManager = "System.Void VehicleManager::set_Instance(VehicleManager)";
+                public const string VehicleManager_get_Instance = "VehicleManager VehicleManager::get_Instance()";
+                public const string VehicleManager_Load = "System.Void VehicleManager::Load()";
+                public const string ChunkClusterList_get_Item_Int32 = "ChunkCluster ChunkClusterList::get_Item(System.Int32)";
+                public const string GameManager_IsEditMode = "System.Boolean GameManager::IsEditMode()";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string WorldEnvironment_SetColliders_Single_Single_Single_Single_Single_Single = "System.Void WorldEnvironment::SetColliders(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)";
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string WorldEnvironment_CreateLevelBorderBox_World = "System.Void WorldEnvironment::CreateLevelBorderBox(World)";
+                public const string PrefabEditModeManager_Init = "System.Void PrefabEditModeManager::Init()";
+                public const string GameServerInfo_PrepareLocalServerInfo = "System.Collections.IEnumerator GameServerInfo::PrepareLocalServerInfo()";
+                public const string Steam_get_ApiStatus = "Steam/EInitResult Steam::get_ApiStatus()";
+                public const string Steam_get_Masterserver = "Steam/MasterserverSC Steam::get_Masterserver()";
+                public const string MasterserverSC_get_Server = "MasterServerAnnouncer Steam/MasterserverSC::get_Server()";
+                public const string MasterServerAnnouncer_AdvertiseServer_Action = "System.Void MasterServerAnnouncer::AdvertiseServer(System.Action)";
+                public const string AuthorizationManager_get_Instance = "AuthorizationManager AuthorizationManager::get_Instance()";
+                public const string AuthorizationManager_ServerStart = "System.Void AuthorizationManager::ServerStart()";
+                public const string GamePrefs_Set_EnumGamePrefs_Int32 = "System.Void GamePrefs::Set(EnumGamePrefs,System.Int32)";
+                public const string GameStateManager_StartGame = "System.Void GameStateManager::StartGame()";
+                public const string _1_state = "System.Int32 GameManager/<StartAsServer>d__135::<>1__state";
+                public const string _4_this = "GameManager GameManager/<StartAsServer>d__135::<>4__this";
+                public const string _2_current = "System.Object GameManager/<StartAsServer>d__135::<>2__current";
+                public const string nameIdMapping = "NameIdMapping Block::nameIdMapping";
+                public const string cFileBlockMappings = "System.String Constants::cFileBlockMappings";
+                public const string cFileItemMappings = "System.String Constants::cFileItemMappings";
+                public const string MAX_BLOCKS = "System.Int32 Block::MAX_BLOCKS";
+                public const string MAX_ITEMS = "System.Int32 ItemClass::MAX_ITEMS";
+                public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
+                public const string gameStateManager = "GameStateManager GameManager::gameStateManager";
+                public const string isEditMode = "System.Boolean GameManager::isEditMode";
+                public const string persistentPlayers = "PersistentPlayerList GameManager::persistentPlayers";
+                public const string bLoaded = "System.Boolean PlayerDataFile::bLoaded";
+                public const string ecd = "EntityCreationData PlayerDataFile::ecd";
+                public const string pos = "UnityEngine.Vector3 EntityCreationData::pos";
+                public const string rot = "UnityEngine.Vector3 EntityCreationData::rot";
+                public const string x = "System.Single UnityEngine.Vector3::x";
+                public const string y = "System.Single UnityEngine.Vector3::y";
+                public const string id = "System.Int32 PlayerDataFile::id";
+                public const string nextEntityID = "System.Int32 EntityFactory::nextEntityID";
+                public const string entityData = "System.IO.MemoryStream EntityCreationData::entityData";
+                public const string readFileVersion = "System.Byte EntityCreationData::readFileVersion";
+                public const string m_World = "World GameManager::m_World";
+                public const string position = "UnityEngine.Vector3 SpawnPosition::position";
+                public const string heading = "System.Single SpawnPosition::heading";
+                public const string playerProfile = "PlayerProfile EntityCreationData::playerProfile";
+                public const string entityClass = "System.Int32 EntityCreationData::entityClass";
+                public const string skinTexture = "System.String EntityCreationData::skinTexture";
+                public const string belongsPlayerId = "System.Int32 EntityCreationData::belongsPlayerId";
+                public const string myEntityPlayerLocal = "EntityPlayerLocal GameManager::myEntityPlayerLocal";
+                public const string m_ChunkManager = "ChunkManager World::m_ChunkManager";
+                public const string ChunkObserver = "ChunkManager/ChunkObserver EntityPlayer::ChunkObserver";
+                public const string entityId = "System.Int32 Entity::entityId";
+                public const string mapDatabase = "MapChunkDatabase ChunkManager/ChunkObserver::mapDatabase";
+                public const string craftingData = "CraftingData PlayerDataFile::craftingData";
+                public const string ChunkClusters = "ChunkClusterList WorldBase::ChunkClusters";
+                public const string IsFixedSize = "System.Boolean ChunkCluster::IsFixedSize";
+                public const string m_WorldEnvironment = "WorldEnvironment World::m_WorldEnvironment";
+                public const string ChunkMinPos = "Vector2i WorldChunkCache::ChunkMinPos";
+                public const string ChunkMaxPos = "Vector2i WorldChunkCache::ChunkMaxPos";
+                public const string cSizePlanesAround = "System.Single Constants::cSizePlanesAround";
+                public const string prefabEditModeManager = "PrefabEditModeManager GameManager::prefabEditModeManager";
+                public const string _9_135_0 = "System.Action GameManager/<>c::<>9__135_0";
+                public const string _9 = "GameManager/<>c GameManager/<>c::<>9";
+                public const string NameIdMapping_ctor_String_Int32 = "System.Void NameIdMapping::.ctor(System.String,System.Int32)";
+                public const string PersistentPlayerList_ctor = "System.Void PersistentPlayerList::.ctor()";
+                public const string PlayerDataFile_ctor = "System.Void PlayerDataFile::.ctor()";
+                public const string EntityCreationData_ctor = "System.Void EntityCreationData::.ctor()";
+                public const string MapChunkDatabase_ctor_Int32 = "System.Void MapChunkDatabase::.ctor(System.Int32)";
+                public const string TaskFunctionDelegate_ctor_Object_IntPtr = "System.Void ThreadManager/TaskFunctionDelegate::.ctor(System.Object,System.IntPtr)";
+                public const string DirectoryPlayerId_ctor_String_String = "System.Void MapChunkDatabase/DirectoryPlayerId::.ctor(System.String,System.String)";
+                public const string VehicleManager_ctor = "System.Void VehicleManager::.ctor()";
+                public const string Action_ctor_Object_IntPtr = "System.Void System.Action::.ctor(System.Object,System.IntPtr)";
+            }
+        }
+    }
+
+    [System.ComponentModel.DescriptionAttribute("Generated by SharpILMixins")]
+    public static class WorldStaticDataTargets
+    {
+        public static class Methods
+        {
+            public const string InitSync = "System.Void WorldStaticData::InitSync(System.Boolean,System.Boolean,System.Boolean)";
+            public static class InitSyncInjects
+            {
+                public const string WorldStaticData_Cleanup = "System.Void WorldStaticData::Cleanup()";
+                public const string WorldStaticData_Init_Boolean_Boolean_ProgressDelegate = "System.Collections.IEnumerator WorldStaticData::Init(System.Boolean,System.Boolean,WorldStaticData/ProgressDelegate)";
+                public const string ThreadManager_RunCoroutineSync_IEnumerator = "System.Void ThreadManager::RunCoroutineSync(System.Collections.IEnumerator)";
+            }
+
+            public const string Init = "System.Collections.IEnumerator WorldStaticData::Init(System.Boolean,System.Boolean,WorldStaticData/ProgressDelegate)";
+            public const string Init_StateMachine = "WorldStaticData/<Init>d__10";
+            public const string Init_StateMachine_Method = "MoveNext";
+            public static class InitInjects
+            {
+                public const string _bForce = "System.Boolean WorldStaticData/<Init>d__10::_bForce";
+                public const string _bDediServer = "System.Boolean WorldStaticData/<Init>d__10::_bDediServer";
+                public const string _progressDelegate = "WorldStaticData/ProgressDelegate WorldStaticData/<Init>d__10::_progressDelegate";
+                public const string _Init_d_10_ctor_Int32 = "System.Void WorldStaticData/<Init>d__10::.ctor(System.Int32)";
+            }
+
+            public const string LoadTextureAtlases = "System.Collections.IEnumerator WorldStaticData::LoadTextureAtlases()";
+            public const string LoadTextureAtlases_StateMachine = "WorldStaticData/<LoadTextureAtlases>d__11";
+            public const string LoadTextureAtlases_StateMachine_Method = "MoveNext";
+            public static class LoadTextureAtlasesInjects
+            {
+                public const string _LoadTextureAtlases_d_11_ctor_Int32 = "System.Void WorldStaticData/<LoadTextureAtlases>d__11::.ctor(System.Int32)";
+            }
+
+            public const string LoadMaterials = "System.Collections.IEnumerator WorldStaticData::LoadMaterials(XmlFile)";
+            public const string LoadMaterials_StateMachine = "WorldStaticData/<LoadMaterials>d__12";
+            public const string LoadMaterials_StateMachine_Method = "MoveNext";
+            public static class LoadMaterialsInjects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadMaterials>d__12::_xmlFile";
+                public const string _LoadMaterials_d_12_ctor_Int32 = "System.Void WorldStaticData/<LoadMaterials>d__12::.ctor(System.Int32)";
+            }
+
+            public const string LoadBlocks = "System.Collections.IEnumerator WorldStaticData::LoadBlocks(XmlFile)";
+            public const string LoadBlocks_StateMachine = "WorldStaticData/<LoadBlocks>d__13";
+            public const string LoadBlocks_StateMachine_Method = "MoveNext";
+            public static class LoadBlocksInjects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadBlocks>d__13::_xmlFile";
+                public const string _LoadBlocks_d_13_ctor_Int32 = "System.Void WorldStaticData/<LoadBlocks>d__13::.ctor(System.Int32)";
+            }
+
+            public const string LoadPainting = "System.Collections.IEnumerator WorldStaticData::LoadPainting(XmlFile)";
+            public const string LoadPainting_StateMachine = "WorldStaticData/<LoadPainting>d__14";
+            public const string LoadPainting_StateMachine_Method = "MoveNext";
+            public static class LoadPaintingInjects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadPainting>d__14::_xmlFile";
+                public const string _LoadPainting_d_14_ctor_Int32 = "System.Void WorldStaticData/<LoadPainting>d__14::.ctor(System.Int32)";
+            }
+
+            public const string LoadMisc = "System.Collections.IEnumerator WorldStaticData::LoadMisc(XmlFile)";
+            public const string LoadMisc_StateMachine = "WorldStaticData/<LoadMisc>d__15";
+            public const string LoadMisc_StateMachine_Method = "MoveNext";
+            public static class LoadMiscInjects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadMisc>d__15::_xmlFile";
+                public const string _LoadMisc_d_15_ctor_Int32 = "System.Void WorldStaticData/<LoadMisc>d__15::.ctor(System.Int32)";
+            }
+
+            public const string ReloadMisc = "System.Void WorldStaticData::ReloadMisc(XmlFile)";
+            public static class ReloadMiscInjects
+            {
+                public const string AnimationDelayData_InitStatic = "System.Void AnimationDelayData::InitStatic()";
+                public const string AnimationGunjointOffsetData_InitStatic = "System.Void AnimationGunjointOffsetData::InitStatic()";
+                public const string MiscFromXml_Create_XmlFile = "System.Collections.IEnumerator MiscFromXml::Create(XmlFile)";
+                public const string ThreadManager_RunCoroutineSync_IEnumerator = "System.Void ThreadManager::RunCoroutineSync(System.Collections.IEnumerator)";
+            }
+
+            public const string ReloadItems = "System.Void WorldStaticData::ReloadItems(XmlFile)";
+            public static class ReloadItemsInjects
+            {
+                public const string ItemClass_Cleanup = "System.Void ItemClass::Cleanup()";
+                public const string WorldStaticData_LoadItems_XmlFile = "System.Collections.IEnumerator WorldStaticData::LoadItems(XmlFile)";
+                public const string ThreadManager_RunCoroutineSync_IEnumerator = "System.Void ThreadManager::RunCoroutineSync(System.Collections.IEnumerator)";
+            }
+
+            public const string ReloadItemModifiers = "System.Void WorldStaticData::ReloadItemModifiers(XmlFile)";
+            public static class ReloadItemModifiersInjects
+            {
+                public const string WorldStaticData_LoadItemModifiers_XmlFile = "System.Collections.IEnumerator WorldStaticData::LoadItemModifiers(XmlFile)";
+                public const string ThreadManager_RunCoroutineSync_IEnumerator = "System.Void ThreadManager::RunCoroutineSync(System.Collections.IEnumerator)";
+                public const string WorldStaticData_LateInitItems = "System.Collections.IEnumerator WorldStaticData::LateInitItems()";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string WorldBase_GetPrimaryPlayer = "EntityPlayerLocal WorldBase::GetPrimaryPlayer()";
+                public const string Inventory_ForceHoldingItemUpdate = "System.Void Inventory::ForceHoldingItemUpdate()";
+                public const string Instance = "GameManager GameManager::Instance";
+                public const string inventory = "Inventory EntityAlive::inventory";
+            }
+
+            public const string LoadItems = "System.Collections.IEnumerator WorldStaticData::LoadItems(XmlFile)";
+            public const string LoadItems_StateMachine = "WorldStaticData/<LoadItems>d__19";
+            public const string LoadItems_StateMachine_Method = "MoveNext";
+            public static class LoadItemsInjects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadItems>d__19::_xmlFile";
+                public const string _LoadItems_d_19_ctor_Int32 = "System.Void WorldStaticData/<LoadItems>d__19::.ctor(System.Int32)";
+            }
+
+            public const string LateInitItems = "System.Collections.IEnumerator WorldStaticData::LateInitItems()";
+            public const string LateInitItems_StateMachine = "WorldStaticData/<LateInitItems>d__20";
+            public const string LateInitItems_StateMachine_Method = "MoveNext";
+            public static class LateInitItemsInjects
+            {
+                public const string _LateInitItems_d_20_ctor_Int32 = "System.Void WorldStaticData/<LateInitItems>d__20::.ctor(System.Int32)";
+            }
+
+            public const string LoadItemModifiers = "System.Collections.IEnumerator WorldStaticData::LoadItemModifiers(XmlFile)";
+            public const string LoadItemModifiers_StateMachine = "WorldStaticData/<LoadItemModifiers>d__21";
+            public const string LoadItemModifiers_StateMachine_Method = "MoveNext";
+            public static class LoadItemModifiersInjects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadItemModifiers>d__21::_xmlFile";
+                public const string _LoadItemModifiers_d_21_ctor_Int32 = "System.Void WorldStaticData/<LoadItemModifiers>d__21::.ctor(System.Int32)";
+            }
+
+            public const string LoadRecipes = "System.Collections.IEnumerator WorldStaticData::LoadRecipes(XmlFile)";
+            public const string LoadRecipes_StateMachine = "WorldStaticData/<LoadRecipes>d__22";
+            public const string LoadRecipes_StateMachine_Method = "MoveNext";
+            public static class LoadRecipesInjects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadRecipes>d__22::_xmlFile";
+                public const string _LoadRecipes_d_22_ctor_Int32 = "System.Void WorldStaticData/<LoadRecipes>d__22::.ctor(System.Int32)";
+            }
+
+            public const string ReloadRecipes = "System.Void WorldStaticData::ReloadRecipes(XmlFile)";
+            public static class ReloadRecipesInjects
+            {
+                public const string CraftingManager_ClearAllRecipes = "System.Void CraftingManager::ClearAllRecipes()";
+                public const string WorldStaticData_LoadRecipes_XmlFile = "System.Collections.IEnumerator WorldStaticData::LoadRecipes(XmlFile)";
+                public const string ThreadManager_RunCoroutineSync_IEnumerator = "System.Void ThreadManager::RunCoroutineSync(System.Collections.IEnumerator)";
+            }
+
+            public const string LoadLoot = "System.Collections.IEnumerator WorldStaticData::LoadLoot(XmlFile)";
+            public const string LoadLoot_StateMachine = "WorldStaticData/<LoadLoot>d__24";
+            public const string LoadLoot_StateMachine_Method = "MoveNext";
+            public static class LoadLootInjects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadLoot>d__24::_xmlFile";
+                public const string _LoadLoot_d_24_ctor_Int32 = "System.Void WorldStaticData/<LoadLoot>d__24::.ctor(System.Int32)";
+            }
+
+            public const string LoadWeather = "System.Collections.IEnumerator WorldStaticData::LoadWeather(XmlFile)";
+            public const string LoadWeather_StateMachine = "WorldStaticData/<LoadWeather>d__25";
+            public const string LoadWeather_StateMachine_Method = "MoveNext";
+            public static class LoadWeatherInjects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadWeather>d__25::_xmlFile";
+                public const string _LoadWeather_d_25_ctor_Int32 = "System.Void WorldStaticData/<LoadWeather>d__25::.ctor(System.Int32)";
+            }
+
+            public const string LoadArchetypes1 = "System.Collections.IEnumerator WorldStaticData::LoadArchetypes1(XmlFile)";
+            public const string LoadArchetypes1_StateMachine = "WorldStaticData/<LoadArchetypes1>d__26";
+            public const string LoadArchetypes1_StateMachine_Method = "MoveNext";
+            public static class LoadArchetypes1Injects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadArchetypes1>d__26::_xmlFile";
+                public const string _LoadArchetypes1_d_26_ctor_Int32 = "System.Void WorldStaticData/<LoadArchetypes1>d__26::.ctor(System.Int32)";
+            }
+
+            public const string LoadArchetypes2 = "System.Collections.IEnumerator WorldStaticData::LoadArchetypes2(XmlFile)";
+            public const string LoadArchetypes2_StateMachine = "WorldStaticData/<LoadArchetypes2>d__27";
+            public const string LoadArchetypes2_StateMachine_Method = "MoveNext";
+            public static class LoadArchetypes2Injects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadArchetypes2>d__27::_xmlFile";
+                public const string _LoadArchetypes2_d_27_ctor_Int32 = "System.Void WorldStaticData/<LoadArchetypes2>d__27::.ctor(System.Int32)";
+            }
+
+            public const string LoadArchetypes3 = "System.Collections.IEnumerator WorldStaticData::LoadArchetypes3(XmlFile)";
+            public const string LoadArchetypes3_StateMachine = "WorldStaticData/<LoadArchetypes3>d__28";
+            public const string LoadArchetypes3_StateMachine_Method = "MoveNext";
+            public static class LoadArchetypes3Injects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadArchetypes3>d__28::_xmlFile";
+                public const string _LoadArchetypes3_d_28_ctor_Int32 = "System.Void WorldStaticData/<LoadArchetypes3>d__28::.ctor(System.Int32)";
+            }
+
+            public const string LoadArchetypes4 = "System.Collections.IEnumerator WorldStaticData::LoadArchetypes4(XmlFile)";
+            public const string LoadArchetypes4_StateMachine = "WorldStaticData/<LoadArchetypes4>d__29";
+            public const string LoadArchetypes4_StateMachine_Method = "MoveNext";
+            public static class LoadArchetypes4Injects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadArchetypes4>d__29::_xmlFile";
+                public const string _LoadArchetypes4_d_29_ctor_Int32 = "System.Void WorldStaticData/<LoadArchetypes4>d__29::.ctor(System.Int32)";
+            }
+
+            public const string LoadArchetypes5 = "System.Collections.IEnumerator WorldStaticData::LoadArchetypes5(XmlFile)";
+            public const string LoadArchetypes5_StateMachine = "WorldStaticData/<LoadArchetypes5>d__30";
+            public const string LoadArchetypes5_StateMachine_Method = "MoveNext";
+            public static class LoadArchetypes5Injects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadArchetypes5>d__30::_xmlFile";
+                public const string _LoadArchetypes5_d_30_ctor_Int32 = "System.Void WorldStaticData/<LoadArchetypes5>d__30::.ctor(System.Int32)";
+            }
+
+            public const string LoadTraders = "System.Collections.IEnumerator WorldStaticData::LoadTraders(XmlFile)";
+            public const string LoadTraders_StateMachine = "WorldStaticData/<LoadTraders>d__31";
+            public const string LoadTraders_StateMachine_Method = "MoveNext";
+            public static class LoadTradersInjects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadTraders>d__31::_xmlFile";
+                public const string _LoadTraders_d_31_ctor_Int32 = "System.Void WorldStaticData/<LoadTraders>d__31::.ctor(System.Int32)";
+            }
+
+            public const string LoadNpc = "System.Collections.IEnumerator WorldStaticData::LoadNpc(XmlFile)";
+            public const string LoadNpc_StateMachine = "WorldStaticData/<LoadNpc>d__32";
+            public const string LoadNpc_StateMachine_Method = "MoveNext";
+            public static class LoadNpcInjects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadNpc>d__32::_xmlFile";
+                public const string _LoadNpc_d_32_ctor_Int32 = "System.Void WorldStaticData/<LoadNpc>d__32::.ctor(System.Int32)";
+            }
+
+            public const string LoadMusic = "System.Collections.IEnumerator WorldStaticData::LoadMusic(XmlFile)";
+            public const string LoadMusic_StateMachine = "WorldStaticData/<LoadMusic>d__33";
+            public const string LoadMusic_StateMachine_Method = "MoveNext";
+            public static class LoadMusicInjects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadMusic>d__33::_xmlFile";
+                public const string _LoadMusic_d_33_ctor_Int32 = "System.Void WorldStaticData/<LoadMusic>d__33::.ctor(System.Int32)";
+            }
+
+            public const string LoadDMSContent = "System.Collections.IEnumerator WorldStaticData::LoadDMSContent(XmlFile)";
+            public const string LoadDMSContent_StateMachine = "WorldStaticData/<LoadDMSContent>d__34";
+            public const string LoadDMSContent_StateMachine_Method = "MoveNext";
+            public static class LoadDMSContentInjects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadDMSContent>d__34::_xmlFile";
+                public const string _LoadDMSContent_d_34_ctor_Int32 = "System.Void WorldStaticData/<LoadDMSContent>d__34::.ctor(System.Int32)";
+            }
+
+            public const string LoadUIDisplayInfo = "System.Collections.IEnumerator WorldStaticData::LoadUIDisplayInfo(XmlFile)";
+            public const string LoadUIDisplayInfo_StateMachine = "WorldStaticData/<LoadUIDisplayInfo>d__35";
+            public const string LoadUIDisplayInfo_StateMachine_Method = "MoveNext";
+            public static class LoadUIDisplayInfoInjects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadUIDisplayInfo>d__35::_xmlFile";
+                public const string _LoadUIDisplayInfo_d_35_ctor_Int32 = "System.Void WorldStaticData/<LoadUIDisplayInfo>d__35::.ctor(System.Int32)";
+            }
+
+            public const string LoadNavObjectClasses = "System.Collections.IEnumerator WorldStaticData::LoadNavObjectClasses(XmlFile)";
+            public const string LoadNavObjectClasses_StateMachine = "WorldStaticData/<LoadNavObjectClasses>d__36";
+            public const string LoadNavObjectClasses_StateMachine_Method = "MoveNext";
+            public static class LoadNavObjectClassesInjects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadNavObjectClasses>d__36::_xmlFile";
+                public const string _LoadNavObjectClasses_d_36_ctor_Int32 = "System.Void WorldStaticData/<LoadNavObjectClasses>d__36::.ctor(System.Int32)";
+            }
+
+            public const string LoadGameEvents = "System.Collections.IEnumerator WorldStaticData::LoadGameEvents(XmlFile)";
+            public const string LoadGameEvents_StateMachine = "WorldStaticData/<LoadGameEvents>d__37";
+            public const string LoadGameEvents_StateMachine_Method = "MoveNext";
+            public static class LoadGameEventsInjects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadGameEvents>d__37::_xmlFile";
+                public const string _LoadGameEvents_d_37_ctor_Int32 = "System.Void WorldStaticData/<LoadGameEvents>d__37::.ctor(System.Int32)";
+            }
+
+            public const string LoadBiomes = "System.Collections.IEnumerator WorldStaticData::LoadBiomes(XmlFile)";
+            public const string LoadBiomes_StateMachine = "WorldStaticData/<LoadBiomes>d__38";
+            public const string LoadBiomes_StateMachine_Method = "MoveNext";
+            public static class LoadBiomesInjects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadBiomes>d__38::_xmlFile";
+                public const string _LoadBiomes_d_38_ctor_Int32 = "System.Void WorldStaticData/<LoadBiomes>d__38::.ctor(System.Int32)";
+            }
+
+            public const string LoadSpawning = "System.Collections.IEnumerator WorldStaticData::LoadSpawning(XmlFile)";
+            public const string LoadSpawning_StateMachine = "WorldStaticData/<LoadSpawning>d__39";
+            public const string LoadSpawning_StateMachine_Method = "MoveNext";
+            public static class LoadSpawningInjects
+            {
+                public const string _xmlFile = "XmlFile WorldStaticData/<LoadSpawning>d__39::_xmlFile";
+                public const string _LoadSpawning_d_39_ctor_Int32 = "System.Void WorldStaticData/<LoadSpawning>d__39::.ctor(System.Int32)";
+            }
+
+            public const string CleanupBlocks = "System.Void WorldStaticData::CleanupBlocks()";
+            public static class CleanupBlocksInjects
+            {
+                public const string AIDirectorData_Cleanup = "System.Void AIDirectorData::Cleanup()";
+                public const string Block_Cleanup = "System.Void Block::Cleanup()";
+            }
+
+            public const string CleanupGamestages = "System.Void WorldStaticData::CleanupGamestages()";
+            public static class CleanupGamestagesInjects
+            {
+                public const string GameStageDefinition_Clear = "System.Void GameStageDefinition::Clear()";
+                public const string GameStageGroup_Clear = "System.Void GameStageGroup::Clear()";
+            }
+
+            public const string CleanupGameEvents = "System.Void WorldStaticData::CleanupGameEvents()";
+            public static class CleanupGameEventsInjects
+            {
+                public const string GameEventManager_get_Current = "GameEventManager GameEventManager::get_Current()";
+                public const string GameEventManager_Cleanup = "System.Void GameEventManager::Cleanup()";
+            }
+
+            public const string CleanupTwitch = "System.Void WorldStaticData::CleanupTwitch()";
+            public static class CleanupTwitchInjects
+            {
+                public const string TwitchActionManager_get_Current = "Twitch.TwitchActionManager Twitch.TwitchActionManager::get_Current()";
+                public const string TwitchActionManager_Cleanup = "System.Void Twitch.TwitchActionManager::Cleanup()";
+            }
+
+            public const string CleanupSpawning = "System.Void WorldStaticData::CleanupSpawning()";
+            public static class CleanupSpawningInjects
+            {
+                public const string EntitySpawnerClass_Cleanup = "System.Void EntitySpawnerClass::Cleanup()";
+                public const string BiomeSpawningClass_Cleanup = "System.Void BiomeSpawningClass::Cleanup()";
+            }
+
+            public const string LoadPhysicsBodies = "System.Void WorldStaticData::LoadPhysicsBodies()";
+            public static class LoadPhysicsBodiesInjects
+            {
+                public const string WorldStaticData_Reset_String = "System.Void WorldStaticData::Reset(System.String)";
+            }
+
+            public const string SavePhysicsBodies = "System.Void WorldStaticData::SavePhysicsBodies()";
+            public static class SavePhysicsBodiesInjects
+            {
+                public const string Utils_GetGameDir_String = "System.String Utils::GetGameDir(System.String)";
+                public const string String_Concat_String_String = "System.String System.String::Concat(System.String,System.String)";
+                public const string PhysicsBodiesFromXml_Save_String = "System.Void PhysicsBodiesFromXml::Save(System.String)";
+            }
+
+            public const string LinkBuffs = "System.Void WorldStaticData::LinkBuffs()";
+            public const string Cleanup_String = "System.Void WorldStaticData::Cleanup(System.String)";
+            public static class Cleanup_StringInjects
+            {
+                public const string String_IsNullOrEmpty_String = "System.Boolean System.String::IsNullOrEmpty(System.String)";
+                public const string Extensions_ContainsCaseInsensitive_String_String = "System.Boolean Extensions::ContainsCaseInsensitive(System.String,System.String)";
+                public const string Action_Invoke = "System.Void System.Action::Invoke()";
+                public const string xmlsToLoad = "WorldStaticData/XmlLoadInfo[] WorldStaticData::xmlsToLoad";
+                public const string XmlName = "System.String WorldStaticData/XmlLoadInfo::XmlName";
+                public const string CleanupMethod = "System.Action WorldStaticData/XmlLoadInfo::CleanupMethod";
+            }
+
+            public const string Cleanup = "System.Void WorldStaticData::Cleanup()";
+            public static class CleanupInjects
+            {
+                public const string WorldStaticData_Cleanup_String = "System.Void WorldStaticData::Cleanup(System.String)";
+                public const string TextureAtlas_Cleanup = "System.Void TextureAtlas::Cleanup()";
+                public const string MeshDescription_Cleanup = "System.Void MeshDescription::Cleanup()";
+                public const string AssetBundles_Cleanup = "System.Void AssetBundles::Cleanup()";
+                public const string meshes = "MeshDescription[] MeshDescription::meshes";
+                public const string textureAtlas = "TextureAtlas MeshDescription::textureAtlas";
+                public const string bInitDone = "System.Boolean WorldStaticData::bInitDone";
+            }
+
+            public const string QuitCleanup = "System.Void WorldStaticData::QuitCleanup()";
+            public static class QuitCleanupInjects
+            {
+                public const string Object_op_Implicit_Object = "System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)";
+                public const string MeshDescriptionCollection_QuitCleanup = "System.Void MeshDescriptionCollection::QuitCleanup()";
+                public const string meshDescCol = "MeshDescriptionCollection WorldStaticData::meshDescCol";
+            }
+
+            public const string Reset = "System.Void WorldStaticData::Reset(System.String)";
+            public static class ResetInjects
+            {
+                public const string WorldStaticData_Cleanup_String = "System.Void WorldStaticData::Cleanup(System.String)";
+                public const string String_IsNullOrEmpty_String = "System.Boolean System.String::IsNullOrEmpty(System.String)";
+                public const string Extensions_ContainsCaseInsensitive_String_String = "System.Boolean Extensions::ContainsCaseInsensitive(System.String,System.String)";
+                public const string XmlLoadInfo_XmlFileExists = "System.Boolean WorldStaticData/XmlLoadInfo::XmlFileExists()";
+                public const string String_Concat_String_String = "System.String System.String::Concat(System.String,System.String)";
+                public const string Log_Error_String = "System.Void Log::Error(System.String)";
+                public const string WorldStaticData_loadSingleXml_XmlLoadInfo_MemoryStream_DeflateOutputStream = "System.Collections.IEnumerator WorldStaticData::loadSingleXml(WorldStaticData/XmlLoadInfo,System.IO.MemoryStream,Noemax.GZip.DeflateOutputStream)";
+                public const string ThreadManager_RunCoroutineSync_IEnumerator = "System.Void ThreadManager::RunCoroutineSync(System.Collections.IEnumerator)";
+                public const string xmlsToLoad = "WorldStaticData/XmlLoadInfo[] WorldStaticData::xmlsToLoad";
+                public const string XmlName = "System.String WorldStaticData/XmlLoadInfo::XmlName";
+                public const string IgnoreMissingFile = "System.Boolean WorldStaticData/XmlLoadInfo::IgnoreMissingFile";
+                public const string MemoryStream_ctor = "System.Void System.IO.MemoryStream::.ctor()";
+                public const string DeflateOutputStream_ctor_Stream_Int32 = "System.Void Noemax.GZip.DeflateOutputStream::.ctor(System.IO.Stream,System.Int32)";
+            }
+
+            public const string cacheSingleXml = "System.Collections.IEnumerator WorldStaticData::cacheSingleXml(WorldStaticData/XmlLoadInfo,XmlFile,System.IO.MemoryStream,Noemax.GZip.DeflateOutputStream)";
+            public const string cacheSingleXml_StateMachine = "WorldStaticData/<cacheSingleXml>d__52";
+            public const string cacheSingleXml_StateMachine_Method = "MoveNext";
+            public static class cacheSingleXmlInjects
+            {
+                public const string _loadInfo = "WorldStaticData/XmlLoadInfo WorldStaticData/<cacheSingleXml>d__52::_loadInfo";
+                public const string _origXml = "XmlFile WorldStaticData/<cacheSingleXml>d__52::_origXml";
+                public const string _memStream = "System.IO.MemoryStream WorldStaticData/<cacheSingleXml>d__52::_memStream";
+                public const string _zipStream = "Noemax.GZip.DeflateOutputStream WorldStaticData/<cacheSingleXml>d__52::_zipStream";
+                public const string _cacheSingleXml_d_52_ctor_Int32 = "System.Void WorldStaticData/<cacheSingleXml>d__52::.ctor(System.Int32)";
+            }
+
+            public const string loadSingleXml = "System.Collections.IEnumerator WorldStaticData::loadSingleXml(WorldStaticData/XmlLoadInfo,System.IO.MemoryStream,Noemax.GZip.DeflateOutputStream)";
+            public const string loadSingleXml_StateMachine = "WorldStaticData/<loadSingleXml>d__53";
+            public const string loadSingleXml_StateMachine_Method = "MoveNext";
+            public static class loadSingleXmlInjects
+            {
+                public const string _loadInfo = "WorldStaticData/XmlLoadInfo WorldStaticData/<loadSingleXml>d__53::_loadInfo";
+                public const string _memStream = "System.IO.MemoryStream WorldStaticData/<loadSingleXml>d__53::_memStream";
+                public const string _zipStream = "Noemax.GZip.DeflateOutputStream WorldStaticData/<loadSingleXml>d__53::_zipStream";
+                public const string _loadSingleXml_d_53_ctor_Int32 = "System.Void WorldStaticData/<loadSingleXml>d__53::.ctor(System.Int32)";
+            }
+
+            public const string LoadAllXmlsCo = "System.Collections.IEnumerator WorldStaticData::LoadAllXmlsCo(System.Boolean,WorldStaticData/ProgressDelegate)";
+            public const string LoadAllXmlsCo_StateMachine = "WorldStaticData/<LoadAllXmlsCo>d__54";
+            public const string LoadAllXmlsCo_StateMachine_Method = "MoveNext";
+            public static class LoadAllXmlsCoInjects
+            {
+                public const string _isStartup = "System.Boolean WorldStaticData/<LoadAllXmlsCo>d__54::_isStartup";
+                public const string _progressDelegate = "WorldStaticData/ProgressDelegate WorldStaticData/<LoadAllXmlsCo>d__54::_progressDelegate";
+                public const string _LoadAllXmlsCo_d_54_ctor_Int32 = "System.Void WorldStaticData/<LoadAllXmlsCo>d__54::.ctor(System.Int32)";
+            }
+
+            public const string ReloadAllXmlsSync = "System.Void WorldStaticData::ReloadAllXmlsSync()";
+            public static class ReloadAllXmlsSyncInjects
+            {
+                public const string WorldStaticData_Cleanup_String = "System.Void WorldStaticData::Cleanup(System.String)";
+                public const string WorldStaticData_LoadAllXmlsCo_Boolean_ProgressDelegate = "System.Collections.IEnumerator WorldStaticData::LoadAllXmlsCo(System.Boolean,WorldStaticData/ProgressDelegate)";
+                public const string ThreadManager_RunCoroutineSync_IEnumerator = "System.Void ThreadManager::RunCoroutineSync(System.Collections.IEnumerator)";
+            }
+
+            public const string SendXmlsToClient = "System.Void WorldStaticData::SendXmlsToClient(ClientInfo)";
+            public static class SendXmlsToClientInjects
+            {
+                public const string NetPackageConfigFile_Setup_String_Byte_ = "NetPackageConfigFile NetPackageConfigFile::Setup(System.String,System.Byte[])";
+                public const string ClientInfo_SendPackage_NetPackage = "System.Void ClientInfo::SendPackage(NetPackage)";
+                public const string xmlsToLoad = "WorldStaticData/XmlLoadInfo[] WorldStaticData::xmlsToLoad";
+                public const string SendToClients = "System.Boolean WorldStaticData/XmlLoadInfo::SendToClients";
+                public const string CompressedXmlData = "System.Byte[] WorldStaticData/XmlLoadInfo::CompressedXmlData";
+                public const string XmlName = "System.String WorldStaticData/XmlLoadInfo::XmlName";
+            }
+
+            public const string SaveXmlsToFolder = "System.Void WorldStaticData::SaveXmlsToFolder(System.String)";
+            public static class SaveXmlsToFolderInjects
+            {
+                public const string Utils_StreamCopy_Stream_Stream_Byte_Boolean = "System.Void Utils::StreamCopy(System.IO.Stream,System.IO.Stream,System.Byte[],System.Boolean)";
+                public const string MemoryStream_ToArray = "System.Byte[] System.IO.MemoryStream::ToArray()";
+                public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
+                public const string String_Concat_String_String_String_String = "System.String System.String::Concat(System.String,System.String,System.String,System.String)";
+                public const string String_IndexOf_Char = "System.Int32 System.String::IndexOf(System.Char)";
+                public const string Path_GetDirectoryName_String = "System.String System.IO.Path::GetDirectoryName(System.String)";
+                public const string Directory_Exists_String = "System.Boolean System.IO.Directory::Exists(System.String)";
+                public const string Directory_CreateDirectory_String = "System.IO.DirectoryInfo System.IO.Directory::CreateDirectory(System.String)";
+                public const string File_WriteAllBytes_String_Byte_ = "System.Void System.IO.File::WriteAllBytes(System.String,System.Byte[])";
+                public const string xmlsToLoad = "WorldStaticData/XmlLoadInfo[] WorldStaticData::xmlsToLoad";
+                public const string CompressedXmlData = "System.Byte[] WorldStaticData/XmlLoadInfo::CompressedXmlData";
+                public const string XmlName = "System.String WorldStaticData/XmlLoadInfo::XmlName";
+                public const string MemoryStream_ctor_Byte_ = "System.Void System.IO.MemoryStream::.ctor(System.Byte[])";
+                public const string DeflateInputStream_ctor_Stream = "System.Void Noemax.GZip.DeflateInputStream::.ctor(System.IO.Stream)";
+                public const string MemoryStream_ctor = "System.Void System.IO.MemoryStream::.ctor()";
+            }
+
+            public const string getLoadInfoForName = "WorldStaticData/XmlLoadInfo WorldStaticData::getLoadInfoForName(System.String,System.Int32&)";
+            public static class getLoadInfoForNameInjects
+            {
+                public const string Extensions_EqualsCaseInsensitive_String_String = "System.Boolean Extensions::EqualsCaseInsensitive(System.String,System.String)";
+                public const string xmlsToLoad = "WorldStaticData/XmlLoadInfo[] WorldStaticData::xmlsToLoad";
+                public const string XmlName = "System.String WorldStaticData/XmlLoadInfo::XmlName";
+            }
+
+            public const string WaitForConfigsFromServer = "System.Void WorldStaticData::WaitForConfigsFromServer()";
+            public static class WaitForConfigsFromServerInjects
+            {
+                public const string ThreadManager_StopCoroutine_Coroutine = "System.Void ThreadManager::StopCoroutine(UnityEngine.Coroutine)";
+                public const string WorldStaticData_handleReceivedConfigs = "System.Collections.IEnumerator WorldStaticData::handleReceivedConfigs()";
+                public const string ThreadManager_StartCoroutine_IEnumerator = "UnityEngine.Coroutine ThreadManager::StartCoroutine(System.Collections.IEnumerator)";
+                public const string receivedConfigsHandlerCoroutine = "UnityEngine.Coroutine WorldStaticData::receivedConfigsHandlerCoroutine";
+            }
+
+            public const string handleReceivedConfigs = "System.Collections.IEnumerator WorldStaticData::handleReceivedConfigs()";
+            public const string handleReceivedConfigs_StateMachine = "WorldStaticData/<handleReceivedConfigs>d__60";
+            public const string handleReceivedConfigs_StateMachine_Method = "MoveNext";
+            public static class handleReceivedConfigsInjects
+            {
+                public const string _handleReceivedConfigs_d_60_ctor_Int32 = "System.Void WorldStaticData/<handleReceivedConfigs>d__60::.ctor(System.Int32)";
+            }
+
+            public const string AllConfigsReceivedAndLoaded = "System.Boolean WorldStaticData::AllConfigsReceivedAndLoaded()";
+            public static class AllConfigsReceivedAndLoadedInjects
+            {
+                public const string receivedConfigsHandlerCoroutine = "UnityEngine.Coroutine WorldStaticData::receivedConfigsHandlerCoroutine";
+            }
+
+            public const string ReceivedConfigFile = "System.Void WorldStaticData::ReceivedConfigFile(System.String,System.Byte[])";
+            public static class ReceivedConfigFileInjects
+            {
+                public const string String_Concat_Object_ = "System.String System.String::Concat(System.Object[])";
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string WorldStaticData_getLoadInfoForName_String_Int32_ = "WorldStaticData/XmlLoadInfo WorldStaticData::getLoadInfoForName(System.String,System.Int32&)";
+                public const string String_Concat_String_String = "System.String System.String::Concat(System.String,System.String)";
+                public const string Log_Warning_String = "System.Void Log::Warning(System.String)";
+                public const string MathUtils_Max_Int32_Int32 = "System.Int32 MathUtils::Max(System.Int32,System.Int32)";
+                public const string CompressedXmlData = "System.Byte[] WorldStaticData/XmlLoadInfo::CompressedXmlData";
+                public const string WasReceivedFromServer = "System.Boolean WorldStaticData/XmlLoadInfo::WasReceivedFromServer";
+                public const string highestReceivedIndex = "System.Int32 WorldStaticData::highestReceivedIndex";
+            }
+
+            public const string ReloadInGameXML = "System.Void WorldStaticData::ReloadInGameXML()";
+            public static class ReloadInGameXMLInjects
+            {
+                public const string Log_Out_String_Object_ = "System.Void Log::Out(System.String,System.Object[])";
+                public const string Action_1_Invoke_0 = "System.Void System.Action`1<XmlFile>::Invoke(XmlFile)";
+                public const string Func_2_Invoke_0 = "System.Collections.IEnumerator System.Func`2<XmlFile,System.Collections.IEnumerator>::Invoke(XmlFile)";
+                public const string ThreadManager_RunCoroutineSync_IEnumerator = "System.Void ThreadManager::RunCoroutineSync(System.Collections.IEnumerator)";
+                public const string GameManager_get_World = "World GameManager::get_World()";
+                public const string List_1_get_Item_Int32 = "Entity System.Collections.Generic.List`1<Entity>::get_Item(System.Int32)";
+                public const string Entity_OnXMLChanged = "System.Void Entity::OnXMLChanged()";
+                public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<Entity>::get_Count()";
+                public const string MicroStopwatch_get_ElapsedMicroseconds = "System.Int64 MicroStopwatch::get_ElapsedMicroseconds()";
+                public const string Extensions_ToCultureInvariantString_Single = "System.String Extensions::ToCultureInvariantString(System.Single)";
+                public const string xmlsToLoad = "WorldStaticData/XmlLoadInfo[] WorldStaticData::xmlsToLoad";
+                public const string AllowReloadDuringGame = "System.Boolean WorldStaticData/XmlLoadInfo::AllowReloadDuringGame";
+                public const string XmlName = "System.String WorldStaticData/XmlLoadInfo::XmlName";
+                public const string ReloadDuringGameMethod = "System.Action`1<XmlFile> WorldStaticData/XmlLoadInfo::ReloadDuringGameMethod";
+                public const string LoadMethod = "System.Func`2<XmlFile,System.Collections.IEnumerator> WorldStaticData/XmlLoadInfo::LoadMethod";
+                public const string Instance = "GameManager GameManager::Instance";
+                public const string Entities = "DictionaryList`2<System.Int32,Entity> World::Entities";
+                public const string list = "System.Collections.Generic.List`1<Entity> DictionaryList`2<System.Int32,Entity>::list";
+                public const string Timer_ctor = "System.Void Timer::.ctor()";
+                public const string XmlFile_ctor_String = "System.Void XmlFile::.ctor(System.String)";
+            }
+        }
+    }
+
+    [System.ComponentModel.DescriptionAttribute("Generated by SharpILMixins")]
+    public static class _Init_d__10Targets
+    {
+        public static class Methods
+        {
+            public const string MoveNext = "System.Boolean WorldStaticData/<Init>d__10::MoveNext()";
+            public static class MoveNextInjects
+            {
+                public const string Log_Out_String = "System.Void Log::Out(System.String)";
+                public const string Localization_Get_String = "System.String Localization::Get(System.String)";
+                public const string ProgressDelegate_Invoke_String_Single = "System.Void WorldStaticData/ProgressDelegate::Invoke(System.String,System.Single)";
+                public const string ParticleEffect_LoadParticleEffectsFromResources = "System.Void ParticleEffect::LoadParticleEffectsFromResources()";
+                public const string String_Concat_Object_Object = "System.String System.String::Concat(System.Object,System.Object)";
+                public const string Resources_Load_String = "UnityEngine.Object UnityEngine.Resources::Load(System.String)";
+                public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
+                public const string GameObject_get_transform = "UnityEngine.Transform UnityEngine.GameObject::get_transform()";
+                public const string AssetBundleManager_get_Instance = "AssetBundleManager AssetBundleManager::get_Instance()";
+                public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
+                public const string MeshDescriptionCollection_LoadTextureArraysForQuality_Boolean = "System.Void MeshDescriptionCollection::LoadTextureArraysForQuality(System.Boolean)";
+                public const string Log_Error_String = "System.Void Log::Error(System.String)";
+                public const string Log_Exception_Exception = "System.Void Log::Exception(System.Exception)";
+                public const string GameManager_get_IsDedicatedServer = "System.Boolean GameManager::get_IsDedicatedServer()";
+                public const string WorldStaticData_LoadAllXmlsCo_Boolean_ProgressDelegate = "System.Collections.IEnumerator WorldStaticData::LoadAllXmlsCo(System.Boolean,WorldStaticData/ProgressDelegate)";
+                public const string Archetypes_PregenStatic = "System.Void Archetypes::PregenStatic()";
+                public const string Stopwatch_get_ElapsedMilliseconds = "System.Int64 System.Diagnostics.Stopwatch::get_ElapsedMilliseconds()";
+                public const string Utils_MsToS_Int64 = "System.Single Utils::MsToS(System.Int64)";
+                public const string Extensions_ToCultureInvariantString_Single_String = "System.String Extensions::ToCultureInvariantString(System.Single,System.String)";
+                public const string Log_Out_String_Object_ = "System.Void Log::Out(System.String,System.Object[])";
+                public const string GameOptionsManager_add_TextureQualityChanged_Action_1 = "System.Void GameOptionsManager::add_TextureQualityChanged(System.Action`1<System.Int32>)";
+                public const string GameOptionsManager_add_TextureFilterChanged_Action_1 = "System.Void GameOptionsManager::add_TextureFilterChanged(System.Action`1<System.Int32>)";
+                public const string _1_state = "System.Int32 WorldStaticData/<Init>d__10::<>1__state";
+                public const string _bDediServer = "System.Boolean WorldStaticData/<Init>d__10::_bDediServer";
+                public const string isDediServer = "System.Boolean WorldStaticData::isDediServer";
+                public const string _bForce = "System.Boolean WorldStaticData/<Init>d__10::_bForce";
+                public const string bInitDone = "System.Boolean WorldStaticData::bInitDone";
+                public const string _sw_5_2 = "MicroStopwatch WorldStaticData/<Init>d__10::<sw>5__2";
+                public const string _progressDelegate = "WorldStaticData/ProgressDelegate WorldStaticData/<Init>d__10::_progressDelegate";
+                public const string _2_current = "System.Object WorldStaticData/<Init>d__10::<>2__current";
+                public const string prefabExplosions = "UnityEngine.Transform[] WorldStaticData::prefabExplosions";
+                public const string meshDescCol = "MeshDescriptionCollection WorldStaticData::meshDescCol";
+                public const string meshes = "MeshDescription[] MeshDescriptionCollection::meshes";
+                public const string TexDiffuse = "UnityEngine.Texture MeshDescription::TexDiffuse";
+                public const string TexNormal = "UnityEngine.Texture MeshDescription::TexNormal";
+                public const string TexSpecular = "UnityEngine.Texture MeshDescription::TexSpecular";
+                public const string TexEmission = "UnityEngine.Texture MeshDescription::TexEmission";
+                public const string TexHeight = "UnityEngine.Texture MeshDescription::TexHeight";
+                public const string TexOcclusion = "UnityEngine.Texture MeshDescription::TexOcclusion";
+                public const string TexMask = "UnityEngine.Texture2D MeshDescription::TexMask";
+                public const string TexMaskNormal = "UnityEngine.Texture2D MeshDescription::TexMaskNormal";
+                public const string Instance = "Archetypes Archetypes::Instance";
+                public const string _9_10_0 = "System.Action`1<System.Int32> WorldStaticData/<>c::<>9__10_0";
+                public const string _9 = "WorldStaticData/<>c WorldStaticData/<>c::<>9";
+                public const string _9_10_1 = "System.Action`1<System.Int32> WorldStaticData/<>c::<>9__10_1";
+                public const string MicroStopwatch_ctor = "System.Void MicroStopwatch::.ctor()";
+                public const string Exception_ctor_String = "System.Void System.Exception::.ctor(System.String)";
+                public const string Action_1_ctor_Object_IntPtr = "System.Void System.Action`1<System.Int32>::.ctor(System.Object,System.IntPtr)";
             }
         }
     }

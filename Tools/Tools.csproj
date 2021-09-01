@@ -6,11 +6,11 @@
 
   <ItemGroup>
     <!-- Force BetterWaysToDie to build first -->
-    <ProjectReference Include="..\BetterWaysToDie\BetterWaysToDie.csproj"/>
+    <ProjectReference Include="..\BetterWaysToDie\BetterWaysToDie.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="CommandLineParser" Version="2.8.0"/>
-    <PackageReference Include="SharpILMixins.ProcessorBase" Version="1.4.0"/>
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+    <PackageReference Include="SharpILMixins.ProcessorBase" Version="1.5.0" />
   </ItemGroup>
 </Project>

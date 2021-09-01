@@ -9,6 +9,9 @@
     "Gui.MainMenuMonoMixin",
     "BlockMixin",
     "GameManagerMixin",
+    "StartAsServerMixin",
+    "WorldStaticDataMixin",
+    "InitMixin",
     "ConstantsMixin"
   ]
 }

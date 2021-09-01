@@ -11,7 +11,7 @@ namespace BetterWaysToDie.BetterWaysToDie
             Registry<Block>.Event += registry =>
             {
                 new BlockBuilder<Block>("test")
-                    .Inherit(registry["woodMaster"])
+                    .Inherit(registry["terrStone"])
                     .Register(registry);
             };
 

@@ -47,5 +47,10 @@ namespace BetterWaysToDie.Mod
                 mod.Initialize();
             }
         }
+
+        public static bool IsDevelopmentEnvironment()
+        {
+            return true; //FIXME: need to fix this eventually
+        }
     }
 }
