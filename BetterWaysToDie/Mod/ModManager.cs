@@ -13,10 +13,7 @@ namespace BetterWaysToDie.Mod
 
         private static IEnumerable<IMod> InitializeMods()
         {
-            var assemblies = new List<Assembly>
-            {
-                Assembly.GetExecutingAssembly()
-            };
+            var assemblies = new List<Assembly> {Assembly.GetExecutingAssembly()};
 
             var mods = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
                 "Better Ways To Die",
@@ -51,6 +48,16 @@ namespace BetterWaysToDie.Mod
         public static bool IsDevelopmentEnvironment()
         {
             return true; //FIXME: need to fix this eventually
+        }
+
+        public static Texture LoadTexture(string Path, int width, int height)
+        {
+            using var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream(Path);
+            using var memoryStream = new MemoryStream();
+            stream?.CopyTo(memoryStream);
+            var texture = new Texture2D(width, height);
+            texture.LoadImage(memoryStream.ToArray());
+            return texture;
         }
     }
 }

@@ -5,6 +5,7 @@
   ],
   "mixins": [
     "Accessor.GUIWindowConsole_ConsoleLineAccessor",
+    "Accessor.WorldStaticDataAccessor",
     "Gui.GUIWindowConsoleMixin",
     "Gui.MainMenuMonoMixin",
     "BlockMixin",

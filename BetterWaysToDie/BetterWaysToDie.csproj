@@ -338,5 +338,9 @@
 
   <ItemGroup>
     <EmbeddedResource Include="mixins.json" />
+    <EmbeddedResource Include="Res\wood.png" />
+    <None Remove="wood.png" />
+    <None Remove="Res\woodNormal.png" />
+    <EmbeddedResource Include="Res\woodNormal.png" />
   </ItemGroup>
 </Project>
