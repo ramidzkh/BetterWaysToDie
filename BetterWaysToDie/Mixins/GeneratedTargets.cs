@@ -43,7 +43,7 @@ namespace BetterWaysToDie.Mixins
             public static class internalAddLineInjects
             {
                 public const string Monitor_Enter_Object_Boolean_ = "System.Void System.Threading.Monitor::Enter(System.Object,System.Boolean&)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<GUIWindowConsole/ConsoleLine>::Add(GUIWindowConsole/ConsoleLine)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<GUIWindowConsole/ConsoleLine>::Add(GUIWindowConsole/ConsoleLine)";
                 public const string Monitor_Exit_Object = "System.Void System.Threading.Monitor::Exit(System.Object)";
                 public const string linesToAdd = "System.Collections.Generic.List`1<GUIWindowConsole/ConsoleLine> GUIWindowConsole::linesToAdd";
             }
@@ -177,9 +177,9 @@ namespace BetterWaysToDie.Mixins
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<System.String>::get_Count()";
                 public const string List_1_get_Item_Int32 = "System.String System.Collections.Generic.List`1<System.String>::get_Item(System.Int32)";
                 public const string String_Equals_String = "System.Boolean System.String::Equals(System.String)";
-                public const string List_1_Contains_0 = "System.Boolean System.Collections.Generic.List`1<System.String>::Contains(System.String)";
-                public const string List_1_Remove_0 = "System.Boolean System.Collections.Generic.List`1<System.String>::Remove(System.String)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<System.String>::Add(System.String)";
+                public const string List_1_Contains_T = "System.Boolean System.Collections.Generic.List`1<System.String>::Contains(System.String)";
+                public const string List_1_Remove_T = "System.Boolean System.Collections.Generic.List`1<System.String>::Remove(System.String)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<System.String>::Add(System.String)";
                 public const string curCommand = "System.String GUIWindowConsole::curCommand";
                 public const string scrollPosition = "UnityEngine.Vector2 GUIWindowConsole::scrollPosition";
                 public const string y = "System.Single UnityEngine.Vector2::y";
@@ -487,7 +487,7 @@ namespace BetterWaysToDie.Mixins
             public const string AddRandomTintColor_Vector3_String = "System.Void Block::AddRandomTintColor(UnityEngine.Vector3,System.String)";
             public static class AddRandomTintColor_Vector3_StringInjects
             {
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Block/TintColorOnMaterial>::Add(Block/TintColorOnMaterial)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Block/TintColorOnMaterial>::Add(Block/TintColorOnMaterial)";
                 public const string randomTintColors = "System.Collections.Generic.List`1<Block/TintColorOnMaterial> Block::randomTintColors";
                 public const string color = "UnityEngine.Vector3 Block/TintColorOnMaterial::color";
                 public const string materialName = "System.String Block/TintColorOnMaterial::materialName";
@@ -497,10 +497,10 @@ namespace BetterWaysToDie.Mixins
             public const string Init = "System.Void Block::Init()";
             public static class InitInjects
             {
-                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,Block>::ContainsKey(System.String)";
+                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,Block>::ContainsKey(System.String)";
                 public const string String_Concat_String_String_String = "System.String System.String::Concat(System.String,System.String,System.String)";
                 public const string Log_Error_String = "System.Void Log::Error(System.String)";
-                public const string Dictionary_2_set_Item_0_1 = "System.Void System.Collections.Generic.Dictionary`2<System.String,Block>::set_Item(System.String,Block)";
+                public const string Dictionary_2_set_Item_TKey_TValue = "System.Void System.Collections.Generic.Dictionary`2<System.String,Block>::set_Item(System.String,Block)";
                 public const string ValueWrapper_ContainsKey_String = "System.Boolean DynamicProperties/ValueWrapper::ContainsKey(System.String)";
                 public const string ValueWrapper_get_Item_String = "System.String DynamicProperties/ValueWrapper::get_Item(System.String)";
                 public const string FastTags_Parse_String = "FastTags FastTags::Parse(System.String)";
@@ -526,15 +526,15 @@ namespace BetterWaysToDie.Mixins
                 public const string String_get_Length = "System.Int32 System.String::get_Length()";
                 public const string String_Concat_Object_ = "System.String System.String::Concat(System.Object[])";
                 public const string String_get_Chars_Int32 = "System.Char System.String::get_Chars(System.Int32)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Vector3i>::Add(Vector3i)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Vector3i>::Add(Vector3i)";
                 public const string Mathf_RoundToInt_Single = "System.Int32 UnityEngine.Mathf::RoundToInt(System.Single)";
                 public const string UInt32_Parse_String = "System.UInt32 System.UInt32::Parse(System.String)";
                 public const string String_Split_Char_StringSplitOptions = "System.String[] System.String::Split(System.Char[],System.StringSplitOptions)";
                 public const string DynamicProperties_ParseBool_String_Boolean_ = "System.Void DynamicProperties::ParseBool(System.String,System.Boolean&)";
                 public const string StringParsers_TryParseFloat_String_Single_Int32_Int32_NumberStyles = "System.Boolean StringParsers::TryParseFloat(System.String,System.Single&,System.Int32,System.Int32,System.Globalization.NumberStyles)";
                 public const string DynamicProperties_ParseString_String_String_ = "System.Void DynamicProperties::ParseString(System.String,System.String&)";
-                public const string HashSet_1_Add_0 = "System.Boolean System.Collections.Generic.HashSet`1<BlockFace>::Add(BlockFace)";
-                public const string HashSet_1_Contains_0 = "System.Boolean System.Collections.Generic.HashSet`1<BlockFace>::Contains(BlockFace)";
+                public const string HashSet_1_Add_T = "System.Boolean System.Collections.Generic.HashSet`1<BlockFace>::Add(BlockFace)";
+                public const string HashSet_1_Contains_T = "System.Boolean System.Collections.Generic.HashSet`1<BlockFace>::Contains(BlockFace)";
                 public const string String_Contains_String = "System.Boolean System.String::Contains(System.String)";
                 public const string String_StartsWith_String = "System.Boolean System.String::StartsWith(System.String)";
                 public const string String_Format_String_Object_Object = "System.String System.String::Format(System.String,System.Object,System.Object)";
@@ -796,13 +796,13 @@ namespace BetterWaysToDie.Mixins
                 public const string Enumerator_get_Current = "System.Collections.Generic.KeyValuePair`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>> System.Collections.Generic.Dictionary`2/Enumerator<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::get_Current()";
                 public const string KeyValuePair_2_get_Key = "EnumDropEvent System.Collections.Generic.KeyValuePair`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::get_Key()";
                 public const string KeyValuePair_2_get_Value = "System.Collections.Generic.List`1<Block/SItemDropProb> System.Collections.Generic.KeyValuePair`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::get_Value()";
-                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::ContainsKey(EnumDropEvent)";
-                public const string Dictionary_2_get_Item_0 = "System.Collections.Generic.List`1<Block/SItemDropProb> System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::get_Item(EnumDropEvent)";
-                public const string Dictionary_2_set_Item_0_1 = "System.Void System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::set_Item(EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>)";
+                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::ContainsKey(EnumDropEvent)";
+                public const string Dictionary_2_get_Item_TKey = "System.Collections.Generic.List`1<Block/SItemDropProb> System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::get_Item(EnumDropEvent)";
+                public const string Dictionary_2_set_Item_TKey_TValue = "System.Void System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::set_Item(EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>)";
                 public const string List_1_get_Item_Int32 = "Block/SItemDropProb System.Collections.Generic.List`1<Block/SItemDropProb>::get_Item(System.Int32)";
                 public const string String_op_Equality_String_String = "System.Boolean System.String::op_Equality(System.String,System.String)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<Block/SItemDropProb>::get_Count()";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Block/SItemDropProb>::Add(Block/SItemDropProb)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Block/SItemDropProb>::Add(Block/SItemDropProb)";
                 public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::MoveNext()";
                 public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
                 public const string itemsToDrop = "System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>> Block::itemsToDrop";
@@ -1032,7 +1032,7 @@ namespace BetterWaysToDie.Mixins
                 public const string Block_GetCollisionAABB_BlockValue_Int32_Int32_Int32_Single_List_1 = "System.Void Block::GetCollisionAABB(BlockValue,System.Int32,System.Int32,System.Int32,System.Single,System.Collections.Generic.List`1<UnityEngine.Bounds>)";
                 public const string List_1_get_Item_Int32 = "UnityEngine.Bounds System.Collections.Generic.List`1<UnityEngine.Bounds>::get_Item(System.Int32)";
                 public const string Bounds_Intersects_Bounds = "System.Boolean UnityEngine.Bounds::Intersects(UnityEngine.Bounds)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<UnityEngine.Bounds>::Add(UnityEngine.Bounds)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<UnityEngine.Bounds>::Add(UnityEngine.Bounds)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<UnityEngine.Bounds>::get_Count()";
                 public const string staticList_IntersectRayWithBlockList = "System.Collections.Generic.List`1<UnityEngine.Bounds> Block::staticList_IntersectRayWithBlockList";
             }
@@ -1047,7 +1047,7 @@ namespace BetterWaysToDie.Mixins
                 public const string Bounds_set_center_Vector3 = "System.Void UnityEngine.Bounds::set_center(UnityEngine.Vector3)";
                 public const string Bounds_get_max = "UnityEngine.Vector3 UnityEngine.Bounds::get_max()";
                 public const string Bounds_set_max_Vector3 = "System.Void UnityEngine.Bounds::set_max(UnityEngine.Vector3)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<UnityEngine.Bounds>::Add(UnityEngine.Bounds)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<UnityEngine.Bounds>::Add(UnityEngine.Bounds)";
                 public const string shape = "BlockShape Block::shape";
             }
 
@@ -1197,7 +1197,7 @@ namespace BetterWaysToDie.Mixins
                 public const string ReadOnlyCollection_1_get_Count = "System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<LocalPlayerUI>::get_Count()";
                 public const string WorldBase_GetChunkFromWorldPos_Vector3i = "IChunk WorldBase::GetChunkFromWorldPos(Vector3i)";
                 public const string World_toBlock_Vector3i = "Vector3i World::toBlock(Vector3i)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<BlockChangeInfo>::Add(BlockChangeInfo)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<BlockChangeInfo>::Add(BlockChangeInfo)";
                 public const string WorldBase_SetBlocksRPC_List_1 = "System.Void WorldBase::SetBlocksRPC(System.Collections.Generic.List`1<BlockChangeInfo>)";
                 public const string WorldBase_GetDensity_Int32_Vector3i = "System.SByte WorldBase::GetDensity(System.Int32,Vector3i)";
                 public const string Utils_FastMin_Single_Single = "System.Single Utils::FastMin(System.Single,System.Single)";
@@ -1233,10 +1233,10 @@ namespace BetterWaysToDie.Mixins
             public const string AddDroppedId = "System.Void Block::AddDroppedId(EnumDropEvent,System.String,System.Int32,System.Int32,System.Single,System.Single,System.String,System.String)";
             public static class AddDroppedIdInjects
             {
-                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::ContainsKey(EnumDropEvent)";
-                public const string Dictionary_2_get_Item_0 = "System.Collections.Generic.List`1<Block/SItemDropProb> System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::get_Item(EnumDropEvent)";
-                public const string Dictionary_2_set_Item_0_1 = "System.Void System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::set_Item(EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Block/SItemDropProb>::Add(Block/SItemDropProb)";
+                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::ContainsKey(EnumDropEvent)";
+                public const string Dictionary_2_get_Item_TKey = "System.Collections.Generic.List`1<Block/SItemDropProb> System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::get_Item(EnumDropEvent)";
+                public const string Dictionary_2_set_Item_TKey_TValue = "System.Void System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::set_Item(EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Block/SItemDropProb>::Add(Block/SItemDropProb)";
                 public const string itemsToDrop = "System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>> Block::itemsToDrop";
                 public const string List_1_ctor = "System.Void System.Collections.Generic.List`1<Block/SItemDropProb>::.ctor()";
                 public const string SItemDropProb_ctor_String_Int32_Int32_Single_Single_String_String = "System.Void Block/SItemDropProb::.ctor(System.String,System.Int32,System.Int32,System.Single,System.Single,System.String,System.String)";
@@ -1245,7 +1245,7 @@ namespace BetterWaysToDie.Mixins
             public const string HasItemsToDropForEvent = "System.Boolean Block::HasItemsToDropForEvent(EnumDropEvent)";
             public static class HasItemsToDropForEventInjects
             {
-                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::ContainsKey(EnumDropEvent)";
+                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::ContainsKey(EnumDropEvent)";
                 public const string itemsToDrop = "System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>> Block::itemsToDrop";
             }
 
@@ -1254,9 +1254,9 @@ namespace BetterWaysToDie.Mixins
             {
                 public const string WorldBase_GetGameRandom = "GameRandom WorldBase::GetGameRandom()";
                 public const string List_1_Clear = "System.Void System.Collections.Generic.List`1<ItemStack>::Clear()";
-                public const string Dictionary_2_TryGetValue_0_1_ = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::TryGetValue(EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>&)";
+                public const string Dictionary_2_TryGetValue_TKey_TValue_ = "System.Boolean System.Collections.Generic.Dictionary`2<EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>>::TryGetValue(EnumDropEvent,System.Collections.Generic.List`1<Block/SItemDropProb>&)";
                 public const string BlockValue_ToItemValue = "ItemValue BlockValue::ToItemValue()";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<ItemStack>::Add(ItemStack)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<ItemStack>::Add(ItemStack)";
                 public const string List_1_get_Item_Int32 = "Block/SItemDropProb System.Collections.Generic.List`1<Block/SItemDropProb>::get_Item(System.Int32)";
                 public const string GameRandom_RandomRange_Int32_Int32 = "System.Int32 GameRandom::RandomRange(System.Int32,System.Int32)";
                 public const string GameRandom_get_RandomFloat = "System.Single GameRandom::get_RandomFloat()";
@@ -1690,8 +1690,8 @@ namespace BetterWaysToDie.Mixins
             public const string GetBlockByName = "Block Block::GetBlockByName(System.String,System.Boolean)";
             public static class GetBlockByNameInjects
             {
-                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,Block>::ContainsKey(System.String)";
-                public const string Dictionary_2_get_Item_0 = "Block System.Collections.Generic.Dictionary`2<System.String,Block>::get_Item(System.String)";
+                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,Block>::ContainsKey(System.String)";
+                public const string Dictionary_2_get_Item_TKey = "Block System.Collections.Generic.Dictionary`2<System.String,Block>::get_Item(System.String)";
                 public const string nameToBlock = "System.Collections.Generic.Dictionary`2<System.String,Block> Block::nameToBlock";
                 public const string nameToBlockCaseInsensitive = "System.Collections.Generic.Dictionary`2<System.String,Block> Block::nameToBlockCaseInsensitive";
             }
@@ -1815,10 +1815,10 @@ namespace BetterWaysToDie.Mixins
                 public const string Dictionary_2_GetEnumerator = "System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Int32> System.Collections.Generic.Dictionary`2<System.String,System.Int32>::GetEnumerator()";
                 public const string Enumerator_get_Current = "System.Collections.Generic.KeyValuePair`2<System.String,System.Int32> System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Int32>::get_Current()";
                 public const string KeyValuePair_2_get_Key = "System.String System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>::get_Key()";
-                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,Block>::ContainsKey(System.String)";
-                public const string Dictionary_2_get_Item_0 = "Block System.Collections.Generic.Dictionary`2<System.String,Block>::get_Item(System.String)";
-                public const string List_1_Contains_0 = "System.Boolean System.Collections.Generic.List`1<Block>::Contains(Block)";
-                public const string List_1_Remove_0 = "System.Boolean System.Collections.Generic.List`1<Block>::Remove(Block)";
+                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,Block>::ContainsKey(System.String)";
+                public const string Dictionary_2_get_Item_TKey = "Block System.Collections.Generic.Dictionary`2<System.String,Block>::get_Item(System.String)";
+                public const string List_1_Contains_T = "System.Boolean System.Collections.Generic.List`1<Block>::Contains(Block)";
+                public const string List_1_Remove_T = "System.Boolean System.Collections.Generic.List`1<Block>::Remove(Block)";
                 public const string KeyValuePair_2_get_Value = "System.Int32 System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>::get_Value()";
                 public const string Block_assignId_Block_Int32_Boolean_ = "System.Void Block::assignId(Block,System.Int32,System.Boolean[])";
                 public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Int32>::MoveNext()";
@@ -1840,7 +1840,7 @@ namespace BetterWaysToDie.Mixins
                 public const string NameIdMapping_GetIdForName_String = "System.Int32 NameIdMapping::GetIdForName(System.String)";
                 public const string KeyValuePair_2_get_Value = "Block System.Collections.Generic.KeyValuePair`2<System.String,Block>::get_Value()";
                 public const string Block_assignId_Block_Int32_Boolean_ = "System.Void Block::assignId(Block,System.Int32,System.Boolean[])";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<Block>::Add(Block)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<Block>::Add(Block)";
                 public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.String,Block>::MoveNext()";
                 public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
                 public const string Block_assignLeftOverBlocks_Boolean_List_1 = "System.Void Block::assignLeftOverBlocks(System.Boolean[],System.Collections.Generic.List`1<Block>)";
@@ -2192,6 +2192,7 @@ namespace BetterWaysToDie.Mixins
                 public const string AdminTools_ctor = "System.Void AdminTools::.ctor()";
                 public const string TelnetConsole_ctor = "System.Void TelnetConsole::.ctor()";
                 public const string ControlPanel_ctor = "System.Void ControlPanel::.ctor()";
+                public const string WinFormInstance_ctor = "System.Void WinFormInstance::.ctor()";
             }
 
             public const string InitMultiSourceUiAtlases = "System.Void GameManager::InitMultiSourceUiAtlases(UnityEngine.GameObject)";
@@ -3183,7 +3184,7 @@ namespace BetterWaysToDie.Mixins
                 public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
                 public const string List_1_get_Item_Int32 = "EntityPlayer System.Collections.Generic.List`1<EntityPlayer>::get_Item(System.Int32)";
                 public const string PersistentPlayerList_GetPlayerDataFromEntityID_Int32 = "PersistentPlayerData PersistentPlayerList::GetPlayerDataFromEntityID(System.Int32)";
-                public const string HashSet_1_Contains_0 = "System.Boolean System.Collections.Generic.HashSet`1<System.String>::Contains(System.String)";
+                public const string HashSet_1_Contains_T = "System.Boolean System.Collections.Generic.HashSet`1<System.String>::Contains(System.String)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<EntityPlayer>::get_Count()";
                 public const string myEntityPlayerLocal = "EntityPlayerLocal GameManager::myEntityPlayerLocal";
                 public const string persistentLocalPlayer = "PersistentPlayerData GameManager::persistentLocalPlayer";
@@ -3359,14 +3360,14 @@ namespace BetterWaysToDie.Mixins
             public static class PlayerSpawnedInWorldInjects
             {
                 public const string GameManager_get_World = "World GameManager::get_World()";
-                public const string Dictionary_2_TryGetValue_0_1_ = "System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,Entity>::TryGetValue(System.Int32,Entity&)";
+                public const string Dictionary_2_TryGetValue_TKey_TValue_ = "System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,Entity>::TryGetValue(System.Int32,Entity&)";
                 public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
                 public const string GameManager_GameMessage_EnumGameMessages_EntityAlive_EntityAlive = "System.Void GameManager::GameMessage(EnumGameMessages,EntityAlive,EntityAlive)";
                 public const string ConnectionManager_get_IsServer = "System.Boolean ConnectionManager::get_IsServer()";
                 public const string Entity_SetAlive = "System.Void Entity::SetAlive()";
                 public const string NetPackagePlayerSpawnedInWorld_Setup_RespawnType_Vector3i_Int32 = "NetPackagePlayerSpawnedInWorld NetPackagePlayerSpawnedInWorld::Setup(RespawnType,Vector3i,System.Int32)";
                 public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
-                public const string Action_1_Invoke_0 = "System.Void System.Action`1<ClientInfo>::Invoke(ClientInfo)";
+                public const string Action_1_Invoke_T = "System.Void System.Action`1<ClientInfo>::Invoke(ClientInfo)";
                 public const string ModEvent_3_Invoke_T1_T2_T3 = "System.Void ModEvent`3<ClientInfo,RespawnType,Vector3i>::Invoke(ClientInfo,RespawnType,Vector3i)";
                 public const string Object_ToString = "System.String System.Object::ToString()";
                 public const string Log_Out_String_Object_ = "System.Void Log::Out(System.String,System.Object[])";
@@ -3619,8 +3620,8 @@ namespace BetterWaysToDie.Mixins
                 public const string List_1_Clear = "System.Void System.Collections.Generic.List`1<ChunkCluster>::Clear()";
                 public const string List_1_get_Item_Int32 = "BlockChangeInfo System.Collections.Generic.List`1<BlockChangeInfo>::get_Item(System.Int32)";
                 public const string ChunkClusterList_get_Item_Int32 = "ChunkCluster ChunkClusterList::get_Item(System.Int32)";
-                public const string List_1_Contains_0 = "System.Boolean System.Collections.Generic.List`1<ChunkCluster>::Contains(ChunkCluster)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<ChunkCluster>::Add(ChunkCluster)";
+                public const string List_1_Contains_T = "System.Boolean System.Collections.Generic.List`1<ChunkCluster>::Contains(ChunkCluster)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<ChunkCluster>::Add(ChunkCluster)";
                 public const string ChunkCluster_ChunkPosNeedsRegeneration_DelayedStart = "System.Void ChunkCluster::ChunkPosNeedsRegeneration_DelayedStart()";
                 public const string ChunkCluster_GetDensity_Vector3i = "System.SByte ChunkCluster::GetDensity(Vector3i)";
                 public const string BlockValue_Equals_BlockValue = "System.Boolean BlockValue::Equals(BlockValue)";
@@ -3638,7 +3639,7 @@ namespace BetterWaysToDie.Mixins
                 public const string BlockValue_get_ischild = "System.Boolean BlockValue::get_ischild()";
                 public const string WorldBase_GetTileEntity_Int32_Vector3i = "TileEntity WorldBase::GetTileEntity(System.Int32,Vector3i)";
                 public const string ChunkCluster_SetBlock_Vector3i_Boolean_BlockValue_Boolean_SByte_Boolean_Boolean_Boolean = "BlockValue ChunkCluster::SetBlock(Vector3i,System.Boolean,BlockValue,System.Boolean,System.SByte,System.Boolean,System.Boolean,System.Boolean)";
-                public const string Dictionary_2_Remove_0 = "System.Boolean System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::Remove(TileEntity)";
+                public const string Dictionary_2_Remove_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::Remove(TileEntity)";
                 public const string GameManager_get_World = "World GameManager::get_World()";
                 public const string WorldBase_GetGameManager = "IGameManager WorldBase::GetGameManager()";
                 public const string IGameManager_DropContentOfLootContainerServer_BlockValue_Vector3i_Int32 = "System.Void IGameManager::DropContentOfLootContainerServer(BlockValue,Vector3i,System.Int32)";
@@ -3744,7 +3745,7 @@ namespace BetterWaysToDie.Mixins
             public static class SpawnBlockParticleEffectInjects
             {
                 public const string Monitor_Enter_Object_Boolean_ = "System.Void System.Threading.Monitor::Enter(System.Object,System.Boolean&)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<GameManager/BlockParticleCreationData>::Add(GameManager/BlockParticleCreationData)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<GameManager/BlockParticleCreationData>::Add(GameManager/BlockParticleCreationData)";
                 public const string Monitor_Exit_Object = "System.Void System.Threading.Monitor::Exit(System.Object)";
                 public const string blockParticlesToSpawn = "System.Collections.Generic.List`1<GameManager/BlockParticleCreationData> GameManager::blockParticlesToSpawn";
                 public const string BlockParticleCreationData_ctor_Vector3i_ParticleEffect = "System.Void GameManager/BlockParticleCreationData::.ctor(Vector3i,ParticleEffect)";
@@ -3948,7 +3949,7 @@ namespace BetterWaysToDie.Mixins
                 public const string WorldBase_GetLocalPlayers = "System.Collections.Generic.List`1<EntityPlayerLocal> WorldBase::GetLocalPlayers()";
                 public const string List_1_GetEnumerator = "System.Collections.Generic.List`1/Enumerator<EntityPlayerLocal> System.Collections.Generic.List`1<EntityPlayerLocal>::GetEnumerator()";
                 public const string Enumerator_get_Current = "EntityPlayerLocal System.Collections.Generic.List`1/Enumerator<EntityPlayerLocal>::get_Current()";
-                public const string List_1_Contains_0 = "System.Boolean System.Collections.Generic.List`1<System.Int32>::Contains(System.Int32)";
+                public const string List_1_Contains_T = "System.Boolean System.Collections.Generic.List`1<System.Int32>::Contains(System.Int32)";
                 public const string LocalPlayerUI_GetUIForPlayer_EntityPlayerLocal = "LocalPlayerUI LocalPlayerUI::GetUIForPlayer(EntityPlayerLocal)";
                 public const string LocalPlayerUI_get_xui = "XUi LocalPlayerUI::get_xui()";
                 public const string XUiC_ChatOutput_AddMessage_XUi_EnumGameMessages_EChatType_Int32_String_String = "System.Void XUiC_ChatOutput::AddMessage(XUi,EnumGameMessages,EChatType,System.Int32,System.String,System.String)";
@@ -4067,7 +4068,7 @@ namespace BetterWaysToDie.Mixins
                 public const string World_toChunkXZ_Int32 = "System.Int32 World::toChunkXZ(System.Int32)";
                 public const string World_GetChunkSync_Int32_Int32 = "IChunk World::GetChunkSync(System.Int32,System.Int32)";
                 public const string List_1_get_Item_Int32 = "Entity System.Collections.Generic.List`1<Entity>::get_Item(System.Int32)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<EntityItem>::Add(EntityItem)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<EntityItem>::Add(EntityItem)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<Entity>::get_Count()";
                 public const string List_1_Sort_IComparer_1 = "System.Void System.Collections.Generic.List`1<EntityItem>::Sort(System.Collections.Generic.IComparer`1<EntityItem>)";
                 public const string Entity_MarkToUnload = "System.Void Entity::MarkToUnload()";
@@ -4272,7 +4273,7 @@ namespace BetterWaysToDie.Mixins
                 public const string GameManager_PickupBlockClient_Int32_Vector3i_BlockValue_Int32 = "System.Void GameManager::PickupBlockClient(System.Int32,Vector3i,BlockValue,System.Int32)";
                 public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
                 public const string Block_GetBlockValue_String_Boolean = "BlockValue Block::GetBlockValue(System.String,System.Boolean)";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<BlockChangeInfo>::Add(BlockChangeInfo)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<BlockChangeInfo>::Add(BlockChangeInfo)";
                 public const string GameManager_SetBlocksRPC_List_1_String = "System.Void GameManager::SetBlocksRPC(System.Collections.Generic.List`1<BlockChangeInfo>,System.String)";
                 public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
                 public const string persistentLocalPlayer = "PersistentPlayerData GameManager::persistentLocalPlayer";
@@ -4354,7 +4355,7 @@ namespace BetterWaysToDie.Mixins
                 public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
                 public const string PersistentPlayerList_GetPlayerDataFromEntityID_Int32 = "PersistentPlayerData PersistentPlayerList::GetPlayerDataFromEntityID(System.Int32)";
                 public const string List_1_get_Item_Int32 = "EntityPlayer System.Collections.Generic.List`1<EntityPlayer>::get_Item(System.Int32)";
-                public const string HashSet_1_Contains_0 = "System.Boolean System.Collections.Generic.HashSet`1<System.String>::Contains(System.String)";
+                public const string HashSet_1_Contains_T = "System.Boolean System.Collections.Generic.HashSet`1<System.String>::Contains(System.String)";
                 public const string WorldBase_IsLocalPlayer_Int32 = "System.Boolean WorldBase::IsLocalPlayer(System.Int32)";
                 public const string GameManager_WaypointInviteClient_Waypoint_EnumWaypointInviteMode_Int32_EntityPlayerLocal = "System.Void GameManager::WaypointInviteClient(Waypoint,EnumWaypointInviteMode,System.Int32,EntityPlayerLocal)";
                 public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
@@ -4390,7 +4391,7 @@ namespace BetterWaysToDie.Mixins
                 public const string List_1_get_Item_Int32 = "Waypoint System.Collections.Generic.List`1<Waypoint>::get_Item(System.Int32)";
                 public const string Object_Equals_Object = "System.Boolean System.Object::Equals(System.Object)";
                 public const string List_1_get_Count = "System.Int32 System.Collections.Generic.List`1<Waypoint>::get_Count()";
-                public const string List_1_Insert_Int32_0 = "System.Void System.Collections.Generic.List`1<Waypoint>::Insert(System.Int32,Waypoint)";
+                public const string List_1_Insert_Int32_T = "System.Void System.Collections.Generic.List`1<Waypoint>::Insert(System.Int32,Waypoint)";
                 public const string LocalPlayerUI_GetUIForPlayer_EntityPlayerLocal = "LocalPlayerUI LocalPlayerUI::GetUIForPlayer(EntityPlayerLocal)";
                 public const string LocalPlayerUI_get_xui = "XUi LocalPlayerUI::get_xui()";
                 public const string XUi_GetWindow_String = "XUiV_Window XUi::GetWindow(System.String)";
@@ -4561,7 +4562,7 @@ namespace BetterWaysToDie.Mixins
                 public const string Enumerator_get_Current = "System.Collections.Generic.KeyValuePair`2<TileEntity,System.Int32> System.Collections.Generic.Dictionary`2/Enumerator<TileEntity,System.Int32>::get_Current()";
                 public const string KeyValuePair_2_get_Value = "System.Int32 System.Collections.Generic.KeyValuePair`2<TileEntity,System.Int32>::get_Value()";
                 public const string KeyValuePair_2_get_Key = "TileEntity System.Collections.Generic.KeyValuePair`2<TileEntity,System.Int32>::get_Key()";
-                public const string Dictionary_2_Remove_0 = "System.Boolean System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::Remove(TileEntity)";
+                public const string Dictionary_2_Remove_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::Remove(TileEntity)";
                 public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<TileEntity,System.Int32>::MoveNext()";
                 public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
                 public const string lockedTileEntities = "System.Collections.Generic.Dictionary`2<TileEntity,System.Int32> GameManager::lockedTileEntities";
@@ -4581,15 +4582,15 @@ namespace BetterWaysToDie.Mixins
                 public const string WorldBase_GetTileEntity_Int32_Vector3i = "TileEntity WorldBase::GetTileEntity(System.Int32,Vector3i)";
                 public const string World_GetTileEntity_Int32 = "TileEntity World::GetTileEntity(System.Int32)";
                 public const string GameManager_OpenTileEntityAllowed_Int32_TileEntity_String = "System.Boolean GameManager::OpenTileEntityAllowed(System.Int32,TileEntity,System.String)";
-                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::ContainsKey(TileEntity)";
-                public const string Dictionary_2_get_Item_0 = "System.Int32 System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::get_Item(TileEntity)";
+                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::ContainsKey(TileEntity)";
+                public const string Dictionary_2_get_Item_TKey = "System.Int32 System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::get_Item(TileEntity)";
                 public const string WorldBase_GetEntity_Int32 = "Entity WorldBase::GetEntity(System.Int32)";
                 public const string Object_op_Inequality_Object_Object = "System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)";
                 public const string Entity_IsDead = "System.Boolean Entity::IsDead()";
                 public const string Object_op_Equality_Object_Object = "System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)";
                 public const string ConnectionManager_SendPackage_NetPackage_Boolean_Int32_Int32_Int32_Int32 = "System.Void ConnectionManager::SendPackage(NetPackage,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)";
                 public const string GameManager_TEDeniedAccessClient_Int32_Vector3i_Int32_Int32 = "System.Void GameManager::TEDeniedAccessClient(System.Int32,Vector3i,System.Int32,System.Int32)";
-                public const string Dictionary_2_set_Item_0_1 = "System.Void System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::set_Item(TileEntity,System.Int32)";
+                public const string Dictionary_2_set_Item_TKey_TValue = "System.Void System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::set_Item(TileEntity,System.Int32)";
                 public const string GameManager_OpenTileEntityUi_Int32_TileEntity_String = "System.Void GameManager::OpenTileEntityUi(System.Int32,TileEntity,System.String)";
                 public const string Instance = "ConnectionManager SingletonMonoBehaviour`1<ConnectionManager>::Instance";
                 public const string lockedTileEntities = "System.Collections.Generic.Dictionary`2<TileEntity,System.Int32> GameManager::lockedTileEntities";
@@ -4607,7 +4608,7 @@ namespace BetterWaysToDie.Mixins
                 public const string Dictionary_2_GetEnumerator = "System.Collections.Generic.Dictionary`2/Enumerator<TileEntity,System.Int32> System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::GetEnumerator()";
                 public const string Enumerator_get_Current = "System.Collections.Generic.KeyValuePair`2<TileEntity,System.Int32> System.Collections.Generic.Dictionary`2/Enumerator<TileEntity,System.Int32>::get_Current()";
                 public const string KeyValuePair_2_get_Key = "TileEntity System.Collections.Generic.KeyValuePair`2<TileEntity,System.Int32>::get_Key()";
-                public const string Dictionary_2_Remove_0 = "System.Boolean System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::Remove(TileEntity)";
+                public const string Dictionary_2_Remove_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::Remove(TileEntity)";
                 public const string Enumerator_MoveNext = "System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<TileEntity,System.Int32>::MoveNext()";
                 public const string IDisposable_Dispose = "System.Void System.IDisposable::Dispose()";
                 public const string TileEntityLootContainer_IsEmpty = "System.Boolean TileEntityLootContainer::IsEmpty()";
@@ -4852,7 +4853,7 @@ namespace BetterWaysToDie.Mixins
                 public const string NetPackageLootContainerDropContent_Setup_Vector3i_Int32 = "NetPackageLootContainerDropContent NetPackageLootContainerDropContent::Setup(Vector3i,System.Int32)";
                 public const string ConnectionManager_SendToServer_NetPackage_Boolean = "System.Void ConnectionManager::SendToServer(NetPackage,System.Boolean)";
                 public const string WorldBase_GetTileEntity_Int32_Vector3i = "TileEntity WorldBase::GetTileEntity(System.Int32,Vector3i)";
-                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::ContainsKey(TileEntity)";
+                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<TileEntity,System.Int32>::ContainsKey(TileEntity)";
                 public const string TileEntity_ToWorldPos = "Vector3i TileEntity::ToWorldPos()";
                 public const string Vector3i_ToVector3 = "UnityEngine.Vector3 Vector3i::ToVector3()";
                 public const string Vector3_op_Addition_Vector3_Vector3 = "UnityEngine.Vector3 UnityEngine.Vector3::op_Addition(UnityEngine.Vector3,UnityEngine.Vector3)";
@@ -5029,7 +5030,7 @@ namespace BetterWaysToDie.Mixins
             {
                 public const string List_1_Clear = "System.Void System.Collections.Generic.List`1<System.String>::Clear()";
                 public const string Object_get_name = "System.String UnityEngine.Object::get_name()";
-                public const string List_1_Add_0 = "System.Void System.Collections.Generic.List`1<System.String>::Add(System.String)";
+                public const string List_1_Add_T = "System.Void System.Collections.Generic.List`1<System.String>::Add(System.String)";
                 public const string Resources_UnloadUnusedAssets = "UnityEngine.AsyncOperation UnityEngine.Resources::UnloadUnusedAssets()";
                 public const string GC_Collect = "System.Void System.GC::Collect()";
                 public const string Time_get_realtimeSinceStartup = "System.Single UnityEngine.Time::get_realtimeSinceStartup()";
@@ -5038,10 +5039,10 @@ namespace BetterWaysToDie.Mixins
                 public const string String_Concat_Object_Object_Object = "System.String System.String::Concat(System.Object,System.Object,System.Object)";
                 public const string Log_Out_String = "System.Void Log::Out(System.String)";
                 public const string String_Concat_Object_Object = "System.String System.String::Concat(System.Object,System.Object)";
-                public const string Dictionary_2_TryGetValue_0_1_ = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(System.String,System.Int32&)";
-                public const string Dictionary_2_Add_0_1 = "System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(System.String,System.Int32)";
+                public const string Dictionary_2_TryGetValue_TKey_TValue_ = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(System.String,System.Int32&)";
+                public const string Dictionary_2_Add_TKey_TValue = "System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(System.String,System.Int32)";
                 public const string List_1_get_Item_Int32 = "System.String System.Collections.Generic.List`1<System.String>::get_Item(System.Int32)";
-                public const string Dictionary_2_ContainsKey_0 = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::ContainsKey(System.String)";
+                public const string Dictionary_2_ContainsKey_TKey = "System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::ContainsKey(System.String)";
                 public const string String_Concat_String_String_String = "System.String System.String::Concat(System.String,System.String,System.String)";
                 public const string materialsBefore = "System.Collections.Generic.List`1<System.String> GameManager::materialsBefore";
                 public const string runningAssetsUnused = "System.Boolean GameManager::runningAssetsUnused";
@@ -5795,8 +5796,8 @@ namespace BetterWaysToDie.Mixins
             public static class ReloadInGameXMLInjects
             {
                 public const string Log_Out_String_Object_ = "System.Void Log::Out(System.String,System.Object[])";
-                public const string Action_1_Invoke_0 = "System.Void System.Action`1<XmlFile>::Invoke(XmlFile)";
-                public const string Func_2_Invoke_0 = "System.Collections.IEnumerator System.Func`2<XmlFile,System.Collections.IEnumerator>::Invoke(XmlFile)";
+                public const string Action_1_Invoke_T = "System.Void System.Action`1<XmlFile>::Invoke(XmlFile)";
+                public const string Func_2_Invoke_T = "System.Collections.IEnumerator System.Func`2<XmlFile,System.Collections.IEnumerator>::Invoke(XmlFile)";
                 public const string ThreadManager_RunCoroutineSync_IEnumerator = "System.Void ThreadManager::RunCoroutineSync(System.Collections.IEnumerator)";
                 public const string GameManager_get_World = "World GameManager::get_World()";
                 public const string List_1_get_Item_Int32 = "Entity System.Collections.Generic.List`1<Entity>::get_Item(System.Int32)";

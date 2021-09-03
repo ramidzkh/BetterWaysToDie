@@ -2,6 +2,7 @@
 using BetterWaysToDie.Mod;
 using BetterWaysToDie.Registry;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace BetterWaysToDie.BetterWaysToDie
 {
@@ -17,15 +18,12 @@ namespace BetterWaysToDie.BetterWaysToDie
                 testMesh = new MeshDescription();
                 var mainTexture = Mod.ModManager.LoadTexture("BetterWaysToDie.Res.wood.png", 1024, 1024);
                 var normalTexture = Mod.ModManager.LoadTexture("BetterWaysToDie.Res.woodNormal.png", 1024, 1024);
-                // ReSharper disable once UseObjectOrCollectionInitializer
-                var _material = new Material(Shader.Find("Autodesk Interactive"));
-                _material.color = Color.green;
-                _material.mainTexture = mainTexture;
-                _material.SetTexture(NormalMapTexture, normalTexture);
-
-                testMesh.material = _material;
+                testMesh.ShaderName = "Game/Debug Stability";
+                testMesh.TexDiffuse = mainTexture;
+                testMesh.TexNormal = normalTexture;
                 testMesh.meshType = VoxelMesh.EnumMeshType.Blocks;
                 testMesh.CreateNormalMap = false;
+                testMesh.TextureAtlasClass = nameof(TextureAtlas);
 
                 registry["testMesh"] = testMesh;
             };
@@ -33,7 +31,7 @@ namespace BetterWaysToDie.BetterWaysToDie
             Registry<Block>.Event += registry =>
             {
                 new BlockBuilder<Block>("test")
-                    .Inherit(registry["terrStone"])
+                    .Inherit(registry["woodFrameMaster"])
                     .Mesh(testMesh)
                     .Register(registry);
             };
